@@ -1,0 +1,480 @@
+\ifglsentryexists{abc}{}%
+{%
+\gls@defglossaryentry{abc}%
+{%
+name={ABC},%
+sort={ABC},%
+type={acronym},%
+first={Automated Border Control\glsspace (ABC)},%
+firstplural={Automated Border Controls\glsspace (ABCs)},%
+text={ABC},%
+plural={ABCs},%
+description={Automated Border Control},%
+descriptionplural={Automated Border Control\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Automated Border Control},%
+longplural={Automated Border Controls},%
+short={ABC},%
+shortplural={ABCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{das}{}%
+{%
+\gls@defglossaryentry{das}%
+{%
+name={DAS},%
+sort={DAS},%
+type={acronym},%
+first={Document Authentication System\glsspace (DAS)},%
+firstplural={Document Authentication Systems\glsspace (DASs)},%
+text={DAS},%
+plural={DASs},%
+description={Document Authentication System},%
+descriptionplural={Document Authentication System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Document Authentication System},%
+longplural={Document Authentication Systems},%
+short={DAS},%
+shortplural={DASs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bvs}{}%
+{%
+\gls@defglossaryentry{bvs}%
+{%
+name={BVS},%
+sort={BVS},%
+type={acronym},%
+first={Biometric Verification System\glsspace (BVS)},%
+firstplural={Biometric Verification Systems\glsspace (BVSs)},%
+text={BVS},%
+plural={BVSs},%
+description={Biometric Verification System},%
+descriptionplural={Biometric Verification System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Biometric Verification System},%
+longplural={Biometric Verification Systems},%
+short={BVS},%
+shortplural={BVSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{csi}{}%
+{%
+\gls@defglossaryentry{csi}%
+{%
+name={CSI},%
+sort={CSI},%
+type={acronym},%
+first={Central Systems Interface\glsspace (CSI)},%
+firstplural={Central Systems Interfaces\glsspace (CSIs)},%
+text={CSI},%
+plural={CSIs},%
+description={Central Systems Interface},%
+descriptionplural={Central Systems Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Central Systems Interface},%
+longplural={Central Systems Interfaces},%
+short={CSI},%
+shortplural={CSIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bgms}{}%
+{%
+\gls@defglossaryentry{bgms}%
+{%
+name={BGMS},%
+sort={BGMS},%
+type={acronym},%
+first={Border Guard Maintenance System\glsspace (BGMS)},%
+firstplural={Border Guard Maintenance Systems\glsspace (BGMSs)},%
+text={BGMS},%
+plural={BGMSs},%
+description={Border Guard Maintenance System},%
+descriptionplural={Border Guard Maintenance System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Border Guard Maintenance System},%
+longplural={Border Guard Maintenance Systems},%
+short={BGMS},%
+shortplural={BGMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{vms}{}%
+{%
+\gls@defglossaryentry{vms}%
+{%
+name={VMS},%
+sort={VMS},%
+type={acronym},%
+first={Visa Management System\glsspace (VMS)},%
+firstplural={Visa Management Systems\glsspace (VMSs)},%
+text={VMS},%
+plural={VMSs},%
+description={Visa Management System},%
+descriptionplural={Visa Management System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Visa Management System},%
+longplural={Visa Management Systems},%
+short={VMS},%
+shortplural={VMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rtp}{}%
+{%
+\gls@defglossaryentry{rtp}%
+{%
+name={RTP},%
+sort={RTP},%
+type={acronym},%
+first={Registered Traveler Program\glsspace (RTP)},%
+firstplural={Registered Traveler Programs\glsspace (RTPs)},%
+text={RTP},%
+plural={RTPs},%
+description={Registered Traveler Program},%
+descriptionplural={Registered Traveler Program\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Registered Traveler Program},%
+longplural={Registered Traveler Programs},%
+short={RTP},%
+shortplural={RTPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{eems}{}%
+{%
+\gls@defglossaryentry{eems}%
+{%
+name={EEMS},%
+sort={EEMS},%
+type={acronym},%
+first={Entry-Exit Management System\glsspace (EEMS)},%
+firstplural={Entry-Exit Management Systems\glsspace (EEMSs)},%
+text={EEMS},%
+plural={EEMSs},%
+description={Entry-Exit Management System},%
+descriptionplural={Entry-Exit Management System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Entry-Exit Management System},%
+longplural={Entry-Exit Management Systems},%
+short={EEMS},%
+shortplural={EEMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tcp}{}%
+{%
+\gls@defglossaryentry{tcp}%
+{%
+name={TCP},%
+sort={TCP},%
+type={acronym},%
+first={Transmission Control Protocol\glsspace (TCP)},%
+firstplural={Transmission Control Protocols\glsspace (TCPs)},%
+text={TCP},%
+plural={TCPs},%
+description={Transmission Control Protocol},%
+descriptionplural={Transmission Control Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transmission Control Protocol},%
+longplural={Transmission Control Protocols},%
+short={TCP},%
+shortplural={TCPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{udp}{}%
+{%
+\gls@defglossaryentry{udp}%
+{%
+name={UDP},%
+sort={UDP},%
+type={acronym},%
+first={User Datagram Protocol\glsspace (UDP)},%
+firstplural={User Datagram Protocols\glsspace (UDPs)},%
+text={UDP},%
+plural={UDPs},%
+description={User Datagram Protocol},%
+descriptionplural={User Datagram Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={User Datagram Protocol},%
+longplural={User Datagram Protocols},%
+short={UDP},%
+shortplural={UDPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{iot}{}%
+{%
+\gls@defglossaryentry{iot}%
+{%
+name={IoT},%
+sort={IoT},%
+type={acronym},%
+first={Internet of Things\glsspace (IoT)},%
+firstplural={Internet of Thingss\glsspace (IoTs)},%
+text={IoT},%
+plural={IoTs},%
+description={Internet of Things},%
+descriptionplural={Internet of Things\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Internet of Things},%
+longplural={Internet of Thingss},%
+short={IoT},%
+shortplural={IoTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tls}{}%
+{%
+\gls@defglossaryentry{tls}%
+{%
+name={TLS},%
+sort={TLS},%
+type={acronym},%
+first={Transport Layer Security\glsspace (TLS)},%
+firstplural={Transport Layer Securitys\glsspace (TLSs)},%
+text={TLS},%
+plural={TLSs},%
+description={Transport Layer Security},%
+descriptionplural={Transport Layer Security\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transport Layer Security},%
+longplural={Transport Layer Securitys},%
+short={TLS},%
+shortplural={TLSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dtls}{}%
+{%
+\gls@defglossaryentry{dtls}%
+{%
+name={DTLS},%
+sort={DTLS},%
+type={acronym},%
+first={Datagram Transport Layer Security\glsspace (DTLS)},%
+firstplural={Datagram Transport Layer Securitys\glsspace (DTLSs)},%
+text={DTLS},%
+plural={DTLSs},%
+description={Datagram Transport Layer Security},%
+descriptionplural={Datagram Transport Layer Security\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Datagram Transport Layer Security},%
+longplural={Datagram Transport Layer Securitys},%
+short={DTLS},%
+shortplural={DTLSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ietf}{}%
+{%
+\gls@defglossaryentry{ietf}%
+{%
+name={IETF},%
+sort={IETF},%
+type={acronym},%
+first={Internet Engineering Task Force\glsspace (IETF)},%
+firstplural={Internet Engineering Task Forces\glsspace (IETFs)},%
+text={IETF},%
+plural={IETFs},%
+description={Internet Engineering Task Force},%
+descriptionplural={Internet Engineering Task Force\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Internet Engineering Task Force},%
+longplural={Internet Engineering Task Forces},%
+short={IETF},%
+shortplural={IETFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{coap}{}%
+{%
+\gls@defglossaryentry{coap}%
+{%
+name={CoAP},%
+sort={CoAP},%
+type={acronym},%
+first={Constrained Application Protocol\glsspace (CoAP)},%
+firstplural={Constrained Application Protocols\glsspace (CoAPs)},%
+text={CoAP},%
+plural={CoAPs},%
+description={Constrained Application Protocol},%
+descriptionplural={Constrained Application Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Constrained Application Protocol},%
+longplural={Constrained Application Protocols},%
+short={CoAP},%
+shortplural={CoAPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rest}{}%
+{%
+\gls@defglossaryentry{rest}%
+{%
+name={REST},%
+sort={REST},%
+type={acronym},%
+first={Representational state transfer\glsspace (REST)},%
+firstplural={Representational state transfers\glsspace (RESTs)},%
+text={REST},%
+plural={RESTs},%
+description={Representational state transfer},%
+descriptionplural={Representational state transfer\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Representational state transfer},%
+longplural={Representational state transfers},%
+short={REST},%
+shortplural={RESTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

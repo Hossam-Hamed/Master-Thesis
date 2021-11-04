@@ -1,0 +1,24 @@
+\chapter{Secure Bootstrapping}
+\label{ch:secureBootstrapping}
+The term ``Bootstrapping" is used in a spectrum of contexts including Computing, Law, Finance\footfullcite{bs-wiki}. It is inspired from the late idiom ``to pull oneself up by one's bootstraps" which means to succeed or elevate yourself without any outside help. In the context of Networking, bootstrapping is an initial procedure between an unconfigured devices which intend to communicate with a network for the first time. Its goal is to provide the device with the required information that enables it to establish subsequent secure communication channels with the desired network. Such information can be certificates, configurations, and metadata.
+\par
+Integrity and confidentiality of information flow between the two ends of the communication are vital for secure channels. Authentication, whether unilateral or mutual, is another fundamental aspect to achieve channel security. Existing protocols, such as \gls{tls}, can achieve End-to-end security between parties. However, analogous protocols rely digital certificates and credentials which are managed by local or third party \gls{pki}. Therefore to ensure correct and secure execution of protocols certificates must be securely provisioned to their corresponding identities. Typically at the manufacturing phase, the manufacturer usually installs globally unique manufacturer provided identifiers known as the \gls{idevid} \cite{5367679}. Its main use is for identity verification purposes and it should not be used to enforce data integrity nor confidentiality. Upon successful completion of the bootstrapping process, the device should posses identifiers that allows for subsequent establishment of secure channels with the network domain. An identifier in this set of identifiers is known as \gls{ldevid} \cite{5367679}.
+\par
+Bootstrapping approaches differ in the degree of manual user involvement and the amount of information on the device which must be pre-configured by the manufacturer. The survey by Sethi et al. \cite{irtf-t2trg-secure-bootstrapping-00} provides a classification for Bootstrapping mechanisms into general categories: Managed methods, \gls{p2p} and Ad-hoc methods, Opportunistic methods, and Hybrid methods.
+\begin{itemize}
+	\item \textit{Managed methods}: These bootstrapping approaches count on pre-established credentials and trust anchors for authentication and security. The required initial information and cryptographic material can be acquired either at manufacture time in the factory, or through \gls{oob} means, e.g. using a smart card or a USB. Examples of this method are \gls{eap-tls} \cite{eap-tls} and \gls{gba} \cite{gba}.
+	
+	\item \textit{\gls{p2p} methods}: Contrary to managed methods, these bootstrapping methods do not rely on any pre-established cryptographic material or information. Instead, the bootstrapping protocol results in credentials being established for subsequent secure communication. Typically, resulting credentials are authenticated using an \gls{oob} channel. This category of methods may be utilized if the manufacturer is incapable or untrustworthy to generate the desired credential.
+	
+	\item \textit{Opportunistic methods}: Unlike previous methods where the authenticity of the initially presented identity is verified, approaches which fall under this category rely on verification of the continuity of the initial identity provided. Bergmann et al. \cite{simplekeys} have developed a secure bootstrapping mechanism that is an example of this category. 
+	
+	\item \textit{Hybrid methods}: A wide range of deployed approaches use components from both managed and \gls{p2p} methods. Such approaches are categorized as hybrid methods.	
+\end{itemize} 
+
+This chapter discusses two voucher-based bootstrapping protocols that aim at being zero touch protocols by eliminating the user interference. These protocols are \gls{brski} \cite{brski} and \gls{sztp} \cite{sztp}. Both protocols fall under the managed methods category.
+
+%brski section
+\input{Chapters/secureBootstrapping/brski.tex}
+%sztp section
+\input{Chapters/secureBootstrapping/sztp.tex}
+\input{Chapters/secureBootstrapping/comparison.tex}

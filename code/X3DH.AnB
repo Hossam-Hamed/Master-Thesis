@@ -1,0 +1,55 @@
+Protocol : X3DH #Protocol name
+
+Types : 
+        Agent A, B, s;
+        Function kdf, pk, ik;
+        Number g, NA, EKA, OTP, PREKEY, MSG1, MSG2;     
+
+Knowledge :
+            A : A, B, s, g, pk(s), pk(B), pk(A), inv(pk(A)), ik(A), {A, pk(A)}inv(pk(s)), kdf;
+
+            B : A, B, s, g, pk(s), pk(A), pk(B), inv(pk(B)), ik(B), kdf;
+
+            s : A, B, s, g, pk, inv(pk(s)), kdf, ik;
+
+where A!=B
+
+Actions: 
+                                                        
+        B -> s: {B, exp(g, ik(B)), exp(g, OTP), {exp(g, PREKEY)}inv(pk(B)) }pk(s)       # B registers at server
+        
+        s -> A: {B, pk(B)}inv(pk(s))                                                    # s announces B is ready
+
+        A -> s : A, B, NA                                                               # later in time, A asks to communicate with B
+        
+        s -> A : { A, B, exp(g, ik(B)), exp(g, OTP), {exp(g, PREKEY)}inv(pk(B)), NA }inv(pk(s))
+        
+        A -> B : {A, pk(A)}inv(pk(s)), 
+
+                 {exp(g, OTP), exp(g,EKA),exp(g, ik(A)), exp(g,PREKEY)}inv(pk(A)),
+
+                 {| A, B, MSG1 |}kdf( 
+                        exp(exp(g,ik(A)), PREKEY),     #DH1
+                        exp(exp(g,EKA), ik(B)),        #DH2
+                        exp(exp(g,EKA), PREKEY),       #DH3
+                        exp(exp(g,OTP), EKA)           #DH4
+                        )
+        
+        B -> A : {| B, A, MSG2 |}kdf( 
+                        exp(exp(g,ik(A)), PREKEY),     #DH1
+                        exp(exp(g,EKA), ik(B)),        #DH2
+                        exp(exp(g,EKA), PREKEY),       #DH3
+                        exp(exp(g,OTP), EKA)           #DH4
+                        )
+
+
+Goals:
+        B authenticates A on exp(g, EKA), exp(g, ik(A))
+        A authenticates s on exp(g, OTP), exp(g, PREKEY), exp(g, ik(B))
+        B authenticates s on  exp(g, OTP), exp(g, PREKEY), exp(g, ik(B))
+        MSG1 secret between A,B
+        MSG2 secret between A,B
+
+
+
+

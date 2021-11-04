@@ -1,0 +1,8 @@
+
+Key establishment protocols are utilized by communicating parties to establish shared secrets, in some cases, with the aid of a trusted third party \cite{handbookOfAppliedCrypto}. As per \cite{handbookOfAppliedCrypto}, key agreement is a key establishment technique in which a shared secret is derived by parties as a function of information related to them, such that the secret in not predeterminable nor deducable by outsiders.
+\par
+The Security of protocols is required to be proven to avoid the devastating effects of malicious attacks. Therefore, verification of security protocols is a vital process. Verification is proving that a protocol model is secure by achieving a set of security goals. There are various model checking tools that provide verification.
+\par
+X3DH is a key agreement protocol intended for asynchronous settings \cite{x3dh}. The protocol can establish a shared secret between two parties in an environment where it is recurring that one of the parties is offline and the other wishes to send it an encrypted message. Also, X3DH provides the desired feature of forward secrecy. 
+\par
+This chapter discusses the Extended Triple Diffie-Hellmann (X3DH) key agreement protocol \cite{x3dh} and verifies the security of the protocol using the OFMC model checker \cite{ofmc}.
