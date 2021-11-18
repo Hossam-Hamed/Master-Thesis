@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{none/global//global/global}
     \entry{aci_world_2019}{misc}{}
       \list{publisher}{1}{%
         {Airports Council International}%
@@ -37,36 +37,59 @@
       \verb https://aci.aero/data-centre/annual-traffic-data/passengers/2017-passenger-summary-annual-traffic-data/
       \endverb
     \endentry
-    \entry{gba}{report}{}
+    \entry{Boeing2020}{report}{}
       \name{author}{1}{}{%
-        {{hash=49952770ed51bcb32792566644a0032e}{%
-           family={3GPP},
-           familyi={3\bibinitperiod}}}%
+        {{hash=44787ee9ad7082c7e379356589456000}{%
+           family={Boeing},
+           familyi={B\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {3rd Generation Partnership Project (3GPP)}%
-      }
-      \strng{namehash}{49952770ed51bcb32792566644a0032e}
-      \strng{fullhash}{49952770ed51bcb32792566644a0032e}
-      \strng{bibnamehash}{49952770ed51bcb32792566644a0032e}
-      \strng{authorbibnamehash}{49952770ed51bcb32792566644a0032e}
-      \strng{authornamehash}{49952770ed51bcb32792566644a0032e}
-      \strng{authorfullhash}{49952770ed51bcb32792566644a0032e}
+      \strng{namehash}{44787ee9ad7082c7e379356589456000}
+      \strng{fullhash}{44787ee9ad7082c7e379356589456000}
+      \strng{bibnamehash}{44787ee9ad7082c7e379356589456000}
+      \strng{authorbibnamehash}{44787ee9ad7082c7e379356589456000}
+      \strng{authornamehash}{44787ee9ad7082c7e379356589456000}
+      \strng{authorfullhash}{44787ee9ad7082c7e379356589456000}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{12}
-      \field{note}{Release 14}
-      \field{number}{33.220}
-      \field{title}{{	Generic Authentication Architecture (GAA); Generic Bootstrapping Architecture (GBA)}}
-      \field{type}{Technical Specification (TS)}
-      \field{year}{2016}
+      \field{title}{{Commercial Market Outlet 2020 – 2039}}
+      \field{type}{techreport}
+      \field{year}{2020}
       \verb{urlraw}
-      \verb https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2280
+      \verb https://www.boeing.com/commercial/market/commercial-market-outlook/
       \endverb
       \verb{url}
-      \verb https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2280
+      \verb https://www.boeing.com/commercial/market/commercial-market-outlook/
+      \endverb
+    \endentry
+    \entry{ReadID2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6d7306ad03a47cc18f1a4089b6c8cf09}{%
+           family={ReadID},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d7306ad03a47cc18f1a4089b6c8cf09}
+      \strng{fullhash}{6d7306ad03a47cc18f1a4089b6c8cf09}
+      \strng{bibnamehash}{6d7306ad03a47cc18f1a4089b6c8cf09}
+      \strng{authorbibnamehash}{6d7306ad03a47cc18f1a4089b6c8cf09}
+      \strng{authornamehash}{6d7306ad03a47cc18f1a4089b6c8cf09}
+      \strng{authorfullhash}{6d7306ad03a47cc18f1a4089b6c8cf09}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Which countries have ePassports?}}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.readid.com/blog/countries-epassports
+      \endverb
+      \verb{url}
+      \verb https://www.readid.com/blog/countries-epassports
       \endverb
     \endentry
     \entry{Angiolelli-meyer2015}{report}{}
@@ -96,8 +119,8 @@
       \strng{authorbibnamehash}{23b171f01ff435eeb34842b8c73efe2c}
       \strng{authornamehash}{23b171f01ff435eeb34842b8c73efe2c}
       \strng{authorfullhash}{23b171f01ff435eeb34842b8c73efe2c}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{number}{December}
@@ -110,309 +133,6 @@
       \verb{url}
       \verb https://aci.aero/Media/183a7715-da8f-4664-a82c-36f8b961ef28/FiQQnQ/About%20ACI/Priorities/Facilitation/ABC_Implementation_Guide_2nd_Edition.pdf
       \endverb
-    \endentry
-    \entry{simplekeys}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=8970aefcdb493b07dcbdd1143d46fd0f}{%
-           family={Bergmann},
-           familyi={B\bibinitperiod},
-           given={Olaf},
-           giveni={O\bibinitperiod}}}%
-        {{hash=08b47777a73c3a0230ab388419bf013e}{%
-           family={Gerdes},
-           familyi={G\bibinitperiod},
-           given={Stefanie},
-           giveni={S\bibinitperiod}}}%
-        {{hash=7fe2f98d5101608d1a28002bcb59c6d0}{%
-           family={Bormann},
-           familyi={B\bibinitperiod},
-           given={Carsten},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Citeseer}%
-      }
-      \strng{namehash}{72dfe1228a124bc231bd738baec5b6d4}
-      \strng{fullhash}{72dfe1228a124bc231bd738baec5b6d4}
-      \strng{bibnamehash}{72dfe1228a124bc231bd738baec5b6d4}
-      \strng{authorbibnamehash}{72dfe1228a124bc231bd738baec5b6d4}
-      \strng{authornamehash}{72dfe1228a124bc231bd738baec5b6d4}
-      \strng{authorfullhash}{72dfe1228a124bc231bd738baec5b6d4}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Workshop on Smart Object Security}
-      \field{title}{Simple keys for simple smart objects}
-      \field{volume}{258}
-      \field{year}{2012}
-    \endentry
-    \entry{Boeing2020}{report}{}
-      \name{author}{1}{}{%
-        {{hash=44787ee9ad7082c7e379356589456000}{%
-           family={Boeing},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{44787ee9ad7082c7e379356589456000}
-      \strng{fullhash}{44787ee9ad7082c7e379356589456000}
-      \strng{bibnamehash}{44787ee9ad7082c7e379356589456000}
-      \strng{authorbibnamehash}{44787ee9ad7082c7e379356589456000}
-      \strng{authornamehash}{44787ee9ad7082c7e379356589456000}
-      \strng{authorfullhash}{44787ee9ad7082c7e379356589456000}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Commercial Market Outlet 2020 – 2039}}
-      \field{type}{techreport}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.boeing.com/commercial/market/commercial-market-outlook/
-      \endverb
-      \verb{url}
-      \verb https://www.boeing.com/commercial/market/commercial-market-outlook/
-      \endverb
-    \endentry
-    \entry{bs-wiki}{misc}{}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labeltitlesource}{title}
-      \field{title}{{Bootstrapping}}
-      \field{urlday}{8}
-      \field{urlmonth}{8}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Bootstrapping
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Bootstrapping
-      \endverb
-    \endentry
-    \entry{rfc8990}{misc}{}
-      \name{author}{3}{}{%
-        {{hash=7fe2f98d5101608d1a28002bcb59c6d0}{%
-           family={Bormann},
-           familyi={B\bibinitperiod},
-           given={Carsten},
-           giveni={C\bibinitperiod}}}%
-        {{hash=06d228f70be500b5712eb318fb31a15f}{%
-           family={Carpenter},
-           familyi={C\bibinitperiod},
-           given={Brian\bibnamedelima E.},
-           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=9c6fb2af2964f3126cfd4e505a38daca}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Bing},
-           giveni={B\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{0f950166e627907cf5b9b85dcb76ba81}
-      \strng{fullhash}{0f950166e627907cf5b9b85dcb76ba81}
-      \strng{bibnamehash}{0f950166e627907cf5b9b85dcb76ba81}
-      \strng{authorbibnamehash}{0f950166e627907cf5b9b85dcb76ba81}
-      \strng{authornamehash}{0f950166e627907cf5b9b85dcb76ba81}
-      \strng{authorfullhash}{0f950166e627907cf5b9b85dcb76ba81}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This document specifies the GeneRic Autonomic Signaling Protocol (GRASP), which enables autonomic nodes and Autonomic Service Agents to dynamically discover peers, to synchronize state with each other, and to negotiate parameter settings with each other. GRASP depends on an external security environment that is described elsewhere. The technical objectives and parameters for specific application scenarios are to be described in separate documents. Appendices briefly discuss requirements for the protocol and existing protocols with comparable features.}
-      \field{howpublished}{RFC 8990}
-      \field{month}{5}
-      \field{number}{8990}
-      \field{pagetotal}{55}
-      \field{series}{Request for Comments}
-      \field{title}{{GeneRic Autonomic Signaling Protocol (GRASP)}}
-      \field{year}{2021}
-      \verb{doi}
-      \verb 10.17487/RFC8990
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc8990.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc8990.txt
-      \endverb
-    \endentry
-    \entry{rfc6763}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=a9193f337ca348490dc4ce22c5dab887}{%
-           family={Cheshire},
-           familyi={C\bibinitperiod},
-           given={Stuart},
-           giveni={S\bibinitperiod}}}%
-        {{hash=c80760eccd17a6e0e508a98bffe52c8e}{%
-           family={Krochmal},
-           familyi={K\bibinitperiod},
-           given={Marc},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \strng{fullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \strng{bibnamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \strng{authorbibnamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \strng{authornamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \strng{authorfullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \field{extraname}{1}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This document specifies how DNS resource records are named and structured to facilitate service discovery. Given a type of service that a client is looking for, and a domain in which the client is looking for that service, this mechanism allows clients to discover a list of named instances of that desired service, using standard DNS queries. This mechanism is referred to as DNS-based Service Discovery, or DNS-SD.}
-      \field{howpublished}{RFC 6763}
-      \field{month}{2}
-      \field{number}{6763}
-      \field{pagetotal}{49}
-      \field{series}{Request for Comments}
-      \field{title}{{DNS-Based Service Discovery}}
-      \field{year}{2013}
-      \verb{doi}
-      \verb 10.17487/RFC6763
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc6763.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc6763.txt
-      \endverb
-    \endentry
-    \entry{rfc6762}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=a9193f337ca348490dc4ce22c5dab887}{%
-           family={Cheshire},
-           familyi={C\bibinitperiod},
-           given={Stuart},
-           giveni={S\bibinitperiod}}}%
-        {{hash=c80760eccd17a6e0e508a98bffe52c8e}{%
-           family={Krochmal},
-           familyi={K\bibinitperiod},
-           given={Marc},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \strng{fullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \strng{bibnamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \strng{authorbibnamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \strng{authornamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \strng{authorfullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
-      \field{extraname}{2}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{As networked devices become smaller, more portable, and more ubiquitous, the ability to operate with less configured infrastructure is increasingly important. In particular, the ability to look up DNS resource record data types (including, but not limited to, host names) in the absence of a conventional managed DNS server is useful. Multicast DNS (mDNS) provides the ability to perform DNS-like operations on the local link in the absence of any conventional Unicast DNS server. In addition, Multicast DNS designates a portion of the DNS namespace to be free for local use, without the need to pay any annual fee, and without the need to set up delegations or otherwise configure a conventional DNS server to answer for those names. The primary benefits of Multicast DNS names are that (i) they require little or no administration or configuration to set them up, (ii) they work when no infrastructure is present, and (iii) they work during infrastructure failures.}
-      \field{howpublished}{RFC 6762}
-      \field{month}{2}
-      \field{number}{6762}
-      \field{pagetotal}{70}
-      \field{series}{Request for Comments}
-      \field{title}{{Multicast DNS}}
-      \field{year}{2013}
-      \verb{doi}
-      \verb 10.17487/RFC6762
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc6762.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc6762.txt
-      \endverb
-    \endentry
-    \entry{rfc2131}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=ba62d9eef469b585eaed0db8dc553db7}{%
-           family={Droms},
-           familyi={D\bibinitperiod},
-           given={Ralph},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{ba62d9eef469b585eaed0db8dc553db7}
-      \strng{fullhash}{ba62d9eef469b585eaed0db8dc553db7}
-      \strng{bibnamehash}{ba62d9eef469b585eaed0db8dc553db7}
-      \strng{authorbibnamehash}{ba62d9eef469b585eaed0db8dc553db7}
-      \strng{authornamehash}{ba62d9eef469b585eaed0db8dc553db7}
-      \strng{authorfullhash}{ba62d9eef469b585eaed0db8dc553db7}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The Dynamic Host Configuration Protocol (DHCP) provides a framework for passing configuration information to hosts on a TCPIP network. DHCP is based on the Bootstrap Protocol (BOOTP), adding the capability of automatic allocation of reusable network addresses and additional configuration options. {[}STANDARDS-TRACK{]}}
-      \field{howpublished}{RFC 2131}
-      \field{month}{3}
-      \field{number}{2131}
-      \field{pagetotal}{45}
-      \field{series}{Request for Comments}
-      \field{title}{{Dynamic Host Configuration Protocol}}
-      \field{year}{1997}
-      \verb{doi}
-      \verb 10.17487/RFC2131
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc2131.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc2131.txt
-      \endverb
-    \endentry
-    \entry{5367679}{article}{}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Std 802.1AR-2009}
-      \field{title}{IEEE Standard for Local and metropolitan area networks - Secure Device Identity}
-      \field{year}{2009}
-      \field{pages}{1\bibrangedash 77}
-      \range{pages}{77}
-      \verb{doi}
-      \verb 10.1109/IEEESTD.2009.5367679
-      \endverb
-    \endentry
-    \entry{kephart2003vision}{article}{}
-      \name{author}{2}{}{%
-        {{hash=4561b6ab0ad044c0176daf9d8ad2d79e}{%
-           family={Kephart},
-           familyi={K\bibinitperiod},
-           given={Jeffrey\bibnamedelima O},
-           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=6abf78bc82939db4b1774c03c8c54df3}{%
-           family={Chess},
-           familyi={C\bibinitperiod},
-           given={David\bibnamedelima M},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
-      \strng{fullhash}{e3ca3cb9bfd6cef4666aa8fea7700438}
-      \strng{bibnamehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
-      \strng{authorbibnamehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
-      \strng{authornamehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
-      \strng{authorfullhash}{e3ca3cb9bfd6cef4666aa8fea7700438}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer}
-      \field{number}{1}
-      \field{title}{The vision of autonomic computing}
-      \field{volume}{36}
-      \field{year}{2003}
-      \field{pages}{41\bibrangedash 50}
-      \range{pages}{10}
     \endentry
     \entry{labati2016biometric}{article}{}
       \name{author}{6}{}{%
@@ -456,8 +176,8 @@
       \strng{authorbibnamehash}{60279a4cf9bae48a42732fb44a8b3f9f}
       \strng{authornamehash}{60279a4cf9bae48a42732fb44a8b3f9f}
       \strng{authorfullhash}{61335bb9c4988853471aaf758939246f}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ACM Computing Surveys (CSUR)}
@@ -500,8 +220,8 @@
       \strng{authorbibnamehash}{0ecfc1acde5bcff1a1f6ff075e1981ec}
       \strng{authornamehash}{0ecfc1acde5bcff1a1f6ff075e1981ec}
       \strng{authorfullhash}{1be7160d1bb76eebfff16310ecb57b1b}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 Internet of Things Business Models, Users, and Networks}
@@ -510,162 +230,178 @@
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
     \endentry
-    \entry{x3dh}{article}{}
+    \entry{rfc5246}{misc}{}
       \name{author}{2}{}{%
-        {{hash=9dfd0bf532dd1b08969afefcdd7188b5}{%
-           family={Marlinspike},
-           familyi={M\bibinitperiod},
-           given={Moxie},
-           giveni={M\bibinitperiod}}}%
-        {{hash=94b0a8eff15435fc3fdb7b8e67526800}{%
-           family={Perrin},
-           familyi={P\bibinitperiod},
-           given={Trevor},
+        {{hash=fbed942ce41bbd27cb1ee6a803bdf541}{%
+           family={Rescorla},
+           familyi={R\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=774d4268a758d45ede8870ebd6e40083}{%
+           family={Dierks},
+           familyi={D\bibinitperiod},
+           given={Tim},
            giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{352fa836ff5be0e2355b5556d9cf4977}
-      \strng{fullhash}{352fa836ff5be0e2355b5556d9cf4977}
-      \strng{bibnamehash}{352fa836ff5be0e2355b5556d9cf4977}
-      \strng{authorbibnamehash}{352fa836ff5be0e2355b5556d9cf4977}
-      \strng{authornamehash}{352fa836ff5be0e2355b5556d9cf4977}
-      \strng{authorfullhash}{352fa836ff5be0e2355b5556d9cf4977}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Open Whisper Systems}
-      \field{title}{The x3dh key agreement protocol}
-      \field{year}{2016}
-    \endentry
-    \entry{handbookOfAppliedCrypto}{book}{}
-      \name{author}{3}{}{%
-        {{hash=78e2730678cdcdff7cebb4f7d2732ff6}{%
-           family={Menezes},
-           familyi={M\bibinitperiod},
-           given={Alfred\bibnamedelima J},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=2b4f1742af51254687b3507ccb544769}{%
-           family={Van\bibnamedelima Oorschot},
-           familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
-           given={Paul\bibnamedelima C},
-           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=e0be458da3b0a0595629254377376159}{%
-           family={Vanstone},
-           familyi={V\bibinitperiod},
-           given={Scott\bibnamedelima A},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {CRC press}%
-      }
-      \strng{namehash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \strng{fullhash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \strng{bibnamehash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \strng{authorbibnamehash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \strng{authornamehash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \strng{authorfullhash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Handbook of applied cryptography}
-      \field{year}{2018}
-    \endentry
-    \entry{ofmcTut}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=799e35678fe13bd4153a6f19f7f54b9c}{%
-           family={Mödersheim},
-           familyi={M\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{799e35678fe13bd4153a6f19f7f54b9c}
-      \strng{fullhash}{799e35678fe13bd4153a6f19f7f54b9c}
-      \strng{bibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
-      \strng{authorbibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
-      \strng{authornamehash}{799e35678fe13bd4153a6f19f7f54b9c}
-      \strng{authorfullhash}{799e35678fe13bd4153a6f19f7f54b9c}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Protocol security verification tutorial}
-      \field{year}{2018}
-    \endentry
-    \entry{ofmc}{incollection}{}
-      \name{author}{2}{}{%
-        {{hash=799e35678fe13bd4153a6f19f7f54b9c}{%
-           family={Mödersheim},
-           familyi={M\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-        {{hash=50d3929627aa86842e8e41968ec96326}{%
-           family={Vigano},
-           familyi={V\bibinitperiod},
-           given={Luca},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{037826c0f12d8220dc9c906195716fd9}
-      \strng{fullhash}{037826c0f12d8220dc9c906195716fd9}
-      \strng{bibnamehash}{037826c0f12d8220dc9c906195716fd9}
-      \strng{authorbibnamehash}{037826c0f12d8220dc9c906195716fd9}
-      \strng{authornamehash}{037826c0f12d8220dc9c906195716fd9}
-      \strng{authorfullhash}{037826c0f12d8220dc9c906195716fd9}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Foundations of Security Analysis and Design V}
-      \field{title}{The open-source fixed-point model checker for symbolic analysis of security protocols}
-      \field{year}{2009}
-      \field{pages}{166\bibrangedash 194}
-      \range{pages}{29}
-    \endentry
-    \entry{rfc3339}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=b32e7021cb2ab459902fa07266aa3672}{%
-           family={Newman},
-           familyi={N\bibinitperiod},
-           given={Chris},
-           giveni={C\bibinitperiod}}}%
-        {{hash=677f465cfb31bbc413856f0dfa172d93}{%
-           family={Klyne},
-           familyi={K\bibinitperiod},
-           given={Graham},
-           giveni={G\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {RFC Editor}%
       }
-      \strng{namehash}{71e8b57292ffeb48787bddfdf31fa27c}
-      \strng{fullhash}{71e8b57292ffeb48787bddfdf31fa27c}
-      \strng{bibnamehash}{71e8b57292ffeb48787bddfdf31fa27c}
-      \strng{authorbibnamehash}{71e8b57292ffeb48787bddfdf31fa27c}
-      \strng{authornamehash}{71e8b57292ffeb48787bddfdf31fa27c}
-      \strng{authorfullhash}{71e8b57292ffeb48787bddfdf31fa27c}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \strng{namehash}{d7d494c023bd84f7f24e589678c5b483}
+      \strng{fullhash}{d7d494c023bd84f7f24e589678c5b483}
+      \strng{bibnamehash}{d7d494c023bd84f7f24e589678c5b483}
+      \strng{authorbibnamehash}{d7d494c023bd84f7f24e589678c5b483}
+      \strng{authornamehash}{d7d494c023bd84f7f24e589678c5b483}
+      \strng{authorfullhash}{d7d494c023bd84f7f24e589678c5b483}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This document defines a date and time format for use in Internet protocols that is a profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar.}
-      \field{howpublished}{RFC 3339}
-      \field{month}{7}
-      \field{number}{3339}
-      \field{pagetotal}{18}
+      \field{abstract}{This document specifies Version 1.2 of the Transport Layer Security (TLS) protocol. The TLS protocol provides communications security over the Internet. The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. {[}STANDARDS-TRACK{]}}
+      \field{howpublished}{RFC 5246}
+      \field{month}{8}
+      \field{number}{5246}
+      \field{pagetotal}{104}
       \field{series}{Request for Comments}
-      \field{title}{{Date and Time on the Internet: Timestamps}}
-      \field{year}{2002}
+      \field{title}{{The Transport Layer Security (TLS) Protocol Version 1.2}}
+      \field{year}{2008}
       \verb{doi}
-      \verb 10.17487/RFC3339
+      \verb 10.17487/RFC5246
       \endverb
       \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc3339.txt
+      \verb https://rfc-editor.org/rfc/rfc5246.txt
       \endverb
       \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc3339.txt
+      \verb https://rfc-editor.org/rfc/rfc5246.txt
+      \endverb
+    \endentry
+    \entry{shang2016challenges}{article}{}
+      \name{author}{4}{}{%
+        {{hash=71ffd294ea0d4e40b9cd6e7bf5aa66c8}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Wentao},
+           giveni={W\bibinitperiod}}}%
+        {{hash=efa63f4721b977ec279642a1acf38726}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yingdi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ba62d9eef469b585eaed0db8dc553db7}{%
+           family={Droms},
+           familyi={D\bibinitperiod},
+           given={Ralph},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cc2e36f00f725b723902ed63824d79e4}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lixia},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{2854c5ced385621643760a0c5b26adbb}
+      \strng{fullhash}{3f0e55c915a23b344381b4e2b418c682}
+      \strng{bibnamehash}{2854c5ced385621643760a0c5b26adbb}
+      \strng{authorbibnamehash}{2854c5ced385621643760a0c5b26adbb}
+      \strng{authornamehash}{2854c5ced385621643760a0c5b26adbb}
+      \strng{authorfullhash}{3f0e55c915a23b344381b4e2b418c682}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NDN Project}
+      \field{title}{Challenges in IoT networking via TCP/IP architecture}
+      \field{year}{2016}
+    \endentry
+    \entry{dtls}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=fbed942ce41bbd27cb1ee6a803bdf541}{%
+           family={Rescorla},
+           familyi={R\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=29dcce65392670f1cbc60ca35fcd5573}{%
+           family={Modadugu},
+           familyi={M\bibinitperiod},
+           given={Nagendra},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{fullhash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{bibnamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{authorbibnamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{authornamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{authorfullhash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document specifies version 1.2 of the Datagram Transport Layer Security (DTLS) protocol. The DTLS protocol provides communications privacy for datagram protocols. The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. The DTLS protocol is based on the Transport Layer Security (TLS) protocol and provides equivalent security guarantees. Datagram semantics of the underlying transport are preserved by the DTLS protocol. This document updates DTLS 1.0 to work with TLS version 1.2. {[}STANDARDS-TRACK{]}}
+      \field{howpublished}{RFC 6347}
+      \field{month}{1}
+      \field{number}{6347}
+      \field{pagetotal}{32}
+      \field{series}{Request for Comments}
+      \field{title}{{Datagram Transport Layer Security Version 1.2}}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.17487/RFC6347
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc6347.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc6347.txt
+      \endverb
+    \endentry
+    \entry{rfc7252}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=ed98cd7a76bd516b3da09ae8534c32a0}{%
+           family={Shelby},
+           familyi={S\bibinitperiod},
+           given={Zach},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9df875ea8cdea272d47bed2f6b8c68df}{%
+           family={Hartke},
+           familyi={H\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7fe2f98d5101608d1a28002bcb59c6d0}{%
+           family={Bormann},
+           familyi={B\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{fullhash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{bibnamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{authorbibnamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{authornamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{authorfullhash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks. The nodes often have 8-bit microcontrollers with small amounts of ROM and RAM, while constrained networks such as IPv6 over Low-Power Wireless Personal Area Networks (6LoWPANs) often have high packet error rates and a typical throughput of 10s of kbit/s. The protocol is designed for machine- to-machine (M2M) applications such as smart energy and building automation. CoAP provides a request/response interaction model between application endpoints, supports built-in discovery of services and resources, and includes key concepts of the Web such as URIs and Internet media types. CoAP is designed to easily interface with HTTP for integration with the Web while meeting specialized requirements such as multicast support, very low overhead, and simplicity for constrained environments.}
+      \field{howpublished}{RFC 7252}
+      \field{month}{6}
+      \field{number}{7252}
+      \field{pagetotal}{112}
+      \field{series}{Request for Comments}
+      \field{title}{{The Constrained Application Protocol (CoAP)}}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.17487/RFC7252
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc7252.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc7252.txt
       \endverb
     \endentry
     \entry{http}{misc}{}
@@ -715,8 +451,8 @@
       \strng{authorbibnamehash}{e4d346e3cd4a1ccfd764fac7eed82467}
       \strng{authornamehash}{e4d346e3cd4a1ccfd764fac7eed82467}
       \strng{authorfullhash}{5b9f69faad395e5f7b6adf612913a3af}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{HTTP has been in use by the World-Wide Web global information initiative since 1990. This specification defines the protocol referred to as "HTTP/1.1", and is an update to RFC 2068. {[}STANDARDS-TRACK{]}}
@@ -737,229 +473,33 @@
       \verb https://rfc-editor.org/rfc/rfc2616.txt
       \endverb
     \endentry
-    \entry{rfc7030}{misc}{}
-      \name{author}{3}{}{%
-        {{hash=94a341d2d0381850d5b1802b4c636924}{%
-           family={Pritikin},
-           familyi={P\bibinitperiod},
-           given={Max},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6b9dcd969117bd16c0a38d0fbc57737f}{%
-           family={Yee},
-           familyi={Y\bibinitperiod},
-           given={Peter\bibnamedelima E.},
-           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=59ebac22f1240d59eb19407b2659473e}{%
-           family={Harkins},
-           familyi={H\bibinitperiod},
-           given={Dan},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{a91c9402f6ae0cabb6170669d2e1b10a}
-      \strng{fullhash}{a91c9402f6ae0cabb6170669d2e1b10a}
-      \strng{bibnamehash}{a91c9402f6ae0cabb6170669d2e1b10a}
-      \strng{authorbibnamehash}{a91c9402f6ae0cabb6170669d2e1b10a}
-      \strng{authornamehash}{a91c9402f6ae0cabb6170669d2e1b10a}
-      \strng{authorfullhash}{a91c9402f6ae0cabb6170669d2e1b10a}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labelnamesource}{author}
+    \entry{bs-wiki}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
-      \field{abstract}{This document profiles certificate enrollment for clients using Certificate Management over CMS (CMC) messages over a secure transport. This profile, called Enrollment over Secure Transport (EST), describes a simple, yet functional, certificate management protocol targeting Public Key Infrastructure (PKI) clients that need to acquire client certificates and associated Certification Authority (CA) certificates. It also supports client-generated public/private key pairs as well as key pairs generated by the CA.}
-      \field{howpublished}{RFC 7030}
-      \field{month}{10}
-      \field{number}{7030}
-      \field{pagetotal}{53}
-      \field{series}{Request for Comments}
-      \field{title}{{Enrollment over Secure Transport}}
-      \field{year}{2013}
-      \verb{doi}
-      \verb 10.17487/RFC7030
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc7030.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc7030.txt
-      \endverb
-    \endentry
-    \entry{brski}{misc}{}
-      \name{author}{5}{}{%
-        {{hash=94a341d2d0381850d5b1802b4c636924}{%
-           family={Pritikin},
-           familyi={P\bibinitperiod},
-           given={Max},
-           giveni={M\bibinitperiod}}}%
-        {{hash=250e4f90e4283bd98c197e9c19324838}{%
-           family={Richardson},
-           familyi={R\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2fb32b39dd8690014a49471244cfd10d}{%
-           family={Eckert},
-           familyi={E\bibinitperiod},
-           given={Toerless},
-           giveni={T\bibinitperiod}}}%
-        {{hash=9298743a1f79dd6f9beed95d63411476}{%
-           family={Behringer},
-           familyi={B\bibinitperiod},
-           given={Michael\bibnamedelima H.},
-           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=0959fea4d94d15603b71e8dab79ab6e2}{%
-           family={Watsen},
-           familyi={W\bibinitperiod},
-           given={Kent},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{43d7ad2864ef1420d8dfa7ec2897310f}
-      \strng{fullhash}{8f3ed1616ba693b2514b8f639121b221}
-      \strng{bibnamehash}{43d7ad2864ef1420d8dfa7ec2897310f}
-      \strng{authorbibnamehash}{43d7ad2864ef1420d8dfa7ec2897310f}
-      \strng{authornamehash}{43d7ad2864ef1420d8dfa7ec2897310f}
-      \strng{authorfullhash}{8f3ed1616ba693b2514b8f639121b221}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This document specifies automated bootstrapping of an Autonomic Control Plane. To do this, a Secure Key Infrastructure is bootstrapped. This is done using manufacturer-installed X.509 certificates, in combination with a manufacturer's authorizing service, both online and offline. We call this process the Bootstrapping Remote Secure Key Infrastructure (BRSKI) protocol. Bootstrapping a new device can occur when using a routable address and a cloud service, only link-local connectivity, or limited/disconnected networks. Support for deployment models with less stringent security requirements is included. Bootstrapping is complete when the cryptographic identity of the new key infrastructure is successfully deployed to the device. The established secure connection can be used to deploy a locally issued certificate to the device as well.}
-      \field{howpublished}{RFC 8995}
-      \field{month}{5}
-      \field{number}{8995}
-      \field{pagetotal}{116}
-      \field{series}{Request for Comments}
-      \field{title}{{Bootstrapping Remote Secure Key Infrastructure (BRSKI)}}
-      \field{year}{2021}
-      \verb{doi}
-      \verb 10.17487/RFC8995
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc8995.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc8995.txt
-      \endverb
-    \endentry
-    \entry{ReadID2020}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=6d7306ad03a47cc18f1a4089b6c8cf09}{%
-           family={ReadID},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{6d7306ad03a47cc18f1a4089b6c8cf09}
-      \strng{fullhash}{6d7306ad03a47cc18f1a4089b6c8cf09}
-      \strng{bibnamehash}{6d7306ad03a47cc18f1a4089b6c8cf09}
-      \strng{authorbibnamehash}{6d7306ad03a47cc18f1a4089b6c8cf09}
-      \strng{authornamehash}{6d7306ad03a47cc18f1a4089b6c8cf09}
-      \strng{authorfullhash}{6d7306ad03a47cc18f1a4089b6c8cf09}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Which countries have ePassports?}}
-      \field{urlday}{7}
+      \field{title}{{Bootstrapping}}
+      \field{urlday}{8}
       \field{urlmonth}{8}
       \field{urlyear}{2021}
-      \field{year}{2020}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.readid.com/blog/countries-epassports
+      \verb https://en.wikipedia.org/wiki/Bootstrapping
       \endverb
       \verb{url}
-      \verb https://www.readid.com/blog/countries-epassports
+      \verb https://en.wikipedia.org/wiki/Bootstrapping
       \endverb
     \endentry
-    \entry{rfc5246}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=fbed942ce41bbd27cb1ee6a803bdf541}{%
-           family={Rescorla},
-           familyi={R\bibinitperiod},
-           given={Eric},
-           giveni={E\bibinitperiod}}}%
-        {{hash=774d4268a758d45ede8870ebd6e40083}{%
-           family={Dierks},
-           familyi={D\bibinitperiod},
-           given={Tim},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{d7d494c023bd84f7f24e589678c5b483}
-      \strng{fullhash}{d7d494c023bd84f7f24e589678c5b483}
-      \strng{bibnamehash}{d7d494c023bd84f7f24e589678c5b483}
-      \strng{authorbibnamehash}{d7d494c023bd84f7f24e589678c5b483}
-      \strng{authornamehash}{d7d494c023bd84f7f24e589678c5b483}
-      \strng{authorfullhash}{d7d494c023bd84f7f24e589678c5b483}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{labelnamesource}{author}
+    \entry{5367679}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
-      \field{abstract}{This document specifies Version 1.2 of the Transport Layer Security (TLS) protocol. The TLS protocol provides communications security over the Internet. The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. {[}STANDARDS-TRACK{]}}
-      \field{howpublished}{RFC 5246}
-      \field{month}{8}
-      \field{number}{5246}
-      \field{pagetotal}{104}
-      \field{series}{Request for Comments}
-      \field{title}{{The Transport Layer Security (TLS) Protocol Version 1.2}}
-      \field{year}{2008}
+      \field{journaltitle}{IEEE Std 802.1AR-2009}
+      \field{title}{IEEE Standard for Local and metropolitan area networks - Secure Device Identity}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 77}
+      \range{pages}{77}
       \verb{doi}
-      \verb 10.17487/RFC5246
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc5246.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc5246.txt
-      \endverb
-    \endentry
-    \entry{dtls}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=fbed942ce41bbd27cb1ee6a803bdf541}{%
-           family={Rescorla},
-           familyi={R\bibinitperiod},
-           given={Eric},
-           giveni={E\bibinitperiod}}}%
-        {{hash=29dcce65392670f1cbc60ca35fcd5573}{%
-           family={Modadugu},
-           familyi={M\bibinitperiod},
-           given={Nagendra},
-           giveni={N\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
-      \strng{fullhash}{5ed44262ce2f55adbbcc996ecc88fd3a}
-      \strng{bibnamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
-      \strng{authorbibnamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
-      \strng{authornamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
-      \strng{authorfullhash}{5ed44262ce2f55adbbcc996ecc88fd3a}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This document specifies version 1.2 of the Datagram Transport Layer Security (DTLS) protocol. The DTLS protocol provides communications privacy for datagram protocols. The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. The DTLS protocol is based on the Transport Layer Security (TLS) protocol and provides equivalent security guarantees. Datagram semantics of the underlying transport are preserved by the DTLS protocol. This document updates DTLS 1.0 to work with TLS version 1.2. {[}STANDARDS-TRACK{]}}
-      \field{howpublished}{RFC 6347}
-      \field{month}{1}
-      \field{number}{6347}
-      \field{pagetotal}{32}
-      \field{series}{Request for Comments}
-      \field{title}{{Datagram Transport Layer Security Version 1.2}}
-      \field{year}{2012}
-      \verb{doi}
-      \verb 10.17487/RFC6347
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc6347.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc6347.txt
+      \verb 10.1109/IEEESTD.2009.5367679
       \endverb
     \endentry
     \entry{irtf-t2trg-secure-bootstrapping-00}{report}{}
@@ -992,8 +532,8 @@
       \strng{authorbibnamehash}{676485329457381fc53d6511b19788b1}
       \strng{authornamehash}{676485329457381fc53d6511b19788b1}
       \strng{authorfullhash}{676485329457381fc53d6511b19788b1}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This draft provides an overview of the various terms that are used when discussing bootstrapping of IoT devices. We document terms that have been used within the IETF as well as other standards bodies. We investigate if the terms refer to the same phenomena or have subtle differences. We provide recommendations on the applicability of terms in different contexts. Finally, this document presents a survey of secure bootstrapping mechanisms available for smart objects that are part of an Internet of Things (IoT) network. The survey does not prescribe any one mechanism and rather presents IoT developers with different options to choose from, depending on their use-case, security requirements, and the user interface available on their IoT devices.}
@@ -1009,141 +549,6 @@
       \endverb
       \verb{url}
       \verb https://datatracker.ietf.org/doc/html/draft-irtf-t2trg-secure-bootstrapping-00
-      \endverb
-    \endentry
-    \entry{shang2016challenges}{article}{}
-      \name{author}{4}{}{%
-        {{hash=71ffd294ea0d4e40b9cd6e7bf5aa66c8}{%
-           family={Shang},
-           familyi={S\bibinitperiod},
-           given={Wentao},
-           giveni={W\bibinitperiod}}}%
-        {{hash=efa63f4721b977ec279642a1acf38726}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Yingdi},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=ba62d9eef469b585eaed0db8dc553db7}{%
-           family={Droms},
-           familyi={D\bibinitperiod},
-           given={Ralph},
-           giveni={R\bibinitperiod}}}%
-        {{hash=cc2e36f00f725b723902ed63824d79e4}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Lixia},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{2854c5ced385621643760a0c5b26adbb}
-      \strng{fullhash}{3f0e55c915a23b344381b4e2b418c682}
-      \strng{bibnamehash}{2854c5ced385621643760a0c5b26adbb}
-      \strng{authorbibnamehash}{2854c5ced385621643760a0c5b26adbb}
-      \strng{authornamehash}{2854c5ced385621643760a0c5b26adbb}
-      \strng{authorfullhash}{3f0e55c915a23b344381b4e2b418c682}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{NDN Project}
-      \field{title}{Challenges in IoT networking via TCP/IP architecture}
-      \field{year}{2016}
-    \endentry
-    \entry{rfc7252}{misc}{}
-      \name{author}{3}{}{%
-        {{hash=ed98cd7a76bd516b3da09ae8534c32a0}{%
-           family={Shelby},
-           familyi={S\bibinitperiod},
-           given={Zach},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=9df875ea8cdea272d47bed2f6b8c68df}{%
-           family={Hartke},
-           familyi={H\bibinitperiod},
-           given={Klaus},
-           giveni={K\bibinitperiod}}}%
-        {{hash=7fe2f98d5101608d1a28002bcb59c6d0}{%
-           family={Bormann},
-           familyi={B\bibinitperiod},
-           given={Carsten},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
-      \strng{fullhash}{d3b77bed71a92bc7ba4b5c06c8a42240}
-      \strng{bibnamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
-      \strng{authorbibnamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
-      \strng{authornamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
-      \strng{authorfullhash}{d3b77bed71a92bc7ba4b5c06c8a42240}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks. The nodes often have 8-bit microcontrollers with small amounts of ROM and RAM, while constrained networks such as IPv6 over Low-Power Wireless Personal Area Networks (6LoWPANs) often have high packet error rates and a typical throughput of 10s of kbit/s. The protocol is designed for machine- to-machine (M2M) applications such as smart energy and building automation. CoAP provides a request/response interaction model between application endpoints, supports built-in discovery of services and resources, and includes key concepts of the Web such as URIs and Internet media types. CoAP is designed to easily interface with HTTP for integration with the Web while meeting specialized requirements such as multicast support, very low overhead, and simplicity for constrained environments.}
-      \field{howpublished}{RFC 7252}
-      \field{month}{6}
-      \field{number}{7252}
-      \field{pagetotal}{112}
-      \field{series}{Request for Comments}
-      \field{title}{{The Constrained Application Protocol (CoAP)}}
-      \field{year}{2014}
-      \verb{doi}
-      \verb 10.17487/RFC7252
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc7252.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc7252.txt
-      \endverb
-    \endentry
-    \entry{sztp}{misc}{}
-      \name{author}{3}{}{%
-        {{hash=0959fea4d94d15603b71e8dab79ab6e2}{%
-           family={Watsen},
-           familyi={W\bibinitperiod},
-           given={Kent},
-           giveni={K\bibinitperiod}}}%
-        {{hash=a99fa2a8eef0de7f3af50f4aaf15d119}{%
-           family={Abrahamsson},
-           familyi={A\bibinitperiod},
-           given={Mikael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=544d6b1009a0d8e7a0368916c2637853}{%
-           family={Farrer},
-           familyi={F\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{3126e40e59eaf623f0b3bfb077baf22c}
-      \strng{fullhash}{3126e40e59eaf623f0b3bfb077baf22c}
-      \strng{bibnamehash}{3126e40e59eaf623f0b3bfb077baf22c}
-      \strng{authorbibnamehash}{3126e40e59eaf623f0b3bfb077baf22c}
-      \strng{authornamehash}{3126e40e59eaf623f0b3bfb077baf22c}
-      \strng{authorfullhash}{3126e40e59eaf623f0b3bfb077baf22c}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This document presents a technique to securely provision a networking device when it is booting in a factory-default state. Variations in the solution enable it to be used on both public and private networks. The provisioning steps are able to update the boot image, commit an initial configuration, and execute arbitrary scripts to address auxiliary needs. The updated device is subsequently able to establish secure connections with other systems. For instance, a device may establish NETCONF (RFC 6241) and/or RESTCONF (RFC 8040) connections with deployment-specific network management systems.}
-      \field{howpublished}{RFC 8572}
-      \field{month}{4}
-      \field{number}{8572}
-      \field{pagetotal}{87}
-      \field{series}{Request for Comments}
-      \field{title}{{Secure Zero Touch Provisioning (SZTP)}}
-      \field{year}{2019}
-      \verb{doi}
-      \verb 10.17487/RFC8572
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc8572.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc8572.txt
       \endverb
     \endentry
     \entry{eap-tls}{misc}{}
@@ -1183,8 +588,8 @@
       \strng{authorbibnamehash}{4abe7627da21cfc79834f31ec73d210b}
       \strng{authornamehash}{4abe7627da21cfc79834f31ec73d210b}
       \strng{authorfullhash}{cb2a69d0c7f7f40a64968625427c0748}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document specifies a new certificate type and two TLS extensions for exchanging raw public keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS). The new certificate type allows raw public keys to be used for authentication.}
@@ -1204,6 +609,601 @@
       \verb{url}
       \verb https://rfc-editor.org/rfc/rfc7250.txt
       \endverb
+    \endentry
+    \entry{gba}{report}{}
+      \name{author}{1}{}{%
+        {{hash=49952770ed51bcb32792566644a0032e}{%
+           family={3GPP},
+           familyi={3\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {3rd Generation Partnership Project (3GPP)}%
+      }
+      \strng{namehash}{49952770ed51bcb32792566644a0032e}
+      \strng{fullhash}{49952770ed51bcb32792566644a0032e}
+      \strng{bibnamehash}{49952770ed51bcb32792566644a0032e}
+      \strng{authorbibnamehash}{49952770ed51bcb32792566644a0032e}
+      \strng{authornamehash}{49952770ed51bcb32792566644a0032e}
+      \strng{authorfullhash}{49952770ed51bcb32792566644a0032e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{Release 14}
+      \field{number}{33.220}
+      \field{title}{{	Generic Authentication Architecture (GAA); Generic Bootstrapping Architecture (GBA)}}
+      \field{type}{Technical Specification (TS)}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2280
+      \endverb
+      \verb{url}
+      \verb https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2280
+      \endverb
+    \endentry
+    \entry{simplekeys}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=8970aefcdb493b07dcbdd1143d46fd0f}{%
+           family={Bergmann},
+           familyi={B\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+        {{hash=08b47777a73c3a0230ab388419bf013e}{%
+           family={Gerdes},
+           familyi={G\bibinitperiod},
+           given={Stefanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7fe2f98d5101608d1a28002bcb59c6d0}{%
+           family={Bormann},
+           familyi={B\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{72dfe1228a124bc231bd738baec5b6d4}
+      \strng{fullhash}{72dfe1228a124bc231bd738baec5b6d4}
+      \strng{bibnamehash}{72dfe1228a124bc231bd738baec5b6d4}
+      \strng{authorbibnamehash}{72dfe1228a124bc231bd738baec5b6d4}
+      \strng{authornamehash}{72dfe1228a124bc231bd738baec5b6d4}
+      \strng{authorfullhash}{72dfe1228a124bc231bd738baec5b6d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Workshop on Smart Object Security}
+      \field{title}{Simple keys for simple smart objects}
+      \field{volume}{258}
+      \field{year}{2012}
+    \endentry
+    \entry{brski}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=94a341d2d0381850d5b1802b4c636924}{%
+           family={Pritikin},
+           familyi={P\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=250e4f90e4283bd98c197e9c19324838}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2fb32b39dd8690014a49471244cfd10d}{%
+           family={Eckert},
+           familyi={E\bibinitperiod},
+           given={Toerless},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9298743a1f79dd6f9beed95d63411476}{%
+           family={Behringer},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0959fea4d94d15603b71e8dab79ab6e2}{%
+           family={Watsen},
+           familyi={W\bibinitperiod},
+           given={Kent},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{43d7ad2864ef1420d8dfa7ec2897310f}
+      \strng{fullhash}{8f3ed1616ba693b2514b8f639121b221}
+      \strng{bibnamehash}{43d7ad2864ef1420d8dfa7ec2897310f}
+      \strng{authorbibnamehash}{43d7ad2864ef1420d8dfa7ec2897310f}
+      \strng{authornamehash}{43d7ad2864ef1420d8dfa7ec2897310f}
+      \strng{authorfullhash}{8f3ed1616ba693b2514b8f639121b221}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document specifies automated bootstrapping of an Autonomic Control Plane. To do this, a Secure Key Infrastructure is bootstrapped. This is done using manufacturer-installed X.509 certificates, in combination with a manufacturer's authorizing service, both online and offline. We call this process the Bootstrapping Remote Secure Key Infrastructure (BRSKI) protocol. Bootstrapping a new device can occur when using a routable address and a cloud service, only link-local connectivity, or limited/disconnected networks. Support for deployment models with less stringent security requirements is included. Bootstrapping is complete when the cryptographic identity of the new key infrastructure is successfully deployed to the device. The established secure connection can be used to deploy a locally issued certificate to the device as well.}
+      \field{howpublished}{RFC 8995}
+      \field{month}{5}
+      \field{number}{8995}
+      \field{pagetotal}{116}
+      \field{series}{Request for Comments}
+      \field{title}{{Bootstrapping Remote Secure Key Infrastructure (BRSKI)}}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.17487/RFC8995
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc8995.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc8995.txt
+      \endverb
+    \endentry
+    \entry{sztp}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=0959fea4d94d15603b71e8dab79ab6e2}{%
+           family={Watsen},
+           familyi={W\bibinitperiod},
+           given={Kent},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a99fa2a8eef0de7f3af50f4aaf15d119}{%
+           family={Abrahamsson},
+           familyi={A\bibinitperiod},
+           given={Mikael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=544d6b1009a0d8e7a0368916c2637853}{%
+           family={Farrer},
+           familyi={F\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{3126e40e59eaf623f0b3bfb077baf22c}
+      \strng{fullhash}{3126e40e59eaf623f0b3bfb077baf22c}
+      \strng{bibnamehash}{3126e40e59eaf623f0b3bfb077baf22c}
+      \strng{authorbibnamehash}{3126e40e59eaf623f0b3bfb077baf22c}
+      \strng{authornamehash}{3126e40e59eaf623f0b3bfb077baf22c}
+      \strng{authorfullhash}{3126e40e59eaf623f0b3bfb077baf22c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document presents a technique to securely provision a networking device when it is booting in a factory-default state. Variations in the solution enable it to be used on both public and private networks. The provisioning steps are able to update the boot image, commit an initial configuration, and execute arbitrary scripts to address auxiliary needs. The updated device is subsequently able to establish secure connections with other systems. For instance, a device may establish NETCONF (RFC 6241) and/or RESTCONF (RFC 8040) connections with deployment-specific network management systems.}
+      \field{howpublished}{RFC 8572}
+      \field{month}{4}
+      \field{number}{8572}
+      \field{pagetotal}{87}
+      \field{series}{Request for Comments}
+      \field{title}{{Secure Zero Touch Provisioning (SZTP)}}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.17487/RFC8572
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc8572.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc8572.txt
+      \endverb
+    \endentry
+    \entry{rfc7030}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=94a341d2d0381850d5b1802b4c636924}{%
+           family={Pritikin},
+           familyi={P\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6b9dcd969117bd16c0a38d0fbc57737f}{%
+           family={Yee},
+           familyi={Y\bibinitperiod},
+           given={Peter\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=59ebac22f1240d59eb19407b2659473e}{%
+           family={Harkins},
+           familyi={H\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{a91c9402f6ae0cabb6170669d2e1b10a}
+      \strng{fullhash}{a91c9402f6ae0cabb6170669d2e1b10a}
+      \strng{bibnamehash}{a91c9402f6ae0cabb6170669d2e1b10a}
+      \strng{authorbibnamehash}{a91c9402f6ae0cabb6170669d2e1b10a}
+      \strng{authornamehash}{a91c9402f6ae0cabb6170669d2e1b10a}
+      \strng{authorfullhash}{a91c9402f6ae0cabb6170669d2e1b10a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document profiles certificate enrollment for clients using Certificate Management over CMS (CMC) messages over a secure transport. This profile, called Enrollment over Secure Transport (EST), describes a simple, yet functional, certificate management protocol targeting Public Key Infrastructure (PKI) clients that need to acquire client certificates and associated Certification Authority (CA) certificates. It also supports client-generated public/private key pairs as well as key pairs generated by the CA.}
+      \field{howpublished}{RFC 7030}
+      \field{month}{10}
+      \field{number}{7030}
+      \field{pagetotal}{53}
+      \field{series}{Request for Comments}
+      \field{title}{{Enrollment over Secure Transport}}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.17487/RFC7030
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc7030.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc7030.txt
+      \endverb
+    \endentry
+    \entry{rfc8990}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=7fe2f98d5101608d1a28002bcb59c6d0}{%
+           family={Bormann},
+           familyi={B\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+        {{hash=06d228f70be500b5712eb318fb31a15f}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={Brian\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=9c6fb2af2964f3126cfd4e505a38daca}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{0f950166e627907cf5b9b85dcb76ba81}
+      \strng{fullhash}{0f950166e627907cf5b9b85dcb76ba81}
+      \strng{bibnamehash}{0f950166e627907cf5b9b85dcb76ba81}
+      \strng{authorbibnamehash}{0f950166e627907cf5b9b85dcb76ba81}
+      \strng{authornamehash}{0f950166e627907cf5b9b85dcb76ba81}
+      \strng{authorfullhash}{0f950166e627907cf5b9b85dcb76ba81}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document specifies the GeneRic Autonomic Signaling Protocol (GRASP), which enables autonomic nodes and Autonomic Service Agents to dynamically discover peers, to synchronize state with each other, and to negotiate parameter settings with each other. GRASP depends on an external security environment that is described elsewhere. The technical objectives and parameters for specific application scenarios are to be described in separate documents. Appendices briefly discuss requirements for the protocol and existing protocols with comparable features.}
+      \field{howpublished}{RFC 8990}
+      \field{month}{5}
+      \field{number}{8990}
+      \field{pagetotal}{55}
+      \field{series}{Request for Comments}
+      \field{title}{{GeneRic Autonomic Signaling Protocol (GRASP)}}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.17487/RFC8990
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc8990.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc8990.txt
+      \endverb
+    \endentry
+    \entry{kephart2003vision}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4561b6ab0ad044c0176daf9d8ad2d79e}{%
+           family={Kephart},
+           familyi={K\bibinitperiod},
+           given={Jeffrey\bibnamedelima O},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=6abf78bc82939db4b1774c03c8c54df3}{%
+           family={Chess},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
+      \strng{fullhash}{e3ca3cb9bfd6cef4666aa8fea7700438}
+      \strng{bibnamehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
+      \strng{authorbibnamehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
+      \strng{authornamehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
+      \strng{authorfullhash}{e3ca3cb9bfd6cef4666aa8fea7700438}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer}
+      \field{number}{1}
+      \field{title}{The vision of autonomic computing}
+      \field{volume}{36}
+      \field{year}{2003}
+      \field{pages}{41\bibrangedash 50}
+      \range{pages}{10}
+    \endentry
+    \entry{rfc6763}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=a9193f337ca348490dc4ce22c5dab887}{%
+           family={Cheshire},
+           familyi={C\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c80760eccd17a6e0e508a98bffe52c8e}{%
+           family={Krochmal},
+           familyi={K\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \strng{fullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \strng{bibnamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \strng{authorbibnamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \strng{authornamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \strng{authorfullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document specifies how DNS resource records are named and structured to facilitate service discovery. Given a type of service that a client is looking for, and a domain in which the client is looking for that service, this mechanism allows clients to discover a list of named instances of that desired service, using standard DNS queries. This mechanism is referred to as DNS-based Service Discovery, or DNS-SD.}
+      \field{howpublished}{RFC 6763}
+      \field{month}{2}
+      \field{number}{6763}
+      \field{pagetotal}{49}
+      \field{series}{Request for Comments}
+      \field{title}{{DNS-Based Service Discovery}}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.17487/RFC6763
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc6763.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc6763.txt
+      \endverb
+    \endentry
+    \entry{rfc6762}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=a9193f337ca348490dc4ce22c5dab887}{%
+           family={Cheshire},
+           familyi={C\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c80760eccd17a6e0e508a98bffe52c8e}{%
+           family={Krochmal},
+           familyi={K\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \strng{fullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \strng{bibnamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \strng{authorbibnamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \strng{authornamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \strng{authorfullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As networked devices become smaller, more portable, and more ubiquitous, the ability to operate with less configured infrastructure is increasingly important. In particular, the ability to look up DNS resource record data types (including, but not limited to, host names) in the absence of a conventional managed DNS server is useful. Multicast DNS (mDNS) provides the ability to perform DNS-like operations on the local link in the absence of any conventional Unicast DNS server. In addition, Multicast DNS designates a portion of the DNS namespace to be free for local use, without the need to pay any annual fee, and without the need to set up delegations or otherwise configure a conventional DNS server to answer for those names. The primary benefits of Multicast DNS names are that (i) they require little or no administration or configuration to set them up, (ii) they work when no infrastructure is present, and (iii) they work during infrastructure failures.}
+      \field{howpublished}{RFC 6762}
+      \field{month}{2}
+      \field{number}{6762}
+      \field{pagetotal}{70}
+      \field{series}{Request for Comments}
+      \field{title}{{Multicast DNS}}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.17487/RFC6762
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc6762.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc6762.txt
+      \endverb
+    \endentry
+    \entry{rfc2131}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ba62d9eef469b585eaed0db8dc553db7}{%
+           family={Droms},
+           familyi={D\bibinitperiod},
+           given={Ralph},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{ba62d9eef469b585eaed0db8dc553db7}
+      \strng{fullhash}{ba62d9eef469b585eaed0db8dc553db7}
+      \strng{bibnamehash}{ba62d9eef469b585eaed0db8dc553db7}
+      \strng{authorbibnamehash}{ba62d9eef469b585eaed0db8dc553db7}
+      \strng{authornamehash}{ba62d9eef469b585eaed0db8dc553db7}
+      \strng{authorfullhash}{ba62d9eef469b585eaed0db8dc553db7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Dynamic Host Configuration Protocol (DHCP) provides a framework for passing configuration information to hosts on a TCPIP network. DHCP is based on the Bootstrap Protocol (BOOTP), adding the capability of automatic allocation of reusable network addresses and additional configuration options. {[}STANDARDS-TRACK{]}}
+      \field{howpublished}{RFC 2131}
+      \field{month}{3}
+      \field{number}{2131}
+      \field{pagetotal}{45}
+      \field{series}{Request for Comments}
+      \field{title}{{Dynamic Host Configuration Protocol}}
+      \field{year}{1997}
+      \verb{doi}
+      \verb 10.17487/RFC2131
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc2131.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc2131.txt
+      \endverb
+    \endentry
+    \entry{rfc3339}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=b32e7021cb2ab459902fa07266aa3672}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=677f465cfb31bbc413856f0dfa172d93}{%
+           family={Klyne},
+           familyi={K\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{71e8b57292ffeb48787bddfdf31fa27c}
+      \strng{fullhash}{71e8b57292ffeb48787bddfdf31fa27c}
+      \strng{bibnamehash}{71e8b57292ffeb48787bddfdf31fa27c}
+      \strng{authorbibnamehash}{71e8b57292ffeb48787bddfdf31fa27c}
+      \strng{authornamehash}{71e8b57292ffeb48787bddfdf31fa27c}
+      \strng{authorfullhash}{71e8b57292ffeb48787bddfdf31fa27c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document defines a date and time format for use in Internet protocols that is a profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar.}
+      \field{howpublished}{RFC 3339}
+      \field{month}{7}
+      \field{number}{3339}
+      \field{pagetotal}{18}
+      \field{series}{Request for Comments}
+      \field{title}{{Date and Time on the Internet: Timestamps}}
+      \field{year}{2002}
+      \verb{doi}
+      \verb 10.17487/RFC3339
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc3339.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc3339.txt
+      \endverb
+    \endentry
+    \entry{handbookOfAppliedCrypto}{book}{}
+      \name{author}{3}{}{%
+        {{hash=78e2730678cdcdff7cebb4f7d2732ff6}{%
+           family={Menezes},
+           familyi={M\bibinitperiod},
+           given={Alfred\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2b4f1742af51254687b3507ccb544769}{%
+           family={Van\bibnamedelima Oorschot},
+           familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Paul\bibnamedelima C},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e0be458da3b0a0595629254377376159}{%
+           family={Vanstone},
+           familyi={V\bibinitperiod},
+           given={Scott\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC press}%
+      }
+      \strng{namehash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{fullhash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{bibnamehash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{authorbibnamehash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{authornamehash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{authorfullhash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of applied cryptography}
+      \field{year}{2018}
+    \endentry
+    \entry{x3dh}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9dfd0bf532dd1b08969afefcdd7188b5}{%
+           family={Marlinspike},
+           familyi={M\bibinitperiod},
+           given={Moxie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=94b0a8eff15435fc3fdb7b8e67526800}{%
+           family={Perrin},
+           familyi={P\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{352fa836ff5be0e2355b5556d9cf4977}
+      \strng{fullhash}{352fa836ff5be0e2355b5556d9cf4977}
+      \strng{bibnamehash}{352fa836ff5be0e2355b5556d9cf4977}
+      \strng{authorbibnamehash}{352fa836ff5be0e2355b5556d9cf4977}
+      \strng{authornamehash}{352fa836ff5be0e2355b5556d9cf4977}
+      \strng{authorfullhash}{352fa836ff5be0e2355b5556d9cf4977}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Whisper Systems}
+      \field{title}{The x3dh key agreement protocol}
+      \field{year}{2016}
+    \endentry
+    \entry{ofmc}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=799e35678fe13bd4153a6f19f7f54b9c}{%
+           family={Mödersheim},
+           familyi={M\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=50d3929627aa86842e8e41968ec96326}{%
+           family={Vigano},
+           familyi={V\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{037826c0f12d8220dc9c906195716fd9}
+      \strng{fullhash}{037826c0f12d8220dc9c906195716fd9}
+      \strng{bibnamehash}{037826c0f12d8220dc9c906195716fd9}
+      \strng{authorbibnamehash}{037826c0f12d8220dc9c906195716fd9}
+      \strng{authornamehash}{037826c0f12d8220dc9c906195716fd9}
+      \strng{authorfullhash}{037826c0f12d8220dc9c906195716fd9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Foundations of Security Analysis and Design V}
+      \field{title}{The open-source fixed-point model checker for symbolic analysis of security protocols}
+      \field{year}{2009}
+      \field{pages}{166\bibrangedash 194}
+      \range{pages}{29}
+    \endentry
+    \entry{ofmcTut}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=799e35678fe13bd4153a6f19f7f54b9c}{%
+           family={Mödersheim},
+           familyi={M\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \strng{fullhash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \strng{bibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \strng{authorbibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \strng{authornamehash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \strng{authorfullhash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Protocol security verification tutorial}
+      \field{year}{2018}
     \endentry
   \enddatalist
 \endrefsection

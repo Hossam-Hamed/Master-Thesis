@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  4 NOV 2021 17:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  17 NOV 2021 16:59
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -283,6 +283,50 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \plainfootrulewidth=\dimen142
 \headwidth=\dimen143
 )
+(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/pdfsync\pdfsync.sty
+Package: pdfsync 2008/01/26 v1.1
+)
+(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/03/03 3.55 The Babel package
+
+(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/03/03 3.55 Babel common definitions
+\babel@savecnt=\count191
+\U@D=\dimen144
+\l@babelnohyphens=\language79
+
+(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count192
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.l
+df
+Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
+phy)
+
+(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.
+ldf
+Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 122.
+))
+(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.
+ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
+))
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
@@ -314,7 +358,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count191
+\lrq@indent=\count193
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -326,48 +370,48 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count192
-\c@listtotal=\count193
-\c@listcount=\count194
-\c@liststart=\count195
-\c@liststop=\count196
-\c@citecount=\count197
-\c@citetotal=\count198
-\c@multicitecount=\count199
-\c@multicitetotal=\count266
-\c@instcount=\count267
-\c@maxnames=\count268
-\c@minnames=\count269
-\c@maxitems=\count270
-\c@minitems=\count271
-\c@citecounter=\count272
-\c@maxcitecounter=\count273
-\c@savedcitecounter=\count274
-\c@uniquelist=\count275
-\c@uniquename=\count276
-\c@refsection=\count277
-\c@refsegment=\count278
-\c@maxextratitle=\count279
-\c@maxextratitleyear=\count280
-\c@maxextraname=\count281
-\c@maxextradate=\count282
-\c@maxextraalpha=\count283
-\c@abbrvpenalty=\count284
-\c@highnamepenalty=\count285
-\c@lownamepenalty=\count286
-\c@maxparens=\count287
-\c@parenlevel=\count288
-\blx@tempcnta=\count289
-\blx@tempcntb=\count290
-\blx@tempcntc=\count291
-\blx@maxsection=\count292
-\blx@maxsegment@0=\count293
-\blx@notetype=\count294
-\blx@parenlevel@text=\count295
-\blx@parenlevel@foot=\count296
-\blx@sectionciteorder@0=\count297
-\blx@entrysetcounter=\count298
-\blx@biblioinstance=\count299
+\c@tabx@nest=\count194
+\c@listtotal=\count195
+\c@listcount=\count196
+\c@liststart=\count197
+\c@liststop=\count198
+\c@citecount=\count199
+\c@citetotal=\count266
+\c@multicitecount=\count267
+\c@multicitetotal=\count268
+\c@instcount=\count269
+\c@maxnames=\count270
+\c@minnames=\count271
+\c@maxitems=\count272
+\c@minitems=\count273
+\c@citecounter=\count274
+\c@maxcitecounter=\count275
+\c@savedcitecounter=\count276
+\c@uniquelist=\count277
+\c@uniquename=\count278
+\c@refsection=\count279
+\c@refsegment=\count280
+\c@maxextratitle=\count281
+\c@maxextratitleyear=\count282
+\c@maxextraname=\count283
+\c@maxextradate=\count284
+\c@maxextraalpha=\count285
+\c@abbrvpenalty=\count286
+\c@highnamepenalty=\count287
+\c@lownamepenalty=\count288
+\c@maxparens=\count289
+\c@parenlevel=\count290
+\blx@tempcnta=\count291
+\blx@tempcntb=\count292
+\blx@tempcntc=\count293
+\blx@maxsection=\count294
+\blx@maxsegment@0=\count295
+\blx@notetype=\count296
+\blx@parenlevel@text=\count297
+\blx@parenlevel@foot=\count298
+\blx@sectionciteorder@0=\count299
+\blx@entrysetcounter=\count300
+\blx@biblioinstance=\count301
 \labelnumberwidth=\skip65
 \labelalphawidth=\skip66
 \biblabelsep=\skip67
@@ -376,12 +420,12 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibinitsep=\skip70
 \bibparsep=\skip71
 \bibhang=\skip72
-\blx@bcfin=\read2
+\blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language79
-\c@mincomprange=\count300
-\c@maxcomprange=\count301
-\c@mincompwidth=\count302
+\blx@langwohyphens=\language80
+\c@mincomprange=\count302
+\c@maxcomprange=\count303
+\c@mincompwidth=\count304
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -392,74 +436,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count303
-\c@savedafterword=\count304
-\c@annotator=\count305
-\c@savedannotator=\count306
-\c@author=\count307
-\c@savedauthor=\count308
-\c@bookauthor=\count309
-\c@savedbookauthor=\count310
-\c@commentator=\count311
-\c@savedcommentator=\count312
-\c@editor=\count313
-\c@savededitor=\count314
-\c@editora=\count315
-\c@savededitora=\count316
-\c@editorb=\count317
-\c@savededitorb=\count318
-\c@editorc=\count319
-\c@savededitorc=\count320
-\c@foreword=\count321
-\c@savedforeword=\count322
-\c@holder=\count323
-\c@savedholder=\count324
-\c@introduction=\count325
-\c@savedintroduction=\count326
-\c@namea=\count327
-\c@savednamea=\count328
-\c@nameb=\count329
-\c@savednameb=\count330
-\c@namec=\count331
-\c@savednamec=\count332
-\c@translator=\count333
-\c@savedtranslator=\count334
-\c@shortauthor=\count335
-\c@savedshortauthor=\count336
-\c@shorteditor=\count337
-\c@savedshorteditor=\count338
-\c@labelname=\count339
-\c@savedlabelname=\count340
-\c@institution=\count341
-\c@savedinstitution=\count342
-\c@lista=\count343
-\c@savedlista=\count344
-\c@listb=\count345
-\c@savedlistb=\count346
-\c@listc=\count347
-\c@savedlistc=\count348
-\c@listd=\count349
-\c@savedlistd=\count350
-\c@liste=\count351
-\c@savedliste=\count352
-\c@listf=\count353
-\c@savedlistf=\count354
-\c@location=\count355
-\c@savedlocation=\count356
-\c@organization=\count357
-\c@savedorganization=\count358
-\c@origlocation=\count359
-\c@savedoriglocation=\count360
-\c@origpublisher=\count361
-\c@savedorigpublisher=\count362
-\c@publisher=\count363
-\c@savedpublisher=\count364
-\c@language=\count365
-\c@savedlanguage=\count366
-\c@origlanguage=\count367
-\c@savedoriglanguage=\count368
-\c@pageref=\count369
-\c@savedpageref=\count370
+\c@afterword=\count305
+\c@savedafterword=\count306
+\c@annotator=\count307
+\c@savedannotator=\count308
+\c@author=\count309
+\c@savedauthor=\count310
+\c@bookauthor=\count311
+\c@savedbookauthor=\count312
+\c@commentator=\count313
+\c@savedcommentator=\count314
+\c@editor=\count315
+\c@savededitor=\count316
+\c@editora=\count317
+\c@savededitora=\count318
+\c@editorb=\count319
+\c@savededitorb=\count320
+\c@editorc=\count321
+\c@savededitorc=\count322
+\c@foreword=\count323
+\c@savedforeword=\count324
+\c@holder=\count325
+\c@savedholder=\count326
+\c@introduction=\count327
+\c@savedintroduction=\count328
+\c@namea=\count329
+\c@savednamea=\count330
+\c@nameb=\count331
+\c@savednameb=\count332
+\c@namec=\count333
+\c@savednamec=\count334
+\c@translator=\count335
+\c@savedtranslator=\count336
+\c@shortauthor=\count337
+\c@savedshortauthor=\count338
+\c@shorteditor=\count339
+\c@savedshorteditor=\count340
+\c@labelname=\count341
+\c@savedlabelname=\count342
+\c@institution=\count343
+\c@savedinstitution=\count344
+\c@lista=\count345
+\c@savedlista=\count346
+\c@listb=\count347
+\c@savedlistb=\count348
+\c@listc=\count349
+\c@savedlistc=\count350
+\c@listd=\count351
+\c@savedlistd=\count352
+\c@liste=\count353
+\c@savedliste=\count354
+\c@listf=\count355
+\c@savedlistf=\count356
+\c@location=\count357
+\c@savedlocation=\count358
+\c@organization=\count359
+\c@savedorganization=\count360
+\c@origlocation=\count361
+\c@savedoriglocation=\count362
+\c@origpublisher=\count363
+\c@savedorigpublisher=\count364
+\c@publisher=\count365
+\c@savedpublisher=\count366
+\c@language=\count367
+\c@savedlanguage=\count368
+\c@origlanguage=\count369
+\c@savedoriglanguage=\count370
+\c@pageref=\count371
+\c@savedpageref=\count372
 \shorthandwidth=\skip73
 \shortjournalwidth=\skip74
 \shortserieswidth=\skip75
@@ -486,19 +530,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count371
-\c@textcitetotal=\count372
-\c@textcitemaxnames=\count373
-\c@biburlbigbreakpenalty=\count374
-\c@biburlbreakpenalty=\count375
-\c@biburlnumpenalty=\count376
-\c@biburlucpenalty=\count377
-\c@biburllcpenalty=\count378
+\c@textcitecount=\count373
+\c@textcitetotal=\count374
+\c@textcitemaxnames=\count375
+\c@biburlbigbreakpenalty=\count376
+\c@biburlbreakpenalty=\count377
+\c@biburlnumpenalty=\count378
+\c@biburlucpenalty=\count379
+\c@biburllcpenalty=\count380
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count379
+\c@smartand=\count381
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -512,8 +556,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.
 bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count380
-\c@bbx:relatedtotal=\count381
+\c@bbx:relatedcount=\count382
+\c@bbx:relatedtotal=\count383
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -538,50 +582,7 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
-)) (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/pdfsync\pdfsync.sty
-Package: pdfsync 2008/01/26 v1.1
-) (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/03/03 3.55 The Babel package
-
-(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2021/03/03 3.55 Babel common definitions
-\babel@savecnt=\count382
-\U@D=\dimen144
-\l@babelnohyphens=\language80
-
-(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read3
-)
-\bbl@dirlevel=\count383
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.l
-df
-Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
-phy)
-
-(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.
-ldf
-Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
-aphy)
-Package babel Info: Making " an active character on input line 122.
-))
-(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.
-ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: \l@canadian = using hyphenrules for english
-(babel)             (\language0) on input line 102.
-Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language73) on input line 105.
-Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language73) on input line 108.
-))
-(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+)) (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
@@ -1551,6 +1552,21 @@ LaTeX Font Info:    ... okay on input line 126.
 Package scrbase Info: activating english \contentsname on input line 126.
 Package scrbase Info: activating english \listfigurename on input line 126.
 Package scrbase Info: activating english \listtablename on input line 126.
+Configuring pdfsync
+\PDFSYNC@ut=\write7
+\openout7 = `thesis.pdfsync'.
+
+\PDFSYNCf@li@=\count500
+\PDFSYNC@rder=\count501
+**** pdfsync.sty: Synchronizing at \everypar
+\PDFSYNCeveryp@r=\toks62
+**** pdfsync.sty: Synchronizing at \everymath
+\PDFSYNCeverym@th=\toks63
+**** pdfsync.sty: Synchronizing at \everyhbox
+\PDFSYNCeveryhb@x=\toks64
+**** pdfsync.sty: Synchronizing at \everyvbox
+\PDFSYNCeveryvb@x=\toks65
+**** pdfsync.sty: started
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1598,21 +1614,6 @@ Package biblatex Info: ... file 'thesis.bbl' found.
  (thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 126.
 Package biblatex Info: Reference segment=0 on input line 126.
-Configuring pdfsync
-\PDFSYNC@ut=\write7
-\openout7 = `thesis.pdfsync'.
-
-\PDFSYNCf@li@=\count500
-\PDFSYNC@rder=\count501
-**** pdfsync.sty: Synchronizing at \everypar
-\PDFSYNCeveryp@r=\toks62
-**** pdfsync.sty: Synchronizing at \everymath
-\PDFSYNCeverym@th=\toks63
-**** pdfsync.sty: Synchronizing at \everyhbox
-\PDFSYNCeveryhb@x=\toks64
-**** pdfsync.sty: Synchronizing at \everyvbox
-\PDFSYNCeveryvb@x=\toks65
-**** pdfsync.sty: started
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
@@ -1828,7 +1829,7 @@ chapter 3.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 4.
 
-<Images/E-Gate-Architecture.png, id=261, 700.41675pt x 442.0515pt>
+<Images/E-Gate-Architecture.png, id=266, 700.41675pt x 442.0515pt>
 File: Images/E-Gate-Architecture.png Graphic file (type png)
 <use Images/E-Gate-Architecture.png>
 Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 14.
@@ -1837,7 +1838,7 @@ Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 14.
 [3
 
 ]
-<Images/ABC.jpeg, id=283, 607.26875pt x 480.79625pt>
+<Images/ABC.jpeg, id=288, 607.26875pt x 480.79625pt>
 File: Images/ABC.jpeg Graphic file (type jpg)
 <use Images/ABC.jpeg>
 Package pdftex.def Info: Images/ABC.jpeg  used on input line 24.
@@ -1887,7 +1888,7 @@ view.tex' to `Chapters/secureBootstrapping/brski/overview.tex' on input line 5.
 
 :<+ Chapters/secureBootstrapping/brski/overview.tex
 (Chapters/secureBootstrapping/brski/overview.tex
-<Images/brski-overview.png, id=375, 670.359pt x 89.571pt>
+<Images/brski-overview.png, id=380, 670.359pt x 89.571pt>
 File: Images/brski-overview.png Graphic file (type png)
 <use Images/brski-overview.png>
 Package pdftex.def Info: Images/brski-overview.png  used on input line 7.
@@ -1931,7 +1932,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 3.
 
 [8]
-<Images/brski-architecture.png, id=410, 663.47874pt x 502.87875pt>
+<Images/brski-architecture.png, id=415, 663.47874pt x 502.87875pt>
 File: Images/brski-architecture.png Graphic file (type png)
 <use Images/brski-architecture.png>
 Package pdftex.def Info: Images/brski-architecture.png  used on input line 6.
@@ -1955,36 +1956,52 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 [9 <./Images/brski-architecture.png>]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 36
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 31
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 36
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 31
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-36.
+31.
 
 [10]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 51
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 43
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 51
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 43
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-51.
+43.
 
-[11])
+[11]
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 58
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 58
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+58.
+
+[12])
 :<-
 )
 :<-
@@ -2011,6 +2028,34 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\acrfull' on input line 1.
 
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 4.
+
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 4.
+
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+4.
+
+[13]
+Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/sztp/overv
+iew.tex' to `Chapters/secureBootstrapping/sztp/overview.tex' on input line 8.
+
+:<+ Chapters/secureBootstrapping/sztp/overview.tex
+(Chapters/secureBootstrapping/sztp/overview.tex)
+:<-
+Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/sztp/proto
+colDetails.tex' to `Chapters/secureBootstrapping/sztp/protocolDetails.tex' on i
+nput line 10.
+:<+ Chapters/secureBootstrapping/sztp/protocolDetails.tex
+(Chapters/secureBootstrapping/sztp/protocolDetails.tex)
+:<-
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/comparison
@@ -2039,23 +2084,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 1.
 
-[12]
-
-Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 1.
-
-
-
-Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 1.
-
-
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-1.
-
-[13]
+[14]
 chapter 5.
 Package srcltx Info: Expanded filename `Chapters/x3dh/Intro' to `Chapters/x3dh/
 Intro.tex' on input line 4.
@@ -2067,10 +2096,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--26
 
  []
 
-[14
+[15
 
 ]
-<images/X3dh.jpg, id=464, 199.34476pt x 180.675pt>
+<images/X3dh.jpg, id=478, 199.34476pt x 180.675pt>
 File: images/X3dh.jpg Graphic file (type jpg)
 <use images/X3dh.jpg>
 Package pdftex.def Info: images/X3dh.jpg  used on input line 57.
@@ -2085,7 +2114,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--63
 
  []
 
-[15]
+[16]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 69.
@@ -2094,7 +2123,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 69.
 
-[16 <./images/X3dh.jpg>]
+[17 <./images/X3dh.jpg>]
 Package srcltx Info: Expanded filename `Chapters/x3dh/Modelling' to `Chapters/x
 3dh/Modelling.tex' on input line 81.
 
@@ -2106,9 +2135,9 @@ Package srcltx Info: Expanded filename `code/x3dh.anb' to `code/x3dh.anb.tex' o
 n input line 8.
 
 :<+ code/x3dh.anb.tex
-(code/x3dh.anb [17])
+(code/x3dh.anb [18])
 :<-
-[18]
+[19]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
 6.
  (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
@@ -2117,12 +2146,12 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
 
-[19])
+[20])
 :<-
 Package srcltx Info: Expanded filename `Chapters/x3dh/diff' to `Chapters/x3dh/d
 iff.tex' on input line 82.
 :<+ Chapters/x3dh/diff.tex
-(Chapters/x3dh/diff.tex [20])
+(Chapters/x3dh/diff.tex [21])
 :<-
 Package srcltx Info: Expanded filename `Chapters/x3dh/conclusion' to `Chapters/
 x3dh/conclusion.tex' on input line 83.
@@ -2134,14 +2163,14 @@ x3dh/conclusion.tex' on input line 83.
 Package srcltx Info: Expanded filename `Chapters/doubleRatchet/DoubleRatchet.te
 x' to `Chapters/doubleRatchet/DoubleRatchet.tex' on input line 182.
 :<+ Chapters/doubleRatchet/DoubleRatchet.tex
-(Chapters/doubleRatchet/DoubleRatchet.tex [21]
+(Chapters/doubleRatchet/DoubleRatchet.tex [22]
 chapter 6.
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/implementation/Implementation.
 tex' to `Chapters/implementation/Implementation.tex' on input line 183.
 :<+ Chapters/implementation/Implementation.tex
-(Chapters/implementation/Implementation.tex [22
+(Chapters/implementation/Implementation.tex [23
 
 ]
 chapter 7.
@@ -2150,7 +2179,7 @@ chapter 7.
 Package srcltx Info: Expanded filename `Chapters/evaluation/Evaluation.tex' to 
 `Chapters/evaluation/Evaluation.tex' on input line 184.
 :<+ Chapters/evaluation/Evaluation.tex
-(Chapters/evaluation/Evaluation.tex [23
+(Chapters/evaluation/Evaluation.tex [24
 
 ]
 chapter 8.
@@ -2159,29 +2188,29 @@ chapter 8.
 Package srcltx Info: Expanded filename `Chapters/Conclusion.tex' to `Chapters/C
 onclusion.tex' on input line 185.
 :<+ Chapters/Conclusion.tex
-(Chapters/Conclusion.tex [24
+(Chapters/Conclusion.tex [25
 
 ]
 chapter 9.
 )
 :<-
-[25
-
-]
-chapter without number
 [26
 
 ]
+chapter without number
+[27
+
+] [28]
 Package srcltx Info: Expanded filename `Chapters/appendix.tex' to `Chapters/app
 endix.tex' on input line 196.
 
 :<+ Chapters/appendix.tex
-(Chapters/appendix.tex [27]
+(Chapters/appendix.tex [29]
 chapter A.
 Package srcltx Info: Expanded filename `Appendix/Protocols Comparison.tex' to `
 Appendix/Protocols Comparison.tex' on input line 3.
 :<+ Appendix/Protocols Comparison.tex
-(Appendix/Protocols Comparison.tex [28
+(Appendix/Protocols Comparison.tex [30
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--15
@@ -2263,9 +2292,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \OT1/cmr/bx/n/10.95 (be-fore boot-strap
  []
 
-[29
+[31
 
-] [30] [31])
+] [32] [33])
 :<-
 Package srcltx Info: Expanded filename `Appendix/Terminology comparison.tex' to
  `Appendix/Terminology comparison.tex' on input line 5.
@@ -2333,7 +2362,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
 :<-
 )
 :<-
-[32
+[34
 
 ] (thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
@@ -2343,13 +2372,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37804 strings out of 479334
- 668304 string characters out of 2856609
- 2192648 words of memory out of 3000000
- 54252 multiletter control sequences out of 15000+200000
- 420981 words of font info for 91 fonts, out of 3000000 for 9000
+ 37853 strings out of 479334
+ 669366 string characters out of 2856609
+ 2192901 words of memory out of 3000000
+ 54291 multiletter control sequences out of 15000+200000
+ 420622 words of font info for 90 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 117i,31n,116p,10603b,3017s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 117i,32n,116p,10603b,3016s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2370,28 +2399,27 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 nc}<C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmbx10.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Hossam/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Hossam/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Hoss
-am/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/U
-sers/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.
-pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr6.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Hossam/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Hossam/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Hossam/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Hos
-sam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/
-Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt1
-0.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmtt9.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/urw/h
-elvetic/uhvb8a.pfb>
-Output written on thesis.pdf (42 pages, 748322 bytes).
+e1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Hossam/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Hossam/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Hossam/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
+s/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
+><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr17.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr6.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Hossam/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Hossam/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Hossam/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Hossam
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Us
+ers/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
+fb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
+8a.pfb>
+Output written on thesis.pdf (44 pages, 744637 bytes).
 PDF statistics:
- 956 PDF objects out of 1000 (max. 8388607)
- 235 named destinations out of 1000 (max. 500000)
- 503 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 977 PDF objects out of 1000 (max. 8388607)
+ 240 named destinations out of 1000 (max. 500000)
+ 519 words of extra memory for PDF output out of 10000 (max. 10000000)
 
