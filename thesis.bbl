@@ -1091,6 +1091,50 @@
       \verb https://rfc-editor.org/rfc/rfc3339.txt
       \endverb
     \endentry
+    \entry{dnssec}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=5a4fe63fb731efc7734a310f2341164a}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Paul\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=928dba68c1cabbd35dbad57ce1d09c36}{%
+           family={Schlyter},
+           familyi={S\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{80033781f144697b606d1583ef64cb75}
+      \strng{fullhash}{80033781f144697b606d1583ef64cb75}
+      \strng{bibnamehash}{80033781f144697b606d1583ef64cb75}
+      \strng{authorbibnamehash}{80033781f144697b606d1583ef64cb75}
+      \strng{authornamehash}{80033781f144697b606d1583ef64cb75}
+      \strng{authorfullhash}{80033781f144697b606d1583ef64cb75}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Encrypted communication on the Internet often uses Transport Layer Security (TLS), which depends on third parties to certify the keys used. This document improves on that situation by enabling the administrators of domain names to specify the keys used in that domain's TLS servers. This requires matching improvements in TLS client software, but no change in TLS server software. {[}STANDARDS-TRACK{]}}
+      \field{howpublished}{RFC 6698}
+      \field{month}{8}
+      \field{number}{6698}
+      \field{pagetotal}{37}
+      \field{series}{Request for Comments}
+      \field{title}{{The DNS-Based Authentication of Named Entities (DANE) Transport Layer Security (TLS) Protocol: TLSA}}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.17487/RFC6698
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc6698.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc6698.txt
+      \endverb
+    \endentry
     \entry{handbookOfAppliedCrypto}{book}{}
       \name{author}{3}{}{%
         {{hash=78e2730678cdcdff7cebb4f7d2732ff6}{%
@@ -1198,8 +1242,8 @@
       \strng{authorbibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
       \strng{authornamehash}{799e35678fe13bd4153a6f19f7f54b9c}
       \strng{authorfullhash}{799e35678fe13bd4153a6f19f7f54b9c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Protocol security verification tutorial}

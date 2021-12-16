@@ -2375,13 +2375,15 @@
     <bcf:citekey order="30">rfc2131</bcf:citekey>
     <bcf:citekey order="31">brski</bcf:citekey>
     <bcf:citekey order="32">rfc3339</bcf:citekey>
-    <bcf:citekey order="33">handbookOfAppliedCrypto</bcf:citekey>
-    <bcf:citekey order="34">handbookOfAppliedCrypto</bcf:citekey>
-    <bcf:citekey order="35">x3dh</bcf:citekey>
-    <bcf:citekey order="36">x3dh</bcf:citekey>
-    <bcf:citekey order="37">ofmc</bcf:citekey>
+    <bcf:citekey order="33">dnssec</bcf:citekey>
+    <bcf:citekey order="34">sztp</bcf:citekey>
+    <bcf:citekey order="35">handbookOfAppliedCrypto</bcf:citekey>
+    <bcf:citekey order="36">handbookOfAppliedCrypto</bcf:citekey>
+    <bcf:citekey order="37">x3dh</bcf:citekey>
     <bcf:citekey order="38">x3dh</bcf:citekey>
-    <bcf:citekey order="39">ofmcTut</bcf:citekey>
+    <bcf:citekey order="39">ofmc</bcf:citekey>
+    <bcf:citekey order="40">x3dh</bcf:citekey>
+    <bcf:citekey order="41">ofmcTut</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
