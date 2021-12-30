@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  16 DEC 2021 09:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  30 DEC 2021 02:42
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1844,7 +1844,7 @@ chapter 3.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 4.
 
-<Images/E-Gate-Architecture.png, id=271, 700.41675pt x 442.0515pt>
+<Images/E-Gate-Architecture.png, id=273, 700.41675pt x 442.0515pt>
 File: Images/E-Gate-Architecture.png Graphic file (type png)
 <use Images/E-Gate-Architecture.png>
 Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 14.
@@ -1853,7 +1853,7 @@ Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 14.
 [3
 
 ]
-<Images/ABC.jpeg, id=293, 607.26875pt x 480.79625pt>
+<Images/ABC.jpeg, id=295, 607.26875pt x 480.79625pt>
 File: Images/ABC.jpeg Graphic file (type jpg)
 <use Images/ABC.jpeg>
 Package pdftex.def Info: Images/ABC.jpeg  used on input line 24.
@@ -1903,7 +1903,7 @@ view.tex' to `Chapters/secureBootstrapping/brski/overview.tex' on input line 5.
 
 :<+ Chapters/secureBootstrapping/brski/overview.tex
 (Chapters/secureBootstrapping/brski/overview.tex
-<Images/brski-overview.png, id=386, 670.359pt x 89.571pt>
+<Images/brski-overview.png, id=388, 670.359pt x 89.571pt>
 File: Images/brski-overview.png Graphic file (type png)
 <use Images/brski-overview.png>
 Package pdftex.def Info: Images/brski-overview.png  used on input line 7.
@@ -1947,7 +1947,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 3.
 
 [8]
-<Images/brski-architecture.png, id=421, 663.47874pt x 502.87875pt>
+<Images/brski-architecture.png, id=423, 663.47874pt x 502.87875pt>
 File: Images/brski-architecture.png Graphic file (type png)
 <use Images/brski-architecture.png>
 Package pdftex.def Info: Images/brski-architecture.png  used on input line 6.
@@ -2064,7 +2064,7 @@ iew.tex' to `Chapters/secureBootstrapping/sztp/overview.tex' on input line 8.
 
 :<+ Chapters/secureBootstrapping/sztp/overview.tex
 (Chapters/secureBootstrapping/sztp/overview.tex
-<Images/sztp-overview.png, id=467, 502.87875pt x 101.37875pt>
+<Images/sztp-overview.png, id=469, 502.87875pt x 101.37875pt>
 File: Images/sztp-overview.png Graphic file (type png)
 <use Images/sztp-overview.png>
 Package pdftex.def Info: Images/sztp-overview.png  used on input line 5.
@@ -2107,7 +2107,61 @@ Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/sztp/proto
 colDetails.tex' to `Chapters/secureBootstrapping/sztp/protocolDetails.tex' on i
 nput line 10.
 :<+ Chapters/secureBootstrapping/sztp/protocolDetails.tex
-(Chapters/secureBootstrapping/sztp/protocolDetails.tex)
+(Chapters/secureBootstrapping/sztp/protocolDetails.tex
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 13
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 13
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+13.
+
+[16]
+<Images/sztp-Protocol.png, id=503, 354.32375pt x 84.315pt>
+File: Images/sztp-Protocol.png Graphic file (type png)
+<use Images/sztp-Protocol.png>
+Package pdftex.def Info: Images/sztp-Protocol.png  used on input line 16.
+(pdftex.def)             Requested size: 221.32687pt x 52.66843pt.
+
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 28
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 28
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+28.
+
+[17 <./Images/sztp-Protocol.png>]
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 34
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 34
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+34.
+
+[18])
 :<-
 )
 :<-
@@ -2121,7 +2175,7 @@ Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/comparison
 Package srcltx Info: Expanded filename `Chapters/x3dh/X3DH.tex' to `Chapters/x3
 dh/X3DH.tex' on input line 180.
 :<+ Chapters/x3dh/X3DH.tex
-(Chapters/x3dh/X3DH.tex [16]
+(Chapters/x3dh/X3DH.tex [19]
 chapter 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2152,10 +2206,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--26
 
  []
 
-[17
+[20
 
 ]
-<images/X3dh.jpg, id=513, 199.34476pt x 180.675pt>
+<images/X3dh.jpg, id=537, 199.34476pt x 180.675pt>
 File: images/X3dh.jpg Graphic file (type jpg)
 <use images/X3dh.jpg>
 Package pdftex.def Info: images/X3dh.jpg  used on input line 57.
@@ -2170,7 +2224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--63
 
  []
 
-[18]
+[21]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 69.
@@ -2179,7 +2233,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 69.
 
-[19 <./images/X3dh.jpg>]
+[22 <./images/X3dh.jpg>]
 Package srcltx Info: Expanded filename `Chapters/x3dh/Modelling' to `Chapters/x
 3dh/Modelling.tex' on input line 81.
 
@@ -2191,9 +2245,9 @@ Package srcltx Info: Expanded filename `code/x3dh.anb' to `code/x3dh.anb.tex' o
 n input line 8.
 
 :<+ code/x3dh.anb.tex
-(code/x3dh.anb [20])
+(code/x3dh.anb [23])
 :<-
-[21]
+[24]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
 6.
  (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
@@ -2202,12 +2256,12 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
 
-[22])
+[25])
 :<-
 Package srcltx Info: Expanded filename `Chapters/x3dh/diff' to `Chapters/x3dh/d
 iff.tex' on input line 82.
 :<+ Chapters/x3dh/diff.tex
-(Chapters/x3dh/diff.tex [23])
+(Chapters/x3dh/diff.tex [26])
 :<-
 Package srcltx Info: Expanded filename `Chapters/x3dh/conclusion' to `Chapters/
 x3dh/conclusion.tex' on input line 83.
@@ -2219,14 +2273,14 @@ x3dh/conclusion.tex' on input line 83.
 Package srcltx Info: Expanded filename `Chapters/doubleRatchet/DoubleRatchet.te
 x' to `Chapters/doubleRatchet/DoubleRatchet.tex' on input line 181.
 :<+ Chapters/doubleRatchet/DoubleRatchet.tex
-(Chapters/doubleRatchet/DoubleRatchet.tex [24]
+(Chapters/doubleRatchet/DoubleRatchet.tex [27]
 chapter 6.
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/implementation/Implementation.
 tex' to `Chapters/implementation/Implementation.tex' on input line 182.
 :<+ Chapters/implementation/Implementation.tex
-(Chapters/implementation/Implementation.tex [25
+(Chapters/implementation/Implementation.tex [28
 
 ]
 chapter 7.
@@ -2235,7 +2289,7 @@ chapter 7.
 Package srcltx Info: Expanded filename `Chapters/evaluation/Evaluation.tex' to 
 `Chapters/evaluation/Evaluation.tex' on input line 183.
 :<+ Chapters/evaluation/Evaluation.tex
-(Chapters/evaluation/Evaluation.tex [26
+(Chapters/evaluation/Evaluation.tex [29
 
 ]
 chapter 8.
@@ -2244,29 +2298,29 @@ chapter 8.
 Package srcltx Info: Expanded filename `Chapters/Conclusion.tex' to `Chapters/C
 onclusion.tex' on input line 184.
 :<+ Chapters/Conclusion.tex
-(Chapters/Conclusion.tex [27
+(Chapters/Conclusion.tex [30
 
 ]
 chapter 9.
 )
 :<-
-[28
+[31
 
 ]
 chapter without number
-[29
+[32
 
-] [30]
+] [33]
 Package srcltx Info: Expanded filename `Chapters/appendix.tex' to `Chapters/app
 endix.tex' on input line 191.
 
 :<+ Chapters/appendix.tex
-(Chapters/appendix.tex [31]
+(Chapters/appendix.tex [34]
 chapter A.
 Package srcltx Info: Expanded filename `Appendix/Protocols Comparison.tex' to `
 Appendix/Protocols Comparison.tex' on input line 3.
 :<+ Appendix/Protocols Comparison.tex
-(Appendix/Protocols Comparison.tex [32
+(Appendix/Protocols Comparison.tex [35
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--15
@@ -2348,9 +2402,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \OT1/cmr/bx/n/10.95 (be-fore boot-strap
  []
 
-[33
+[36
 
-] [34] [35])
+] [37] [38])
 :<-
 Package srcltx Info: Expanded filename `Appendix/Terminology comparison.tex' to
  `Appendix/Terminology comparison.tex' on input line 5.
@@ -2418,7 +2472,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
 :<-
 )
 :<-
-[36
+[39
 
 ] (thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
@@ -2428,10 +2482,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37971 strings out of 479334
- 671273 string characters out of 2856609
- 2230391 words of memory out of 3000000
- 54401 multiletter control sequences out of 15000+200000
+ 37988 strings out of 479334
+ 671570 string characters out of 2856609
+ 2230503 words of memory out of 3000000
+ 54410 multiletter control sequences out of 15000+200000
  420622 words of font info for 90 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  117i,32n,116p,10603b,3016s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2473,9 +2527,9 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Hossam
 ers/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
 fb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
 8a.pfb>
-Output written on thesis.pdf (46 pages, 764521 bytes).
+Output written on thesis.pdf (49 pages, 778854 bytes).
 PDF statistics:
- 1016 PDF objects out of 1200 (max. 8388607)
- 247 named destinations out of 1000 (max. 500000)
- 524 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1043 PDF objects out of 1200 (max. 8388607)
+ 254 named destinations out of 1000 (max. 500000)
+ 529 words of extra memory for PDF output out of 10000 (max. 10000000)
 

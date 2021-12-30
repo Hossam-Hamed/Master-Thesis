@@ -1,4 +1,4 @@
-\subsection{Architecture Overview}
+\subsection{Architecture Overview}\label{subsec:sztp-overview}
 The protocol's architecture is divided into three abstract entities: the owner, the manufacturer, and the device. Figure \ref{sztp-architecture} illustrates the protocol's architecture.
 \begin{figure}[H]
 	\centering
@@ -29,6 +29,5 @@ Devices supporting DNS server as a bootstrap server are offered two prioritized 
 Similar to DNS servers, a DHCP server is another untrusted bootstrapping data source. It can be leveraged by deployments that already employ a DHCP infrastructure. However, a DHCP server is a limited bootstrapping source due to its lack of ability to transmit enough data to hold signed bootstrapping data. Nevertheless, a DHCP server can return to a device unsigned redirect information.
 \item
 Lastly, a specific bootstrap server can be deployed to provide bootstrapping data and receive data from devices. It is defined as a \gls{rstcnf} server that implements the YANG module described in \cite[Section~7]{sztp}. Moreover, it may be using \gls{tls} which may eliminate the requirement to sign the transmitted bootstrapping data if the bootstrap server is trusted. Otherwise, if the bootstrap server is not trusted by the device, the conveyed information must be signed or processed provisionally. Whether a bootstrap server is trusted or not depends on the device’s knowledge of the server’s trust anchor. A bootstrap server exposes two endpoints to communicate with devices. Namely, the ``get-bootstrapping-data” for devices to request bootstrapping data and the ``report-progress” for devices to report their bootstrapping process status back to the bootstrap server, such as warnings, errors, and the result of the process. A bootstrap server may be hosted by the owner or is an internet accessible server hosted by the manufacturer.
-
 
 \end{itemize}

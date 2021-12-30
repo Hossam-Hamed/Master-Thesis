@@ -46,7 +46,7 @@ First of all, Alice fetches a `prekey bundle` from the server to contact Bob. Th
 Alice verifies the prekey signature and quits the protocol if the verification fails.
 \par
 At this point, Alice has enough information from Bob to deduce a shared secret. Alice generates her Ephemeral key pair $ EK_{A} $. With the set of available keys, Alice performs three Diffie-Hellmann operations which can be extended to four if a $ OPK_{B} $ is available.\\
-\\$ DH1 = DH(IK_{A_{p}} \footnote{`p` indicates the private key of the key pair.}, SPK_{B}) $
+\\$ DH1 = DH(IK_{A_{p}} \footnote{`p' indicates the private key of the key pair.}, SPK_{B}) $
 \\$ DH2 = DH(EK_{A_{p}}, IK_{B}) $
 \\$ DH3 = DH(EK_{A_{p}}, SPK_{B}) $
 \\\textcolor{gray}{$ DH4 = DH(EK_{A_{p}}, OPK_{B}) $}\\\\
