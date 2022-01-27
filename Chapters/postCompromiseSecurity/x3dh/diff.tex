@@ -1,11 +1,11 @@
-\section{Difference from specification}
-\subsection{Registration Phase}
+\subsection{Difference from specification}
+\subsubsection{Registration Phase}
 The specification was not specific about how to securely publish Bob's keys to the server and the security of the connection between the server and the communicating parties. Therefore, the registration message from Bob to the server is encrypted by the server's public key.
-\subsection{Use of Signatures}
+\subsubsection{Use of Signatures}
 The specification discouraged the use of signatures as they reduce deniability which is a desired feature in the messaging application setting which the protocol is intended for. However, this model used signatures.
 \begin{enumerate}
 	\item Signature are used in responses from the server to assure integrity of messages to receivers.
 	\item Alice and Bob have an additional key pair for signing other than the identity key pairs. They are used to sign parts of messages which were vulnerable to attacks by intruders and would break the protocol's security. For example, Bob's keys which Alice used to compute $ SK $ in message 27.
 \end{enumerate}
-\subsection{Use of Certificates}
+\subsubsection{Use of Certificates}
 Alice used a certificate signed by the server to authenticate itself in-band as opposed to the specification which ruled the authentication between the parties as a necessary but out of scope operation.

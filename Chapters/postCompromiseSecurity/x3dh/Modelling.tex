@@ -1,5 +1,7 @@
-\section{OFMC Modelling}
-Presented in listing \ref{model} the code for modelling the protocol in OFMC using the language AnB. This section explains the code of the model section by section.
+\subsection{OFMC Modeling}
+\textbf{\LARGE \# FIXME add info about the goal of ofmc modelling and the type of adversary tested against}\\
+
+Presented in listing \ref{model} the code for modeling the protocol in OFMC using the \textit{AnB} language. This section explains the code of the modeling.
 \lstinputlisting[numbers=left,                    
 numberblanklines=false, breaklines=true, columns=fullflexible,
 frame=single,
@@ -7,7 +9,7 @@ breaklines=true,
 postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
 caption={X3DH OFMC Model},captionpos=b, label={model}]{code/x3dh.anb}
 
-\subsection{Types section} 
+\subsubsection{Types section} 
 Here, the parameters of the protocol are defined, e.g. variables, constants, roles, etc. Line 4 defines the participants of the protocol of type \textbf{Agent}.
 \begin{itemize}\setlength\itemsep{-0.3em}
 	\item A and B: Variables indicating Alice and Bob. A variable may be dishonest in an OFMC protocol run.
@@ -32,11 +34,11 @@ Line 6 defines the numbers used in the protocol. Lower-case numbers are constant
 	\item MSG1 and MSG2: Random numbers used as placeholders for random and fresh messages.
 \end{itemize}
 
-\subsection{Knowledge section}
+\subsubsection{Knowledge section}
 This section of the model defines what knowledge is initially known to each party before the protocol starts. Line 9 defines Alice's knowledge which contains, in addition to the previously defined parameters, Alice's certificate modeled as `\{A, pk(A)\}inv(pk(s))`. This translates to Alice's identity `\textbf{A}` and Alice's public key `\textbf{pk(A)}` are signed using the servers private key `\textbf{inv(pk(s))}'. 
 
 Line 15 holds a `where` clause that strictly defines A and B as different parties to avoid the scenario where A or B talk to itself.
-\subsection{Actions section}
+\subsubsection{Actions section}
 The Actions section states the protocol's message sequence between the participating parties for a successful protocol run. Throughout this section messages are referred to according to their line number, e.g message 19 is the message in line number 19 of the model code.
 \par
 Message 19 represents the registration phase where Bob publishes his public information to the server. The message contains the following:
@@ -60,7 +62,7 @@ Message 27 represents the initial message from Alice to Bob. It is composed of t
 \end{itemize}
 \par
 Message 38 is the last message of the protocol run. It is where Bob shows he is able to compute the same $ SK $. 
-\subsection{Goals section}
+\subsubsection{Goals section}
 This section of the model lists the security goals which the protocol must achieve at the end of a run. There are two types of goals
 \begin{itemize}\setlength\itemsep{-0.3em}
 	\item Authenticity: When a party wants to make sure a certain message has been generated and sent by the other party. In this model, Alice and Bob authenticate each others' public keys. Bob authenticates the server on the keys he received in message 27 from Alice, to be sure that the keys are forwarded by Alice from the server without tampering.

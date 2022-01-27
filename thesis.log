@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  30 DEC 2021 02:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  27 JAN 2022 05:12
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1504,14 +1504,22 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rot@float@box=\box119
 \rot@mess@toks=\toks61
 )
-\c@theorem=\count495
-\c@corollary=\count496
-\c@lemma=\count497
-\c@example=\count498
-\c@def_internal=\count499
+(C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip121
+\enit@outerparindent=\dimen297
+\enit@toks=\toks62
+\enit@inbox=\box120
+\enit@count@id=\count495
+\enitdp@description=\count496
+)
+\c@theorem=\count497
+\c@corollary=\count498
+\c@lemma=\count499
+\c@example=\count500
+\c@def_internal=\count501
 Package srcltx Info: Expanded filename `acrynoms.tex' to `acrynoms.tex' on inpu
-t line 121.
-
+t line 123.
 :<+ acrynoms.tex
 (acrynoms.tex)
 :<-
@@ -1519,7 +1527,7 @@ t line 121.
 \glo@abbreviations@file=\write6
 \openout6 = `thesis.glo-abr'.
 
-Package glossaries Info: Writing glossary file thesis.glo-abr on input line 123
+Package glossaries Info: Writing glossary file thesis.glo-abr on input line 125
 .
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
@@ -1531,41 +1539,41 @@ Package csquotes Info: ... found 'babel' package.
 (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-Package scrbase Info: activating english \contentsname on input line 126.
-Package scrbase Info: activating english \listfigurename on input line 126.
-Package scrbase Info: activating english \listtablename on input line 126.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+Package scrbase Info: activating english \contentsname on input line 128.
+Package scrbase Info: activating english \listfigurename on input line 128.
+Package scrbase Info: activating english \listtablename on input line 128.
 Configuring pdfsync
 \PDFSYNC@ut=\write7
 \openout7 = `thesis.pdfsync'.
 
-\PDFSYNCf@li@=\count500
-\PDFSYNC@rder=\count501
+\PDFSYNCf@li@=\count502
+\PDFSYNC@rder=\count503
 **** pdfsync.sty: Synchronizing at \everypar
-\PDFSYNCeveryp@r=\toks62
+\PDFSYNCeveryp@r=\toks63
 **** pdfsync.sty: Synchronizing at \everymath
-\PDFSYNCeverym@th=\toks63
+\PDFSYNCeverym@th=\toks64
 **** pdfsync.sty: Synchronizing at \everyhbox
-\PDFSYNCeveryhb@x=\toks64
+\PDFSYNCeveryhb@x=\toks65
 **** pdfsync.sty: Synchronizing at \everyvbox
-\PDFSYNCeveryvb@x=\toks65
+\PDFSYNCeveryvb@x=\toks66
 **** pdfsync.sty: started
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1612,23 +1620,23 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 126.
-Package biblatex Info: Reference segment=0 on input line 126.
+Package biblatex Info: Reference section=0 on input line 128.
+Package biblatex Info: Reference segment=0 on input line 128.
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count502
-\scratchdimen=\dimen297
-\scratchbox=\box120
-\nofMPsegments=\count503
-\nofMParguments=\count504
-\everyMPshowfont=\toks66
-\MPscratchCnt=\count505
-\MPscratchDim=\dimen298
-\MPnumerator=\count506
-\makeMPintoPDFobject=\count507
-\everyMPtoPDFconversion=\toks67
+\scratchcounter=\count504
+\scratchdimen=\dimen298
+\scratchbox=\box121
+\nofMPsegments=\count505
+\nofMParguments=\count506
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count507
+\MPscratchDim=\dimen299
+\MPnumerator=\count508
+\makeMPintoPDFobject=\count509
+\everyMPtoPDFconversion=\toks68
 )
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
 base.sty
@@ -1636,19 +1644,19 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 126
+LaTeX Font Info:    Trying to load font information for U+msa on input line 128
 .
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 126
+LaTeX Font Info:    Trying to load font information for U+msb on input line 128
 .
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.43799pt on input line 126.
+Package xypdf Info: Line width: 0.43799pt on input line 128.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1656,7 +1664,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 126.
+Package hyperref Info: Link coloring OFF on input line 128.
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1668,11 +1676,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count508
+\c@section@level=\count510
 )
-LaTeX Info: Redefining \ref on input line 126.
-LaTeX Info: Redefining \pageref on input line 126.
-LaTeX Info: Redefining \nameref on input line 126.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
  (thesis.out) (thesis.out)
 \@outlinefile=\write8
 \openout8 = `thesis.out'.
@@ -1684,7 +1692,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 126.
+(scrreprt)           before \begin{document} on input line 128.
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1692,14 +1700,14 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.de
 f
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count509
+\BKM@id=\count511
 ))
-\c@lstlisting=\count510
-Package scrhack Info: undefining \float@addtolists on input line 126.
+\c@lstlisting=\count512
+Package scrhack Info: undefining \float@addtolists on input line 128.
 <Images/unilogo_en.pdf, id=3, 369.7822pt x 113.705pt>
 File: Images/unilogo_en.pdf Graphic file (type pdf)
 <use Images/unilogo_en.pdf>
-Package pdftex.def Info: Images/unilogo_en.pdf  used on input line 150.
+Package pdftex.def Info: Images/unilogo_en.pdf  used on input line 152.
 (pdftex.def)             Requested size: 203.56703pt x 62.59596pt.
  [1
 
@@ -1712,48 +1720,63 @@ go_en.pdf>] [2
 ] (thesis.toc
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 52
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 36
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 52
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 36
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-52.
+36.
 
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 58
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 56
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 58
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 56
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-58.
+56.
 
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 66
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 62
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 66
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 62
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-66.
+62.
+
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 72
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 72
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+72.
 
 [1
 
@@ -1763,7 +1786,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 
  [2]
 Package srcltx Info: Expanded filename `Chapters/abstract.tex' to `Chapters/abs
-tract.tex' on input line 159.
+tract.tex' on input line 161.
 
 :<+ Chapters/abstract.tex
 (Chapters/abstract.tex)
@@ -1772,7 +1795,7 @@ tract.tex' on input line 159.
 
 ]
 Package srcltx Info: Expanded filename `Chapters/acknowledgements.tex' to `Chap
-ters/acknowledgements.tex' on input line 163.
+ters/acknowledgements.tex' on input line 165.
 
 :<+ Chapters/acknowledgements.tex
 (Chapters/acknowledgements.tex)
@@ -1793,7 +1816,7 @@ ters/acknowledgements.tex' on input line 163.
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-73.
+75.
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
@@ -1803,7 +1826,7 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 
 ]
 Package srcltx Info: Expanded filename `Chapters/introduction/introduction.tex'
- to `Chapters/introduction/introduction.tex' on input line 176.
+ to `Chapters/introduction/introduction.tex' on input line 178.
 
 :<+ Chapters/introduction/introduction.tex
 (Chapters/introduction/introduction.tex [8]
@@ -1811,7 +1834,7 @@ chapter 1.
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/background/background.tex' to 
-`Chapters/background/background.tex' on input line 177.
+`Chapters/background/background.tex' on input line 179.
 :<+ Chapters/background/background.tex
 (Chapters/background/background.texpdfTeX warning (ext4): destination with the 
 same identifier (name{page.1}) has been already used, duplicate ignored
@@ -1823,13 +1846,28 @@ l.1 \chapter
 ]
 chapter 2.
 
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 21
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 21
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+21.
+
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sout' on input line 25.
+(hyperref)                removing `\acrfull' on input line 21.
 
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/useCases/useCases.tex' to `Cha
-pters/useCases/useCases.tex' on input line 178.
+pters/useCases/useCases.tex' on input line 180.
 :<+ Chapters/useCases/useCases.tex
 (Chapters/useCases/useCases.texpdfTeX warning (ext4): destination with the same
  identifier (name{page.2}) has been already used, duplicate ignored
@@ -1844,7 +1882,7 @@ chapter 3.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 4.
 
-<Images/E-Gate-Architecture.png, id=273, 700.41675pt x 442.0515pt>
+<Images/E-Gate-Architecture.png, id=299, 700.41675pt x 442.0515pt>
 File: Images/E-Gate-Architecture.png Graphic file (type png)
 <use Images/E-Gate-Architecture.png>
 Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 14.
@@ -1853,7 +1891,7 @@ Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 14.
 [3
 
 ]
-<Images/ABC.jpeg, id=295, 607.26875pt x 480.79625pt>
+<Images/ABC.jpeg, id=321, 607.26875pt x 480.79625pt>
 File: Images/ABC.jpeg Graphic file (type jpg)
 <use Images/ABC.jpeg>
 Package pdftex.def Info: Images/ABC.jpeg  used on input line 24.
@@ -1867,7 +1905,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 :<-
 Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/SecureBoot
 strapping.tex' to `Chapters/secureBootstrapping/SecureBootstrapping.tex' on inp
-ut line 179.
+ut line 181.
 :<+ Chapters/secureBootstrapping/SecureBootstrapping.tex
 (Chapters/secureBootstrapping/SecureBootstrapping.tex [5]
 chapter 4.
@@ -1903,7 +1941,7 @@ view.tex' to `Chapters/secureBootstrapping/brski/overview.tex' on input line 5.
 
 :<+ Chapters/secureBootstrapping/brski/overview.tex
 (Chapters/secureBootstrapping/brski/overview.tex
-<Images/brski-overview.png, id=388, 670.359pt x 89.571pt>
+<Images/brski-overview.png, id=414, 670.359pt x 89.571pt>
 File: Images/brski-overview.png Graphic file (type png)
 <use Images/brski-overview.png>
 Package pdftex.def Info: Images/brski-overview.png  used on input line 7.
@@ -1947,7 +1985,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 3.
 
 [8]
-<Images/brski-architecture.png, id=423, 663.47874pt x 502.87875pt>
+<Images/brski-architecture.png, id=449, 663.47874pt x 502.87875pt>
 File: Images/brski-architecture.png Graphic file (type png)
 <use Images/brski-architecture.png>
 Package pdftex.def Info: Images/brski-architecture.png  used on input line 6.
@@ -2064,7 +2102,7 @@ iew.tex' to `Chapters/secureBootstrapping/sztp/overview.tex' on input line 8.
 
 :<+ Chapters/secureBootstrapping/sztp/overview.tex
 (Chapters/secureBootstrapping/sztp/overview.tex
-<Images/sztp-overview.png, id=469, 502.87875pt x 101.37875pt>
+<Images/sztp-overview.png, id=495, 502.87875pt x 101.37875pt>
 File: Images/sztp-overview.png Graphic file (type png)
 <use Images/sztp-overview.png>
 Package pdftex.def Info: Images/sztp-overview.png  used on input line 5.
@@ -2124,7 +2162,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 13.
 
 [16]
-<Images/sztp-Protocol.png, id=503, 354.32375pt x 84.315pt>
+<Images/sztp-Protocol.png, id=529, 354.32375pt x 84.315pt>
 File: Images/sztp-Protocol.png Graphic file (type png)
 <use Images/sztp-Protocol.png>
 Package pdftex.def Info: Images/sztp-Protocol.png  used on input line 16.
@@ -2168,19 +2206,20 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/comparison
 .tex' to `Chapters/secureBootstrapping/comparison.tex' on input line 24.
 :<+ Chapters/secureBootstrapping/comparison.tex
-(Chapters/secureBootstrapping/comparison.tex)
+(Chapters/secureBootstrapping/comparison.tex [19])
 :<-
 )
 :<-
-Package srcltx Info: Expanded filename `Chapters/x3dh/X3DH.tex' to `Chapters/x3
-dh/X3DH.tex' on input line 180.
-:<+ Chapters/x3dh/X3DH.tex
-(Chapters/x3dh/X3DH.tex [19]
+Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/Post-Co
+mpromiseSecurity.tex' to `Chapters/postCompromiseSecurity/Post-CompromiseSecuri
+ty.tex' on input line 182.
+:<+ Chapters/postCompromiseSecurity/Post-CompromiseSecurity.tex
+(Chapters/postCompromiseSecurity/Post-CompromiseSecurity.tex [20]
 chapter 5.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrfull' on input line 1.
-
+Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/x3dh/X3
+DH.tex' to `Chapters/postCompromiseSecurity/x3dh/X3DH.tex' on input line 4.
+:<+ Chapters/postCompromiseSecurity/x3dh/X3DH.tex
+(Chapters/postCompromiseSecurity/x3dh/X3DH.tex
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 1.
@@ -2196,285 +2235,365 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 1.
 
-Package srcltx Info: Expanded filename `Chapters/x3dh/Intro' to `Chapters/x3dh/
-Intro.tex' on input line 4.
-:<+ Chapters/x3dh/Intro.tex
-(Chapters/x3dh/Intro.tex)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrfull' on input line 1.
+
+Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/x3dh/In
+tro.tex' to `Chapters/postCompromiseSecurity/x3dh/Intro.tex' on input line 4.
+:<+ Chapters/postCompromiseSecurity/x3dh/Intro.tex
+(Chapters/postCompromiseSecurity/x3dh/Intro.tex)
 :<-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--26
-
- []
-
-[20
+[21
 
 ]
-<images/X3dh.jpg, id=537, 199.34476pt x 180.675pt>
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 52
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 52
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+52.
+
+[22]
+<images/X3dh.jpg, id=612, 199.34476pt x 180.675pt>
 File: images/X3dh.jpg Graphic file (type jpg)
 <use images/X3dh.jpg>
-Package pdftex.def Info: images/X3dh.jpg  used on input line 57.
+Package pdftex.def Info: images/X3dh.jpg  used on input line 62.
 (pdftex.def)             Requested size: 177.05879pt x 160.47491pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--63
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 86
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 86
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+86.
+
+[23 <./images/X3dh.jpg>]
+Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/x3dh/Mo
+delling' to `Chapters/postCompromiseSecurity/x3dh/Modelling.tex' on input line 
+93.
+
+:<+ Chapters/postCompromiseSecurity/x3dh/Modelling.tex
+(Chapters/postCompromiseSecurity/x3dh/Modelling.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--63
-
- []
-
-[21]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 69.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 69.
-
-[22 <./images/X3dh.jpg>]
-Package srcltx Info: Expanded filename `Chapters/x3dh/Modelling' to `Chapters/x
-3dh/Modelling.tex' on input line 81.
-
-:<+ Chapters/x3dh/Modelling.tex
-(Chapters/x3dh/Modelling.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 8.
+nput line 10.
 Package srcltx Info: Expanded filename `code/x3dh.anb' to `code/x3dh.anb.tex' o
-n input line 8.
-
+n input line 10.
 :<+ code/x3dh.anb.tex
-(code/x3dh.anb [23])
+(code/x3dh.anb
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 23
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 23
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+23.
+
+[24])
 :<-
-[24]
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 23
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 23
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+23.
+
+[25]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-6.
+8.
  (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
 
-[25])
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 55
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 55
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+55.
+
+[26])
 :<-
-Package srcltx Info: Expanded filename `Chapters/x3dh/diff' to `Chapters/x3dh/d
-iff.tex' on input line 82.
-:<+ Chapters/x3dh/diff.tex
-(Chapters/x3dh/diff.tex [26])
-:<-
-Package srcltx Info: Expanded filename `Chapters/x3dh/conclusion' to `Chapters/
-x3dh/conclusion.tex' on input line 83.
-:<+ Chapters/x3dh/conclusion.tex
-(Chapters/x3dh/conclusion.tex)
+Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/x3dh/di
+ff' to `Chapters/postCompromiseSecurity/x3dh/diff.tex' on input line 94.
+:<+ Chapters/postCompromiseSecurity/x3dh/diff.tex
+(Chapters/postCompromiseSecurity/x3dh/diff.tex)
 :<-
 )
 :<-
-Package srcltx Info: Expanded filename `Chapters/doubleRatchet/DoubleRatchet.te
-x' to `Chapters/doubleRatchet/DoubleRatchet.tex' on input line 181.
-:<+ Chapters/doubleRatchet/DoubleRatchet.tex
-(Chapters/doubleRatchet/DoubleRatchet.tex [27]
-chapter 6.
+Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/doubleR
+atchet/DoubleRatchet.tex' to `Chapters/postCompromiseSecurity/doubleRatchet/Dou
+bleRatchet.tex' on input line 5.
+:<+ Chapters/postCompromiseSecurity/doubleRatchet/DoubleRatchet.tex
+(Chapters/postCompromiseSecurity/doubleRatchet/DoubleRatchet.tex
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 1.
+
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 1.
+
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+1.
+
+[27]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 8.
+
+<Images/kdf-chain.jpg, id=713, 329.43076pt x 449.2785pt>
+File: Images/kdf-chain.jpg Graphic file (type jpg)
+<use Images/kdf-chain.jpg>
+Package pdftex.def Info: Images/kdf-chain.jpg  used on input line 14.
+(pdftex.def)             Requested size: 131.76996pt x 179.7082pt.
+[28 <./Images/kdf-chain.jpg>]
+<Images/dr-bobRatchet.png, id=732, 654.445pt x 402.50375pt>
+File: Images/dr-bobRatchet.png Graphic file (type png)
+<use Images/dr-bobRatchet.png>
+Package pdftex.def Info: Images/dr-bobRatchet.png  used on input line 46.
+(pdftex.def)             Requested size: 392.67003pt x 241.5041pt.
+ [29] [30 <./Images/dr-bobRatchet.png>]
+<Images/fullDHRatchetStep.jpg, id=749, 330.033pt x 260.77425pt>
+File: Images/fullDHRatchetStep.jpg Graphic file (type jpg)
+<use Images/fullDHRatchetStep.jpg>
+Package pdftex.def Info: Images/fullDHRatchetStep.jpg  used on input line 74.
+(pdftex.def)             Requested size: 198.02132pt x 156.46574pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 85.
+
+)
+:<-
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/implementation/Implementation.
-tex' to `Chapters/implementation/Implementation.tex' on input line 182.
+tex' to `Chapters/implementation/Implementation.tex' on input line 184.
 :<+ Chapters/implementation/Implementation.tex
-(Chapters/implementation/Implementation.tex [28
+(Chapters/implementation/Implementation.tex [31 <./Images/fullDHRatchetStep.jpg
+>]
+chapter 6.
+)
+:<-
+Package srcltx Info: Expanded filename `Chapters/evaluation/Evaluation.tex' to 
+`Chapters/evaluation/Evaluation.tex' on input line 185.
+:<+ Chapters/evaluation/Evaluation.tex
+(Chapters/evaluation/Evaluation.tex [32
 
 ]
 chapter 7.
 )
 :<-
-Package srcltx Info: Expanded filename `Chapters/evaluation/Evaluation.tex' to 
-`Chapters/evaluation/Evaluation.tex' on input line 183.
-:<+ Chapters/evaluation/Evaluation.tex
-(Chapters/evaluation/Evaluation.tex [29
+Package srcltx Info: Expanded filename `Chapters/Conclusion.tex' to `Chapters/C
+onclusion.tex' on input line 186.
+:<+ Chapters/Conclusion.tex
+(Chapters/Conclusion.tex [33
 
 ]
 chapter 8.
 )
 :<-
-Package srcltx Info: Expanded filename `Chapters/Conclusion.tex' to `Chapters/C
-onclusion.tex' on input line 184.
-:<+ Chapters/Conclusion.tex
-(Chapters/Conclusion.tex [30
-
-]
-chapter 9.
-)
-:<-
-[31
+[34
 
 ]
 chapter without number
-[32
+[35
 
-] [33]
+] [36]
 Package srcltx Info: Expanded filename `Chapters/appendix.tex' to `Chapters/app
-endix.tex' on input line 191.
+endix.tex' on input line 193.
 
 :<+ Chapters/appendix.tex
-(Chapters/appendix.tex [34]
+(Chapters/appendix.tex [37]
 chapter A.
 Package srcltx Info: Expanded filename `Appendix/Protocols Comparison.tex' to `
 Appendix/Protocols Comparison.tex' on input line 3.
 :<+ Appendix/Protocols Comparison.tex
-(Appendix/Protocols Comparison.tex [35
+(Appendix/Protocols Comparison.tex [38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[][][][]|\OT1/cmr/bx/n/10.95 communication
+Underfull \hbox (badness 1019) in paragraph at lines 19--19
+[][][][]|\OT1/cmr/bx/n/10.95 Communication chan-nels
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 15--15
-[][][]|\OT1/cmr/m/n/10.95 Device<->Owner(<->MASA: not pro-to-col
+Underfull \hbox (badness 7030) in paragraph at lines 71--71
+\OT1/cmr/m/n/10.95 as-so-ci-ated with the man-u-fac-turer's
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 17--17
-[][][][]|\OT1/cmr/bx/n/10.95 remote(Internet ac-
+Underfull \hbox (badness 1502) in paragraph at lines 85--85
+[][][]\OT1/cmr/m/n/10.95 Trust an-chors to val-i-date own-er-ship
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-\OT1/cmr/bx/n/10.95 strap-ping sources
+Underfull \hbox (badness 6412) in paragraph at lines 88--88
+[][][][]|\OT1/cmr/bx/n/10.95 Discovery of boot-strap
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[][][][]|\OT1/cmr/bx/n/10.95 Device boot-strap
+Underfull \hbox (badness 3826) in paragraph at lines 125--125
+[][][]\OT1/cmr/m/n/10.95 Onboarding in-for-ma-tion: boot im-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[][][][]|\OT1/cmr/bx/n/10.95 Functionality sup-
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+[][][][]|\OT1/cmr/bx/n/10.95 Owner voucher-request
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 25--25
-\OT1/cmr/m/n/10.95 - Trust an-chors to val-i-date own-er-ship
+Underfull \hbox (badness 5161) in paragraph at lines 167--167
+[][][][]|\OT1/cmr/bx/n/10.95 Determining MASA to
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 27--27
-[][][][]|\OT1/cmr/bx/n/10.95 discovery of boot-
+Underfull \hbox (badness 1616) in paragraph at lines 203--203
+[][][][]|\OT1/cmr/bx/n/10.95 Updatable Man-u-fac-turer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[][][][]|\OT1/cmr/bx/n/10.95 Device au-then-ti-ca-
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/bx/n/10.95 Trust An-chors (be-fore
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 35--35
-[][][][]|\OT1/cmr/bx/n/10.95 enrollment pro-to-col
+Underfull \hbox (badness 5431) in paragraph at lines 211--211
+[][][][]|\OT1/cmr/bx/n/10.95 Required Cryp-to-graphic
  []
 
+[39
 
-Underfull \hbox (badness 1127) in paragraph at lines 37--37
-\OT1/cmr/m/n/10.95 fig-u-ra-tion, post-config scripts, voucher,
- []
-
-
-Underfull \hbox (badness 6268) in paragraph at lines 39--39
-[][][][]|\OT1/cmr/bx/n/10.95 bootstrapping data
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-[][][][]|\OT1/cmr/bx/n/10.95 owner voucher-
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 45--45
-[][][][]|\OT1/cmr/bx/n/10.95 determining MASA
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 53--53
-\OT1/cmr/m/n/10.95 her-ent to the pro-to-col, but own-er-ship
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-\OT1/cmr/bx/n/10.95 (be-fore boot-strap
- []
-
-[36
-
-] [37] [38])
+] [40] [41] [42])
 :<-
 Package srcltx Info: Expanded filename `Appendix/Terminology comparison.tex' to
  `Appendix/Terminology comparison.tex' on input line 5.
 :<+ Appendix/Terminology comparison.tex
 (Appendix/Terminology comparison.tex
-Underfull \hbox (badness 3746) in paragraph at lines 10--10
-\OT1/cmr/m/n/10.95 ers the ser-vices pro-
+Underfull \hbox (badness 3189) in paragraph at lines 8--8
+[][][]|\OT1/cmr/m/n/10.95 The un-con-fig-ured de-
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 12--12
+Underfull \hbox (badness 3189) in paragraph at lines 8--8
+[][][]|\OT1/cmr/m/n/10.95 The un-con-fig-ured de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[][][]\OT1/cmr/m/n/10.95 Through out the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\OT1/cmr/m/n/10.95 er-ally cov-ers the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\OT1/cmr/m/n/10.95 the man-u-fac-turer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\OT1/cmr/m/n/10.95 with-out ex-plic-itly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\OT1/cmr/m/n/10.95 re-fer-ring to them,
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 17--17
 \OT1/cmr/m/n/10.95 a com-mon lo-cal trust
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 12--12
+Underfull \hbox (badness 6825) in paragraph at lines 17--17
 \OT1/cmr/m/n/10.95 main Cer-tifi-cate Au-
  []
 
 
-Overfull \vbox (136.00009pt too high) detected at line 12
+Overfull \vbox (197.40012pt too high) detected at line 22
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 14--14
-\OT1/cmr/m/n/10.95 helps the pledge join
+Underfull \hbox (badness 6461) in paragraph at lines 26--27
+\OT1/cmr/m/n/10.95 mu-ni-ca-tion for de-
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 14--14
-\OT1/cmr/m/n/10.95 the do-main. A join
+Underfull \hbox (badness 4505) in paragraph at lines 27--28
+[][][][]\OT1/cmr/m/n/10.95 The pledge is un-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 14--14
-\OT1/cmr/m/n/10.95 proxy fa-cil-i-tates com-
+Underfull \hbox (badness 2384) in paragraph at lines 27--28
+\OT1/cmr/m/n/10.95 com-mu-ni-cat-ing with
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 14--14
-\OT1/cmr/m/n/10.95 they are val-i-dated as
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[][][]|\OT1/cmr/m/n/10.95 Ownership
  []
 
+[43
 
-Underfull \hbox (badness 3168) in paragraph at lines 14--14
-\OT1/cmr/m/n/10.95 - The pledge is un-
- []
-
-
-Underfull \hbox (badness 4699) in paragraph at lines 14--14
-\OT1/cmr/m/n/10.95 aware that they are
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 14--14
-\OT1/cmr/m/n/10.95 proxy rather than di-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[][][]|\OT1/cmr/m/n/10.95 ownership
- []
-
-)
+])
 :<-
 )
 :<-
-[39
-
-] (thesis.aux)
+[44] (thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -2482,13 +2601,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37988 strings out of 479334
- 671570 string characters out of 2856609
- 2230503 words of memory out of 3000000
- 54410 multiletter control sequences out of 15000+200000
+ 38468 strings out of 479334
+ 680244 string characters out of 2856609
+ 2119201 words of memory out of 3000000
+ 54863 multiletter control sequences out of 15000+200000
  420622 words of font info for 90 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 117i,32n,116p,10603b,3016s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 117i,32n,116p,10603b,3135s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2527,9 +2646,9 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Hossam
 ers/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
 fb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
 8a.pfb>
-Output written on thesis.pdf (49 pages, 778854 bytes).
+Output written on thesis.pdf (54 pages, 1045092 bytes).
 PDF statistics:
- 1043 PDF objects out of 1200 (max. 8388607)
- 254 named destinations out of 1000 (max. 500000)
- 529 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1199 PDF objects out of 1200 (max. 8388607)
+ 272 named destinations out of 1000 (max. 500000)
+ 584 words of extra memory for PDF output out of 10000 (max. 10000000)
 

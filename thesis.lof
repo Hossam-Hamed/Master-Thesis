@@ -23,9 +23,13 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces DH calculations.\relax }}{22}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces X3DH operations \cite {x3dh}.\relax }}{23}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A 3 input KDF chain \cite {dblRtcht}.\relax }}{28}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Bob \gls {dh} Ratchet step. Figure reproduced from \cite {dblRtcht}.\relax }}{30}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces A full \gls {dh} Ratchet step \cite {dblRtcht}.\relax }}{31}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
