@@ -1,4 +1,5 @@
 \chapter{Implementation}
 \label{ch:implementation}
 
-
+Difference:\\
+I don't create a new sending chain immediately in the DH ratchet step like the docs. I created on command. The docs mention that Bob can continue sending from the sending chain after Alice has created the equivalent receiving chain. However, when Alice creates the equivalent receiving chain she needs to create a new key pair. According to the implementation in the description, the new public key is automatically sent with the first message in the sending chain. This will lead to Bob automatically create a new sending chain and he has to use it rather than the old sending chain. thus, a contradiction. The mentioned scenario didn't assume the possibility of out-of-order messages yet. Therefore, I don't assume message delays.

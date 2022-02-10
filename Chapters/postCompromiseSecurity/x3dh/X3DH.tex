@@ -6,7 +6,7 @@
 \subsubsection{Roles}
 A protocol run involves three roles: Alice, Bob, and a server. In this description, Alice wants to send an encrypted message to Bob. Bob is the party that may be offline at that time and wishes to enable other parties to derive a shared secret with it, through a set of public information Bob publishes. The server is responsible for 1. storing the public information published by Bob, and 2. storing messages for offline parties till they are fetched. The server is not trusted, however, it is assumed to be resilient against DoS. % more details.
 \subsubsection{Keys}
-X3DH utilizes Elliptic Curve asymmetric key pairs. All keys used in a protocol run must all be derived from the same curve, either X25519 or X448. Each role has to have a set of keys to run the protocol. Table \ref{tab:x3dhkeys} lists the public keys required for each role. Note that for each public key, there exists a corresponding private key at its owner.
+\gls{x3dh} utilizes Elliptic Curve asymmetric key pairs. All keys used in a protocol run must all be derived from the same curve, either $X25519$ or $X448$. Each role has to have a set of keys to run the protocol. Table \ref{tab:x3dhkeys} lists the public keys required for each role. Note that for each public key, there exists a corresponding private key at its owner.
 
 \begin{table}
 	\centering
@@ -21,7 +21,7 @@ X3DH utilizes Elliptic Curve asymmetric key pairs. All keys used in a protocol r
 		& OPK\textsubscript{B} 	 & one-time Prekey 		  \\ \hline
 		
 	\end{tabular}
-	\caption{X3DH keys.}
+	\caption{\gls{x3dh} keys.}
 	\label{tab:x3dhkeys}
 \end{table}
 
@@ -54,13 +54,13 @@ At this point, Alice has enough information from Bob to deduce a shared secret. 
 \item $ DH1 = DH(IK_{A_{p}} \footnote{\textit{p} indicates the private key of the key pair.}, SPK_{B}) $
 \item $ DH2 = DH(EK_{A_{p}}, IK_{B}) $
 \item $ DH3 = DH(EK_{A_{p}}, SPK_{B}) $
-\item \textcolor{gray}{$ DH4 = DH(EK_{A_{p}}, OPK_{B}) $}
+\item \textcolor{darkgray}{$ DH4 = DH(EK_{A_{p}}, OPK_{B}) $}
 \end{itemize}
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.4\linewidth]{images/X3dh}
-	\caption{X3DH operations \cite{x3dh}.}
+	\caption{\gls{x3dh} operations \cite{x3dh}.}
 	\label{fig:x3dh}
 \end{figure}
 
@@ -91,5 +91,3 @@ The one-time prekey used in the fourth and optional \gls{dh} calculation is for 
 A server can be a cause of attacks if malicious. It can carry out a Denial of Service attack if it refuses to forward the messages. It can deliberately not distribute one-time prekeys, exposing the protocol to replay attacks. Also, one party can drain all the one-time prekeys, if the server is not attentive to such action, leading to replay attacks.
 
 \input{Chapters/postCompromiseSecurity/x3dh/Modelling}
-\input{Chapters/postCompromiseSecurity/x3dh/diff}
-%\input{Chapters/postCompromiseSecurity/x3dh/conclusion}

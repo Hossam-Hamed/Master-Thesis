@@ -2,32 +2,38 @@
 \label{ch:background}
 
 This chapters gives an overview over concepts important for the protocols and algorithms discussed in further chapters.
+\section{Preliminaries}
 
-\section{Certificate}
+\subsection{Certificate}
 
-\section{Bootstrapping}
+\subsection{Bootstrapping}
 
-\section{Voucher Artifact}
+\subsection{Voucher Artifact}
 -nonced and nonceless
 
-\section{Certificate Enrollment}
+\subsection{Certificate Enrollment}
 
-\section{Protocol Formal Modeling}
+\subsection{Protocol Formal Modeling}
 
-\section{Encryption}
-	\subsection{Symmetric Encryption}
-	\subsection{Asymmetric Encryption}
+\subsection{Encryption}
+	\subsubsection{Symmetric Encryption}
+	\subsubsection{Asymmetric Encryption}
 	
-\section{\acrfull*{kdf}} \label{backgroung:kdf}
+\subsection{\acrfull*{kdf}} \label{backgroung:kdf}
 
-\section{Threat Models}
+\subsection{Threat Models}
 
-\section{Secure Messaging}
+\subsection{Secure Messaging}
 	
-	\subsection{properties}
+	\subsubsection{properties}
 	%	
 	%	\item Forward Secrecy:
 	%	
 	%	\item Future Secrecy:
 	%		- abstract ... explained in post-comp chapter
+\section{Related Work}
 	\subsection{OTR}
+	\subsection{Key Continuity Management}
+	\subsection{Tesla}
+	\subsection{On post-compromise security}
+	study post-compromise security 	in (classic) key exchange. Here, security shall be achieved even for sessions established after a full compromise of user secrets. This necessarily requires mixing user state information with key material that is newly established via asymmetric techniques, and is thus related to RKE.

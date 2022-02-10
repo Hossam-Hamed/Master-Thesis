@@ -11,63 +11,65 @@ caption={X3DH OFMC Model},captionpos=b, label={model}]{code/x3dh.anb}
 
 \subsubsection{Types section} 
 Here, the parameters of the protocol are defined, e.g. variables, constants, roles, etc. Line 4 defines the participants of the protocol of type \textbf{Agent}.
-\begin{itemize}\setlength\itemsep{-0.3em}
-	\item A and B: Variables indicating Alice and Bob. A variable may be dishonest in an OFMC protocol run.
-	\item s: Constant indicating the server. Constants act as trusted third parties.
+\begin{itemize}
+	\item $A$ and $B$: Variables indicating Alice and Bob. A variable may be dishonest in an OFMC protocol run.
+	\item $s$: Constant indicating the server. Constants act as trusted third parties.
 \end{itemize}
 \par
 Line 5 defines the functions of the protocol.
-\begin{itemize}\setlength\itemsep{-0.3em}
-	\item kdf: Key derivation function.
-	\item pk: A function to model asymmetric key pairs. A public key for Alice is modeled as pk(A) and the corresponding private key is computed using the internal function inv() as follows inv(pk(A)).
-	\item ik: models the private component of the identity key of a party for the DH calculations.
+\begin{itemize}
+	\item $kdf$: Key derivation function.
+	\item $pk$: A function to model asymmetric key pairs. A public key for Alice is modeled as $pk(A)$ and the corresponding private key is computed using the internal function $inv()$ as follows $inv(pk(A))$.
+	\item $ik$: models the private component of the identity key of a party for the DH calculations.
 \end{itemize}
-	Alice and Bob have long-term signing keys modeled by the function `pk()` and long-term identity keys modeled by the function `ik()`.
+	Alice and Bob have long-term signing keys modeled by the function $pk()$ and long-term identity keys modeled by the function $ik()$.
 	\par
 Line 6 defines the numbers used in the protocol. Lower-case numbers are constants, while upper-case numbers are random and freshly generated during a protocol run. Some private components of keys are modeled as numbers as they are required to be freshly generated during a protocol run which can not be done using functions.
-\begin{itemize}\setlength\itemsep{-0.3em}
-	\item g: Public exponent base for DH calculations.
-	\item NA: Alice's Nonce.
-	\item EKA: The private component of Alice's Ephemeral key.
-	\item OTP: The One-time prekey's private component.
-	\item PREKEY: the prekey's private component.
-	\item MSG1 and MSG2: Random numbers used as placeholders for random and fresh messages.
+\begin{itemize}
+	\item $g$: Public exponent base for DH calculations.
+	\item $NA$: Alice's Nonce.
+	\item $EKA$: The private component of Alice's Ephemeral key.
+	\item $OTP$: The One-time prekey's private component.
+	\item $PREKEY$: the prekey's private component.
+	\item $MSG1$ and $MSG2$: Random numbers used as placeholders for random and fresh messages.
 \end{itemize}
 
 \subsubsection{Knowledge section}
-This section of the model defines what knowledge is initially known to each party before the protocol starts. Line 9 defines Alice's knowledge which contains, in addition to the previously defined parameters, Alice's certificate modeled as `\{A, pk(A)\}inv(pk(s))`. This translates to Alice's identity `\textbf{A}` and Alice's public key `\textbf{pk(A)}` are signed using the servers private key `\textbf{inv(pk(s))}'. 
+This section of the model defines what knowledge is initially known to each party before the protocol starts. Line 9 defines Alice's knowledge which contains, in addition to the previously defined parameters, Alice's certificate modeled as $\{A, pk(A)\}inv(pk(s))$. This translates to Alice's identity $A$ and Alice's public key $pk(A)$ are signed using the servers private key $inv(pk(s))$. 
 
-Line 15 holds a `where` clause that strictly defines A and B as different parties to avoid the scenario where A or B talk to itself.
+Line 15 holds a $where$ clause that strictly defines $A$ and $B$ as different parties to avoid the scenario where $A$ or $B$ talk to itself.
 \subsubsection{Actions section}
 The Actions section states the protocol's message sequence between the participating parties for a successful protocol run. Throughout this section messages are referred to according to their line number, e.g message 19 is the message in line number 19 of the model code.
 \par
 Message 19 represents the registration phase where Bob publishes his public information to the server. The message contains the following:
-\begin{itemize}\setlength\itemsep{-0.3em}
-	\item exp(g,(XX)): The public DH key of the corresponding private key XX
-	\item \{exp(g,PREKEY)\}inv(pk(B)): The prekey of Bob signed by Bob's signing key.
+\begin{itemize}
+	\item $exp(g,(XX))$: The public DH key of the corresponding private key XX
+	\item $\{exp(g,PREKEY)\}inv(pk(B))$: The prekey of Bob signed by Bob's signing key.
 \end{itemize}
 The whole message is encrypted for the server for authenticity.
 \par
 Message 21 is not an actual part of the protocol, however, it is included for the sake of modeling the protocol with the chosen tool. This is because of the asynchronous communication model of OFMC and the strands concept \cite{ofmcTut}.
 \par 
-In message 23, Alice requests to fetch from the server a key bundle to communicate with Bob. A nonce `NA` is attached for freshness.
+In message 23, Alice requests to fetch from the server a key bundle to communicate with Bob. A nonce $NA$ is attached for freshness.
 \par
 Message 25 is the server's response to Alice's key bundle request. The message contains the requested key bundle required to communicate with Bob, as well as Alice's nonce. The whole message is integrity protected by the server's signature.
 \par
 Message 27 represents the initial message from Alice to Bob. It is composed of the following:
-\begin{itemize}\setlength\itemsep{-0.3em}
+\begin{itemize}
 	\item Alice's certificate for authenticity.
-	\item (Line 29) The Bob's keys which Alice will use to compute $ SK $. All these keys are signed by Alice for integrity protection.
-	\item (Line 31) The initial ciphertext encrypted by the symmetric key $ SK $. The output of the 4 DH operations is input into the KDF resulting in $ SK $. 
+	\item (Line 29) The Bob's keys which Alice will use to compute $SK$. All these keys are signed by Alice for integrity protection.
+	\item (Line 31) The initial ciphertext encrypted by the symmetric key $SK$. The output of the 4 DH operations is input into the KDF resulting in $SK$. 
 \end{itemize}
 \par
-Message 38 is the last message of the protocol run. It is where Bob shows he is able to compute the same $ SK $. 
+Message 38 is the last message of the protocol run. It is where Bob shows he is able to compute the same $SK$. 
 \subsubsection{Goals section}
 This section of the model lists the security goals which the protocol must achieve at the end of a run. There are two types of goals
-\begin{itemize}\setlength\itemsep{-0.3em}
+\begin{itemize}
 	\item Authenticity: When a party wants to make sure a certain message has been generated and sent by the other party. In this model, Alice and Bob authenticate each others' public keys. Bob authenticates the server on the keys he received in message 27 from Alice, to be sure that the keys are forwarded by Alice from the server without tampering.
 	\item Secrecy: The requirement for a message to be secret only between some parties.
 \end{itemize}
+\input{Chapters/postCompromiseSecurity/x3dh/diff}
+\input{Chapters/postCompromiseSecurity/x3dh/result}
 
 
 

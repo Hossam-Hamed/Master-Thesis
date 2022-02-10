@@ -17,120 +17,124 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Background}{2}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Certificate}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Preliminaries}{2}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Bootstrapping}{2}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1.1}Certificate}{2}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Voucher Artifact}{2}{section.2.3}%
+\contentsline {subsection}{\numberline {2.1.2}Bootstrapping}{2}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Certificate Enrollment}{2}{section.2.4}%
+\contentsline {subsection}{\numberline {2.1.3}Voucher Artifact}{2}{subsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Protocol Formal Modeling}{2}{section.2.5}%
+\contentsline {subsection}{\numberline {2.1.4}Certificate Enrollment}{3}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Encryption}{2}{section.2.6}%
+\contentsline {subsection}{\numberline {2.1.5}Protocol Formal Modeling}{3}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}Symmetric Encryption}{2}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.1.6}Encryption}{3}{subsection.2.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.2}Asymmetric Encryption}{2}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.1.6.1}Symmetric Encryption}{3}{subsubsection.2.1.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}\acrfull *{kdf}}{2}{section.2.7}%
+\contentsline {subsubsection}{\numberline {2.1.6.2}Asymmetric Encryption}{3}{subsubsection.2.1.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}Threat Models}{2}{section.2.8}%
+\contentsline {subsection}{\numberline {2.1.7}\acrfull *{kdf}}{3}{subsection.2.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.9}Secure Messaging}{2}{section.2.9}%
+\contentsline {subsection}{\numberline {2.1.8}Threat Models}{3}{subsection.2.1.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.9.1}properties}{2}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.1.9}Secure Messaging}{3}{subsection.2.1.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.9.2}OTR}{2}{subsection.2.9.2}%
+\contentsline {subsubsection}{\numberline {2.1.9.1}properties}{3}{subsubsection.2.1.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Use Cases}{3}{chapter.3}%
+\contentsline {section}{\numberline {2.2}Related Work}{3}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}\gls {abc}}{3}{section.3.1}%
+\contentsline {subsection}{\numberline {2.2.1}OTR}{3}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}\gls {iot}}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {2.2.2}Key Continuity Management}{3}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}V2V}{5}{section.3.3}%
+\contentsline {subsection}{\numberline {2.2.3}Tesla}{3}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Secure Bootstrapping}{6}{chapter.4}%
+\contentsline {subsection}{\numberline {2.2.4}On post-compromise security}{3}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}\acrfull *{brski}}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {3}Use Cases}{4}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Architecture Overview}{7}{subsection.4.1.1}%
+\contentsline {section}{\numberline {3.1}\gls {abc}}{4}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Protocol Details}{9}{subsection.4.1.2}%
+\contentsline {section}{\numberline {3.2}\gls {iot}}{6}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}\acrfull *{sztp}}{14}{section.4.2}%
+\contentsline {section}{\numberline {3.3}V2V}{6}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Architecture Overview}{14}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {4}Secure Bootstrapping}{7}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Protocol Details}{16}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.1}\acrfull *{brski}}{8}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Protocols Comparison}{19}{section.4.3}%
+\contentsline {subsection}{\numberline {4.1.1}Architecture Overview}{8}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Post-Compromise Security}{21}{chapter.5}%
+\contentsline {subsection}{\numberline {4.1.2}Protocol Details}{10}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}\acrfull *{x3dh}}{21}{section.5.1}%
+\contentsline {section}{\numberline {4.2}\acrfull *{sztp}}{15}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Protocol Overview}{21}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {4.2.1}Architecture Overview}{15}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.1}Roles}{21}{subsubsection.5.1.1.1}%
+\contentsline {subsection}{\numberline {4.2.2}Protocol Details}{17}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.2}Keys}{22}{subsubsection.5.1.1.2}%
+\contentsline {section}{\numberline {4.3}Protocols Comparison}{20}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.3}A Protocol Run}{22}{subsubsection.5.1.1.3}%
+\contentsline {chapter}{\numberline {5}Post-Compromise Security}{22}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.4}Security Considerations}{24}{subsubsection.5.1.1.4}%
+\contentsline {section}{\numberline {5.1}\acrfull *{x3dh}}{22}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}OFMC Modeling}{24}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.1}Protocol Overview}{22}{subsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.1}Types section}{25}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}Roles}{22}{subsubsection.5.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.2}Knowledge section}{26}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}Keys}{23}{subsubsection.5.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.3}Actions section}{26}{subsubsection.5.1.2.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}A Protocol Run}{23}{subsubsection.5.1.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.4}Goals section}{27}{subsubsection.5.1.2.4}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}Security Considerations}{25}{subsubsection.5.1.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}Difference from specification}{27}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.2}OFMC Modeling}{25}{subsection.5.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.3.1}Registration Phase}{27}{subsubsection.5.1.3.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Types section}{26}{subsubsection.5.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.3.2}Use of Signatures}{27}{subsubsection.5.1.3.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}Knowledge section}{27}{subsubsection.5.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.3.3}Use of Certificates}{28}{subsubsection.5.1.3.3}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}Actions section}{27}{subsubsection.5.1.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Double Ratchet Algorithm}{28}{section.5.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.4}Goals section}{28}{subsubsection.5.1.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}\gls *{kdf} Chain}{28}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.5}Deviations from specification}{28}{subsubsection.5.1.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Symmetric-key Ratchet}{29}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.6}Result}{29}{subsubsection.5.1.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Diffie-Hellman Ratchet}{29}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.2}Double Ratchet Algorithm}{29}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Double Ratchet}{31}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.1}\gls *{kdf} Chain}{29}{subsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.5}Out-of-order Messages}{31}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.2}Symmetric-key Ratchet}{30}{subsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.6}Header Encryption}{31}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.3}Diffie-Hellman Ratchet}{31}{subsection.5.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.7}Integration with \gls *{x3dh}}{31}{subsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.2.4}Double Ratchet}{32}{subsection.5.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.8}Formal Verification}{31}{subsection.5.2.8}%
+\contentsline {subsubsection}{\numberline {5.2.4.1}Out-of-order Messages}{35}{subsubsection.5.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.9}Post-Quantum Security}{31}{subsection.5.2.9}%
+\contentsline {subsubsection}{\numberline {5.2.4.2}Header Encryption}{35}{subsubsection.5.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Implementation}{32}{chapter.6}%
+\contentsline {subsection}{\numberline {5.2.5}Formal Verification}{36}{subsection.5.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Evaluation}{33}{chapter.7}%
+\contentsline {subsection}{\numberline {5.2.6}Post-Quantum Security}{36}{subsection.5.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{34}{chapter.8}%
+\contentsline {chapter}{\numberline {6}Implementation}{37}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{35}{chapter*.19}%
+\contentsline {chapter}{\numberline {7}Evaluation}{38}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}BRSKI vs. SZTP}{38}{appendix.A}%
+\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{39}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Protocol Comparison}{38}{section.A.1}%
+\contentsline {chapter}{\nonumberline Bibliography}{40}{chapter*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Terminology Comparison}{43}{section.A.2}%
+\contentsline {chapter}{\numberline {A}BRSKI vs. SZTP}{43}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Protocol Comparison}{43}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Terminology Comparison}{48}{section.A.2}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
