@@ -2344,3 +2344,86 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">literature.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="9">aci_world_2019</bcf:citekey>
+    <bcf:citekey order="10">Boeing2020</bcf:citekey>
+    <bcf:citekey order="11">ReadID2020</bcf:citekey>
+    <bcf:citekey order="12">Angiolelli-meyer2015</bcf:citekey>
+    <bcf:citekey order="13">labati2016biometric</bcf:citekey>
+    <bcf:citekey order="14">labati2016biometric</bcf:citekey>
+    <bcf:citekey order="15">labati2016biometric</bcf:citekey>
+    <bcf:citekey order="16">labati2016biometric</bcf:citekey>
+    <bcf:citekey order="17">marksteiner2017overview</bcf:citekey>
+    <bcf:citekey order="18">rfc5246</bcf:citekey>
+    <bcf:citekey order="19">shang2016challenges</bcf:citekey>
+    <bcf:citekey order="20">dtls</bcf:citekey>
+    <bcf:citekey order="21">rfc7252</bcf:citekey>
+    <bcf:citekey order="22">http</bcf:citekey>
+    <bcf:citekey order="23">bs-wiki</bcf:citekey>
+    <bcf:citekey order="24">5367679</bcf:citekey>
+    <bcf:citekey order="25">5367679</bcf:citekey>
+    <bcf:citekey order="26">irtf-t2trg-secure-bootstrapping-00</bcf:citekey>
+    <bcf:citekey order="27">eap-tls</bcf:citekey>
+    <bcf:citekey order="28">gba</bcf:citekey>
+    <bcf:citekey order="29">simplekeys</bcf:citekey>
+    <bcf:citekey order="30">brski</bcf:citekey>
+    <bcf:citekey order="31">sztp</bcf:citekey>
+    <bcf:citekey order="32">rfc7030</bcf:citekey>
+    <bcf:citekey order="33">rfc8990</bcf:citekey>
+    <bcf:citekey order="34">kephart2003vision</bcf:citekey>
+    <bcf:citekey order="35">rfc6763</bcf:citekey>
+    <bcf:citekey order="36">rfc6762</bcf:citekey>
+    <bcf:citekey order="37">rfc2131</bcf:citekey>
+    <bcf:citekey order="38">brski</bcf:citekey>
+    <bcf:citekey order="39">rfc3339</bcf:citekey>
+    <bcf:citekey order="40">dnssec</bcf:citekey>
+    <bcf:citekey order="41">sztp</bcf:citekey>
+    <bcf:citekey order="42">handbookOfAppliedCrypto</bcf:citekey>
+    <bcf:citekey order="43">handbookOfAppliedCrypto</bcf:citekey>
+    <bcf:citekey order="44">x3dh</bcf:citekey>
+    <bcf:citekey order="45">x3dh</bcf:citekey>
+    <bcf:citekey order="46">ofmc</bcf:citekey>
+    <bcf:citekey order="47">x3dh</bcf:citekey>
+    <bcf:citekey order="48">x3dh</bcf:citekey>
+    <bcf:citekey order="49">ofmcTut</bcf:citekey>
+    <bcf:citekey order="50">dblRtcht</bcf:citekey>
+    <bcf:citekey order="51">dblRtcht</bcf:citekey>
+    <bcf:citekey order="52">dblRtcht</bcf:citekey>
+    <bcf:citekey order="53">dblRtcht</bcf:citekey>
+    <bcf:citekey order="54">dblRtcht</bcf:citekey>
+    <bcf:citekey order="55">dblRtcht</bcf:citekey>
+    <bcf:citekey order="56">dblRtcht</bcf:citekey>
+    <bcf:citekey order="57">dblRtcht</bcf:citekey>
+    <bcf:citekey order="58">dblRtcht</bcf:citekey>
+    <bcf:citekey order="59">dblRtcht</bcf:citekey>
+    <bcf:citekey order="60">dblRtcht</bcf:citekey>
+    <bcf:citekey order="61">dblRtcht</bcf:citekey>
+    <bcf:citekey order="62">dblRtcht</bcf:citekey>
+    <bcf:citekey order="63">dblRtcht</bcf:citekey>
+    <bcf:citekey order="64">cohn2020formal</bcf:citekey>
+    <bcf:citekey order="65">alwen_coretti_dodis_2020</bcf:citekey>
+    <bcf:citekey order="66">alwen_coretti_dodis_2020</bcf:citekey>
+    <bcf:citekey order="67">poettering2018asynchronous</bcf:citekey>
+    <bcf:citekey order="68">shor94</bcf:citekey>
+    <bcf:citekey order="69">gro96</bcf:citekey>
+    <bcf:citekey order="70">essay77239</bcf:citekey>
+    <bcf:citekey order="71">ber09</bcf:citekey>
+    <bcf:citekey order="72">bra+98</bcf:citekey>
+    <bcf:citekey order="73">sztp-csr-draft</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="none">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

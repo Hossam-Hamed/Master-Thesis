@@ -19,7 +19,7 @@ A \gls{kdf} chain is a series of connected \gls{kdf}s where one output key of a 
 	\label{fig:kdf-chain}
 \end{figure}
 
-The algorithm session has three \gls{kdf} chains: Root chain, sending chain, and receiving chain. Each chain is advanced whenever its relevant ratchet performs a step. More details about ratchet steps and their relation to the \gls{kdf} chains are discussed in later sections.
+The algorithm session has three \gls{kdf} chains: root chain, sending chain, and receiving chain. Each chain is advanced whenever its relevant ratchet performs a step. More details about ratchet steps and their relation to the \gls{kdf} chains are discussed in later sections.
 \par
 KDF chains have a set of characteristics \cite{dblRtcht}:
 \begin{itemize}
@@ -92,7 +92,7 @@ The double ratchet combines both the symmetric-key ratchet and the \gls{dh} ratc
 Figure \ref{fig:AliceDR} serves as an example scenario for an algorithm run as it illustrates Alice's perspective of her double ratchet algorithm after a series of steps. 
 \begin{figure}[hptb]
 	\centering
-	\includegraphics[scale=0.5]{Images/dr.png}
+	\includegraphics[scale=0.48]{Images/dr.png}
 	\caption{Double ratchet from Alice's point of view. Figure reproduced from \cite{dblRtcht}.}
 	\label{fig:AliceDR}
 \end{figure}
@@ -122,8 +122,3 @@ Originally, Alice and Bob had only one pre-shared secret, the \gls{rk}. To integ
 	\caption{Usage of \glspl{hk} and \glspl{nhk} in the double ratchet algorithm. Figure reproduced from \cite{dblRtcht}.}
 	\label{fig:DR-hk}
 \end{figure}
-
-\subsection{Formal Verification}
-Cohn-Gordon et al. \cite{cohn2020formal} present an examination of the Signal communications protocol by creating a formal model featuring adversarial queries as well as freshness conditions that captures the Signal security features. However, the model is specifically concerned with the Signal protocol and cannot be generalized to serve as a reference notion for RKE as it specifies a lower level of security than would be expected for RKE \cite{poettering2018asynchronous}.
-
-\subsection{Post-Quantum Security}

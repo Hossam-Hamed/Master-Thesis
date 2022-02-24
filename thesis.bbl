@@ -1332,6 +1332,43 @@
       \field{pages}{1914\bibrangedash 1983}
       \range{pages}{70}
     \endentry
+    \entry{alwen_coretti_dodis_2020}{book}{}
+      \name{author}{3}{}{%
+        {{hash=3ee993388b23738b0ebba708ee0c9fdf}{%
+           family={Alwen},
+           familyi={A\bibinitperiod},
+           given={Joël},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4b608b6ed2b83da239ee2fdd3cb7c124}{%
+           family={Coretti},
+           familyi={C\bibinitperiod},
+           given={Sandro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=21ac2ee1e3dbf5809549b834bf94ba2e}{%
+           family={Dodis},
+           familyi={D\bibinitperiod},
+           given={Yevgeniy},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \strng{fullhash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \strng{bibnamehash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \strng{authorbibnamehash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \strng{authornamehash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \strng{authorfullhash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Double Ratchet: Security Notions, Proofs, and Modularization for the Signal Protocol}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://eprint.iacr.org/2018/1037.pdf
+      \endverb
+      \verb{url}
+      \verb https://eprint.iacr.org/2018/1037.pdf
+      \endverb
+    \endentry
     \entry{poettering2018asynchronous}{article}{}
       \name{author}{2}{}{%
         {{hash=f7a9a8fc284c7569a838c89011e6bb54}{%
@@ -1358,6 +1395,165 @@
       \field{journaltitle}{Cryptology ePrint Archive}
       \field{title}{Asynchronous ratcheted key exchange}
       \field{year}{2018}
+    \endentry
+    \entry{shor94}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=7082a9c99d5d51479d4cfba6bbac2d30}{%
+           family={Shor},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima W},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Ieee}%
+      }
+      \strng{namehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{fullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{bibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorbibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authornamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorfullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 35th annual symposium on foundations of computer science}
+      \field{title}{Algorithms for quantum computation: discrete logarithms and factoring}
+      \field{year}{1994}
+      \field{pages}{124\bibrangedash 134}
+      \range{pages}{11}
+    \endentry
+    \entry{gro96}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=619ef89ee12058aba6b0df9b17b11ca3}{%
+           family={Grover},
+           familyi={G\bibinitperiod},
+           given={Lov\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Philadelphia, Pennsylvania, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{fullhash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{bibnamehash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{authorbibnamehash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{authornamehash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{authorfullhash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Twenty-Eighth Annual ACM Symposium on Theory of Computing}
+      \field{isbn}{0897917855}
+      \field{series}{STOC '96}
+      \field{title}{A Fast Quantum Mechanical Algorithm for Database Search}
+      \field{year}{1996}
+      \field{pages}{212\bibrangedash 219}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/237814.237866
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/237814.237866
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/237814.237866
+      \endverb
+    \endentry
+    \entry{essay77239}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=047b949cef8e17cbd56b00be3289a2cb}{%
+           family={{Duits}},
+           familyi={D\bibinitperiod},
+           given={Ines},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{047b949cef8e17cbd56b00be3289a2cb}
+      \strng{fullhash}{047b949cef8e17cbd56b00be3289a2cb}
+      \strng{bibnamehash}{047b949cef8e17cbd56b00be3289a2cb}
+      \strng{authorbibnamehash}{047b949cef8e17cbd56b00be3289a2cb}
+      \strng{authornamehash}{047b949cef8e17cbd56b00be3289a2cb}
+      \strng{authorfullhash}{047b949cef8e17cbd56b00be3289a2cb}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Signal Protocol provides end-to-end encryption, forward secrecy, backward secrecy, authentication and deniability for chat applications like WhatsApp. The Signal Protocol does this by using the ECDH Curve25519 key exchanges and SHA-512 key derivation. However, the ECDH key exchange is not quantum-safe. A post-quantum Signal Protocol requires a substitute for the ECDH key exchanges. Therefore, we look at post-quantum cryptography, which is secure against a quantum computer. In this thesis we analyse the Signal Protocol and explain our research. We compared 11 different post-quantum algorithms: SIDH and 10 different key encapsulation mechanism, which are in the NIST post-quantum standardisation process: BigQuake, BIKE, Frodo, Crystal-Kyber, Leda, Lima, New Hope, Saber, SIKE and Titanium. We conclude that it is feasible to have different post-quantum Signal Protocols considering the state of 2018 for an average user.}
+      \field{month}{2}
+      \field{title}{The Post-Quantum Signal Protocol : Secure Chat in a Quantum World}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://essay.utwente.nl/77239/
+      \endverb
+      \verb{url}
+      \verb http://essay.utwente.nl/77239/
+      \endverb
+    \endentry
+    \entry{ber09}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cc77f8b5fa3840f90938819e591aae07}{%
+           family={Bernstein},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{fullhash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{bibnamehash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{authorbibnamehash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{authornamehash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{authorfullhash}{cc77f8b5fa3840f90938819e591aae07}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SHARCS}
+      \field{title}{Cost analysis of hash collisions: Will quantum computers make SHARCS obsolete?}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{pages}{105}
+      \range{pages}{1}
+    \endentry
+    \entry{bra+98}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=504bb784f2241f359d5030d2ca7f2bdd}{%
+           family={Brassard},
+           familyi={B\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a63f61d51d4a7a277cce46722c380f1a}{%
+           family={H{ø}yer},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ffbcbc5eda6edf64a21ce3b8529b1ce0}{%
+           family={Tapp},
+           familyi={T\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2d4b0d523ae0af11eb7c83c0dfcd0aad}
+      \strng{fullhash}{2d4b0d523ae0af11eb7c83c0dfcd0aad}
+      \strng{bibnamehash}{2d4b0d523ae0af11eb7c83c0dfcd0aad}
+      \strng{authorbibnamehash}{2d4b0d523ae0af11eb7c83c0dfcd0aad}
+      \strng{authornamehash}{2d4b0d523ae0af11eb7c83c0dfcd0aad}
+      \strng{authorfullhash}{2d4b0d523ae0af11eb7c83c0dfcd0aad}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Latin American Symposium on Theoretical Informatics}
+      \field{title}{Quantum cryptanalysis of hash and claw-free functions}
+      \field{year}{1998}
+      \field{pages}{163\bibrangedash 169}
+      \range{pages}{7}
     \endentry
     \entry{sztp-csr-draft}{report}{}
       \name{author}{3}{}{%
@@ -1389,8 +1585,8 @@
       \strng{authorbibnamehash}{966152014dd498cd4925036a4bf8ee3e}
       \strng{authornamehash}{966152014dd498cd4925036a4bf8ee3e}
       \strng{authorfullhash}{966152014dd498cd4925036a4bf8ee3e}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This draft extends the "get-bootstrapping-data" RPC defined in RFC 8572 to include an optional certificate signing request (CSR), enabling a bootstrapping device to additionally obtain an identity certificate (e.g., an LDevID from IEEE 802.1AR) as part of the "onboarding information" response provided in the RPC-reply.}

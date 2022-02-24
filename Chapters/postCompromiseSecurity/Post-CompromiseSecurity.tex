@@ -1,6 +1,36 @@
 \chapter{Post-Compromise Security} \label{ch:postcomp}
 %Intro
 Intro\\compromise window\\
-ratchet key exchange (RKE) URKE, SRKE, BRKE\\ signal
+\par
+ratchet key exchange (RKE) URKE, SRKE, BRKE
+\par
+“a ratcheting
+forward secrecy protocol that works in synchronous and asynchronous messaging environments” [55, 56].
+Signal’s goals include end-to-end encryption as well as advanced security properties such as perfect forward secrecy and “future secrecy”
+The Signal protocol can be roughly divided into three types of stages:
+• The initial key exchange, or X3DH (extended triple Diffie-Hellman) protocol [64], which combines
+long-term, medium-term and ephemeral Diffie-Hellman keys to produce a shared secret “root” value.
+• An asymmetric ratchet stage [63], where users alternate in sending new ephemeral Diffie-Hellman keys in a ping-pong fashion with previously generated root keys to generate forward-secret chaining keys.
+• A symmetric ratchet stage [63], where users take no additional entropy but instead use key derivation
+functions to ratchet forward chaining keys to create symmetric encryption keys.
+
 \input{Chapters/postCompromiseSecurity/x3dh/X3DH.tex}
 \input{Chapters/postCompromiseSecurity/doubleRatchet/DoubleRatchet.tex}
+
+\section{Formal Verification of Signal Protocol}
+For completeness, we mention below former work related aimed at formally analyzing the Signal protocol without diving into details.
+\par
+Cohn-Gordon et al. \cite{cohn2020formal} were the first to address Signal's security in a formal manner. The verification methodology is highly comprehensive and sophisticated, and it is designed particularly for the Signal protocol \cite{alwen_coretti_dodis_2020}. A completely adversarially controlled network is used to evaluate the protocol. Through the definition of a security model, the research covers Signal's \gls{x3dh} and Double Ratchet protocols as a multi-stage authenticated key exchange protocol. The model depicts the ratcheting key update structure as a multi-stage model, where instead of just a sequence, it is a tree-like structure of stages that reflect the chains in Signal. The model enables different parties to run numerous, simultaneous sessions, each with its own set of stages. Secrecy and authentication of message keys in the computational model, under a rich compromise scenario, are the high-level features targeted to be verified by hand. Nevertheless, forward and future secrecy are implied goals, as derived session keys should be kept secret in a range of compromise circumstances. For instance, if a long-term secret is compromised but a medium or ephemeral secret is not, or if a state is compromised and a secure asymmetric stage happens afterwards. Since Signal does not cleanly separate key exchange from subsequent data messages, the model had to reorder some procedures to achieve this separation. In addition and contrary to Signal, the model does not re-use \gls{dh} keys for signatures. Finally, the research shows that Signal's cryptographic core delivers the desirable security attributes specified in the security model, based on normal cryptographic assumptions. Reassuringly, its design is free of any severe defects. The model, on the other hand, fails to explain and address Signal's instantaneous decryption feature, which is a distinctive feature that privileges it to other protocols that lack it \cite{alwen_coretti_dodis_2020}. Furthermore, because the model is exclusive to the Signal protocol, it cannot be used as a reference notion for \gls{rke} because it provides a lower degree of security than would be expected for \gls{rke} \cite{poettering2018asynchronous}.
+\par
+
+
+\section{Post-Quantum Security of Signal Protocol}
+The majority of cryptographic primitives are based on mathematical concepts that can be computed and compromised theoretically. These calculations, on the other hand, are computationally challenging. Current cryptographic primitives are robust enough that they cannot be broken by an adversary with typically limited processing capacity. Previously, Shor \cite{shor94} and Grover \cite{gro96} proposed quantum algorithms that, in theory, can infringe the cryptographic principles in a wide range of cryptography primitives.
+\par
+Shor's algorithm is a quantum computer algorithm for determining an integer's prime factors. The algorithm executes in polynomial time, implying that the integer factorization problem can be performed effectively on a quantum computer. As a result, it could be used to break public-key cryptography schemes like RSA, Finite Field Diffie-Hellman key exchange, and Elliptic Curve Diffie-Hellman key exchange.
+\par
+Grover's algorithm, commonly known as the quantum search algorithm, is an unstructured search strategy that enhances search performance in unsorted data. When compared to standard counterpart techniques, it results in a quadratic speedup. Grover's algorithm, in the context of cryptography, basically tackles the problem of function inversion. The approach might be used in a variety of symmetric-key cryptography brute-force attacks, including collision and pre-image attacks. For example, it could brute-force a 128-bit symmetric cryptographic key in roughly $ 2^{64} $ iterations, or a 256-bit key in roughly $ 2^{128} $ iterations.
+\par
+The performance of a quantum computer is substantially superior to that of a regular computer. The security of various cryptographic primitives is jeopardized by the emergence of quantum computers. Hence, if a quantum computer with enough qubits is utilized, all asymmetric cryptography methods and protocols will be broken. On the other hand, If sufficiently high key sizes are used, most symmetric encryption techniques are now deemed quantum-safe \cite{essay77239}. The same may be stated for the majority of hash functions as most of them stay quantum secure \cite{ber09}, given that it is required to create hashes of double the size \cite{bra+98}.
+\par
+
