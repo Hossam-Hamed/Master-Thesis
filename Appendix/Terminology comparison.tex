@@ -5,15 +5,6 @@
     \rowcolor[rgb]{ .745,  .804,  .843} \multicolumn{2}{|c|}{\cellcolor[rgb]{ .745,  .804,  .843}BRSKI} & \multicolumn{2}{c|}{SZTP} \\
     \hline
     \endhead
-    Pledge & The unconfigured device to be bootstrapped & \multicolumn{1}{l|}{Device} & \multicolumn{1}{p{4cm}|}{The unconfigured device to be bootstrapped} \\
-    \hline
-    \multicolumn{1}{|l|}{Manufacturer} & The entity that created the device & \multicolumn{1}{l|}{Manufacturer} & \multicolumn{1}{p{4cm}|}{ 
-			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep]
-    	\item The entity that created the device 
-    	\item Through out the RFC, the term generally covers the services provided by the manufacturer without explicitly referring to them, like, MASA.
-    	\end{itemize}
-    }\\
-    \hline
     Domain & The set of entities, belonging to the owner of the device, that share a common local trust anchor. This includes the proxy, registrar, Domain Certificate Authority, etc.. & \multicolumn{1}{l|}{\multirow{3}{*}{Owner}} & \multicolumn{1}{p{4cm}|}{\multirow{3}{=}{
 			\begin{itemize}[leftmargin=*,topsep=0pt]
     		\item The person or organization that purchased or otherwise owns a device.
@@ -27,6 +18,15 @@
 		\item The pledge is unaware that they are communicating with a proxy rather than directly with a registrar.
 	\end{itemize}
 		 &       &  \\
+    \hline
+        Pledge & The unconfigured device to be bootstrapped & \multicolumn{1}{l|}{Device} & \multicolumn{1}{p{4cm}|}{The unconfigured device to be bootstrapped} \\
+    \hline
+    \multicolumn{1}{|l|}{Manufacturer} & The entity that created the device & \multicolumn{1}{l|}{Manufacturer} & \multicolumn{1}{p{4cm}|}{ 
+    	\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep]
+    		\item The entity that created the device 
+    		\item Through out the RFC, the term generally covers the services provided by the manufacturer without explicitly referring to them, like, MASA.
+    	\end{itemize}
+    }\\
     \hline
     Voucher & RFC 8366 & Ownership voucher & RFC8366 \\
     \hline

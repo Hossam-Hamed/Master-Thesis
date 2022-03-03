@@ -2408,7 +2408,10 @@
     <bcf:citekey order="70">essay77239</bcf:citekey>
     <bcf:citekey order="71">ber09</bcf:citekey>
     <bcf:citekey order="72">bra+98</bcf:citekey>
-    <bcf:citekey order="73">sztp-csr-draft</bcf:citekey>
+    <bcf:citekey order="73">chen2016report</bcf:citekey>
+    <bcf:citekey order="74">alagic2020status</bcf:citekey>
+    <bcf:citekey order="75">bogomolec2019towards</bcf:citekey>
+    <bcf:citekey order="76">sztp-csr-draft</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
