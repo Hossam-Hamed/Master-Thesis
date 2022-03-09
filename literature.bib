@@ -149,6 +149,7 @@
 	month =		jun,
 	abstract =	{The Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks. The nodes often have 8-bit microcontrollers with small amounts of ROM and RAM, while constrained networks such as IPv6 over Low-Power Wireless Personal Area Networks (6LoWPANs) often have high packet error rates and a typical throughput of 10s of kbit/s. The protocol is designed for machine- to-machine (M2M) applications such as smart energy and building automation. CoAP provides a request/response interaction model between application endpoints, supports built-in discovery of services and resources, and includes key concepts of the Web such as URIs and Internet media types. CoAP is designed to easily interface with HTTP for integration with the Web while meeting specialized requirements such as multicast support, very low overhead, and simplicity for constrained environments.},
 }
+
 @misc{dtls,
 	series =	{Request for Comments},
 	number =	6347,
@@ -414,17 +415,7 @@
 	pages={105},
 	year={2009}
 }
-@misc{essay77239,
-	year = {2019},
-	month = {February},
-	title = {The Post-Quantum Signal Protocol : Secure Chat in a Quantum World},
-	author = {Ines {Duits}},
-	url = {http://essay.utwente.nl/77239/},
-	abstract = {The Signal Protocol provides end-to-end encryption, forward secrecy, backward secrecy, authentication and deniability for chat applications like WhatsApp. The Signal Protocol does this by using the ECDH Curve25519 key exchanges and SHA-512 key derivation.
-	However, the ECDH key exchange is not quantum-safe. A post-quantum Signal Protocol requires a substitute for the ECDH key exchanges. Therefore, we look at post-quantum cryptography, which is secure against a quantum computer.
-	In this thesis we analyse the Signal Protocol and explain our research. We compared 11 different post-quantum algorithms: SIDH and 10 different key encapsulation mechanism, which are in the NIST post-quantum standardisation process:  BigQuake, BIKE, Frodo, Crystal-Kyber, Leda, Lima, New Hope, Saber, SIKE and Titanium.
-	We conclude that it is feasible to have different post-quantum Signal Protocols considering the state of 2018 for an average user.}
-}
+
 @article{alagic2020status,
 	title={Status report on the second round of the NIST post-quantum cryptography standardization process},
 	author={Alagic, Gorjan and Alperin-Sheriff, Jacob and Apon, Daniel and Cooper, David and Dang, Quynh and Kelsey, John and Liu, Yi-Kai and Miller, Carl and Moody, Dustin and Peralta, Rene and others},
@@ -443,4 +434,68 @@
 	author={Bogomolec, Xenia and Underhill, John Gregory and Kovac, Stiepan Aur{\'e}lien},
 	journal={Cryptology ePrint Archive},
 	year={2019}
+}
+@mastersthesis{duits2019post,
+	title={The post-quantum signal protocol: secure chat in a quantum world},
+	author={Duits, Ines},
+	year={2019},
+	school={University of Twente}
+}
+@inproceedings{brendel2020towards,
+	title={Towards post-quantum security for signal’s X3DH handshake},
+	author={Brendel, Jacqueline and Fischlin, Marc and G{\"u}nther, Felix and Janson, Christian and Stebila, Douglas},
+	booktitle={International Conference on Selected Areas in Cryptography},
+	pages={404--430},
+	year={2020},
+	organization={Springer}
+}
+@inproceedings{azarderakhsh2017post,
+	title={Post-quantum static-static key agreement using multiple protocol instances},
+	author={Azarderakhsh, Reza and Jao, David and Leonardi, Christopher},
+	booktitle={International Conference on Selected Areas in Cryptography},
+	pages={45--63},
+	year={2017},
+	organization={Springer}
+}
+@inproceedings{basso2020adaptive,
+	title={On adaptive attacks against Jao-Urbanik’s isogeny-based protocol},
+	author={Basso, Andrea and Kutas, P{\'e}ter and Merz, Simon-Philipp and Petit, Christophe and Weitk{\"a}mper, Charlotte},
+	booktitle={International Conference on Cryptology in Africa},
+	pages={195--213},
+	year={2020},
+	organization={Springer}
+}
+@article{boneh2020multiparty,
+	title={Multiparty non-interactive key exchange and more from isogenies on elliptic curves},
+	author={Boneh, Dan and Glass, Darren and Krashen, Daniel and Lauter, Kristin and Sharif, Shahed and Silverberg, Alice and Tibouchi, Mehdi and Zhandry, Mark},
+	journal={Journal of Mathematical Cryptology},
+	volume={14},
+	number={1},
+	pages={5--14},
+	year={2020},
+	publisher={De Gruyter}
+}
+@article{stadler2021hybrid,
+	title={Hybrid Signal protocol for post-quantum email encryption},
+	author={Stadler, Sara and Sakaguti, Vitor and Kaur, Harjot and Fehlhaber, Anna Lena},
+	journal={Cryptology ePrint Archive},
+	year={2021}
+}
+@inproceedings{cohn2016post,
+	title={On post-compromise security},
+	author={Cohn-Gordon, Katriel and Cremers, Cas and Garratt, Luke},
+	booktitle={2016 IEEE 29th Computer Security Foundations Symposium (CSF)},
+	pages={164--178},
+	year={2016},
+	organization={IEEE}
+}
+@misc{advanced_cryptographic_ratcheting_2013, url={https://signal.org/blog/advanced-ratcheting/}, journal={Signal Messenger}, year={2013} }
+
+‌@inproceedings{unger2015sok,
+	title={SoK: secure messaging},
+	author={Unger, Nik and Dechand, Sergej and Bonneau, Joseph and Fahl, Sascha and Perl, Henning and Goldberg, Ian and Smith, Matthew},
+	booktitle={2015 IEEE Symposium on Security and Privacy},
+	pages={232--249},
+	year={2015},
+	organization={IEEE}
 }

@@ -1,19 +1,20 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[132] biber-MSWIN64:340> INFO - === 
+[134] biber-MSWIN64:340> INFO - === 
 [175] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[316] Biber.pm:952> INFO - Found 44 citekeys in bib section 0
-[333] Biber.pm:4340> INFO - Processing section 0
-[347] Biber.pm:4531> INFO - Looking for bibtex format file 'literature.bib' for section 0
-[429] bibtex.pm:1689> INFO - LaTeX decoding ...
-[530] bibtex.pm:1494> INFO - Found BibTeX data source 'literature.bib'
-[699] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'dblRtcht' is not an integer - this will probably not sort properly.
-[738] Utils.pm:395> WARN - legacy month field 'February' in entry 'essay77239' is not an integer - this will probably not sort properly.
-[783] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_6E_w\a42497fa0f805ce74b9af7d16715cbd8_34340.utf8, line 378, warning: 3 characters of junk seen at toplevel
-[825] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[825] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[825] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[825] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[862] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[890] bbl.pm:757> INFO - Output to thesis.bbl
-[890] Biber.pm:128> INFO - WARNINGS: 3
+[311] Biber.pm:952> INFO - Found 53 citekeys in bib section 0
+[328] Biber.pm:4340> INFO - Processing section 0
+[341] Biber.pm:4531> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[401] bibtex.pm:1689> INFO - LaTeX decoding ...
+[496] bibtex.pm:1494> INFO - Found BibTeX data source 'literature.bib'
+[672] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'dblRtcht' is not an integer - this will probably not sort properly.
+[786] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_mTBZ\a42497fa0f805ce74b9af7d16715cbd8_26428.utf8, line 379, warning: 3 characters of junk seen at toplevel
+[786] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_mTBZ\a42497fa0f805ce74b9af7d16715cbd8_26428.utf8, line 494, warning: 3 characters of junk seen at toplevel
+[787] Utils.pm:395> WARN - I didn't find a database entry for 'essay77239' (section 0)
+[833] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[833] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[833] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[833] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[874] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[907] bbl.pm:757> INFO - Output to thesis.bbl
+[908] Biber.pm:128> INFO - WARNINGS: 4

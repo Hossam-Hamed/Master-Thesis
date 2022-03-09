@@ -13,12 +13,13 @@ A protocol run involves three roles: Alice, Bob, and a server. In this descripti
 	\begin{tabular}{|c|c|c|}
 		
 		\hline
-	\rowcolor[rgb]{ .745,  .804,  .843}	Owning Role & Notation				 & Description 			  \\\hline\hline
-		\multirow{2}{*}{Alice} & IK\textsubscript{A} 	 & Long-term identity Key \\
-		& EK\textsubscript{A} 	 & Ephemeral Key 		  \\\hline
-		\multirow{3}{*}{Bob}  & IK\textsubscript{B} 	 & Identity Key 		  \\
-		& SPK\textsubscript{B} 	 & Signed Prekey 		  \\
-		& OPK\textsubscript{B} 	 & one-time Prekey 		  \\ \hline
+	\rowcolor[rgb]{ .745,  .804,  .843}
+		Owning Role 			 & Notation							 & Description 			  \\ \hline\hline
+		\multirow{2}{*}{Alice} 	 & \acrshort{ik}\textsubscript{A} 	 & Long-term \acrlong{ik} \\
+							     & EK\textsubscript{A} 	     		 & Ephemeral Key 		  \\\hline
+		\multirow{3}{*}{Bob} 	 & \acrshort{ik}\textsubscript{B} 	 & \acrlong{ik} 		  \\
+								 & SPK\textsubscript{B} 			 & Signed Prekey 		  \\
+							     & OPK\textsubscript{B} 	 		 & one-time Prekey 		  \\ \hline
 		
 	\end{tabular}
 	\caption{\gls{x3dh} keys.}
@@ -34,14 +35,14 @@ A protocol run involves three roles: Alice, Bob, and a server. In this descripti
 
 \subsubsection{A Protocol Run}
 %\subsubsubsection{Registration phase} 
-At first, the protocol starts with a registration phase. Initially, The party acting in the role of Bob publishes to server the public information required to run the protocol with it by any party acting as Alice. Bob publishes his $ IK_{B} $, $ SPK_{B} $, Bob's prekey signature, and a set of $ OPK_{B} $.
+At first, the protocol starts with a registration phase. Initially, The party acting in the role of Bob publishes to server the public information required to run the protocol with it by any party acting as Alice. Bob publishes his $ \gls{ik}_{B} $, $ SPK_{B} $, Bob's prekey signature, and a set of $ OPK_{B} $.
 
 \par
 %\subsubsubsection{The initial message}
 Next, the inline party sends the initiates the protocol by sending the first message. First of all, Alice fetches a \textit{prekey bundle} from the server to contact Bob. This bundle contains:
 \begin{itemize}
 %	\setlength\itemsep{-0.3em}
-	\item Bob's Identity key $ IK_{B} $.
+	\item Bob's Identity key $ \gls{ik}_{B} $.
 	\item Bob's signed prekey $ SPK_{B} $.
 	\item Bob's prekey signature.
 	\item If exists, a one-time prekey $ OPK_{B} $. The server deletes the $ OPK_{B} $ sent to Alice.
@@ -51,8 +52,8 @@ Before proceeding, Alice verifies the prekey signature and quits the protocol if
 At this point, Alice has enough information from Bob to deduce a shared secret. Alice generates her Ephemeral key pair $ EK_{A} $. With the set of available keys, Alice performs three \gls{dh} operations which are extended to four if a $ OPK_{B} $ is available. Figure \ref{fig:x3dh} presents the relation between the keys.
 
 \begin{itemize}	
-\item $ DH1 = DH(IK_{A_{p}} \footnote{\textit{p} indicates the private key of the key pair.}, SPK_{B}) $
-\item $ DH2 = DH(EK_{A_{p}}, IK_{B}) $
+\item $ DH1 = DH(\gls{ik}_{A_{p}} \footnote{\textit{p} indicates the private key of the key pair.}, SPK_{B}) $
+\item $ DH2 = DH(EK_{A_{p}}, \gls{ik}_{B}) $
 \item $ DH3 = DH(EK_{A_{p}}, SPK_{B}) $
 \item \textcolor{darkgray}{$ DH4 = DH(EK_{A_{p}}, OPK_{B}) $}
 \end{itemize}
@@ -68,7 +69,7 @@ The \gls{dh} outputs are fed into a \gls{kdf} to generate the shared secret $ SK
 The initial message contains:
 \begin{itemize}
 %	\setlength\itemsep {-0.3em}
-	\item $ IK_{A} $
+	\item $ \gls{ik}_{A} $
 	\item $ EK_{A} $
 	\item Identifiers of Bob's prekeys used by Alice
 	\item An initial ciphertext. The ciphertext can be used as an initial message for a post-X3DH communication protocol, e.g. Double Ratchet algorithm.
@@ -76,13 +77,13 @@ The initial message contains:
 
 %\subsubsubsection{Bob's $ SK $ Derivation}
 Upon receiving the initial message, Bob attempts to derive the $ SK $.
-Using the key identifiers sent by Alice, Bob loads the private keys corresponding to the public keys Alice used. In combination with the keys $ IK_{A} $ and $ EK_{A} $ Alice sent, Bob can compute the same $ SK $ by doing the three (or four) \gls{dh} operations.
+Using the key identifiers sent by Alice, Bob loads the private keys corresponding to the public keys Alice used. In combination with the keys $ \gls{ik}_{A} $ and $ EK_{A} $ Alice sent, Bob can compute the same $ SK $ by doing the three (or four) \gls{dh} operations.
 \par
 Next, Bob attempts to decrypt the ciphertext. If the message is successfully decrypted to the expected format, e.g. the format of the first message of the post-X3DH protocol, then the protocol run was successful. Otherwise, Bob aborts the protocol and discards the $ SK $.
 
 \subsubsection{Security Considerations}
 %\subsubsubsection{Authentication}
-Authentication is essential for both parties to guarantee the identity of who they are communicating with. Thus, Alice and Bob must authenticate the keys $ IK_{A} $ and $ IK_{B} $. However, the protocol specification does not discuss authentication methods.
+Authentication is essential for both parties to guarantee the identity of who they are communicating with. Thus, Alice and Bob must authenticate the keys $ \gls{ik}_{A} $ and $ \gls{ik}_{B} $. However, the protocol specification does not discuss authentication methods.
 \par
 %\subsubsubsection{Protocol Replay}
 The one-time prekey used in the fourth and optional \gls{dh} calculation is for protection against replay attacks as they ensure freshness of the protocol run. Absence of a one-time prekey could lead a replayed message to be accepted by Bob believing that Alice had sent it in the current protocol run.

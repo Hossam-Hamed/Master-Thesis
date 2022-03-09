@@ -1135,6 +1135,112 @@
       \verb https://rfc-editor.org/rfc/rfc6698.txt
       \endverb
     \endentry
+    \entry{advanced_cryptographic_ratcheting_2013}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{journaltitle}{Signal Messenger}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://signal.org/blog/advanced-ratcheting/
+      \endverb
+      \verb{url}
+      \verb https://signal.org/blog/advanced-ratcheting/
+      \endverb
+    \endentry
+    \entry{cohn2016post}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=580422de4a5defc731c75d5270588a4e}{%
+           family={Cohn-Gordon},
+           familyi={C\bibinithyphendelim G\bibinitperiod},
+           given={Katriel},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bc7d1ce35e2914b340dfcc7ae46ff575}{%
+           family={Cremers},
+           familyi={C\bibinitperiod},
+           given={Cas},
+           giveni={C\bibinitperiod}}}%
+        {{hash=02909d382d0b89f989a65a0c22f80e2d}{%
+           family={Garratt},
+           familyi={G\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d484ab4bfe22905fc0bbd74c4d40b802}
+      \strng{fullhash}{d484ab4bfe22905fc0bbd74c4d40b802}
+      \strng{bibnamehash}{d484ab4bfe22905fc0bbd74c4d40b802}
+      \strng{authorbibnamehash}{d484ab4bfe22905fc0bbd74c4d40b802}
+      \strng{authornamehash}{d484ab4bfe22905fc0bbd74c4d40b802}
+      \strng{authorfullhash}{d484ab4bfe22905fc0bbd74c4d40b802}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE 29th Computer Security Foundations Symposium (CSF)}
+      \field{title}{On post-compromise security}
+      \field{year}{2016}
+      \field{pages}{164\bibrangedash 178}
+      \range{pages}{15}
+    \endentry
+    \entry{unger2015sok}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=c4240882f9248d680b14ac0bc0750814}{%
+           family={Unger},
+           familyi={U\bibinitperiod},
+           given={Nik},
+           giveni={N\bibinitperiod}}}%
+        {{hash=aeb3510e54ada25fc7ae6324a36a6006}{%
+           family={Dechand},
+           familyi={D\bibinitperiod},
+           given={Sergej},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e6eb78ec5f92eaff4e9d4b944aff4c9c}{%
+           family={Bonneau},
+           familyi={B\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1028844fea5de62386623e035ed1f307}{%
+           family={Fahl},
+           familyi={F\bibinitperiod},
+           given={Sascha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3341989638ba9b51cd0c302132437966}{%
+           family={Perl},
+           familyi={P\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a023acc45498a4d8527462d2228654ee}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=892bcbf9fb91b1348837862cbf71f80f}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a8ec59736896da71b2c283832dcf318b}
+      \strng{fullhash}{b83404b2904f7cceaf6d3a5acdd4269f}
+      \strng{bibnamehash}{a8ec59736896da71b2c283832dcf318b}
+      \strng{authorbibnamehash}{a8ec59736896da71b2c283832dcf318b}
+      \strng{authornamehash}{a8ec59736896da71b2c283832dcf318b}
+      \strng{authorfullhash}{b83404b2904f7cceaf6d3a5acdd4269f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 IEEE Symposium on Security and Privacy}
+      \field{title}{SoK: secure messaging}
+      \field{year}{2015}
+      \field{pages}{232\bibrangedash 249}
+      \range{pages}{18}
+    \endentry
     \entry{handbookOfAppliedCrypto}{book}{}
       \name{author}{3}{}{%
         {{hash=78e2730678cdcdff7cebb4f7d2732ff6}{%
@@ -1188,8 +1294,8 @@
       \strng{authorbibnamehash}{352fa836ff5be0e2355b5556d9cf4977}
       \strng{authornamehash}{352fa836ff5be0e2355b5556d9cf4977}
       \strng{authorfullhash}{352fa836ff5be0e2355b5556d9cf4977}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Open Whisper Systems}
@@ -1218,8 +1324,8 @@
       \strng{authorbibnamehash}{037826c0f12d8220dc9c906195716fd9}
       \strng{authornamehash}{037826c0f12d8220dc9c906195716fd9}
       \strng{authorfullhash}{037826c0f12d8220dc9c906195716fd9}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Foundations of Security Analysis and Design V}
@@ -1242,8 +1348,8 @@
       \strng{authorbibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
       \strng{authornamehash}{799e35678fe13bd4153a6f19f7f54b9c}
       \strng{authorfullhash}{799e35678fe13bd4153a6f19f7f54b9c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Protocol security verification tutorial}
@@ -1320,8 +1426,8 @@
       \strng{authorbibnamehash}{9af34eae2da303cfef11562c7539a59f}
       \strng{authornamehash}{9af34eae2da303cfef11562c7539a59f}
       \strng{authorfullhash}{4df6a85bdc911ebad42e78d756c25da0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Cryptology}
@@ -1356,8 +1462,8 @@
       \strng{authorbibnamehash}{42474b56ac813c2792a971b6a2f8bd3a}
       \strng{authornamehash}{42474b56ac813c2792a971b6a2f8bd3a}
       \strng{authorfullhash}{42474b56ac813c2792a971b6a2f8bd3a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Double Ratchet: Security Notions, Proofs, and Modularization for the Signal Protocol}
@@ -1388,8 +1494,8 @@
       \strng{authorbibnamehash}{5efeb2621b03e1543d273390912b1360}
       \strng{authornamehash}{5efeb2621b03e1543d273390912b1360}
       \strng{authorfullhash}{5efeb2621b03e1543d273390912b1360}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cryptology ePrint Archive}
@@ -1413,8 +1519,8 @@
       \strng{authorbibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
       \strng{authornamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
       \strng{authorfullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings 35th annual symposium on foundations of computer science}
@@ -1443,8 +1549,8 @@
       \strng{authorbibnamehash}{619ef89ee12058aba6b0df9b17b11ca3}
       \strng{authornamehash}{619ef89ee12058aba6b0df9b17b11ca3}
       \strng{authorfullhash}{619ef89ee12058aba6b0df9b17b11ca3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Twenty-Eighth Annual ACM Symposium on Theory of Computing}
@@ -1462,35 +1568,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1145/237814.237866
-      \endverb
-    \endentry
-    \entry{essay77239}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=047b949cef8e17cbd56b00be3289a2cb}{%
-           family={{Duits}},
-           familyi={D\bibinitperiod},
-           given={Ines},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{047b949cef8e17cbd56b00be3289a2cb}
-      \strng{fullhash}{047b949cef8e17cbd56b00be3289a2cb}
-      \strng{bibnamehash}{047b949cef8e17cbd56b00be3289a2cb}
-      \strng{authorbibnamehash}{047b949cef8e17cbd56b00be3289a2cb}
-      \strng{authornamehash}{047b949cef8e17cbd56b00be3289a2cb}
-      \strng{authorfullhash}{047b949cef8e17cbd56b00be3289a2cb}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The Signal Protocol provides end-to-end encryption, forward secrecy, backward secrecy, authentication and deniability for chat applications like WhatsApp. The Signal Protocol does this by using the ECDH Curve25519 key exchanges and SHA-512 key derivation. However, the ECDH key exchange is not quantum-safe. A post-quantum Signal Protocol requires a substitute for the ECDH key exchanges. Therefore, we look at post-quantum cryptography, which is secure against a quantum computer. In this thesis we analyse the Signal Protocol and explain our research. We compared 11 different post-quantum algorithms: SIDH and 10 different key encapsulation mechanism, which are in the NIST post-quantum standardisation process: BigQuake, BIKE, Frodo, Crystal-Kyber, Leda, Lima, New Hope, Saber, SIKE and Titanium. We conclude that it is feasible to have different post-quantum Signal Protocols considering the state of 2018 for an average user.}
-      \field{month}{2}
-      \field{title}{The Post-Quantum Signal Protocol : Secure Chat in a Quantum World}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb http://essay.utwente.nl/77239/
-      \endverb
-      \verb{url}
-      \verb http://essay.utwente.nl/77239/
       \endverb
     \endentry
     \entry{ber09}{article}{}
@@ -1608,8 +1685,8 @@
       \strng{authorbibnamehash}{26c312e2629bd185163244ccf26f2abc}
       \strng{authornamehash}{26c312e2629bd185163244ccf26f2abc}
       \strng{authorfullhash}{19eab941cc1602994afffbf35136e16d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Report on post-quantum cryptography}
@@ -1677,8 +1754,8 @@
       \strng{authorbibnamehash}{6d0f42200be893cbd2b5441ca57a9de4}
       \strng{authornamehash}{6d0f42200be893cbd2b5441ca57a9de4}
       \strng{authorfullhash}{707e789d1fcd3cd70938dc3d163a719e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{US Department of Commerce, NIST}
@@ -1709,13 +1786,270 @@
       \strng{authorbibnamehash}{057a3454e5ad0885559c11f0337a54b7}
       \strng{authornamehash}{057a3454e5ad0885559c11f0337a54b7}
       \strng{authorfullhash}{057a3454e5ad0885559c11f0337a54b7}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cryptology ePrint Archive}
       \field{title}{Towards Post-Quantum Secure Symmetric Cryptography: a Mathematical Perspective}
       \field{year}{2019}
+    \endentry
+    \entry{duits2019post}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=047b949cef8e17cbd56b00be3289a2cb}{%
+           family={Duits},
+           familyi={D\bibinitperiod},
+           given={Ines},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Twente}%
+      }
+      \strng{namehash}{047b949cef8e17cbd56b00be3289a2cb}
+      \strng{fullhash}{047b949cef8e17cbd56b00be3289a2cb}
+      \strng{bibnamehash}{047b949cef8e17cbd56b00be3289a2cb}
+      \strng{authorbibnamehash}{047b949cef8e17cbd56b00be3289a2cb}
+      \strng{authornamehash}{047b949cef8e17cbd56b00be3289a2cb}
+      \strng{authorfullhash}{047b949cef8e17cbd56b00be3289a2cb}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The post-quantum signal protocol: secure chat in a quantum world}
+      \field{type}{mathesis}
+      \field{year}{2019}
+    \endentry
+    \entry{brendel2020towards}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=b2c8abaff7dbecd3a351486cf29dec4e}{%
+           family={Brendel},
+           familyi={B\bibinitperiod},
+           given={Jacqueline},
+           giveni={J\bibinitperiod}}}%
+        {{hash=23091f1713beeb72d7a1d501b5d5923e}{%
+           family={Fischlin},
+           familyi={F\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7fc8f59c7b2b48e5bb8a7d735fc55189}{%
+           family={Günther},
+           familyi={G\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=adea057e46b2b3003604953875cebd7d}{%
+           family={Janson},
+           familyi={J\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3a8502de61eb320277cd5ba32a784d2a}{%
+           family={Stebila},
+           familyi={S\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8100f28a81f0c6814f0fe2d8a14c08a2}
+      \strng{fullhash}{0b74a90802714b11fc3067b3f28c04a3}
+      \strng{bibnamehash}{8100f28a81f0c6814f0fe2d8a14c08a2}
+      \strng{authorbibnamehash}{8100f28a81f0c6814f0fe2d8a14c08a2}
+      \strng{authornamehash}{8100f28a81f0c6814f0fe2d8a14c08a2}
+      \strng{authorfullhash}{0b74a90802714b11fc3067b3f28c04a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Selected Areas in Cryptography}
+      \field{title}{Towards post-quantum security for signal’s X3DH handshake}
+      \field{year}{2020}
+      \field{pages}{404\bibrangedash 430}
+      \range{pages}{27}
+    \endentry
+    \entry{azarderakhsh2017post}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=7b1a893a570f2c5894f810ba29771478}{%
+           family={Azarderakhsh},
+           familyi={A\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=06ad878dfd043470d9603ec49bbb5aa5}{%
+           family={Jao},
+           familyi={J\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0e43e5b4da107d8e2fd0a4917085d18e}{%
+           family={Leonardi},
+           familyi={L\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2c9d37baacadccc472253ec597a65f84}
+      \strng{fullhash}{2c9d37baacadccc472253ec597a65f84}
+      \strng{bibnamehash}{2c9d37baacadccc472253ec597a65f84}
+      \strng{authorbibnamehash}{2c9d37baacadccc472253ec597a65f84}
+      \strng{authornamehash}{2c9d37baacadccc472253ec597a65f84}
+      \strng{authorfullhash}{2c9d37baacadccc472253ec597a65f84}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Selected Areas in Cryptography}
+      \field{title}{Post-quantum static-static key agreement using multiple protocol instances}
+      \field{year}{2017}
+      \field{pages}{45\bibrangedash 63}
+      \range{pages}{19}
+    \endentry
+    \entry{basso2020adaptive}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=9fef07f2da9bdeac2012de1dbf61bafb}{%
+           family={Basso},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fe275cc5bc3e068be9f68bdc8be7b8fd}{%
+           family={Kutas},
+           familyi={K\bibinitperiod},
+           given={Péter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b616332b0ccc2be7bbd56a108e6a8c97}{%
+           family={Merz},
+           familyi={M\bibinitperiod},
+           given={Simon-Philipp},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=f8cb552349cc443e67d3d4d6f6f71044}{%
+           family={Petit},
+           familyi={P\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4a80fdb0e8a2bce2ac5e2315f039c6b9}{%
+           family={Weitkämper},
+           familyi={W\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d185ba1c78336be04884ad8d805721a7}
+      \strng{fullhash}{af8325ad498bcd6816ca364cfd839033}
+      \strng{bibnamehash}{d185ba1c78336be04884ad8d805721a7}
+      \strng{authorbibnamehash}{d185ba1c78336be04884ad8d805721a7}
+      \strng{authornamehash}{d185ba1c78336be04884ad8d805721a7}
+      \strng{authorfullhash}{af8325ad498bcd6816ca364cfd839033}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Cryptology in Africa}
+      \field{title}{On adaptive attacks against Jao-Urbanik’s isogeny-based protocol}
+      \field{year}{2020}
+      \field{pages}{195\bibrangedash 213}
+      \range{pages}{19}
+    \endentry
+    \entry{boneh2020multiparty}{article}{}
+      \name{author}{8}{}{%
+        {{hash=9ef331cc9e5b527723547dfa1becd8cf}{%
+           family={Boneh},
+           familyi={B\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e341d2f3abb4d501e5c032f573e88f28}{%
+           family={Glass},
+           familyi={G\bibinitperiod},
+           given={Darren},
+           giveni={D\bibinitperiod}}}%
+        {{hash=041a264ed39d5ab07001eb46ad0f30c0}{%
+           family={Krashen},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=680b73bfd0dd39885486c8671a3d00c1}{%
+           family={Lauter},
+           familyi={L\bibinitperiod},
+           given={Kristin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e3e50e3676aeaeb61eeedef8170d26ea}{%
+           family={Sharif},
+           familyi={S\bibinitperiod},
+           given={Shahed},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eb0ff05d34b564e371350400798d8182}{%
+           family={Silverberg},
+           familyi={S\bibinitperiod},
+           given={Alice},
+           giveni={A\bibinitperiod}}}%
+        {{hash=63dc360e69414d7e0efd456d6a51ede7}{%
+           family={Tibouchi},
+           familyi={T\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=de90e6188942e1336d313c4670df52bf}{%
+           family={Zhandry},
+           familyi={Z\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter}%
+      }
+      \strng{namehash}{5d708e02c7d166f1c824584d996b05e1}
+      \strng{fullhash}{e7d1aa2a6ab4f57932151a5ad1985286}
+      \strng{bibnamehash}{5d708e02c7d166f1c824584d996b05e1}
+      \strng{authorbibnamehash}{5d708e02c7d166f1c824584d996b05e1}
+      \strng{authornamehash}{5d708e02c7d166f1c824584d996b05e1}
+      \strng{authorfullhash}{e7d1aa2a6ab4f57932151a5ad1985286}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Mathematical Cryptology}
+      \field{number}{1}
+      \field{title}{Multiparty non-interactive key exchange and more from isogenies on elliptic curves}
+      \field{volume}{14}
+      \field{year}{2020}
+      \field{pages}{5\bibrangedash 14}
+      \range{pages}{10}
+    \endentry
+    \entry{stadler2021hybrid}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a96e2ef3ef7f5bb9b93a92b80cf245f1}{%
+           family={Stadler},
+           familyi={S\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0b3f4f55cd0395fe43ce186a7408410d}{%
+           family={Sakaguti},
+           familyi={S\bibinitperiod},
+           given={Vitor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=35ae9321b6630d222178138f839f7bb8}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Harjot},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d573d044f4630ee2ce57122660c73d19}{%
+           family={Fehlhaber},
+           familyi={F\bibinitperiod},
+           given={Anna\bibnamedelima Lena},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3a1f88768db91b05c84d558ac38fa0d}
+      \strng{fullhash}{d61cb61ffd38ca69e4bfa0b9943e50ef}
+      \strng{bibnamehash}{d3a1f88768db91b05c84d558ac38fa0d}
+      \strng{authorbibnamehash}{d3a1f88768db91b05c84d558ac38fa0d}
+      \strng{authornamehash}{d3a1f88768db91b05c84d558ac38fa0d}
+      \strng{authorfullhash}{d61cb61ffd38ca69e4bfa0b9943e50ef}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cryptology ePrint Archive}
+      \field{title}{Hybrid Signal protocol for post-quantum email encryption}
+      \field{year}{2021}
     \endentry
     \entry{sztp-csr-draft}{report}{}
       \name{author}{3}{}{%
@@ -1747,8 +2081,8 @@
       \strng{authorbibnamehash}{966152014dd498cd4925036a4bf8ee3e}
       \strng{authornamehash}{966152014dd498cd4925036a4bf8ee3e}
       \strng{authorfullhash}{966152014dd498cd4925036a4bf8ee3e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This draft extends the "get-bootstrapping-data" RPC defined in RFC 8572 to include an optional certificate signing request (CSR), enabling a bootstrapping device to additionally obtain an identity certificate (e.g., an LDevID from IEEE 802.1AR) as part of the "onboarding information" response provided in the RPC-reply.}
@@ -1767,6 +2101,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{essay77239}
 \endrefsection
 \endinput
 

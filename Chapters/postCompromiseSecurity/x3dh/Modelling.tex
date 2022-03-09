@@ -58,7 +58,7 @@ Message 27 represents the initial message from Alice to Bob. It is composed of t
 \begin{itemize}
 	\item Alice's certificate for authenticity.
 	\item (Line 29) The Bob's keys which Alice will use to compute $SK$. All these keys are signed by Alice for integrity protection.
-	\item (Line 31) The initial ciphertext encrypted by the symmetric key $SK$. The output of the 4 DH operations is input into the KDF resulting in $SK$. 
+	\item (Line 31) The initial ciphertext encrypted by the symmetric key $SK$. The output of the 4 DH operations is input into the KDF resulting in $SK$. \\\textbf{\LARGE \# FIXME amention exp issue with ofmc}
 \end{itemize}
 \par
 Message 38 is the last message of the protocol run. It is where Bob shows he is able to compute the same $SK$. 

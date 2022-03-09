@@ -25,9 +25,9 @@ Actions:
         s -> A : { A, B, exp(g, ik(B)), exp(g, OTP), {exp(g, PREKEY)}inv(pk(B)), NA }inv(pk(s))
         
         A -> B : {A, pk(A)}inv(pk(s)), 
-
+                
                  {exp(g, OTP), exp(g,EKA),exp(g, ik(A)), exp(g,PREKEY)}inv(pk(A)),
-
+                
                  {| A, B, MSG1 |}kdf( 
                         exp(exp(g,ik(A)), PREKEY),     #DH1
                         exp(exp(g,EKA), ik(B)),        #DH2
