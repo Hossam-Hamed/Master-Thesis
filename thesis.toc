@@ -89,7 +89,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.1.1.2}Keys}{24}{subsubsection.5.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.3}A Protocol Run}{24}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}A Protocol Run}{25}{subsubsection.5.1.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.1.1.4}Security Considerations}{26}{subsubsection.5.1.1.4}%
 \defcounter {refsection}{0}\relax 
@@ -111,32 +111,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.1}\gls *{kdf} Chain}{31}{subsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Symmetric-key Ratchet}{31}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.2}Symmetric-key Ratchet}{32}{subsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.3}Diffie-Hellman Ratchet}{32}{subsection.5.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Double Ratchet}{34}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.4}Double Ratchet}{35}{subsection.5.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.2.4.1}Out-of-order Messages}{36}{subsubsection.5.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.4.2}Header Encryption}{36}{subsubsection.5.2.4.2}%
+\contentsline {subsubsection}{\numberline {5.2.4.2}Header Encryption}{37}{subsubsection.5.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Formal Verification of Signal Protocol}{37}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Formal Verification of Signal Protocol}{38}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Post-Quantum Security of Signal Protocol}{38}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Post-Quantum Security of Signal Protocol}{39}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Signal Demo Implementation}{41}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Signal Demo Implementation}{43}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Evaluation}{42}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Evaluation}{44}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{43}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{45}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{44}{chapter*.24}%
+\contentsline {chapter}{\nonumberline Bibliography}{46}{chapter*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}BRSKI vs. SZTP}{48}{appendix.A}%
+\contentsline {chapter}{\numberline {A}BRSKI vs. SZTP}{50}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Protocol Comparison}{48}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Protocol Comparison}{50}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Terminology Comparison}{50}{section.A.2}%
+\contentsline {section}{\numberline {A.2}Terminology Comparison}{52}{section.A.2}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

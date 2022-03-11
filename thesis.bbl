@@ -1241,39 +1241,42 @@
       \field{pages}{232\bibrangedash 249}
       \range{pages}{18}
     \endentry
-    \entry{handbookOfAppliedCrypto}{book}{}
+    \entry{alwen_coretti_dodis_2020}{book}{}
       \name{author}{3}{}{%
-        {{hash=78e2730678cdcdff7cebb4f7d2732ff6}{%
-           family={Menezes},
-           familyi={M\bibinitperiod},
-           given={Alfred\bibnamedelima J},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=2b4f1742af51254687b3507ccb544769}{%
-           family={Van\bibnamedelima Oorschot},
-           familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
-           given={Paul\bibnamedelima C},
-           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=e0be458da3b0a0595629254377376159}{%
-           family={Vanstone},
-           familyi={V\bibinitperiod},
-           given={Scott\bibnamedelima A},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3ee993388b23738b0ebba708ee0c9fdf}{%
+           family={Alwen},
+           familyi={A\bibinitperiod},
+           given={Joël},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4b608b6ed2b83da239ee2fdd3cb7c124}{%
+           family={Coretti},
+           familyi={C\bibinitperiod},
+           given={Sandro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=21ac2ee1e3dbf5809549b834bf94ba2e}{%
+           family={Dodis},
+           familyi={D\bibinitperiod},
+           given={Yevgeniy},
+           giveni={Y\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {CRC press}%
-      }
-      \strng{namehash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \strng{fullhash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \strng{bibnamehash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \strng{authorbibnamehash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \strng{authornamehash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \strng{authorfullhash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{namehash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \strng{fullhash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \strng{bibnamehash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \strng{authorbibnamehash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \strng{authornamehash}{42474b56ac813c2792a971b6a2f8bd3a}
+      \strng{authorfullhash}{42474b56ac813c2792a971b6a2f8bd3a}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Handbook of applied cryptography}
-      \field{year}{2018}
+      \field{title}{The Double Ratchet: Security Notions, Proofs, and Modularization for the Signal Protocol}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://eprint.iacr.org/2018/1037.pdf
+      \endverb
+      \verb{url}
+      \verb https://eprint.iacr.org/2018/1037.pdf
+      \endverb
     \endentry
     \entry{x3dh}{article}{}
       \name{author}{2}{}{%
@@ -1301,6 +1304,74 @@
       \field{journaltitle}{Open Whisper Systems}
       \field{title}{The x3dh key agreement protocol}
       \field{year}{2016}
+    \endentry
+    \entry{dblRtcht}{book}{}
+      \name{author}{2}{}{%
+        {{hash=94b0a8eff15435fc3fdb7b8e67526800}{%
+           family={Perrin},
+           familyi={P\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9dfd0bf532dd1b08969afefcdd7188b5}{%
+           family={Marlinspike},
+           familyi={M\bibinitperiod},
+           given={Moxie},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae7738f446a0d9847ef26b836257be1a}
+      \strng{fullhash}{ae7738f446a0d9847ef26b836257be1a}
+      \strng{bibnamehash}{ae7738f446a0d9847ef26b836257be1a}
+      \strng{authorbibnamehash}{ae7738f446a0d9847ef26b836257be1a}
+      \strng{authornamehash}{ae7738f446a0d9847ef26b836257be1a}
+      \strng{authorfullhash}{ae7738f446a0d9847ef26b836257be1a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Signal}
+      \field{month}{11}
+      \field{title}{The Double Ratchet Algorithm}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.signal.org/docs/specifications/doubleratchet/doubleratchet.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.signal.org/docs/specifications/doubleratchet/doubleratchet.pdf
+      \endverb
+    \endentry
+    \entry{handbookOfAppliedCrypto}{book}{}
+      \name{author}{3}{}{%
+        {{hash=78e2730678cdcdff7cebb4f7d2732ff6}{%
+           family={Menezes},
+           familyi={M\bibinitperiod},
+           given={Alfred\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2b4f1742af51254687b3507ccb544769}{%
+           family={Van\bibnamedelima Oorschot},
+           familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Paul\bibnamedelima C},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e0be458da3b0a0595629254377376159}{%
+           family={Vanstone},
+           familyi={V\bibinitperiod},
+           given={Scott\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC press}%
+      }
+      \strng{namehash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{fullhash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{bibnamehash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{authorbibnamehash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{authornamehash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \strng{authorfullhash}{8d52ef4f5f094b07acfee0a4794e4236}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of applied cryptography}
+      \field{year}{2018}
     \endentry
     \entry{ofmc}{incollection}{}
       \name{author}{2}{}{%
@@ -1355,40 +1426,6 @@
       \field{title}{Protocol security verification tutorial}
       \field{year}{2018}
     \endentry
-    \entry{dblRtcht}{book}{}
-      \name{author}{2}{}{%
-        {{hash=94b0a8eff15435fc3fdb7b8e67526800}{%
-           family={Perrin},
-           familyi={P\bibinitperiod},
-           given={Trevor},
-           giveni={T\bibinitperiod}}}%
-        {{hash=9dfd0bf532dd1b08969afefcdd7188b5}{%
-           family={Marlinspike},
-           familyi={M\bibinitperiod},
-           given={Moxie},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{ae7738f446a0d9847ef26b836257be1a}
-      \strng{fullhash}{ae7738f446a0d9847ef26b836257be1a}
-      \strng{bibnamehash}{ae7738f446a0d9847ef26b836257be1a}
-      \strng{authorbibnamehash}{ae7738f446a0d9847ef26b836257be1a}
-      \strng{authornamehash}{ae7738f446a0d9847ef26b836257be1a}
-      \strng{authorfullhash}{ae7738f446a0d9847ef26b836257be1a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Signal}
-      \field{month}{11}
-      \field{title}{The Double Ratchet Algorithm}
-      \field{year}{2016}
-      \verb{urlraw}
-      \verb https://www.signal.org/docs/specifications/doubleratchet/doubleratchet.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.signal.org/docs/specifications/doubleratchet/doubleratchet.pdf
-      \endverb
-    \endentry
     \entry{cohn2020formal}{article}{}
       \name{author}{5}{}{%
         {{hash=580422de4a5defc731c75d5270588a4e}{%
@@ -1438,43 +1475,6 @@
       \field{pages}{1914\bibrangedash 1983}
       \range{pages}{70}
     \endentry
-    \entry{alwen_coretti_dodis_2020}{book}{}
-      \name{author}{3}{}{%
-        {{hash=3ee993388b23738b0ebba708ee0c9fdf}{%
-           family={Alwen},
-           familyi={A\bibinitperiod},
-           given={Joël},
-           giveni={J\bibinitperiod}}}%
-        {{hash=4b608b6ed2b83da239ee2fdd3cb7c124}{%
-           family={Coretti},
-           familyi={C\bibinitperiod},
-           given={Sandro},
-           giveni={S\bibinitperiod}}}%
-        {{hash=21ac2ee1e3dbf5809549b834bf94ba2e}{%
-           family={Dodis},
-           familyi={D\bibinitperiod},
-           given={Yevgeniy},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{42474b56ac813c2792a971b6a2f8bd3a}
-      \strng{fullhash}{42474b56ac813c2792a971b6a2f8bd3a}
-      \strng{bibnamehash}{42474b56ac813c2792a971b6a2f8bd3a}
-      \strng{authorbibnamehash}{42474b56ac813c2792a971b6a2f8bd3a}
-      \strng{authornamehash}{42474b56ac813c2792a971b6a2f8bd3a}
-      \strng{authorfullhash}{42474b56ac813c2792a971b6a2f8bd3a}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Double Ratchet: Security Notions, Proofs, and Modularization for the Signal Protocol}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://eprint.iacr.org/2018/1037.pdf
-      \endverb
-      \verb{url}
-      \verb https://eprint.iacr.org/2018/1037.pdf
-      \endverb
-    \endentry
     \entry{poettering2018asynchronous}{article}{}
       \name{author}{2}{}{%
         {{hash=f7a9a8fc284c7569a838c89011e6bb54}{%
@@ -1502,6 +1502,117 @@
       \field{title}{Asynchronous ratcheted key exchange}
       \field{year}{2018}
     \endentry
+    \entry{x1}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=06e2bb2f83d8b669b46db64431509301}{%
+           family={Bellare},
+           familyi={B\bibinitperiod},
+           given={Mihir},
+           giveni={M\bibinitperiod}}}%
+        {{hash=001e2ed3d41465e88605fb6bd09d9d66}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Asha\bibnamedelima Camper},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6382442af5d56961d35f8c262277d116}{%
+           family={Jaeger},
+           familyi={J\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=97636a37e6edb323c543fe678cdc6d8a}{%
+           family={Nyayapati},
+           familyi={N\bibinitperiod},
+           given={Maya},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9cc9668c434dbd02115db9a62852b8bf}{%
+           family={Stepanovs},
+           familyi={S\bibinitperiod},
+           given={Igors},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a1cb1555602d265f1e979e8d077267cd}
+      \strng{fullhash}{ac27617ec16a158eef6a657a591abf81}
+      \strng{bibnamehash}{a1cb1555602d265f1e979e8d077267cd}
+      \strng{authorbibnamehash}{a1cb1555602d265f1e979e8d077267cd}
+      \strng{authornamehash}{a1cb1555602d265f1e979e8d077267cd}
+      \strng{authorfullhash}{ac27617ec16a158eef6a657a591abf81}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Annual International Cryptology Conference}
+      \field{title}{Ratcheted encryption and key exchange: The security of messaging}
+      \field{year}{2017}
+      \field{pages}{619\bibrangedash 650}
+      \range{pages}{32}
+    \endentry
+    \entry{x2}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=6382442af5d56961d35f8c262277d116}{%
+           family={Jaeger},
+           familyi={J\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9cc9668c434dbd02115db9a62852b8bf}{%
+           family={Stepanovs},
+           familyi={S\bibinitperiod},
+           given={Igors},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0205e2ca94961f152dc5643b06d6ff56}
+      \strng{fullhash}{0205e2ca94961f152dc5643b06d6ff56}
+      \strng{bibnamehash}{0205e2ca94961f152dc5643b06d6ff56}
+      \strng{authorbibnamehash}{0205e2ca94961f152dc5643b06d6ff56}
+      \strng{authornamehash}{0205e2ca94961f152dc5643b06d6ff56}
+      \strng{authorfullhash}{0205e2ca94961f152dc5643b06d6ff56}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Annual International Cryptology Conference}
+      \field{title}{Optimal channel security against fine-grained state compromise: The safety of messaging}
+      \field{year}{2018}
+      \field{pages}{33\bibrangedash 62}
+      \range{pages}{30}
+    \endentry
+    \entry{x3}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e98dfe609d69014da459aed97a180432}{%
+           family={Durak},
+           familyi={D\bibinitperiod},
+           given={F\bibnamedelima Betül},
+           giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=bc5a970b91cc7486cc301f2500577e02}{%
+           family={Vaudenay},
+           familyi={V\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6ca6bc468eab61d3bdaee24ad517c5ce}
+      \strng{fullhash}{6ca6bc468eab61d3bdaee24ad517c5ce}
+      \strng{bibnamehash}{6ca6bc468eab61d3bdaee24ad517c5ce}
+      \strng{authorbibnamehash}{6ca6bc468eab61d3bdaee24ad517c5ce}
+      \strng{authornamehash}{6ca6bc468eab61d3bdaee24ad517c5ce}
+      \strng{authorfullhash}{6ca6bc468eab61d3bdaee24ad517c5ce}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Workshop on Security}
+      \field{title}{Bidirectional asynchronous ratcheted key agreement with linear complexity}
+      \field{year}{2019}
+      \field{pages}{343\bibrangedash 362}
+      \range{pages}{20}
+    \endentry
     \entry{shor94}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=7082a9c99d5d51479d4cfba6bbac2d30}{%
@@ -1519,8 +1630,8 @@
       \strng{authorbibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
       \strng{authornamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
       \strng{authorfullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings 35th annual symposium on foundations of computer science}
@@ -1549,8 +1660,8 @@
       \strng{authorbibnamehash}{619ef89ee12058aba6b0df9b17b11ca3}
       \strng{authornamehash}{619ef89ee12058aba6b0df9b17b11ca3}
       \strng{authorfullhash}{619ef89ee12058aba6b0df9b17b11ca3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Twenty-Eighth Annual ACM Symposium on Theory of Computing}
@@ -1584,8 +1695,8 @@
       \strng{authorbibnamehash}{cc77f8b5fa3840f90938819e591aae07}
       \strng{authornamehash}{cc77f8b5fa3840f90938819e591aae07}
       \strng{authorfullhash}{cc77f8b5fa3840f90938819e591aae07}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{SHARCS}
@@ -1622,8 +1733,8 @@
       \strng{authorbibnamehash}{2d4b0d523ae0af11eb7c83c0dfcd0aad}
       \strng{authornamehash}{2d4b0d523ae0af11eb7c83c0dfcd0aad}
       \strng{authorfullhash}{2d4b0d523ae0af11eb7c83c0dfcd0aad}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Latin American Symposium on Theoretical Informatics}
@@ -1893,8 +2004,8 @@
       \strng{authorbibnamehash}{2c9d37baacadccc472253ec597a65f84}
       \strng{authornamehash}{2c9d37baacadccc472253ec597a65f84}
       \strng{authorfullhash}{2c9d37baacadccc472253ec597a65f84}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Conference on Selected Areas in Cryptography}
@@ -1940,8 +2051,8 @@
       \strng{authorbibnamehash}{d185ba1c78336be04884ad8d805721a7}
       \strng{authornamehash}{d185ba1c78336be04884ad8d805721a7}
       \strng{authorfullhash}{af8325ad498bcd6816ca364cfd839033}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Conference on Cryptology in Africa}
@@ -2002,8 +2113,8 @@
       \strng{authorbibnamehash}{5d708e02c7d166f1c824584d996b05e1}
       \strng{authornamehash}{5d708e02c7d166f1c824584d996b05e1}
       \strng{authorfullhash}{e7d1aa2a6ab4f57932151a5ad1985286}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Mathematical Cryptology}
@@ -2043,8 +2154,8 @@
       \strng{authorbibnamehash}{d3a1f88768db91b05c84d558ac38fa0d}
       \strng{authornamehash}{d3a1f88768db91b05c84d558ac38fa0d}
       \strng{authorfullhash}{d61cb61ffd38ca69e4bfa0b9943e50ef}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cryptology ePrint Archive}
@@ -2081,8 +2192,8 @@
       \strng{authorbibnamehash}{966152014dd498cd4925036a4bf8ee3e}
       \strng{authornamehash}{966152014dd498cd4925036a4bf8ee3e}
       \strng{authorfullhash}{966152014dd498cd4925036a4bf8ee3e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This draft extends the "get-bootstrapping-data" RPC defined in RFC 8572 to include an optional certificate signing request (CSR), enabling a bootstrapping device to additionally obtain an identity certificate (e.g., an LDevID from IEEE 802.1AR) as part of the "onboarding information" response provided in the RPC-reply.}

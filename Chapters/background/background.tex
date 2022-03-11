@@ -30,6 +30,10 @@ This chapters gives an overview over concepts important for the protocols and al
 	%	
 	%	\item Future Secrecy:
 	%		- abstract ... explained in post-comp chapter
+	%	\item immediate decryption:
+	%		the fact that messages might arrive out of order or be lost entirely. Additionally, parties can be offline for extended periods of time and send and receive messages asynchronously. Given these inherent constraints, immediate decryption is a very attractive feature. Informally, it ensures that when a legitimate message is (eventually) delivered to the recipient, the recipient can not only immediately decrypt the message but is also able to place it in the correct spot in relation to the other messages already received. Furthermore, immediate decryption also ensures an even 	more critical liveness property, termed message-loss resilience (MLR) in this work: if a message is permanently lost by the network, parties should still be able to communicate
+	
+	
 \section{Related Work}
 	\subsection{OTR}
 	\subsection{SoK}
