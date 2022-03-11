@@ -1,7 +1,8 @@
-\subsection{OFMC Modeling}
-\textbf{\LARGE \# FIXME add info about the goal of ofmc modelling and the type of adversary tested against}\\
+\subsection{OFMC Verification}
+This section aims at formally verifying the \gls{x3dh} protocol using the automated verification tool OFMC (discussed in section \ref{bg:pfm}). Briefly, OFMC uses the clear and declarative modeling language $AnB$. The goal of the tool is verify the security of the modeled protocol, under an intruder model, in a fashion similar to deciding whether a mathematical statement is true or false. The intruder model is based upon the famous Dolev-Yao model \cite{bibid} 
 
-Presented in listing \ref{model} the code for modeling the protocol in OFMC using the \textit{AnB} language. This section explains the code of the modeling.
+Presented in listing \ref{model} the code for modeling our variant of a secure \gls{x3dh} protocol  under the Dolev-Yao intruder model in OFMC using the \textit{AnB} language.
+
 \lstinputlisting[numbers=left,                    
 numberblanklines=false, breaklines=true, columns=fullflexible,
 frame=single,
@@ -69,7 +70,7 @@ This section of the model lists the security goals which the protocol must achie
 	\item Secrecy: The requirement for a message to be secret only between some parties.
 \end{itemize}
 \input{Chapters/postCompromiseSecurity/x3dh/diff}
-\input{Chapters/postCompromiseSecurity/x3dh/result}
+%\input{Chapters/postCompromiseSecurity/x3dh/result}
 
 
 
