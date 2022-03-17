@@ -1,5 +1,5 @@
 \subsection{OFMC Verification}
-This section aims at formally verifying the \gls{x3dh} protocol using the automated verification tool OFMC (discussed in section \ref{bg:pfm}). Briefly, OFMC uses the clear and declarative modeling language $AnB$. The goal of the tool is verify the security of the modeled protocol, under an intruder model, in a fashion similar to deciding whether a mathematical statement is true or false. The intruder model is based upon the famous Dolev-Yao model \cite{bibid} 
+This section aims at formally verifying the \gls{x3dh} protocol using the automated verification tool OFMC (discussed in section \ref{bg:pfm}). Briefly, OFMC uses the clear and declarative modeling language $AnB$. The goal of the tool is verify the security of the modeled protocol, under an intruder model, in a fashion similar to deciding whether a mathematical statement is true or false. The intruder model is based on the famous Dolev-Yao model \cite{dolev1983security}. The intruder is assumed to control the network. Therefore, the network should not be relied on for any protection guarantees. Furthermore, the intruder is assumed to be knowledgeable to all cryptographic primitive. Lastly, OFMC does not rule out the possibility that the protocol participants can be dishonest.
 
 Presented in listing \ref{model} the code for modeling our variant of a secure \gls{x3dh} protocol  under the Dolev-Yao intruder model in OFMC using the \textit{AnB} language.
 
@@ -21,13 +21,13 @@ Line 5 defines the functions of the protocol.
 \begin{itemize}
 	\item $kdf$: Key derivation function.
 	\item $pk$: A function to model asymmetric key pairs. A public key for Alice is modeled as $pk(A)$ and the corresponding private key is computed using the internal function $inv()$ as follows $inv(pk(A))$.
-	\item $ik$: models the private component of the identity key of a party for the DH calculations.
+	\item $ik$: models the private component of the identity key of a party for the \gls{dh} calculations.
 \end{itemize}
 	Alice and Bob have long-term signing keys modeled by the function $pk()$ and long-term identity keys modeled by the function $ik()$.
 	\par
 Line 6 defines the numbers used in the protocol. Lower-case numbers are constants, while upper-case numbers are random and freshly generated during a protocol run. Some private components of keys are modeled as numbers as they are required to be freshly generated during a protocol run which can not be done using functions.
 \begin{itemize}
-	\item $g$: Public exponent base for DH calculations.
+	\item $g$: Public prime base for \gls{dh} calculations.
 	\item $NA$: Alice's Nonce.
 	\item $EKA$: The private component of Alice's Ephemeral key.
 	\item $OTP$: The One-time prekey's private component.
@@ -42,12 +42,12 @@ Line 15 holds a $where$ clause that strictly defines $A$ and $B$ as different pa
 \subsubsection{Actions section}
 The Actions section states the protocol's message sequence between the participating parties for a successful protocol run. Throughout this section messages are referred to according to their line number, e.g message 19 is the message in line number 19 of the model code.
 \par
-Message 19 represents the registration phase where Bob publishes his public information to the server. The message contains the following:
+Message 19 represents the registration phase where Bob publishes his public information to the server. The whole message is encrypted for authenticity by the server's public key $pk(s)$. The message contains the following:
 \begin{itemize}
-	\item $exp(g,(XX))$: The public DH key of the corresponding private key XX
+	\item $exp(g,Z)$: The public \gls{dh} key of the corresponding private key Z. As known in \gls{dh}, the public key of a party is of the form $g^{Z}\ mod\ p$. For simplicity, OFMC omits the prime modulus operation $mod\ p$. Hence, it is needed to only model the public key $g^{Z}$ by using the OFMC modulus exponentiation function $exp(g,Z)$.
 	\item $\{exp(g,PREKEY)\}inv(pk(B))$: The prekey of Bob signed by Bob's signing key.
 \end{itemize}
-The whole message is encrypted for the server for authenticity.
+
 \par
 Message 21 is not an actual part of the protocol, however, it is included for the sake of modeling the protocol with the chosen tool. This is because of the asynchronous communication model of OFMC and the strands concept \cite{ofmcTut}.
 \par 
@@ -57,12 +57,17 @@ Message 25 is the server's response to Alice's key bundle request. The message c
 \par
 Message 27 represents the initial message from Alice to Bob. It is composed of the following:
 \begin{itemize}
-	\item Alice's certificate for authenticity.
-	\item (Line 29) The Bob's keys which Alice will use to compute $SK$. All these keys are signed by Alice for integrity protection.
-	\item (Line 31) The initial ciphertext encrypted by the symmetric key $SK$. The output of the 4 DH operations is input into the KDF resulting in $SK$. \\\textbf{\LARGE \# FIXME amention exp issue with ofmc}
+	\item (Line 27) Alice's certificate for authenticity.
+	\item (Line 29) Bob's keys that Alice received from the server which will used to compute $SK$. All these keys are signed by Alice for integrity protection.
+	\item (Line 31) The initial ciphertext encrypted by the symmetric key $SK$. Each output of the four \gls{dh} operations is input into the \gls{kdf} resulting in $SK$.
 \end{itemize}
+Message 38 is the last message of the protocol run. Here, Bob shows he is able to compute the same $SK$. 
 \par
-Message 38 is the last message of the protocol run. It is where Bob shows he is able to compute the same $SK$. 
+Notably, the modeling of the \gls{dh} operations in messages 27 and 38 is unnatural in contrast to how \gls{dh} is normally performed. Ordinarily, a \gls{dh} secret is the computation of $exp(g^{M},N)$ where $g^{M}$ is a public value and $N$ is a value private to the party performing the operation. According to exponential power of power rule $exp(g^{M},N)$ is equivalent to $exp(g^{N},M)$. Therefore, the other party should follow that intuition to result in the same secret output as its counterpart. 
+It is observable that the symmetric key computation in message 27 is identical to the one in message 38.
+The behavior for modeling $DH1$, $DH2$, and $DH3$ of message 27 is not expected, since Alice is explicitly using Bob's secrets ($PREKEY$ and $ik(B)$) in the \gls{dh} operations although they ought not be in Alice's knowledge.
+This behavior is present in message 38, however, it is as it should be. To the reader, it could mean that Alice is knowledgeable of Bob's private keys, but, this is not the case. OFMC aims to abstract the key creation process and makes it implicit for the tool users. The OFMC compiler comprehends the exponential power of power property which enables it to automatically do the computation. Despite the previous clarification, $DH4$ computation contradicts what was mentioned. The $M$ and $N$ values for $DH4$ are swapped back to what would be naturally expected in comparison to the previous \gls{dh} operations of message 27. Although, this behavior is considered unnatural for message 38 as now Bob is considered to be using Alice's secret keys. However, this exceptional behavior for $DH4$ is a result of a limitation of OFMC's AnB-translator message composition heuristics, as the translator is not capable of recognizing four inversions in a row. Therefore, the exceptional behavior is a workaround to make the AnB-translator realize how to compose the message. This workaround was thankfully guided by Prof. M\"{o}dersheim, the composer of OFMC.
+    
 \subsubsection{Goals section}
 This section of the model lists the security goals which the protocol must achieve at the end of a run. There are two types of goals
 \begin{itemize}

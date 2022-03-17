@@ -19,12 +19,108 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{x509}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5c3541b083d376fcf7bf52bd401a8ab9}{%
+           family={Union},
+           familyi={U\bibinitperiod},
+           given={International\bibnamedelima Telecommunication},
+           giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c3541b083d376fcf7bf52bd401a8ab9}
+      \strng{fullhash}{5c3541b083d376fcf7bf52bd401a8ab9}
+      \strng{bibnamehash}{5c3541b083d376fcf7bf52bd401a8ab9}
+      \strng{authorbibnamehash}{5c3541b083d376fcf7bf52bd401a8ab9}
+      \strng{authornamehash}{5c3541b083d376fcf7bf52bd401a8ab9}
+      \strng{authorfullhash}{5c3541b083d376fcf7bf52bd401a8ab9}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Itu.int}
+      \field{title}{X.509 : Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.itu.int/rec/T-REC-X.509-201910-I/en
+      \endverb
+      \verb{url}
+      \verb https://www.itu.int/rec/T-REC-X.509-201910-I/en
+      \endverb
+    \endentry
+    \entry{revocationSurvey}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=b1434dc73da342006bd20ff26714e211}{%
+           family={Wohlmacher},
+           familyi={W\bibinitperiod},
+           given={Petra},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1434dc73da342006bd20ff26714e211}
+      \strng{fullhash}{b1434dc73da342006bd20ff26714e211}
+      \strng{bibnamehash}{b1434dc73da342006bd20ff26714e211}
+      \strng{authorbibnamehash}{b1434dc73da342006bd20ff26714e211}
+      \strng{authornamehash}{b1434dc73da342006bd20ff26714e211}
+      \strng{authorfullhash}{b1434dc73da342006bd20ff26714e211}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2000 ACM workshops on Multimedia}
+      \field{title}{Digital certificates: a survey of revocation methods}
+      \field{year}{2000}
+      \field{pages}{111\bibrangedash 114}
+      \range{pages}{4}
+    \endentry
+    \entry{bs-wiki}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{{Bootstrapping}}
+      \field{urlday}{8}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Bootstrapping
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Bootstrapping
+      \endverb
+    \endentry
+    \entry{chen2008recommendation}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=16d5d89c1ab5e7394cdd2e157e2bd3dd}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lily},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{26c312e2629bd185163244ccf26f2abc}
+      \strng{fullhash}{26c312e2629bd185163244ccf26f2abc}
+      \strng{bibnamehash}{26c312e2629bd185163244ccf26f2abc}
+      \strng{authorbibnamehash}{26c312e2629bd185163244ccf26f2abc}
+      \strng{authornamehash}{26c312e2629bd185163244ccf26f2abc}
+      \strng{authorfullhash}{26c312e2629bd185163244ccf26f2abc}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NIST special publication}
+      \field{title}{Recommendation for key derivation using pseudorandom functions}
+      \field{volume}{800}
+      \field{year}{2008}
+      \field{pages}{108}
+      \range{pages}{1}
+    \endentry
     \entry{aci_world_2019}{misc}{}
       \list{publisher}{1}{%
         {Airports Council International}%
       }
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ACI World}
       \field{month}{01}
@@ -220,8 +316,8 @@
       \strng{authorbibnamehash}{0ecfc1acde5bcff1a1f6ff075e1981ec}
       \strng{authornamehash}{0ecfc1acde5bcff1a1f6ff075e1981ec}
       \strng{authorfullhash}{1be7160d1bb76eebfff16310ecb57b1b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 Internet of Things Business Models, Users, and Networks}
@@ -252,8 +348,8 @@
       \strng{authorbibnamehash}{d7d494c023bd84f7f24e589678c5b483}
       \strng{authornamehash}{d7d494c023bd84f7f24e589678c5b483}
       \strng{authorfullhash}{d7d494c023bd84f7f24e589678c5b483}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document specifies Version 1.2 of the Transport Layer Security (TLS) protocol. The TLS protocol provides communications security over the Internet. The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. {[}STANDARDS-TRACK{]}}
@@ -303,8 +399,8 @@
       \strng{authorbibnamehash}{2854c5ced385621643760a0c5b26adbb}
       \strng{authornamehash}{2854c5ced385621643760a0c5b26adbb}
       \strng{authorfullhash}{3f0e55c915a23b344381b4e2b418c682}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{NDN Project}
@@ -473,22 +569,6 @@
       \verb https://rfc-editor.org/rfc/rfc2616.txt
       \endverb
     \endentry
-    \entry{bs-wiki}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{title}{{Bootstrapping}}
-      \field{urlday}{8}
-      \field{urlmonth}{8}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Bootstrapping
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Bootstrapping
-      \endverb
-    \endentry
     \entry{5367679}{article}{}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -588,8 +668,8 @@
       \strng{authorbibnamehash}{4abe7627da21cfc79834f31ec73d210b}
       \strng{authornamehash}{4abe7627da21cfc79834f31ec73d210b}
       \strng{authorfullhash}{cb2a69d0c7f7f40a64968625427c0748}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document specifies a new certificate type and two TLS extensions for exchanging raw public keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS). The new certificate type allows raw public keys to be used for authentication.}
@@ -625,8 +705,8 @@
       \strng{authorbibnamehash}{49952770ed51bcb32792566644a0032e}
       \strng{authornamehash}{49952770ed51bcb32792566644a0032e}
       \strng{authorfullhash}{49952770ed51bcb32792566644a0032e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -669,8 +749,8 @@
       \strng{authorbibnamehash}{72dfe1228a124bc231bd738baec5b6d4}
       \strng{authornamehash}{72dfe1228a124bc231bd738baec5b6d4}
       \strng{authorfullhash}{72dfe1228a124bc231bd738baec5b6d4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Workshop on Smart Object Security}
@@ -1025,8 +1105,8 @@
       \strng{authorbibnamehash}{ba62d9eef469b585eaed0db8dc553db7}
       \strng{authornamehash}{ba62d9eef469b585eaed0db8dc553db7}
       \strng{authorfullhash}{ba62d9eef469b585eaed0db8dc553db7}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Dynamic Host Configuration Protocol (DHCP) provides a framework for passing configuration information to hosts on a TCPIP network. DHCP is based on the Bootstrap Protocol (BOOTP), adding the capability of automatic allocation of reusable network addresses and additional configuration options. {[}STANDARDS-TRACK{]}}
@@ -1069,8 +1149,8 @@
       \strng{authorbibnamehash}{71e8b57292ffeb48787bddfdf31fa27c}
       \strng{authornamehash}{71e8b57292ffeb48787bddfdf31fa27c}
       \strng{authorfullhash}{71e8b57292ffeb48787bddfdf31fa27c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document defines a date and time format for use in Internet protocols that is a profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar.}
@@ -1231,8 +1311,8 @@
       \strng{authorbibnamehash}{a8ec59736896da71b2c283832dcf318b}
       \strng{authornamehash}{a8ec59736896da71b2c283832dcf318b}
       \strng{authorfullhash}{b83404b2904f7cceaf6d3a5acdd4269f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2015 IEEE Symposium on Security and Privacy}
@@ -1265,8 +1345,8 @@
       \strng{authorbibnamehash}{42474b56ac813c2792a971b6a2f8bd3a}
       \strng{authornamehash}{42474b56ac813c2792a971b6a2f8bd3a}
       \strng{authorfullhash}{42474b56ac813c2792a971b6a2f8bd3a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Double Ratchet: Security Notions, Proofs, and Modularization for the Signal Protocol}
@@ -1405,6 +1485,40 @@
       \field{pages}{166\bibrangedash 194}
       \range{pages}{29}
     \endentry
+    \entry{dolev1983security}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c35618867dec7d9668b1e3dbb14da274}{%
+           family={Dolev},
+           familyi={D\bibinitperiod},
+           given={Danny},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bbf584d766308aeb98319dd5e6fbbe1f}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5f2529bb54a4555cc37fd29547a86038}
+      \strng{fullhash}{5f2529bb54a4555cc37fd29547a86038}
+      \strng{bibnamehash}{5f2529bb54a4555cc37fd29547a86038}
+      \strng{authorbibnamehash}{5f2529bb54a4555cc37fd29547a86038}
+      \strng{authornamehash}{5f2529bb54a4555cc37fd29547a86038}
+      \strng{authorfullhash}{5f2529bb54a4555cc37fd29547a86038}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on information theory}
+      \field{number}{2}
+      \field{title}{On the security of public key protocols}
+      \field{volume}{29}
+      \field{year}{1983}
+      \field{pages}{198\bibrangedash 208}
+      \range{pages}{11}
+    \endentry
     \entry{ofmcTut}{misc}{}
       \name{author}{1}{}{%
         {{hash=799e35678fe13bd4153a6f19f7f54b9c}{%
@@ -1419,8 +1533,8 @@
       \strng{authorbibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
       \strng{authornamehash}{799e35678fe13bd4153a6f19f7f54b9c}
       \strng{authorfullhash}{799e35678fe13bd4153a6f19f7f54b9c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Protocol security verification tutorial}
@@ -1494,8 +1608,8 @@
       \strng{authorbibnamehash}{5efeb2621b03e1543d273390912b1360}
       \strng{authornamehash}{5efeb2621b03e1543d273390912b1360}
       \strng{authorfullhash}{5efeb2621b03e1543d273390912b1360}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cryptology ePrint Archive}
@@ -1539,8 +1653,8 @@
       \strng{authorbibnamehash}{a1cb1555602d265f1e979e8d077267cd}
       \strng{authornamehash}{a1cb1555602d265f1e979e8d077267cd}
       \strng{authorfullhash}{ac27617ec16a158eef6a657a591abf81}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Annual International Cryptology Conference}
@@ -1571,8 +1685,8 @@
       \strng{authorbibnamehash}{0205e2ca94961f152dc5643b06d6ff56}
       \strng{authornamehash}{0205e2ca94961f152dc5643b06d6ff56}
       \strng{authorfullhash}{0205e2ca94961f152dc5643b06d6ff56}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Annual International Cryptology Conference}
@@ -1603,8 +1717,8 @@
       \strng{authorbibnamehash}{6ca6bc468eab61d3bdaee24ad517c5ce}
       \strng{authornamehash}{6ca6bc468eab61d3bdaee24ad517c5ce}
       \strng{authorfullhash}{6ca6bc468eab61d3bdaee24ad517c5ce}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Workshop on Security}
@@ -1796,8 +1910,9 @@
       \strng{authorbibnamehash}{26c312e2629bd185163244ccf26f2abc}
       \strng{authornamehash}{26c312e2629bd185163244ccf26f2abc}
       \strng{authorfullhash}{19eab941cc1602994afffbf35136e16d}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Report on post-quantum cryptography}
@@ -1865,8 +1980,8 @@
       \strng{authorbibnamehash}{6d0f42200be893cbd2b5441ca57a9de4}
       \strng{authornamehash}{6d0f42200be893cbd2b5441ca57a9de4}
       \strng{authorfullhash}{707e789d1fcd3cd70938dc3d163a719e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{US Department of Commerce, NIST}
@@ -1897,8 +2012,8 @@
       \strng{authorbibnamehash}{057a3454e5ad0885559c11f0337a54b7}
       \strng{authornamehash}{057a3454e5ad0885559c11f0337a54b7}
       \strng{authorfullhash}{057a3454e5ad0885559c11f0337a54b7}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cryptology ePrint Archive}
@@ -1922,8 +2037,8 @@
       \strng{authorbibnamehash}{047b949cef8e17cbd56b00be3289a2cb}
       \strng{authornamehash}{047b949cef8e17cbd56b00be3289a2cb}
       \strng{authorfullhash}{047b949cef8e17cbd56b00be3289a2cb}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The post-quantum signal protocol: secure chat in a quantum world}
@@ -1967,8 +2082,8 @@
       \strng{authorbibnamehash}{8100f28a81f0c6814f0fe2d8a14c08a2}
       \strng{authornamehash}{8100f28a81f0c6814f0fe2d8a14c08a2}
       \strng{authorfullhash}{0b74a90802714b11fc3067b3f28c04a3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Conference on Selected Areas in Cryptography}
@@ -2212,7 +2327,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{essay77239}
 \endrefsection
 \endinput
 

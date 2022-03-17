@@ -1,24 +1,28 @@
 \chapter{Background}
 \label{ch:background}
-
-This chapters gives an overview over concepts important for the protocols and algorithms discussed in further chapters.
+This chapter gives an overview over concepts and related required for understanding the protocols and algorithms discussed in further chapters of the thesis.
 \section{Preliminaries}
 
-\subsection{Certificate}
+\subsection{Cryptography Concepts Overview}
+\input{Chapters/background/encryption.tex}
 
-\subsection{Encryption}
-	\subsubsection{Symmetric Encryption}
-	\subsubsection{Asymmetric Encryption}
-	
+\subsection{Digital Certificates}
+\input{Chapters/background/certificates.tex}
+
 \subsection{Bootstrapping}
+\input{Chapters/background/bootstrapping.tex}
 
 \subsection{Voucher Artifact}
+\input{Chapters/background/voucher.tex}
 
 \subsection{Certificate Enrollment}
+\input{Chapters/background/enrollment.tex}
 
 \subsection{Protocol Formal Verification}\label{bg:pfm}
+\input{Chapters/background/verification.tex}
 
-\subsection{\acrfull*{kdf}} \label{backgroung:kdf}
+\subsection{Key Derivation Function (KDF)} \label{backgroung:kdf}
+\input{Chapters/background/kdf.tex}
 
 \subsection{Threat Models}
 
@@ -35,9 +39,4 @@ This chapters gives an overview over concepts important for the protocols and al
 	
 	
 \section{Related Work}
-	\subsection{OTR}
-	\subsection{SoK}
-	\subsection{Key Continuity Management}
-	\subsection{On post-compromise security}
-	study post-compromise security 	in (classic) key exchange. Here, security shall be achieved even for sessions established after a full compromise of user secrets. This necessarily requires mixing user state information with key material that is newly established via asymmetric techniques, and is thus related to RKE.
-	\subsection{Tesla}
+\input{Chapters/background/relatedWork.tex}

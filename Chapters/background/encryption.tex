@@ -1,0 +1,14 @@
+The practice and study of mechanisms for secure communication is known as cryptography. Secure communication in digital communications is the assurance of message privacy between communicating parties, even when the communication channel is untrusted, and adversaries are present. Cryptography is the process of creating and evaluating protocols with the prime objective of assuring data confidentiality, integrity, and authenticity between communicating parties. The fundamental basis of cryptography are mathematical theory and computer science practice. Cryptographic algorithms are built around assumptions about computational difficulty. While it is theoretically conceivable to break such algorithms in a well-designed system, any adversary would find it infeasible in practice.
+\par
+Encryption is the operation of converting information (\textit{cleartext}) using cryptographic algorithms into a form (\textit{ciphertext}) that is unintelligible to the public or an adversary. The ciphertext can be restored to its original form by its intended recipient who owns the necessary cryptographic material to perform the decryption process. Encryption is a prominent and commonly utilized method to ensure confidentiality.
+\par
+On the other hand, integrity is the assurance that data has not been intercepted and modified by an adversary or corrupted in transit. Mainly, the approach to ensure data integrity is through mathematically compute a digital fingerprint for the data via hash functions. Subsequently, the digital fingerprint is attached to the data and sent to their designated party. The receiver verifies that the fingerprint corresponds to the data received, and thus the data integrity is proven.
+\par
+Cryptography is split into two main cryptosystems: Symmetric and Asymmetric cryptography.
+
+\subsubsection{Symmetric Cryptography}
+Symmetric cryptography, aka shared secret cryptography, relies in its operations on a private key that is shared between the communicating parties. In symmetric encryption, the shared secret is used for both encryption and decryption operations. Schemes for symmetric encryption are divided into two main categories according to how data is encrypted: Block ciphers and Stream ciphers.
+Block ciphers scheme encrypts one fixed-size block of data at a time. In a block cipher, a given plaintext block will always encrypt to the same ciphertext when using the same key (i.e., it is deterministic) whereas the same plaintext will encrypt to different ciphertext in a stream cipher. Block ciphers can operate in one of several modes, e.g. CBC, CTR. AES is a well-known example of a secure block cipher algorithm.
+\par
+Stream ciphers scheme 
+\subsubsection{Asymmetric Cryptography}
