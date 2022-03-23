@@ -1,6 +1,20 @@
-	\subsection{OTR}
+\subsection{Off-the-Record Protocol}
+Consider the following scenario: Alice and Bob are alone in a room. Unless they are recorded, no one can hear what they are talking to one other. Therefore, no one knows what they are talking about until Alice and Bob tell them, and no one, not even Alice and Bob, can verify that what they are saying is true. \gls{otr} \cite{otr} aims to achieve the same form of secrecy in the field of instant messaging. The OTR protocol was first released in October 2004 by cryptographers Ian Goldberg and Nikita Borisov. At the time of writing, \gls{otr} is at version 3 \cite{otr3}. \gls{otr} provides a set of essential security features: Encryption, Authentication, Deniability, and forward secrecy.
+\par
+Abstractly, the protocol flow goes as follows. At first Alice and Bob establish a session encryption key through a \gls{dh} key exchange. Even though each party has established a shared secret, neither has a guarantee about authentication, i.e., no party is sure that the other party is whom it claims to be as a man-in-the-middle attack is possible. Each party owns a long-term public key for identity authentication. These keys are utilized discretely between the communicating parties to prove their identity to each other without sacrificing deniability to third parties. Alice and Bob generate signatures using their long-term private keys, enveloped in messages encrypted using the computed session key. Moreover, HMAC signatures are generated for messages to guarantee integrity as well as authenticity. Alice and Bob generate symmetric signing keys by passing the shared encryption key through hash functions. These signing keys are used to generate HMAC signatures. Next, parties can verify the signature received and consequently have the assurance of the party's identity at the other end of the channel. Assuming there was a man-in-the-middle, he would not be able to forge a signature for either party, and thus, signature verification would fail. Despite the use of digital signatures, they are used within an encrypted channel, and no other party can verify that both parties were communicating. After a message has been received and successfully decrypted, the sender publishes the message signing keys, and both parties delete their encryption keys and start over with the \gls{dh} key exchange to generate a new shared secret. Publishing signing keys enables outsiders to forge messages, enhancing the deniability feature for Alice and Bob. On the other hand, deletion of encryption keys ensures forward secrecy. Lastly, during the exchange of data messages, either Alice or Bob may employ the \gls{smp} \cite{smp} to detect impersonation or man-in-the-middle attacks.
+
 \subsection{SoK}
+%	
+%	\item Forward Secrecy:
+%	
+%	\item Future Secrecy:
+%		- abstract ... explained in post-comp chapter
+%	\item immediate decryption:
+%		the fact that messages might arrive out of order or be lost entirely. Additionally, parties can be offline for extended periods of time and send and receive messages asynchronously. Given these inherent constraints, immediate decryption is a very attractive feature. Informally, it ensures that when a legitimate message is (eventually) delivered to the recipient, the recipient can not only immediately decrypt the message but is also able to place it in the correct spot in relation to the other messages already received. Furthermore, immediate decryption also ensures an even 	more critical liveness property, termed message-loss resilience (MLR) in this work: if a message is permanently lost by the network, parties should still be able to communicate
+
 \subsection{Key Continuity Management}
-\subsection{On post-compromise security}
-study post-compromise security 	in (classic) key exchange. Here, security shall be achieved even for sessions established after a full compromise of user secrets. This necessarily requires mixing user state information with key material that is newly established via asymmetric techniques, and is thus related to RKE.
+
 \subsection{Tesla}
+
+%\subsection{On post-compromise security}
+%study post-compromise security 	in (classic) key exchange. Here, security shall be achieved even for sessions established after a full compromise of user secrets. This necessarily requires mixing user state information with key material that is newly established via asymmetric techniques, and is thus related to RKE.

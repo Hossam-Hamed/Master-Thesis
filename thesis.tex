@@ -46,19 +46,19 @@
 \lstset{language=}
 \lstset{basicstyle=\ttfamily}
 \lstdefinelanguage{PSQL}[]{SQL}{
-   morekeywords={PREFERRING}
-   sensitive=true,% DJ
-   morecomment=[l]--,%
-   morecomment=[s]{/*}{*/},%
-   morestring=[d]',%
-   morestring=[d]"%
+  morekeywords={PREFERRING}
+  sensitive=true,% DJ
+  morecomment=[l]--,%
+  morecomment=[s]{/*}{*/},%
+  morestring=[d]',%
+  morestring=[d]"%
 }[keywords,comments,strings]%
 
 % better bibliography (biblatex style)
 % use biber to compile
 \usepackage[autostyle,english=american,german=quotes]{csquotes}
-\usepackage{amsmath}  % for \hookrightarrow
-\usepackage{xcolor}   % for \textcolor
+\usepackage{amsmath} % for \hookrightarrow
+\usepackage{xcolor}  % for \textcolor
 \usepackage{multirow}
 \usepackage{rotating}
 \usepackage{array}
@@ -83,10 +83,10 @@
 \newtheorem{example}{Example}
 \newtheorem{def_internal}{Definition}
 \newenvironment{definition}[1]{
-  \begin{def_internal}{\textbf{#1}\\}
+ \begin{def_internal}{\textbf{#1}\\}
 }{ 
-  \hfill $\Box$
-  \end{def_internal}
+ \hfill $\Box$
+ \end{def_internal}
 }
 
 \renewcommand{\algorithmiccomment}[1]{$\rhd$ #1 \hfill}

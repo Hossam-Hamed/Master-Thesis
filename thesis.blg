@@ -1,19 +1,21 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[151] biber-MSWIN64:340> INFO - === 
-[193] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[336] Biber.pm:952> INFO - Found 59 citekeys in bib section 0
-[353] Biber.pm:4340> INFO - Processing section 0
-[366] Biber.pm:4531> INFO - Looking for bibtex format file 'literature.bib' for section 0
-[437] bibtex.pm:1689> INFO - LaTeX decoding ...
-[537] bibtex.pm:1494> INFO - Found BibTeX data source 'literature.bib'
-[712] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'dblRtcht' is not an integer - this will probably not sort properly.
-[848] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_N_dR\a42497fa0f805ce74b9af7d16715cbd8_21148.utf8, line 379, warning: 3 characters of junk seen at toplevel
-[848] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_N_dR\a42497fa0f805ce74b9af7d16715cbd8_21148.utf8, line 494, warning: 3 characters of junk seen at toplevel
-[902] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[902] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[902] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[902] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[947] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[983] bbl.pm:757> INFO - Output to thesis.bbl
-[983] Biber.pm:128> INFO - WARNINGS: 3
+[154] biber-MSWIN64:340> INFO - === 
+[196] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[340] Biber.pm:952> INFO - Found 70 citekeys in bib section 0
+[357] Biber.pm:4340> INFO - Processing section 0
+[371] Biber.pm:4531> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[434] bibtex.pm:1689> INFO - LaTeX decoding ...
+[555] bibtex.pm:1494> INFO - Found BibTeX data source 'literature.bib'
+[786] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'dblRtcht' is not an integer - this will probably not sort properly.
+[920] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_h2Ld\a42497fa0f805ce74b9af7d16715cbd8_13076.utf8, line 379, warning: 3 characters of junk seen at toplevel
+[920] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_h2Ld\a42497fa0f805ce74b9af7d16715cbd8_13076.utf8, line 494, warning: 3 characters of junk seen at toplevel
+[920] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_h2Ld\a42497fa0f805ce74b9af7d16715cbd8_13076.utf8, line 663, warning: 3 characters of junk seen at toplevel
+[921] Utils.pm:395> WARN - I didn't find a database entry for '\gls {ofmc}Tut' (section 0)
+[980] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[980] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[981] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[981] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1032] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[1073] bbl.pm:757> INFO - Output to thesis.bbl
+[1074] Biber.pm:128> INFO - WARNINGS: 5

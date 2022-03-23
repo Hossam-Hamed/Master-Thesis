@@ -1,19 +1,19 @@
 \subsection{OFMC Verification}
-This section aims at formally verifying the \gls{x3dh} protocol using the automated verification tool OFMC (discussed in section \ref{bg:pfm}). Briefly, OFMC uses the clear and declarative modeling language $AnB$. The goal of the tool is verify the security of the modeled protocol, under an intruder model, in a fashion similar to deciding whether a mathematical statement is true or false. The intruder model is based on the famous Dolev-Yao model \cite{dolev1983security}. The intruder is assumed to control the network. Therefore, the network should not be relied on for any protection guarantees. Furthermore, the intruder is assumed to be knowledgeable to all cryptographic primitive. Lastly, OFMC does not rule out the possibility that the protocol participants can be dishonest.
+This section aims at formally verifying the \gls{x3dh} protocol using the automated verification tool \gls{ofmc}. Briefly, \gls{ofmc} uses the clear and declarative modeling language $AnB$. The goal of the tool is verify the security of the modeled protocol, under an intruder model, in a fashion similar to deciding whether a mathematical statement is true or false. The intruder model is based on the famous Dolev-Yao model \cite{dolev1983security}. The intruder is assumed to control the network. Therefore, the network should not be relied on for any protection guarantees. Furthermore, the intruder is assumed to be knowledgeable to all cryptographic primitive. Lastly, \gls{ofmc} does not rule out the possibility that the protocol participants can be dishonest.
 
-Presented in listing \ref{model} the code for modeling our variant of a secure \gls{x3dh} protocol  under the Dolev-Yao intruder model in OFMC using the \textit{AnB} language.
+Presented in listing \ref{model} the code for modeling our variant of a secure \gls{x3dh} protocol under the Dolev-Yao intruder model in \gls{ofmc} using the \textit{AnB} language.
 
-\lstinputlisting[numbers=left,                    
+\lstinputlisting[numbers=left,          
 numberblanklines=false, breaklines=true, columns=fullflexible,
 frame=single,
 breaklines=true,
 postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
-caption={X3DH OFMC Model},captionpos=b, label={model}]{code/x3dh.anb}
+caption={X3DH \gls{ofmc} Model},captionpos=b, label={model}]{code/x3dh.anb}
 
 \subsubsection{Types section} 
 Here, the parameters of the protocol are defined, e.g. variables, constants, roles, etc. Line 4 defines the participants of the protocol of type \textbf{Agent}.
 \begin{itemize}
-	\item $A$ and $B$: Variables indicating Alice and Bob. A variable may be dishonest in an OFMC protocol run.
+	\item $A$ and $B$: Variables indicating Alice and Bob. A variable may be dishonest in an \gls{ofmc} protocol run.
 	\item $s$: Constant indicating the server. Constants act as trusted third parties.
 \end{itemize}
 \par
@@ -44,12 +44,12 @@ The Actions section states the protocol's message sequence between the participa
 \par
 Message 19 represents the registration phase where Bob publishes his public information to the server. The whole message is encrypted for authenticity by the server's public key $pk(s)$. The message contains the following:
 \begin{itemize}
-	\item $exp(g,Z)$: The public \gls{dh} key of the corresponding private key Z. As known in \gls{dh}, the public key of a party is of the form $g^{Z}\ mod\ p$. For simplicity, OFMC omits the prime modulus operation $mod\ p$. Hence, it is needed to only model the public key $g^{Z}$ by using the OFMC modulus exponentiation function $exp(g,Z)$.
+	\item $exp(g,Z)$: The public \gls{dh} key of the corresponding private key Z. As known in \gls{dh}, the public key of a party is of the form $g^{Z}\ mod\ p$. For simplicity, \gls{ofmc} omits the prime modulus operation $mod\ p$. Hence, it is needed to only model the public key $g^{Z}$ by using the \gls{ofmc} modulus exponentiation function $exp(g,Z)$.
 	\item $\{exp(g,PREKEY)\}inv(pk(B))$: The prekey of Bob signed by Bob's signing key.
 \end{itemize}
 
 \par
-Message 21 is not an actual part of the protocol, however, it is included for the sake of modeling the protocol with the chosen tool. This is because of the asynchronous communication model of OFMC and the strands concept \cite{ofmcTut}.
+Message 21 is not an actual part of the protocol, however, it is included for the sake of modeling the protocol with the chosen tool. This is because of the asynchronous communication model of \gls{ofmc} and the strands concept \cite{\gls{ofmc}Tut}.
 \par 
 In message 23, Alice requests to fetch from the server a key bundle to communicate with Bob. A nonce $NA$ is attached for freshness.
 \par
@@ -66,8 +66,8 @@ Message 38 is the last message of the protocol run. Here, Bob shows he is able t
 Notably, the modeling of the \gls{dh} operations in messages 27 and 38 is unnatural in contrast to how \gls{dh} is normally performed. Ordinarily, a \gls{dh} secret is the computation of $exp(g^{M},N)$ where $g^{M}$ is a public value and $N$ is a value private to the party performing the operation. According to exponential power of power rule $exp(g^{M},N)$ is equivalent to $exp(g^{N},M)$. Therefore, the other party should follow that intuition to result in the same secret output as its counterpart. 
 It is observable that the symmetric key computation in message 27 is identical to the one in message 38.
 The behavior for modeling $DH1$, $DH2$, and $DH3$ of message 27 is not expected, since Alice is explicitly using Bob's secrets ($PREKEY$ and $ik(B)$) in the \gls{dh} operations although they ought not be in Alice's knowledge.
-This behavior is present in message 38, however, it is as it should be. To the reader, it could mean that Alice is knowledgeable of Bob's private keys, but, this is not the case. OFMC aims to abstract the key creation process and makes it implicit for the tool users. The OFMC compiler comprehends the exponential power of power property which enables it to automatically do the computation. Despite the previous clarification, $DH4$ computation contradicts what was mentioned. The $M$ and $N$ values for $DH4$ are swapped back to what would be naturally expected in comparison to the previous \gls{dh} operations of message 27. Although, this behavior is considered unnatural for message 38 as now Bob is considered to be using Alice's secret keys. However, this exceptional behavior for $DH4$ is a result of a limitation of OFMC's AnB-translator message composition heuristics, as the translator is not capable of recognizing four inversions in a row. Therefore, the exceptional behavior is a workaround to make the AnB-translator realize how to compose the message. This workaround was thankfully guided by Prof. M\"{o}dersheim, the composer of OFMC.
-    
+This behavior is present in message 38, however, it is as it should be. To the reader, it could mean that Alice is knowledgeable of Bob's private keys, but, this is not the case. \gls{ofmc} aims to abstract the key creation process and makes it implicit for the tool users. The \gls{ofmc} compiler comprehends the exponential power of power property which enables it to automatically do the computation. Despite the previous clarification, $DH4$ computation contradicts what was mentioned. The $M$ and $N$ values for $DH4$ are swapped back to what would be naturally expected in comparison to the previous \gls{dh} operations of message 27. Although, this behavior is considered unnatural for message 38 as now Bob is considered to be using Alice's secret keys. However, this exceptional behavior for $DH4$ is a result of a limitation of \gls{ofmc}'s AnB-translator message composition heuristics, as the translator is not capable of recognizing four inversions in a row. Therefore, the exceptional behavior is a workaround to make the AnB-translator realize how to compose the message. This workaround was thankfully guided by Prof. M\"{o}dersheim, the composer of \gls{ofmc}.
+  
 \subsubsection{Goals section}
 This section of the model lists the security goals which the protocol must achieve at the end of a run. There are two types of goals
 \begin{itemize}
