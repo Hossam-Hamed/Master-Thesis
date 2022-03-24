@@ -3,12 +3,41 @@ Consider the following scenario: Alice and Bob are alone in a room. Unless they 
 \par
 Abstractly, the protocol flow goes as follows. At first Alice and Bob establish a session encryption key through a \gls{dh} key exchange. Even though each party has established a shared secret, neither has a guarantee about authentication, i.e., no party is sure that the other party is whom it claims to be as a man-in-the-middle attack is possible. Each party owns a long-term public key for identity authentication. These keys are utilized discretely between the communicating parties to prove their identity to each other without sacrificing deniability to third parties. Alice and Bob generate signatures using their long-term private keys, enveloped in messages encrypted using the computed session key. Moreover, HMAC signatures are generated for messages to guarantee integrity as well as authenticity. Alice and Bob generate symmetric signing keys by passing the shared encryption key through hash functions. These signing keys are used to generate HMAC signatures. Next, parties can verify the signature received and consequently have the assurance of the party's identity at the other end of the channel. Assuming there was a man-in-the-middle, he would not be able to forge a signature for either party, and thus, signature verification would fail. Despite the use of digital signatures, they are used within an encrypted channel, and no other party can verify that both parties were communicating. After a message has been received and successfully decrypted, the sender publishes the message signing keys, and both parties delete their encryption keys and start over with the \gls{dh} key exchange to generate a new shared secret. Publishing signing keys enables outsiders to forge messages, enhancing the deniability feature for Alice and Bob. On the other hand, deletion of encryption keys ensures forward secrecy. Lastly, during the exchange of data messages, either Alice or Bob may employ the \gls{smp} \cite{smp} to detect impersonation or man-in-the-middle attacks.
 
-\subsection{SoK}
-%	
-%	\item Forward Secrecy:
-%	
-%	\item Future Secrecy:
-%		- abstract ... explained in post-comp chapter
+\subsection{SoK: Secure Messaging}
+Unger et al. \cite{unger2015sok} presented a comprehensive survey study where they used a methodology they've established to analyze and systematize current secure messaging solutions. Their survey valuably contributes towards an open standard for secure messaging by combining the most promising secure messaging features. The study looks at secure messaging solutions from academic research as well as real-world deployments, which identify innovative and promising ways that have already been implemented but are not covered in academic literature. The presented framework focuses on evaluating three main principles of the surveyed solutions: trust establishment, conversation security, and transport privacy.
+For each, they evaluate the security, usability, and ease-of-adoption properties. However, security is the primary aspect relevant to our work.
+\par
+Trust establishment is defined as the procedure through which users ensure that they are communicating with the intended parties, i.e., a combination of long-term key exchange and long-term key authentication. While, transport privacy is concerned with preserving the privacy of users by obscuring metadata of messages during transit, such as the sender, receiver, and which conversation the message belongs to. Nevertheless, the aspect most relevant to our work is conversation security. It relates to protecting messages' security and privacy; and comprises the methods used to encrypt communications, the associated data, and the cryptographic algorithms employed. In addition to confidentiality, authentication, and integrity, discussed earlier, below are additional security properties. The following properties are relevant to two-party communication only as group communication is out of our scope.
+\begin{itemize}
+	\item \textit{Participant Consistency:} When one honest party accepts a message, all other honest parties are assured to have the same view of the participant list.
+	
+	\item \textit{Destination Validation:} When an honest party accepts a message, they may verify that they were included in the message's intended recipients list.
+
+	\item \textit{Anonymity Preserving:} The underlying transport privacy architecture's anonymity characteristics are not jeopardized by the message exchange protocol.
+	
+	\item \textit{Speaker Consistency:} The order of messages transmitted by each participant is agreed upon by all participants. During the protocol, or after each message is transmitted, a protocol may execute consistency checks on blocks of messages.
+
+	\item \textit{Causality Preserving:} It is possible to prevent showing a message before messages that are causally related to it in the implementation.
+	
+	\item \textit{Global Transcript:} All of the messages are displayed in the same order to all of the participants. It's worth noting that this presupposes speaker consistency.
+	
+	\item \textit{Deniability:} In some secure communications protocol use cases, deniability is a desired property. It refers to the inability of others to verify that a particular individual transmitted the data. However, if Bob receives a message from Alice, he can be confident that Alice sent it, but he cannot prove it to anybody else. Anyone can forge messages after a conversation to make them look like they came from them. However, if it is during a conversation, participants can rest assured that the messages they exchange are authentic and have not been modified by an intruder. Secure messaging protocols that offer deniability can assure the user that anyone can forge messages on their behalf after a conversation has ended, but not during a conversation. Deniability may be realized by conversation security protocols in a variety of forms. The authors define the following deniability-related features.
+	
+	\begin{itemize}
+		\item \textit{Message Unlinkability:} If a judge believes a participant authored one message in a conversation, that does not mean they authored all of the messages.
+		
+		\item \textit{Message Repudiation:} Under the assumption that the judge does not have access to the accused participant's long-term secret keys, provided a conversation transcript, and all cryptographic keys, including session keys, there is no proof that any individual user authored a given message.
+		
+		\item \textit{Participation Repudiation:} There is no proof that the honest participant was in a conversation with any of the other participants, given the conversation transcript and all cryptographic key material for all but one accused participant.
+		
+	\end{itemize}
+	\item \textit{Forward} and \textit{Future secrecy} are discussed later in chapter \ref{ch:postcomp}
+\end{itemize}
+Their study concluded a number of outcomes.
+First, the usability and adoption of trust establishment solutions with solid security and privacy guarantees are low. However, other hybrid approaches that have not been thoroughly examined in the academic literature may give better trade-offs in reality.
+Second, most of the stated conversation security properties are not mutually exclusive; nonetheless, combining protocol designs has considerable potential for improvement. For two-party conversation security, the most outstanding and promising solution of the bunch was the per-message ratcheting with resilience for out-of-order messages combined with deniable key exchange protocols, as implemented in Axolotl (now called the double ratchet algorithm), can be employed today at the cost of additional implementation complexity with no significant impact on user experience. 
+Finally, transport privacy remains a challenging problem as it is difficult to solve without paying significant performance penalties. Among the analyzed solutions, no suggested approaches provided strong transport privacy properties against global adversaries while also remaining practical.
+
 %	\item immediate decryption:
 %		the fact that messages might arrive out of order or be lost entirely. Additionally, parties can be offline for extended periods of time and send and receive messages asynchronously. Given these inherent constraints, immediate decryption is a very attractive feature. Informally, it ensures that when a legitimate message is (eventually) delivered to the recipient, the recipient can not only immediately decrypt the message but is also able to place it in the correct spot in relation to the other messages already received. Furthermore, immediate decryption also ensures an even 	more critical liveness property, termed message-loss resilience (MLR) in this work: if a message is permanently lost by the network, parties should still be able to communicate
 

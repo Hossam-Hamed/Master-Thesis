@@ -9,37 +9,37 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces ABC Logical Architecture overview \cite {labati2016biometric}\relax }}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ABC Logical Architecture overview \cite {labati2016biometric}\relax }}{12}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow of ABC.\relax }}{10}{figure.caption.10}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces BRSKI Architecture.\relax }}{13}{figure.caption.11}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces A successful BRSKI protocol run.\relax }}{15}{figure.caption.12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces SZTP Architecture.\relax }}{20}{figure.caption.13}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces SZTP protocol phases.\relax }}{22}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow of ABC.\relax }}{12}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Forward and future secrecy}}{28}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces BRSKI Architecture.\relax }}{15}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces \gls {x3dh} operations \cite {x3dh}.\relax }}{30}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A successful BRSKI protocol run.\relax }}{17}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces A 3 input KDF chain \cite {dblRtcht}.\relax }}{37}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces SZTP Architecture.\relax }}{22}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Bob \gls {dh} Ratchet step. Figure reproduced from \cite {dblRtcht}.\relax }}{38}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces SZTP protocol phases.\relax }}{24}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces \gls {dh} chain keys generation \cite {dblRtcht}.\relax }}{39}{figure.caption.20}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces A full \gls {dh} Ratchet step \cite {dblRtcht}.\relax }}{40}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Forward and future secrecy}}{30}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Double ratchet from Alice's point of view. Figure reproduced from \cite {dblRtcht}.\relax }}{40}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \gls {x3dh} operations \cite {x3dh}.\relax }}{32}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Usage of \glspl {hk} and \glspl {nhk} in the double ratchet algorithm. Figure reproduced from \cite {dblRtcht}.\relax }}{43}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces A 3 input KDF chain \cite {dblRtcht}.\relax }}{39}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Bob \gls {dh} Ratchet step. Figure reproduced from \cite {dblRtcht}.\relax }}{40}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \gls {dh} chain keys generation \cite {dblRtcht}.\relax }}{41}{figure.caption.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces A full \gls {dh} Ratchet step \cite {dblRtcht}.\relax }}{42}{figure.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Double ratchet from Alice's point of view. Figure reproduced from \cite {dblRtcht}.\relax }}{42}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Usage of \glspl {hk} and \glspl {nhk} in the double ratchet algorithm. Figure reproduced from \cite {dblRtcht}.\relax }}{45}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  23 MAR 2022 01:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  25 MAR 2022 00:24
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1920,38 +1920,38 @@ Package pdftex.def Info: Images/kdf.png  used on input line 4.
 Package srcltx Info: Expanded filename `Chapters/background/relatedWork.tex' to
  `Chapters/background/relatedWork.tex' on input line 29.
 :<+ Chapters/background/relatedWork.tex
-(Chapters/background/relatedWork.tex [7 <./Images/kdf.png>])
+(Chapters/background/relatedWork.tex [7 <./Images/kdf.png>] [8] [9])
 :<-
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/useCases/useCases.tex' to `Cha
 pters/useCases/useCases.tex' on input line 183.
 :<+ Chapters/useCases/useCases.tex
-(Chapters/useCases/useCases.tex [8]
+(Chapters/useCases/useCases.tex [10]
 chapter 3.
-<Images/E-Gate-Architecture.png, id=490, 700.41675pt x 442.0515pt>
+<Images/E-Gate-Architecture.png, id=502, 700.41675pt x 442.0515pt>
 File: Images/E-Gate-Architecture.png Graphic file (type png)
 <use Images/E-Gate-Architecture.png>
 Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 14.
 
 (pdftex.def)             Requested size: 245.14952pt x 154.72034pt.
-[9
+[11
 
 ]
-<Images/ABC.jpeg, id=506, 607.26875pt x 480.79625pt>
+<Images/ABC.jpeg, id=518, 607.26875pt x 480.79625pt>
 File: Images/ABC.jpeg Graphic file (type jpg)
 <use Images/ABC.jpeg>
 Package pdftex.def Info: Images/ABC.jpeg  used on input line 24.
 (pdftex.def)             Requested size: 182.18202pt x 144.23997pt.
- [10 <./Images/E-Gate-Architecture.png> <./Images/ABC.jpeg>])
+ [12 <./Images/E-Gate-Architecture.png> <./Images/ABC.jpeg>])
 :<-
 Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/SecureBoot
 strapping.tex' to `Chapters/secureBootstrapping/SecureBootstrapping.tex' on inp
 ut line 184.
 :<+ Chapters/secureBootstrapping/SecureBootstrapping.tex
-(Chapters/secureBootstrapping/SecureBootstrapping.tex [11]
+(Chapters/secureBootstrapping/SecureBootstrapping.tex [13]
 chapter 4.
-[12
+[14
 
 ]
 Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/brski.tex'
@@ -1983,7 +1983,7 @@ view.tex' to `Chapters/secureBootstrapping/brski/overview.tex' on input line 5.
 
 :<+ Chapters/secureBootstrapping/brski/overview.tex
 (Chapters/secureBootstrapping/brski/overview.tex
-<Images/brski-overview.png, id=594, 670.359pt x 89.571pt>
+<Images/brski-overview.png, id=606, 670.359pt x 89.571pt>
 File: Images/brski-overview.png Graphic file (type png)
 <use Images/brski-overview.png>
 Package pdftex.def Info: Images/brski-overview.png  used on input line 7.
@@ -2004,14 +2004,14 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 20.
 
-[13 <./Images/brski-overview.png>])
+[15 <./Images/brski-overview.png>])
 :<-
 Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/brski/prot
 ocolDetails.tex' to `Chapters/secureBootstrapping/brski/protocolDetails.tex' on
  input line 7.
 :<+ Chapters/secureBootstrapping/brski/protocolDetails.tex
 (Chapters/secureBootstrapping/brski/protocolDetails.tex
-<Images/brski-architecture.png, id=622, 663.47874pt x 502.87875pt>
+<Images/brski-architecture.png, id=634, 663.47874pt x 502.87875pt>
 File: Images/brski-architecture.png Graphic file (type png)
 <use Images/brski-architecture.png>
 Package pdftex.def Info: Images/brski-architecture.png  used on input line 6.
@@ -2032,7 +2032,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 18.
 
-[14]
+[16]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 25
@@ -2048,7 +2048,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 25.
 
-[15 <./Images/brski-architecture.png>]
+[17 <./Images/brski-architecture.png>]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 33
@@ -2064,7 +2064,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 33.
 
-[16]
+[18]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 48
@@ -2080,7 +2080,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 48.
 
-[17]
+[19]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 65
@@ -2096,7 +2096,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 65.
 
-[18])
+[20])
 :<-
 )
 :<-
@@ -2127,7 +2127,7 @@ Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/sztp/overv
 iew.tex' to `Chapters/secureBootstrapping/sztp/overview.tex' on input line 8.
 :<+ Chapters/secureBootstrapping/sztp/overview.tex
 (Chapters/secureBootstrapping/sztp/overview.tex
-<Images/sztp-overview.png, id=666, 502.87875pt x 101.37875pt>
+<Images/sztp-overview.png, id=678, 502.87875pt x 101.37875pt>
 File: Images/sztp-overview.png Graphic file (type png)
 <use Images/sztp-overview.png>
 Package pdftex.def Info: Images/sztp-overview.png  used on input line 5.
@@ -2148,7 +2148,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 8.
 
-[19]
+[21]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 18
@@ -2164,7 +2164,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 18.
 
-[20 <./Images/sztp-overview.png>]
+[22 <./Images/sztp-overview.png>]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 32
@@ -2180,14 +2180,14 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 32.
 
-[21])
+[23])
 :<-
 Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/sztp/proto
 colDetails.tex' to `Chapters/secureBootstrapping/sztp/protocolDetails.tex' on i
 nput line 10.
 :<+ Chapters/secureBootstrapping/sztp/protocolDetails.tex
 (Chapters/secureBootstrapping/sztp/protocolDetails.tex
-<Images/sztp-Protocol.png, id=701, 354.32375pt x 84.315pt>
+<Images/sztp-Protocol.png, id=712, 354.32375pt x 84.315pt>
 File: Images/sztp-Protocol.png Graphic file (type png)
 <use Images/sztp-Protocol.png>
 Package pdftex.def Info: Images/sztp-Protocol.png  used on input line 16.
@@ -2208,7 +2208,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 22.
 
-[22 <./Images/sztp-Protocol.png>]
+[24 <./Images/sztp-Protocol.png>]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 30
@@ -2224,14 +2224,14 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 30.
 
-[23])
+[25])
 :<-
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/comparison
 .tex' to `Chapters/secureBootstrapping/comparison.tex' on input line 23.
 :<+ Chapters/secureBootstrapping/comparison.tex
-(Chapters/secureBootstrapping/comparison.tex [24] [25])
+(Chapters/secureBootstrapping/comparison.tex [26] [27])
 :<-
 )
 :<-
@@ -2239,18 +2239,18 @@ Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/Post-Co
 mpromiseSecurity.tex' to `Chapters/postCompromiseSecurity/Post-CompromiseSecuri
 ty.tex' on input line 185.
 :<+ Chapters/postCompromiseSecurity/Post-CompromiseSecurity.tex
-(Chapters/postCompromiseSecurity/Post-CompromiseSecurity.tex [26]
+(Chapters/postCompromiseSecurity/Post-CompromiseSecurity.tex [28]
 chapter 5.
 Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/intro.t
 ex' to `Chapters/postCompromiseSecurity/intro.tex' on input line 3.
 :<+ Chapters/postCompromiseSecurity/intro.tex
 (Chapters/postCompromiseSecurity/intro.tex
-<Images/ffsecrecy.jpg, id=770, 531.9875pt x 151.56625pt>
+<Images/ffsecrecy.jpg, id=781, 531.9875pt x 151.56625pt>
 File: Images/ffsecrecy.jpg Graphic file (type jpg)
 <use Images/ffsecrecy.jpg>
 Package pdftex.def Info: Images/ffsecrecy.jpg  used on input line 7.
 (pdftex.def)             Requested size: 212.79123pt x 60.62541pt.
- [27
+ [29
 
 ])
 :<-
@@ -2302,7 +2302,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 1.
 
-[28 <./Images/ffsecrecy.jpg>]
+[30 <./Images/ffsecrecy.jpg>]
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
@@ -2338,8 +2338,8 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 35.
 
-[29]
-<images/X3dh.jpg, id=826, 199.34476pt x 180.675pt>
+[31]
+<images/X3dh.jpg, id=836, 199.34476pt x 180.675pt>
 File: images/X3dh.jpg Graphic file (type jpg)
 <use images/X3dh.jpg>
 Package pdftex.def Info: images/X3dh.jpg  used on input line 59.
@@ -2360,7 +2360,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 68.
 
-[30 <./images/X3dh.jpg>])
+[32 <./images/X3dh.jpg>])
 :<-
 Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/x3dh/Mo
 delling' to `Chapters/postCompromiseSecurity/x3dh/Modelling.tex' on input line 
@@ -2389,7 +2389,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 3.
 
-[31]
+[33]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 43
@@ -2405,7 +2405,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 43.
 
-[32])
+[34])
 :<-
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
@@ -2422,7 +2422,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 40.
 
-[33]
+[35]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 70
@@ -2438,7 +2438,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 70.
 
-[34]
+[36]
 Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/x3dh/di
 ff' to `Chapters/postCompromiseSecurity/x3dh/diff.tex' on input line 77.
 
@@ -2459,7 +2459,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 8.
 
-[35])
+[37])
 :<-
 )
 :<-
@@ -2474,36 +2474,36 @@ bleRatchet.tex' on input line 5.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 11.
 
-<Images/kdf-chain.jpg, id=965, 329.43076pt x 449.2785pt>
+<Images/kdf-chain.jpg, id=975, 329.43076pt x 449.2785pt>
 File: Images/kdf-chain.jpg Graphic file (type jpg)
 <use Images/kdf-chain.jpg>
 Package pdftex.def Info: Images/kdf-chain.jpg  used on input line 17.
 (pdftex.def)             Requested size: 131.76996pt x 179.7082pt.
-[36] [37 <./Images/kdf-chain.jpg>]
-<Images/dr-bobRatchet.png, id=989, 654.445pt x 402.50375pt>
+[38] [39 <./Images/kdf-chain.jpg>]
+<Images/dr-bobRatchet.png, id=1000, 654.445pt x 402.50375pt>
 File: Images/dr-bobRatchet.png Graphic file (type png)
 <use Images/dr-bobRatchet.png>
 Package pdftex.def Info: Images/dr-bobRatchet.png  used on input line 49.
 (pdftex.def)             Requested size: 294.49753pt x 181.125pt.
- [38 <./Images/dr-bobRatchet.png>]
-<Images/dh-chains.jpg, id=1003, 428.19975pt x 374.5995pt>
+ [40 <./Images/dr-bobRatchet.png>]
+<Images/dh-chains.jpg, id=1013, 428.19975pt x 374.5995pt>
 File: Images/dh-chains.jpg Graphic file (type jpg)
 <use Images/dh-chains.jpg>
 Package pdftex.def Info: Images/dh-chains.jpg  used on input line 75.
 (pdftex.def)             Requested size: 214.09935pt x 187.29929pt.
-<Images/fullDHRatchetStep.jpg, id=1009, 330.033pt x 260.77425pt>
+<Images/fullDHRatchetStep.jpg, id=1019, 330.033pt x 260.77425pt>
 File: Images/fullDHRatchetStep.jpg Graphic file (type jpg)
 <use Images/fullDHRatchetStep.jpg>
 Package pdftex.def Info: Images/fullDHRatchetStep.jpg  used on input line 84.
 (pdftex.def)             Requested size: 214.51889pt x 169.50125pt.
- [39 <./Images/dh-chains.jpg>]
-<Images/dr.png, id=1027, 511.15968pt x 424.58624pt>
+ [41 <./Images/dh-chains.jpg>]
+<Images/dr.png, id=1037, 511.15968pt x 424.58624pt>
 File: Images/dr.png Graphic file (type png)
 <use Images/dr.png>
 Package pdftex.def Info: Images/dr.png  used on input line 95.
 (pdftex.def)             Requested size: 245.35385pt x 203.79907pt.
- [40 <./Images/fullDHRatchetStep.jpg> <./Images/dr.png>]
-[41]
+ [42 <./Images/fullDHRatchetStep.jpg> <./Images/dr.png>]
+[43]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
 sed with new abbreviation definitions. Use \glsxtrfull instead on input line 11
@@ -2519,7 +2519,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 118.
 
-<Images/dr-hk.jpg, id=1066, 858.20625pt x 536.0025pt>
+<Images/dr-hk.jpg, id=1076, 858.20625pt x 536.0025pt>
 File: Images/dr-hk.jpg Graphic file (type jpg)
 <use Images/dr-hk.jpg>
 Package pdftex.def Info: Images/dr-hk.jpg  used on input line 121.
@@ -2531,36 +2531,36 @@ atchet/signalFormalVerification.tex' to `Chapters/postCompromiseSecurity/double
 Ratchet/signalFormalVerification.tex' on input line 6.
 :<+ Chapters/postCompromiseSecurity/doubleRatchet/signalFormalVerification.tex
 (Chapters/postCompromiseSecurity/doubleRatchet/signalFormalVerification.tex
-[42])
+[44])
 :<-
 Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/doubleR
 atchet/signalPQ.tex' to `Chapters/postCompromiseSecurity/doubleRatchet/signalPQ
 .tex' on input line 7.
 :<+ Chapters/postCompromiseSecurity/doubleRatchet/signalPQ.tex
-(Chapters/postCompromiseSecurity/doubleRatchet/signalPQ.tex [43 <./Images/dr-hk
-.jpg>] [44]
+(Chapters/postCompromiseSecurity/doubleRatchet/signalPQ.tex [45 <./Images/dr-hk
+.jpg>] [46]
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 24.
 
-[45])
+[47])
 :<-
 )
 :<-
-[46]
+[48]
 Package srcltx Info: Expanded filename `Chapters/implementation/Implementation.
 tex' to `Chapters/implementation/Implementation.tex' on input line 187.
 
 :<+ Chapters/implementation/Implementation.tex
-(Chapters/implementation/Implementation.tex [47]
+(Chapters/implementation/Implementation.tex [49]
 chapter 6.
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/evaluation/Evaluation.tex' to 
 `Chapters/evaluation/Evaluation.tex' on input line 188.
 :<+ Chapters/evaluation/Evaluation.tex
-(Chapters/evaluation/Evaluation.tex [48
+(Chapters/evaluation/Evaluation.tex [50
 
 ]
 chapter 7.
@@ -2569,31 +2569,31 @@ chapter 7.
 Package srcltx Info: Expanded filename `Chapters/Conclusion.tex' to `Chapters/C
 onclusion.tex' on input line 189.
 :<+ Chapters/Conclusion.tex
-(Chapters/Conclusion.tex [49
+(Chapters/Conclusion.tex [51
 
 ]
 chapter 8.
 )
 :<-
-[50
+[52
 
 ]
 chapter without number
-[51
+[53
 
-] [52] [53]
+] [54] [55]
 Overfull \hbox (6.6011pt too wide) in paragraph at lines 193--193
 \OT1/cmr/m/n/10.95 claw-free func-tions". In: \OT1/cmr/m/it/10.95 Latin Amer-i-
 can Sym-po-sium on The-o-ret-i-cal In-for-mat-ics\OT1/cmr/m/n/10.95 . Springer.
 
  []
 
-[54]
+[56]
 Package srcltx Info: Expanded filename `Chapters/appendix.tex' to `Chapters/app
 endix.tex' on input line 196.
 
 :<+ Chapters/appendix.tex
-(Chapters/appendix.tex [55]
+(Chapters/appendix.tex [57]
 chapter A.
 Package srcltx Info: Expanded filename `Appendix/Protocols Comparison.tex' to `
 Appendix/Protocols Comparison.tex' on input line 4.
@@ -2673,12 +2673,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--207
 [][][][]|\OT1/cmr/bx/n/10.95 Required Cryp-to-
  []
 
-[56
+[58
 
 
-] [57] [58])
+] [59] [60])
 :<-
-[59]
+[61]
 Package srcltx Info: Expanded filename `Appendix/Terminology comparison.tex' to
  `Appendix/Terminology comparison.tex' on input line 7.
 
@@ -2752,23 +2752,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--31
 [][][]|\OT1/cmr/m/n/10.95 Ownership
  []
 
-[60
+[62
 
 ])
 :<-
 )
 :<-
-[61] (thesis.aux)
+[63] (thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39324 strings out of 479334
- 696134 string characters out of 2856609
- 2290822 words of memory out of 3000000
+ 39326 strings out of 479334
+ 696148 string characters out of 2856609
+ 2290823 words of memory out of 3000000
  55603 multiletter control sequences out of 15000+200000
  420622 words of font info for 90 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2811,9 +2819,9 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Hossam
 ers/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
 fb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
 8a.pfb>
-Output written on thesis.pdf (72 pages, 1399489 bytes).
+Output written on thesis.pdf (74 pages, 1406263 bytes).
 PDF statistics:
- 1668 PDF objects out of 1728 (max. 8388607)
- 348 named destinations out of 1000 (max. 500000)
+ 1681 PDF objects out of 1728 (max. 8388607)
+ 350 named destinations out of 1000 (max. 500000)
  593 words of extra memory for PDF output out of 10000 (max. 10000000)
 
