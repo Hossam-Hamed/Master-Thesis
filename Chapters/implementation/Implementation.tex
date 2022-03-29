@@ -1,5 +1,126 @@
 \chapter{Demo Implementation}
 \label{ch:implementation}
+This chapter presents our implementation of a post-compromise secure system to be utilized in an IoT setting. Python $3.8$ is the language used for implementing our demo. The implementation follows the description of algorithms discussed in chapter \ref{ch:postcomp}. Notably, the \gls{x3dh} implementation follows our formal model rather than the protocol specification.
+\par
+The implementation is split between two main classes: a server and a client. A client implements both the \gls{x3dh} and the double ratcheting algorithm as a post-key establishment message exchange algorithm. On the other hand, in our demo, the server has two roles. First, it acts as a \gls{ca} for clients. Second, it stores and distributes prekey bundles during the \gls{x3dh} phase, afterwards the server acts as a centralized relay node between clients.
 
-Difference:\\
-I don't create a new sending chain immediately in the DH ratchet step like the docs. I created on command. The docs mention that Bob can continue sending from the sending chain after Alice has created the equivalent receiving chain. However, when Alice creates the equivalent receiving chain she needs to create a new key pair. According to the implementation in the description, the new public key is automatically sent with the first message in the sending chain. This will lead to Bob automatically create a new sending chain and he has to use it rather than the old sending chain. thus, a contradiction. The mentioned scenario didn't assume the possibility of out-of-order messages yet. Therefore, I don't assume message delays.
+\section{Used Cryptography}
+The implementation depends solely on the \textit{cryptography} package \footnote{https://cryptography.io/en/3.4.7/}, specifically version $3.4.7$, to provide the necessary cryptographic functions. Having all the required cryptographic functions and primitives in one library saved us the pain of incompatibility issues. Table \ref{tab:demo-crypto} lists the cryptographic primitives used throughout the implementation. 
+\begin{table}[htbp]
+	\centering
+	\caption{Used cryptographic standards and algorithms in demo implementation.}
+	\label{tab:demo-crypto}
+	\begin{tabular}{|>{\hspace{0pt}}m{0.486\linewidth}|>{\hspace{0pt}}m{0.447\linewidth}|} 
+		\hline
+		\rowcolor[rgb]{ .745, .804, .843}\multicolumn{1}{|>{\centering\hspace{0pt}}m{0.486\linewidth}|} {Cryptographic Primitive}  & \multicolumn{1}{>{\centering\arraybackslash\hspace{0pt}}m{0.447\linewidth}|}{Standard/Algorithm}\\ 
+		\hline\hline
+		Certificates                      & X.509 v3                      \\ 
+		\hline
+		Long-term signing/encryption keys & RSA                           \\ 
+		\hline
+		Key exchange                      & Curve25519                    \\ 
+		\hline
+		Symmetric encryption              & Fernet (AES 128 in CBC mode)  \\ 
+		\hline
+		KDF                               & HKDF                          \\ 
+		\hline
+		Hash function                     & SHA256                        \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\section{Server side}
+The server is the first entity to be started. Since the server doubles as a \gls{ca}, it starts by generating its own self-signed certificate. The server's RSA key pair are used for both encryption and signing. Although a bad practice, clients use the public key to encrypt data to the server as well as verify signatures from the server. The self-signed certificate is saved to disk, mimicking a some sort of a key bootstrapping mechanism for clients. Next, the server opens a websocket and is ready to accept connections from clients. Clients will tend to obtain certificates signed from the \gls{ca}, thus, for the sake of simulation, the \gls{ca} accepts and signs all received \gls{csr}. The server keeps track of all connected clients, their registered keys, certificates, online status, and message count. Additionally, the server buffers messages for offline clients and forwards them back when they are available. Furthermore, the server handles requests from clients and responds with the appropriate messages. Table \ref{tab:server-messages} describes the message types sent by the server.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Server message types.}
+	\label{tab:server-messages}
+	\begin{tabular}{|>{\hspace{0pt}}m{0.2\linewidth}|>{\hspace{0pt}}m{0.74\linewidth}|} 
+		\hline
+			\rowcolor[rgb]{ .745, .804, .843}\multicolumn{1}{|>{\centering\hspace{0pt}}m{0.2\linewidth}|}{Message Type} & \multicolumn{1}{>{\centering\arraybackslash\hspace{0pt}}m{0.74\linewidth}|}{Description}                                              \\ 
+		\hline\hline
+		CP                                                                      & Certification response. Contains a certificate for the clients long-term key that is signed by the server which acts as the CA.         \\ 
+		\hline
+		GET\_PEERS\_resp                                                        & Response to the client's GET\_PEERS request. Returns a dictionary that contains an array of names of clients connected to the server.  \\ 
+		\hline
+		KEYBUNDLE                                                               & Response to the client's~FETCH\_KEYBUNDLE request. Returns to the requester an X3DH prekey bundle of the specifically requested peer.     \\ 
+		\hline
+		ERROR                                                                   & An error response for an invalid request.                                                                                              \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\section{Client side}
+A client implementation is composed of 2 sub-clients: a \textit{X3DH\_Client} and a \textit{DoubleRatchet\_Client}. 
+At the beginning, the X3DH\_Client is in control. It starts by loading the server certificate from file to utilize its key in further functionalities. Next, it generates the keys necessary for the client to carry out further: the long-term RSA signing key certified from the \gls{ca}, its Curve25519 identity key for key exchange, as well as the remaining keys for the X3DH protocol. Each client generates all the necessary keys that enable them to play either role in the X3DH protocol, Alice or Bob. Reflecting on the \gls{x3dh} protocol, Bob performs his registration phase where he uploads his X3DH keys. On the other hand, Alice queries the server for the list of available peers. After determining which party it wants to communicate with, assuming it is Bob, Alice fetches a prekey bundle for Bob from the server and computes the shared secret. Alice proceeds by sending the initial message to Bob. The initial message contains Bob's keys which were used to generate the shared secret, in addition to the initial message of the double ratchet algorithm encapsulated within the message's body and encrypted using the X3DH shared secret.
+At this moment, the DoubleRatchet\_Client comes into action to generate the initial double ratchet message, and it takes over from this point over. The DoubleRatchet\_Client is responsible for maintaining and advancing the double ratchet chains, as well as  encrypting and decrypting double ratchet messages. 
+\par
+The double ratchet algorithm description states that a party, Bob, can send several messages from the same sending chain, and for Alice to decrypt those messages, she has to create the equivalent receiving chain. For the receiving chain to be created, Alice needs to create a new key pair to perform the necessary operations, and upon the creation of a new key pair, the new public key is shared with Bob to create a new receiving chain. The same happens on Bob's side and so on. Assuming a new public key is shared with every message, no party would have the chance to send more than one message per chain. Therefore, our implementation only sends the newly generated on command, rather than automatically, to allow the client more freedom to decide when to update their sending chain.
+Table \ref{tab:client-messages} lists all message types supported by the client.
+\begin{table}[htbp]
+	\centering
+	\caption{Client message types.}
+	\label{tab:client-messages}
+	\begin{tabular}{|>{\hspace{0pt}}m{0.34\linewidth}|>{\hspace{0pt}}m{0.6\linewidth}|} 
+		\hline
+		\rowcolor[rgb]{ .745, .804, .843}\multicolumn{1}{|>{\centering\hspace{0pt}}m{0.34\linewidth}|}{Message Type} & \multicolumn{1}{>{\centering\arraybackslash\hspace{0pt}}m{0.6\linewidth}|}{Description}                                                                      \\ 
+		\hline\hline
+		CR                                                                          & Certification request. A client sends a \gls{csr} request to the server which acts as a CA to obtain a digital certificate for its long-term identity key.           \\ 
+		\hline
+		REGISTER\_TO\_SERVER                                                        & Corresponds to X3DH registration phase. The clients uploads to the server its X3DH keys.                                                                       \\ 
+		\hline
+		GET\_PEERS                                                                  & Query of other clients connected to the server.                                                                                                                \\ 
+		\hline
+		FETCH\_KEYBUNDLE                                                            & Request a X3DH prekey bundle of one of the available peers.                                                                                                       \\ 
+		\hline
+		InitialMsg                                                                  & Sends the initial X3DH message from one client to the other. The body of this message encapsulates a DR\_INITIAL\_MSG encrypted with the X3DH shared secret.~  \\ 
+		\hline
+		DR\_INITIAL\_MSG                                                            & Transports the initiating party's public DH key for the first double ratchet mesasge.                                                                          \\ 
+		\hline
+		UPDATE\_SPK                                                                 & Updates a party's SPK stored at the server.                                                                                                                    \\ 
+		\hline
+		UPDATE\_OPK                                                                 & Updates a party's OPKs stored at the server.                                                                                                                   \\ 
+		\hline
+		ENC\_CLIENT\_MSG                                                            & An encrypted double ratchet message from one party to the other                                                                                                \\ 
+		\hline
+		OFFLINE\_NOTIFICATION                                                       & Sent to the server to simulate the client going offline.                                                                                                       \\ 
+		\hline
+		ONLINE\_NOTIFICATION                                                        & Sent to the server to simulate the client going back online.                                                                                                   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+The client offers a command-line interface that allows for user input to control the program through a set of implemented commands. Below we list the implemented commands\footnote{Commas (`,') in commands are part of command syntax and must be included. <X> must be replaced by the appropriate parameter without inclusion of the angle brackets.}.
+\begin{itemize}
+	\item \textit{$csr$:} sends a certificate signing request to the server.
+	\item \textit{$ reg2server $:} registers client to server.
+	\item \textit{$ updateSPK $:} updates client's SPK at server.
+	\item \textit{$ updateOPKs $:} updates client\'s OTPs at server.
+	\item \textit{$ goOnline $:} notifies the server a client is online.
+	\item \textit{$ goOffline $:} notifies the server a client is offline.
+	\item \textit{$ peers $:} gets names of peers registered at the server.
+	\item \textit{$fetchKeyBundle,\ <peerName>$:} fetches key bundle of the specified peer from server.
+	\item \textit{$init,\ <peerName>$:} sends the initial message to the specified peer.
+	\item \textit{$send,\ <peerName>,\ <textToBeEncrypted>$:} sends an encrypted message to the specified peer without updating a new sending chain root.
+	\item \textit{$sendW/NewSendChain,\ <peerName>,\ <textToBeEncrypted>$:} sends an encrypted message to the specified peer and update sending chain root.
+\end{itemize}
+
+\section{Simulation Execution}
+First, the server must be running and ready to accept clients to run the demo. Then, multiple clients can connect to the server and communicate with one another simultaneously. A client requires three arguments to start: a unique name, a boolean value to run in verbose mode or nor, and a boolean to allow user input from the command line or not. The specified arguments should be input in the mentioned order and separated by a blank. The last argument should only be set to \textit{True} in case of executing an automated script. A client connects automatically to the server without any required user input. Nevertheless, depending on the role, a client must execute a set of commands in order.
+\par
+Either role has to start by running \textit{csr}. Bob has to execute \textit{reg2server} to be able to receive a message from Alice. Bob can wait for communication or can act as Alice for other registered users. Alice has to execute \textit{fetchKeyBundle}, then \textit{init}, before executing \textit{send} to send messages to Bob. Afterwards, Alice and Bob can exchange messages using 
+
+\section{Room for improvement}
+In this section we mention limitations of the implementation and improvement suggestions.
+\begin{itemize}
+	\item \textit{}
+	\item \textit{}
+	\item \textit{}
+	\item \textit{}
+	\item \textit{}
+	\item \textit{}
+	\item \textit{}
+\end{itemize}
+
+

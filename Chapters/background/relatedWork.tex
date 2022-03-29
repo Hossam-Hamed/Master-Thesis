@@ -1,3 +1,9 @@
+\subsection{Key Continuity Management}
+Peter Gutmann in \cite{gutmann-kcm-01} presented key continuity as  mechanism for assuring that the entity with whom a user is currently communicating is the same as the one they were previously communicating with.
+Assuming the key resembles the identity of its user, the foundation for key management via key continuity is that once an entity has a remote entity's trustable key, it can validate later the remote entity's identity by confirming that they are still using the same key. The security mechanism relies on how long the key has been in service by its owner. The longer the key is witnessed to have been used, the more it is trusted by other entities. The research also proposed that an external authority manage the key continuity information. A key continuity external authority keeps track of how long a particular key has been used by a specific cryptographic service and responds to inquiries with that information. The document discusses key continuity in several security protocol use cases.
+\par
+However, the document does not precisely discuss authentication of keys at first use. Rather, the author has mentioned the possibility of users following the \gls{tofu} approach, or out-of-band means, for example, comparing key fingerprints over the phone. Moreover, He did not rule out utilizing digital certificates to verify public keys; nevertheless, he deemed it a more tedious, expensive, and manual process than \gls{tofu}. 
+
 \subsection{Off-the-Record Protocol}
 Consider the following scenario: Alice and Bob are alone in a room. Unless they are recorded, no one can hear what they are talking to one other. Therefore, no one knows what they are talking about until Alice and Bob tell them, and no one, not even Alice and Bob, can verify that what they are saying is true. \gls{otr} \cite{otr} aims to achieve the same form of secrecy in the field of instant messaging. The OTR protocol was first released in October 2004 by cryptographers Ian Goldberg and Nikita Borisov. At the time of writing, \gls{otr} is at version 3 \cite{otr3}. \gls{otr} provides a set of essential security features: Encryption, Authentication, Deniability, and forward secrecy.
 \par
@@ -40,10 +46,36 @@ Finally, transport privacy remains a challenging problem as it is difficult to s
 
 %	\item immediate decryption:
 %		the fact that messages might arrive out of order or be lost entirely. Additionally, parties can be offline for extended periods of time and send and receive messages asynchronously. Given these inherent constraints, immediate decryption is a very attractive feature. Informally, it ensures that when a legitimate message is (eventually) delivered to the recipient, the recipient can not only immediately decrypt the message but is also able to place it in the correct spot in relation to the other messages already received. Furthermore, immediate decryption also ensures an even 	more critical liveness property, termed message-loss resilience (MLR) in this work: if a message is permanently lost by the network, parties should still be able to communicate
+\subsection{The TESLA Broadcast Authentication Protocol}
+Source authentication and integrity are among the most challenging aspects of protecting broadcast communication. In other words, receivers of broadcast data can verify that the received data originates from the claimed source and the data has not been modified en route. This difficulty is exacerbated by mutually untrustworthy receivers and unreliable communication settings in which the sender does not retransmit dropped packets. While many broadcast networks can effectively convey data to several recipients, they also make it easy for a malicious user to impersonate the sender and insert broadcast packets. This is known as a packet injection attack. Participants must use a broadcast authentication protocol to resist the attack, allowing receivers to verify that the alleged sender indeed transmitted the received packet. Nevertheless, using asymmetric cryptography to sign each message is a high overhead for time and bandwidth. Similarly, simply using \glspl{mac} does not solve the problem as any receiver with the shared secret can impersonate the sender and forge data.
+\par
+Perrig et al. \cite{perrig2003tesla} aimed to tackle the problem by proposing the \gls{tesla} protocol. \gls{tesla} inflicts low overhead for communication and computation while generating and verifying authentic information. Moreover, it is scalable to large numbers of receivers and tolerates packet loss. Nevertheless, \gls{tesla} requires the sender and the receivers to be at least loosely time-synchronized as well as the receiver or the sender is required to buffer some messages. Loosely time synchronization is that a receiver does not need to know the difference between the sender and the receiver’s time, however, it is only interested in an upper bound on the sender's time, or also know as the maximum time synchronization error. \gls{tesla} also relies on one-way chains which are repeated use of one-way hash functions. Similar in principle to KDF chains explained in section \ref{backgroung:kdf}. 
+\par
+In principle, the sender in \gls{tesla} generates a chain from an initial random secret key $s_\ell$ by iteratively applying the one-way hash function till the desired chain length is achieved. All intermediate keys generated are stored securely as well as the final key $s_0$. The final key is referred to as the commitment key. The sender divides the timeline into intervals while assigning each key to an interval. A key is used to generate \glspl{mac} for the messages sent during the specified time interval. However, keys are used in an opposite order to how they were generated, as depicted in figure \ref{fig:tesla}. During an interval, the sender uses the key to generate \glspl{mac} but key remains secret to the sender through out that interval. Meaning that receivers are unable to verify the \gls{mac} during that interval and also no malicious entity is able to forge a valid message. After the interval has passed, the sender publishes the now expired key for receiver to verify messages whose \gls{mac} was generated using that key. Receivers also verify the correctness of the disclosed key by inputting it into the one-way chain. If after a number of iterations the commitment key is reached $s_0$, then the key belongs to the expected chain and is valid.
+\begin{figure}[hptb]
+	\centering
+	\includegraphics[scale=0.65]{Images/tesla.png}
+	\caption{\gls{tesla} keys generation and usage \cite{perrig2003tesla}.}
+	\label{fig:tesla}
+\end{figure}
+\par
+Nevertheless, before authenticating messages with \gls{tesla} a receiver must be loosely time synchronized with
+the sender, know the disclosure schedule of keys, and receive an authenticated key of the one-way key chain. The required information can be authentically obtained via digitally signed broadcast message, or over unicast with each receiver.
+\par
+Despite the security guarantees of the innovative approach, \gls{tesla} might not be suitable for some use cases due to the following limitations.
+\begin{itemize}
+	\item There is an initialization phase in which the first element of the hash chain must be transmitted to all recipients. In this step, authentication is accomplished using standard asymmetric cryptography. Furthermore, a new chain must be formed once the hash chain is depleted.
+	\item The verification of a message or a set of messages is only possible once the next is received.
+\end{itemize}
 
-\subsection{Key Continuity Management}
-
-\subsection{Tesla}
+\subsection{A Survey of Key Bootstrapping Protocols}
+Malik et al. \cite{bs-survey} provide a comprehensive survey study for a set of well-developed bootstrapping protocols in the context of \gls{iot}. They discuss the role of security and, in particular, key bootstrapping protocols at different layers of the \gls{iot} architecture. Next, they suggest a taxonomy for classifying key bootstrapping protocols, as shown in figure \ref{fig:bs-taxonomy}. The considered protocols are classified under the mentioned taxonomy and analyzed with the focus primarily on bootstrapping protocols based on asymmetric key distribution schemes. Lastly, they compare the surveyed key management schemes based on security and functionality features: Mutual Authentication, Forward Secrecy, resilience to key compromise impersonation, and resilience to replay attacks.
+\begin{figure}[hptb]
+	\centering
+	\includegraphics[scale=0.5]{Images/taxonomy.png}
+	\caption{Taxonomy for classifying bootstrapping protocols \cite{bs-survey}.}
+	\label{fig:bs-taxonomy}
+\end{figure}
 
 %\subsection{On post-compromise security}
-%study post-compromise security 	in (classic) key exchange. Here, security shall be achieved even for sessions established after a full compromise of user secrets. This necessarily requires mixing user state information with key material that is newly established via asymmetric techniques, and is thus related to RKE.
+%study post-compromise security in (classic) key exchange. Here, security shall be achieved even for sessions established after a full compromise of user secrets. This necessarily requires mixing user state information with key material that is newly established via asymmetric techniques, and is thus related to RKE.

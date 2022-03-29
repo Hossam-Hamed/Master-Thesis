@@ -11,11 +11,17 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces \gls {x3dh} keys.\relax }}{31}{table.caption.16}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces \gls {x3dh} keys.\relax }}{33}{table.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.2}{\ignorespaces Pre-Quantum Signal Protocol Algorithms\relax }}{47}{table.caption.24}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Pre-Quantum Signal Protocol Algorithms\relax }}{49}{table.caption.26}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.1}{\ignorespaces Used cryptographic standards and algorithms in demo implementation.\relax }}{52}{table.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.2}{\ignorespaces Server message types.\relax }}{53}{table.caption.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.3}{\ignorespaces Client message types.\relax }}{54}{table.caption.29}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

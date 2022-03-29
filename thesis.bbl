@@ -339,6 +339,7 @@
       \strng{authorbibnamehash}{55ed54daa0318b3eef830906bb201983}
       \strng{authornamehash}{55ed54daa0318b3eef830906bb201983}
       \strng{authorfullhash}{55ed54daa0318b3eef830906bb201983}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -564,6 +565,46 @@
       \field{pages}{108}
       \range{pages}{1}
     \endentry
+    \entry{gutmann-kcm-01}{report}{}
+      \name{author}{1}{}{%
+        {{hash=55ed54daa0318b3eef830906bb201983}{%
+           family={Gutmann},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \list{publisher}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \strng{namehash}{55ed54daa0318b3eef830906bb201983}
+      \strng{fullhash}{55ed54daa0318b3eef830906bb201983}
+      \strng{bibnamehash}{55ed54daa0318b3eef830906bb201983}
+      \strng{authorbibnamehash}{55ed54daa0318b3eef830906bb201983}
+      \strng{authornamehash}{55ed54daa0318b3eef830906bb201983}
+      \strng{authorfullhash}{55ed54daa0318b3eef830906bb201983}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This memo provides advice and Best Current Practice for implementors and deployers of security applications that wish to use the key continuity method of key management.}
+      \field{month}{9}
+      \field{note}{Work in Progress}
+      \field{number}{draft-gutmann-keycont-01}
+      \field{pagetotal}{20}
+      \field{title}{{Key Management through Key Continuity (KCM)}}
+      \field{type}{Internet-Draft}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://datatracker.ietf.org/doc/html/draft-gutmann-keycont-01
+      \endverb
+      \verb{url}
+      \verb https://datatracker.ietf.org/doc/html/draft-gutmann-keycont-01
+      \endverb
+    \endentry
     \entry{otr}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=8d9a5786a8aee191afdaf550f25c3174}{%
@@ -634,8 +675,8 @@
       \strng{authorbibnamehash}{85f76bfb160242c7d7424c7ac03a01d7}
       \strng{authornamehash}{85f76bfb160242c7d7424c7ac03a01d7}
       \strng{authorfullhash}{85f76bfb160242c7d7424c7ac03a01d7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We present a solution to the Tiercé problem, in which two players want to know whether they have backed the same combination (but neither player wants to disclose its combination to the other one). The problem is also known as the socialist millionaires’ problem, in which two millionaires want to know whether they happen to be equally rich. In our solution, both players will be convinced of the correctness of the equality test between their combinations and will get no additional information on the other player's combination. Our solution is fair: one party cannot get the result of the comparison while preventing the other one from getting it. The protocol requires O(k) exponentiations only, where k is a security parameter.}
@@ -656,6 +697,133 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0166218X00003425
+      \endverb
+    \endentry
+    \entry{unger2015sok}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=c4240882f9248d680b14ac0bc0750814}{%
+           family={Unger},
+           familyi={U\bibinitperiod},
+           given={Nik},
+           giveni={N\bibinitperiod}}}%
+        {{hash=aeb3510e54ada25fc7ae6324a36a6006}{%
+           family={Dechand},
+           familyi={D\bibinitperiod},
+           given={Sergej},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e6eb78ec5f92eaff4e9d4b944aff4c9c}{%
+           family={Bonneau},
+           familyi={B\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1028844fea5de62386623e035ed1f307}{%
+           family={Fahl},
+           familyi={F\bibinitperiod},
+           given={Sascha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3341989638ba9b51cd0c302132437966}{%
+           family={Perl},
+           familyi={P\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a023acc45498a4d8527462d2228654ee}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=892bcbf9fb91b1348837862cbf71f80f}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a8ec59736896da71b2c283832dcf318b}
+      \strng{fullhash}{b83404b2904f7cceaf6d3a5acdd4269f}
+      \strng{bibnamehash}{a8ec59736896da71b2c283832dcf318b}
+      \strng{authorbibnamehash}{a8ec59736896da71b2c283832dcf318b}
+      \strng{authornamehash}{a8ec59736896da71b2c283832dcf318b}
+      \strng{authorfullhash}{b83404b2904f7cceaf6d3a5acdd4269f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 IEEE Symposium on Security and Privacy}
+      \field{title}{SoK: secure messaging}
+      \field{year}{2015}
+      \field{pages}{232\bibrangedash 249}
+      \range{pages}{18}
+    \endentry
+    \entry{perrig2003tesla}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=7008e0fc312a01ec512c7479e63bf472}{%
+           family={Perrig},
+           familyi={P\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f68b915b540235d8ef73dea9af8f4f19}{%
+           family={Tygar},
+           familyi={T\bibinitperiod},
+           given={JD},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ec3c7796752a7a0017a533331d7e7aab}
+      \strng{fullhash}{ec3c7796752a7a0017a533331d7e7aab}
+      \strng{bibnamehash}{ec3c7796752a7a0017a533331d7e7aab}
+      \strng{authorbibnamehash}{ec3c7796752a7a0017a533331d7e7aab}
+      \strng{authornamehash}{ec3c7796752a7a0017a533331d7e7aab}
+      \strng{authorfullhash}{ec3c7796752a7a0017a533331d7e7aab}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Secure Broadcast Communication}
+      \field{title}{TESLA broadcast authentication}
+      \field{year}{2003}
+      \field{pages}{29\bibrangedash 53}
+      \range{pages}{25}
+    \endentry
+    \entry{bs-survey}{article}{}
+      \name{author}{3}{}{%
+        {{hash=90be81733493d07e99ef4c16782115f7}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Manisha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c2c1bbd2ef68dba2b369400d3054e6ba}{%
+           family={Dutta},
+           familyi={D\bibinitperiod},
+           given={Maitreyee},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d9ad0ac098b4ccbec8b1c88249207f0c}{%
+           family={Granjal},
+           familyi={G\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{42eecd05082e1aee482913ee0a938169}
+      \strng{fullhash}{42eecd05082e1aee482913ee0a938169}
+      \strng{bibnamehash}{42eecd05082e1aee482913ee0a938169}
+      \strng{authorbibnamehash}{42eecd05082e1aee482913ee0a938169}
+      \strng{authornamehash}{42eecd05082e1aee482913ee0a938169}
+      \strng{authorfullhash}{42eecd05082e1aee482913ee0a938169}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A Survey of Key Bootstrapping Protocols Based on Public Key Cryptography in the Internet of Things}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{pages}{27443\bibrangedash 27464}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2019.2900957
       \endverb
     \endentry
     \entry{aci_world_2019}{misc}{}
@@ -859,8 +1027,8 @@
       \strng{authorbibnamehash}{0ecfc1acde5bcff1a1f6ff075e1981ec}
       \strng{authornamehash}{0ecfc1acde5bcff1a1f6ff075e1981ec}
       \strng{authorfullhash}{1be7160d1bb76eebfff16310ecb57b1b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 Internet of Things Business Models, Users, and Networks}
@@ -891,8 +1059,8 @@
       \strng{authorbibnamehash}{d7d494c023bd84f7f24e589678c5b483}
       \strng{authornamehash}{d7d494c023bd84f7f24e589678c5b483}
       \strng{authorfullhash}{d7d494c023bd84f7f24e589678c5b483}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document specifies Version 1.2 of the Transport Layer Security (TLS) protocol. The TLS protocol provides communications security over the Internet. The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. {[}STANDARDS-TRACK{]}}
@@ -1155,8 +1323,8 @@
       \strng{authorbibnamehash}{676485329457381fc53d6511b19788b1}
       \strng{authornamehash}{676485329457381fc53d6511b19788b1}
       \strng{authorfullhash}{676485329457381fc53d6511b19788b1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This draft provides an overview of the various terms that are used when discussing bootstrapping of IoT devices. We document terms that have been used within the IETF as well as other standards bodies. We investigate if the terms refer to the same phenomena or have subtle differences. We provide recommendations on the applicability of terms in different contexts. Finally, this document presents a survey of secure bootstrapping mechanisms available for smart objects that are part of an Internet of Things (IoT) network. The survey does not prescribe any one mechanism and rather presents IoT developers with different options to choose from, depending on their use-case, security requirements, and the user interface available on their IoT devices.}
@@ -1211,8 +1379,8 @@
       \strng{authorbibnamehash}{4abe7627da21cfc79834f31ec73d210b}
       \strng{authornamehash}{4abe7627da21cfc79834f31ec73d210b}
       \strng{authorfullhash}{cb2a69d0c7f7f40a64968625427c0748}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document specifies a new certificate type and two TLS extensions for exchanging raw public keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS). The new certificate type allows raw public keys to be used for authentication.}
@@ -1248,8 +1416,8 @@
       \strng{authorbibnamehash}{49952770ed51bcb32792566644a0032e}
       \strng{authornamehash}{49952770ed51bcb32792566644a0032e}
       \strng{authorfullhash}{49952770ed51bcb32792566644a0032e}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -1292,8 +1460,8 @@
       \strng{authorbibnamehash}{72dfe1228a124bc231bd738baec5b6d4}
       \strng{authornamehash}{72dfe1228a124bc231bd738baec5b6d4}
       \strng{authorfullhash}{72dfe1228a124bc231bd738baec5b6d4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Workshop on Smart Object Security}
@@ -1560,8 +1728,8 @@
       \strng{authornamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
       \strng{authorfullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As networked devices become smaller, more portable, and more ubiquitous, the ability to operate with less configured infrastructure is increasingly important. In particular, the ability to look up DNS resource record data types (including, but not limited to, host names) in the absence of a conventional managed DNS server is useful. Multicast DNS (mDNS) provides the ability to perform DNS-like operations on the local link in the absence of any conventional Unicast DNS server. In addition, Multicast DNS designates a portion of the DNS namespace to be free for local use, without the need to pay any annual fee, and without the need to set up delegations or otherwise configure a conventional DNS server to answer for those names. The primary benefits of Multicast DNS names are that (i) they require little or no administration or configuration to set them up, (ii) they work when no infrastructure is present, and (iii) they work during infrastructure failures.}
@@ -1599,8 +1767,8 @@
       \strng{authorbibnamehash}{ba62d9eef469b585eaed0db8dc553db7}
       \strng{authornamehash}{ba62d9eef469b585eaed0db8dc553db7}
       \strng{authorfullhash}{ba62d9eef469b585eaed0db8dc553db7}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Dynamic Host Configuration Protocol (DHCP) provides a framework for passing configuration information to hosts on a TCPIP network. DHCP is based on the Bootstrap Protocol (BOOTP), adding the capability of automatic allocation of reusable network addresses and additional configuration options. {[}STANDARDS-TRACK{]}}
@@ -1643,8 +1811,8 @@
       \strng{authorbibnamehash}{71e8b57292ffeb48787bddfdf31fa27c}
       \strng{authornamehash}{71e8b57292ffeb48787bddfdf31fa27c}
       \strng{authorfullhash}{71e8b57292ffeb48787bddfdf31fa27c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document defines a date and time format for use in Internet protocols that is a profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar.}
@@ -1758,63 +1926,6 @@
       \field{pages}{164\bibrangedash 178}
       \range{pages}{15}
     \endentry
-    \entry{unger2015sok}{inproceedings}{}
-      \name{author}{7}{}{%
-        {{hash=c4240882f9248d680b14ac0bc0750814}{%
-           family={Unger},
-           familyi={U\bibinitperiod},
-           given={Nik},
-           giveni={N\bibinitperiod}}}%
-        {{hash=aeb3510e54ada25fc7ae6324a36a6006}{%
-           family={Dechand},
-           familyi={D\bibinitperiod},
-           given={Sergej},
-           giveni={S\bibinitperiod}}}%
-        {{hash=e6eb78ec5f92eaff4e9d4b944aff4c9c}{%
-           family={Bonneau},
-           familyi={B\bibinitperiod},
-           given={Joseph},
-           giveni={J\bibinitperiod}}}%
-        {{hash=1028844fea5de62386623e035ed1f307}{%
-           family={Fahl},
-           familyi={F\bibinitperiod},
-           given={Sascha},
-           giveni={S\bibinitperiod}}}%
-        {{hash=3341989638ba9b51cd0c302132437966}{%
-           family={Perl},
-           familyi={P\bibinitperiod},
-           given={Henning},
-           giveni={H\bibinitperiod}}}%
-        {{hash=a023acc45498a4d8527462d2228654ee}{%
-           family={Goldberg},
-           familyi={G\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-        {{hash=892bcbf9fb91b1348837862cbf71f80f}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Matthew},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{a8ec59736896da71b2c283832dcf318b}
-      \strng{fullhash}{b83404b2904f7cceaf6d3a5acdd4269f}
-      \strng{bibnamehash}{a8ec59736896da71b2c283832dcf318b}
-      \strng{authorbibnamehash}{a8ec59736896da71b2c283832dcf318b}
-      \strng{authornamehash}{a8ec59736896da71b2c283832dcf318b}
-      \strng{authorfullhash}{b83404b2904f7cceaf6d3a5acdd4269f}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2015 IEEE Symposium on Security and Privacy}
-      \field{title}{SoK: secure messaging}
-      \field{year}{2015}
-      \field{pages}{232\bibrangedash 249}
-      \range{pages}{18}
-    \endentry
     \entry{alwen_coretti_dodis_2020}{book}{}
       \name{author}{3}{}{%
         {{hash=3ee993388b23738b0ebba708ee0c9fdf}{%
@@ -1839,8 +1950,8 @@
       \strng{authorbibnamehash}{42474b56ac813c2792a971b6a2f8bd3a}
       \strng{authornamehash}{42474b56ac813c2792a971b6a2f8bd3a}
       \strng{authorfullhash}{42474b56ac813c2792a971b6a2f8bd3a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Double Ratchet: Security Notions, Proofs, and Modularization for the Signal Protocol}
@@ -2015,8 +2126,8 @@
       \strng{authorbibnamehash}{5efeb2621b03e1543d273390912b1360}
       \strng{authornamehash}{5efeb2621b03e1543d273390912b1360}
       \strng{authorfullhash}{5efeb2621b03e1543d273390912b1360}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cryptology ePrint Archive}
