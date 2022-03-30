@@ -127,18 +127,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.4}Simulation Execution}{55}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Room for improvement}{55}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Room for Improvement}{55}{section.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Discussion}{56}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Discussion}{57}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{57}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{58}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{58}{chapter*.30}%
+\contentsline {chapter}{\nonumberline Bibliography}{59}{chapter*.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}BRSKI vs. SZTP}{63}{appendix.A}%
+\contentsline {chapter}{\numberline {A}BRSKI vs. SZTP}{64}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Terminology Comparison}{63}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Terminology Comparison}{64}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Protocol Comparison}{65}{section.A.2}%
+\contentsline {section}{\numberline {A.2}Protocol Comparison}{66}{section.A.2}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

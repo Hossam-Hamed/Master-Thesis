@@ -397,7 +397,7 @@
 \glossaryentry{KDF?\glossentry{kdf}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{ECDH?\glossentry{ecdh}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{KDF?\glossentry{kdf}|setentrycounter[]{page}\glsnumberformat}{49}
-\glossaryentry{EC?\glossentry{ec}|setentrycounter[]{page}\glsnumberformat}{49}
+\glossaryentry{ECC?\glossentry{ecc}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{ECDH?\glossentry{ecdh}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{ECDH?\glossentry{ecdh}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{EC?\glossentry{ec}|setentrycounter[]{page}\glsnumberformat}{49}
@@ -424,7 +424,7 @@
 \glossaryentry{KEM?\glossentry{kem}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{KEM?\glossentry{kem}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{KEM?\glossentry{kem}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{X3DH?\glossentry{x3dh}|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{X3DH?\glossentry{x3dh}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{ECDH?\glossentry{ecdh}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{KEM?\glossentry{kem}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{KEM?\glossentry{kem}|setentrycounter[]{page}\glsnumberformat}{51}
@@ -440,3 +440,4 @@
 \glossaryentry{CA?\glossentry{ca}|setentrycounter[]{page}\glsnumberformat}{53}
 \glossaryentry{X3DH?\glossentry{x3dh}|setentrycounter[]{page}\glsnumberformat}{53}
 \glossaryentry{CSR?\glossentry{csr}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{ECC?\glossentry{ecc}|setentrycounter[]{page}\glsnumberformat}{55}
