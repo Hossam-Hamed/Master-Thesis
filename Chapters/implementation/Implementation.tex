@@ -109,7 +109,7 @@ The client offers a command-line interface that allows for user input to control
 \section{Simulation Execution}
 First, the server must be running and ready to accept clients to run the demo. Then, multiple clients can connect to the server and communicate with one another simultaneously. A client requires three arguments to start: a unique name, a boolean value to run in verbose mode or nor, and a boolean to allow user input from the command line or not. The specified arguments should be input in the mentioned order and separated by a blank. The last argument should only be set to \textit{True} in case of executing an automated script. A client connects automatically to the server without any required user input. Nevertheless, depending on the role, a client must execute a set of commands in order.
 \par
-Either role has to start by running \textit{csr}. Bob has to execute \textit{reg2server} to be able to receive a message from Alice. Bob can wait for communication or can act as Alice for other registered users. Alice has to execute \textit{fetchKeyBundle}, then \textit{init}, before executing \textit{send} to send messages to Bob. Afterwards, Alice and Bob can exchange messages using 
+Either role has to start by running \textit{csr}. Bob has to execute \textit{reg2server} to be able to receive a message from Alice. Bob can wait for communication or can act as Alice for other registered users. Alice has to execute \textit{fetchKeyBundle}, then \textit{init}, before executing \textit{send} to send messages to Bob. Afterwards, Alice and Bob can exchange messages using...........
 
 \section{Room for Improvement}
 In this section we mention limitations of the implementation and improvement suggestions.

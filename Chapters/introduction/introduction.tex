@@ -12,14 +12,15 @@ IoT device life cycle and nature of IoT communication
 %The \gls{ietf} introduced \gls{coap} \cite{rfc7252} that is intended to be a generic application protocol for constrained environments. Similar to the ubiquitous HTTP \cite{http}, \gls{coap} realizes a subset of the \gls{rest} architecture. Therefore, it easily translates to HTTP. Moreover, \gls{coap} leverages \gls{udp} as its transport layer protocol which is secured by \gls{dtls}. Hence, \gls{coap} is one of well-suited protocols for \gls{iot}.
 
 \section{Research Questions and Contributions}\label{sec:reserach_questions}
-research questions: motivate the desire for zero-touch bootstrapping and future secrecy.
+research questions: analyze and understand the relevance and importance of zero-touch bootstrapping and future secrecy in IoT protocols and present a proposal for an implementation of future secrecy related protocols in relevant use cases.
 \par
 The contributions of the thesis are the following:
 \begin{itemize}
+	\item discuss applicability of protcols on use cases.
 	\item We conduct a comparative study between two secure bootstrapping protocols, \gls{brski} and \gls{sztp}.
-	\item We give an overview over the \gls{x3dh} protocol and the double ratchet algorithm. In addition to present a formal verification of the \gls{x3dh} using \gls{ofmc}. Moreover, we reflect on stand of those protocols in the post-quantum setting.
+	\item We give an overview over the \gls{x3dh} protocol and the double ratchet algorithm. In addition to present a formal verification of the \gls{x3dh} using \gls{ofmc}. Moreover, we discuss the post-quantum security of the protocols.
 	\item We provide a demo implementation for \gls{x3dh} and the double ratchet algorithm using Python.
-	\item Although not strictly relevant, we present a comparison table between a set of certificate enrollment protocols in appendix \ref{appendix-enrollment}.
+	\item We present a comparison between a set of certificate enrollment protocols in appendix \ref{appendix-enrollment}.
 \end{itemize}
 
 \section{Structure of the Thesis}\label{sec:structure_of_the_thesis}
