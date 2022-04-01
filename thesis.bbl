@@ -61,6 +61,347 @@
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
     \endentry
+    \entry{rfc7228}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=7fe2f98d5101608d1a28002bcb59c6d0}{%
+           family={Bormann},
+           familyi={B\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a8bb3b09c2ba69999f266e60c231bebc}{%
+           family={Ersue},
+           familyi={E\bibinitperiod},
+           given={Mehmet},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e1e09142cd1b97346137e26b7bf5ba7c}{%
+           family={Keränen},
+           familyi={K\bibinitperiod},
+           given={Ari},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{87f80a4470fc47dbbb8d486ef44b9ef6}
+      \strng{fullhash}{87f80a4470fc47dbbb8d486ef44b9ef6}
+      \strng{bibnamehash}{87f80a4470fc47dbbb8d486ef44b9ef6}
+      \strng{authorbibnamehash}{87f80a4470fc47dbbb8d486ef44b9ef6}
+      \strng{authornamehash}{87f80a4470fc47dbbb8d486ef44b9ef6}
+      \strng{authorfullhash}{87f80a4470fc47dbbb8d486ef44b9ef6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Internet Protocol Suite is increasingly used on small devices with severe constraints on power, memory, and processing resources, creating constrained-node networks. This document provides a number of basic terms that have been useful in the standardization work for constrained-node networks.}
+      \field{howpublished}{RFC 7228}
+      \field{month}{5}
+      \field{number}{7228}
+      \field{pagetotal}{17}
+      \field{series}{Request for Comments}
+      \field{title}{{Terminology for Constrained-Node Networks}}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.17487/RFC7228
+      \endverb
+      \verb{urlraw}
+      \verb https://www.rfc-editor.org/info/rfc7228
+      \endverb
+      \verb{url}
+      \verb https://www.rfc-editor.org/info/rfc7228
+      \endverb
+    \endentry
+    \entry{rfc5246}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=fbed942ce41bbd27cb1ee6a803bdf541}{%
+           family={Rescorla},
+           familyi={R\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=774d4268a758d45ede8870ebd6e40083}{%
+           family={Dierks},
+           familyi={D\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{d7d494c023bd84f7f24e589678c5b483}
+      \strng{fullhash}{d7d494c023bd84f7f24e589678c5b483}
+      \strng{bibnamehash}{d7d494c023bd84f7f24e589678c5b483}
+      \strng{authorbibnamehash}{d7d494c023bd84f7f24e589678c5b483}
+      \strng{authornamehash}{d7d494c023bd84f7f24e589678c5b483}
+      \strng{authorfullhash}{d7d494c023bd84f7f24e589678c5b483}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document specifies Version 1.2 of the Transport Layer Security (TLS) protocol. The TLS protocol provides communications security over the Internet. The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. {[}STANDARDS-TRACK{]}}
+      \field{howpublished}{RFC 5246}
+      \field{month}{8}
+      \field{number}{5246}
+      \field{pagetotal}{104}
+      \field{series}{Request for Comments}
+      \field{title}{{The Transport Layer Security (TLS) Protocol Version 1.2}}
+      \field{year}{2008}
+      \verb{doi}
+      \verb 10.17487/RFC5246
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc5246.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc5246.txt
+      \endverb
+    \endentry
+    \entry{shang2016challenges}{article}{}
+      \name{author}{4}{}{%
+        {{hash=71ffd294ea0d4e40b9cd6e7bf5aa66c8}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Wentao},
+           giveni={W\bibinitperiod}}}%
+        {{hash=efa63f4721b977ec279642a1acf38726}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yingdi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ba62d9eef469b585eaed0db8dc553db7}{%
+           family={Droms},
+           familyi={D\bibinitperiod},
+           given={Ralph},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cc2e36f00f725b723902ed63824d79e4}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lixia},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{2854c5ced385621643760a0c5b26adbb}
+      \strng{fullhash}{3f0e55c915a23b344381b4e2b418c682}
+      \strng{bibnamehash}{2854c5ced385621643760a0c5b26adbb}
+      \strng{authorbibnamehash}{2854c5ced385621643760a0c5b26adbb}
+      \strng{authornamehash}{2854c5ced385621643760a0c5b26adbb}
+      \strng{authorfullhash}{3f0e55c915a23b344381b4e2b418c682}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NDN Project}
+      \field{title}{Challenges in IoT networking via TCP/IP architecture}
+      \field{year}{2016}
+    \endentry
+    \entry{dtls}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=fbed942ce41bbd27cb1ee6a803bdf541}{%
+           family={Rescorla},
+           familyi={R\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=29dcce65392670f1cbc60ca35fcd5573}{%
+           family={Modadugu},
+           familyi={M\bibinitperiod},
+           given={Nagendra},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{fullhash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{bibnamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{authorbibnamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{authornamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{authorfullhash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document specifies version 1.2 of the Datagram Transport Layer Security (DTLS) protocol. The DTLS protocol provides communications privacy for datagram protocols. The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. The DTLS protocol is based on the Transport Layer Security (TLS) protocol and provides equivalent security guarantees. Datagram semantics of the underlying transport are preserved by the DTLS protocol. This document updates DTLS 1.0 to work with TLS version 1.2. {[}STANDARDS-TRACK{]}}
+      \field{howpublished}{RFC 6347}
+      \field{month}{1}
+      \field{number}{6347}
+      \field{pagetotal}{32}
+      \field{series}{Request for Comments}
+      \field{title}{{Datagram Transport Layer Security Version 1.2}}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.17487/RFC6347
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc6347.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc6347.txt
+      \endverb
+    \endentry
+    \entry{rfc7252}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=ed98cd7a76bd516b3da09ae8534c32a0}{%
+           family={Shelby},
+           familyi={S\bibinitperiod},
+           given={Zach},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9df875ea8cdea272d47bed2f6b8c68df}{%
+           family={Hartke},
+           familyi={H\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7fe2f98d5101608d1a28002bcb59c6d0}{%
+           family={Bormann},
+           familyi={B\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{fullhash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{bibnamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{authorbibnamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{authornamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{authorfullhash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks. The nodes often have 8-bit microcontrollers with small amounts of ROM and RAM, while constrained networks such as IPv6 over Low-Power Wireless Personal Area Networks (6LoWPANs) often have high packet error rates and a typical throughput of 10s of kbit/s. The protocol is designed for machine- to-machine (M2M) applications such as smart energy and building automation. CoAP provides a request/response interaction model between application endpoints, supports built-in discovery of services and resources, and includes key concepts of the Web such as URIs and Internet media types. CoAP is designed to easily interface with HTTP for integration with the Web while meeting specialized requirements such as multicast support, very low overhead, and simplicity for constrained environments.}
+      \field{howpublished}{RFC 7252}
+      \field{month}{6}
+      \field{number}{7252}
+      \field{pagetotal}{112}
+      \field{series}{Request for Comments}
+      \field{title}{{The Constrained Application Protocol (CoAP)}}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.17487/RFC7252
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc7252.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc7252.txt
+      \endverb
+    \endentry
+    \entry{http}{misc}{}
+      \name{author}{7}{}{%
+        {{hash=a6588e029b024b66dac73bfe93e7fd35}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=07a291d424c13fd4aa8d2a2975fe88c3}{%
+           family={Mogul},
+           familyi={M\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=125393a57ea8e504b5480229f8c1f40f}{%
+           family={Masinter},
+           familyi={M\bibinitperiod},
+           given={Larry\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=489e3655cdca151facfb40953b9759f8}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Roy\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=39e7a25fdfe5df6a002b946f4fdb305b}{%
+           family={Gettys},
+           familyi={G\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8dd2a216676f13eb6fe2a82f00021125}{%
+           family={Leach},
+           familyi={L\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{%
+           family={Berners-Lee},
+           familyi={B\bibinithyphendelim L\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{e4d346e3cd4a1ccfd764fac7eed82467}
+      \strng{fullhash}{5b9f69faad395e5f7b6adf612913a3af}
+      \strng{bibnamehash}{e4d346e3cd4a1ccfd764fac7eed82467}
+      \strng{authorbibnamehash}{e4d346e3cd4a1ccfd764fac7eed82467}
+      \strng{authornamehash}{e4d346e3cd4a1ccfd764fac7eed82467}
+      \strng{authorfullhash}{5b9f69faad395e5f7b6adf612913a3af}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{HTTP has been in use by the World-Wide Web global information initiative since 1990. This specification defines the protocol referred to as "HTTP/1.1", and is an update to RFC 2068. {[}STANDARDS-TRACK{]}}
+      \field{howpublished}{RFC 2616}
+      \field{month}{6}
+      \field{number}{2616}
+      \field{pagetotal}{176}
+      \field{series}{Request for Comments}
+      \field{title}{{Hypertext Transfer Protocol -- HTTP/1.1}}
+      \field{year}{1999}
+      \verb{doi}
+      \verb 10.17487/RFC2616
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc2616.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc2616.txt
+      \endverb
+    \endentry
+    \entry{rfc8576}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=5a2375d44a646498396e70f2269e28f9}{%
+           family={Garcia-Morchon},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=00205351ab4f99c0159fcd1ce4793acc}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sandeep},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e7798f5c5ffde5c34029ccacd9789c1d}{%
+           family={Sethi},
+           familyi={S\bibinitperiod},
+           given={Mohit},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{2eccd7c78e0b92a8ee73a51f36b2073c}
+      \strng{fullhash}{2eccd7c78e0b92a8ee73a51f36b2073c}
+      \strng{bibnamehash}{2eccd7c78e0b92a8ee73a51f36b2073c}
+      \strng{authorbibnamehash}{2eccd7c78e0b92a8ee73a51f36b2073c}
+      \strng{authornamehash}{2eccd7c78e0b92a8ee73a51f36b2073c}
+      \strng{authorfullhash}{2eccd7c78e0b92a8ee73a51f36b2073c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Internet of Things (IoT) concept refers to the usage of standard Internet protocols to allow for human-to-thing and thing-to-thing communication. The security needs for IoT systems are well recognized, and many standardization steps to provide security have been taken -- for example, the specification of the Constrained Application Protocol (CoAP) secured with Datagram Transport Layer Security (DTLS). However, security challenges still exist, not only because there are some use cases that lack a suitable solution, but also because many IoT devices and systems have been designed and deployed with very limited security capabilities. In this document, we first discuss the various stages in the lifecycle of a thing. Next, we document the security threats to a thing and the challenges that one might face to protect against these threats. Lastly, we discuss the next steps needed to facilitate the deployment of secure IoT systems. This document can be used by implementers and authors of IoT specifications as a reference for details about security considerations while documenting their specific security challenges, threat models, and mitigations. This document is a product of the IRTF Thing-to-Thing Research Group (T2TRG).}
+      \field{howpublished}{RFC 8576}
+      \field{month}{4}
+      \field{number}{8576}
+      \field{pagetotal}{50}
+      \field{series}{Request for Comments}
+      \field{title}{{Internet of Things (IoT) Security: State of the Art and Challenges}}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.17487/RFC8576
+      \endverb
+      \verb{urlraw}
+      \verb https://www.rfc-editor.org/info/rfc8576
+      \endverb
+      \verb{url}
+      \verb https://www.rfc-editor.org/info/rfc8576
+      \endverb
+    \endentry
     \entry{x509}{misc}{}
       \name{author}{1}{}{%
         {{hash=5c3541b083d376fcf7bf52bd401a8ab9}{%
@@ -103,8 +444,8 @@
       \strng{authorbibnamehash}{b1434dc73da342006bd20ff26714e211}
       \strng{authornamehash}{b1434dc73da342006bd20ff26714e211}
       \strng{authorfullhash}{b1434dc73da342006bd20ff26714e211}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 2000 ACM workshops on Multimedia}
@@ -114,8 +455,8 @@
       \range{pages}{4}
     \endentry
     \entry{bs-wiki}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{title}{{Bootstrapping}}
       \field{urlday}{8}
@@ -161,8 +502,8 @@
       \strng{authorbibnamehash}{8790abf300b3d24be75520691332fb3a}
       \strng{authornamehash}{8790abf300b3d24be75520691332fb3a}
       \strng{authorfullhash}{cff10a679b3c59a9693a391ded490fe3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document defines a strategy to securely assign a pledge to an owner using an artifact signed, directly or indirectly, by the pledge's manufacturer. This artifact is known as a "voucher". This document defines an artifact format as a YANG-defined JSON document that has been signed using a Cryptographic Message Syntax (CMS) structure. Other YANG-derived formats are possible. The voucher artifact is normally generated by the pledge's manufacturer (i.e., the Manufacturer Authorized Signing Authority (MASA)). This document only defines the voucher artifact, leaving it to other documents to describe specialized protocols for accessing it.}
@@ -200,8 +541,8 @@
       \strng{authorbibnamehash}{b4fccba6c9a409c01ed39aa09565d1bf}
       \strng{authornamehash}{b4fccba6c9a409c01ed39aa09565d1bf}
       \strng{authorfullhash}{b4fccba6c9a409c01ed39aa09565d1bf}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document describes the Cryptographic Message Syntax (CMS). This syntax is used to digitally sign, digest, authenticate, or encrypt arbitrary message content. {[}STANDARDS-TRACK{]}}
@@ -239,8 +580,8 @@
       \strng{authorbibnamehash}{c302f0039be29440191c4cd1d1f41068}
       \strng{authornamehash}{c302f0039be29440191c4cd1d1f41068}
       \strng{authorfullhash}{c302f0039be29440191c4cd1d1f41068}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{YANG is a data modeling language used to model configuration data, state data, Remote Procedure Calls, and notifications for network management protocols. This document describes the syntax and semantics of version 1.1 of the YANG language. YANG version 1.1 is a maintenance release of the YANG language, addressing ambiguities and defects in the original specification. There are a small number of backward incompatibilities from YANG version 1. This document also specifies the YANG mappings to the Network Configuration Protocol (NETCONF).}
@@ -288,8 +629,8 @@
       \strng{authorbibnamehash}{a91c9402f6ae0cabb6170669d2e1b10a}
       \strng{authornamehash}{a91c9402f6ae0cabb6170669d2e1b10a}
       \strng{authorfullhash}{a91c9402f6ae0cabb6170669d2e1b10a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document profiles certificate enrollment for clients using Certificate Management over CMS (CMC) messages over a secure transport. This profile, called Enrollment over Secure Transport (EST), describes a simple, yet functional, certificate management protocol targeting Public Key Infrastructure (PKI) clients that need to acquire client certificates and associated Certification Authority (CA) certificates. It also supports client-generated public/private key pairs as well as key pairs generated by the CA.}
@@ -342,8 +683,8 @@
       \strng{authorbibnamehash}{2a3b00e17a8f6216114d83307948ff89}
       \strng{authornamehash}{2a3b00e17a8f6216114d83307948ff89}
       \strng{authorfullhash}{1cf98114eb0a747dfe5e9735e6e92d76}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document describes the Internet X.509 Public Key Infrastructure (PKI) Certificate Management Protocol (CMP). Protocol messages are defined for X.509v3 certificate creation and management. CMP provides on-line interactions between PKI components, including an exchange between a Certification Authority (CA) and a client system. {[}STANDARDS-TRACK{]}}
@@ -382,8 +723,8 @@
       \strng{authornamehash}{55ed54daa0318b3eef830906bb201983}
       \strng{authorfullhash}{55ed54daa0318b3eef830906bb201983}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document specifies the Simple Certificate Enrolment Protocol (SCEP), a PKI protocol that leverages existing technology by using Cryptographic Message Syntax (CMS, formerly known as PKCS \#7) and PKCS \#10 over HTTP. SCEP is the evolution of the enrolment protocol sponsored by Cisco Systems, which enjoys wide support in both client and server implementations, as well as being relied upon by numerous other industry standards that work with certificates.}
@@ -426,8 +767,8 @@
       \strng{authorbibnamehash}{8bbe98446174f1a74c3460caeb7cd96c}
       \strng{authornamehash}{8bbe98446174f1a74c3460caeb7cd96c}
       \strng{authorfullhash}{8bbe98446174f1a74c3460caeb7cd96c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document defines the base syntax for CMC, a Certificate Management protocol using the Cryptographic Message Syntax (CMS). This protocol addresses two immediate needs within the Internet Public Key Infrastructure (PKI) community: 1. The need for an interface to public key certification products and services based on CMS and PKCS \#10 (Public Key Cryptography Standard), and 2. The need for a PKI enrollment protocol for encryption only keys due to algorithm or hardware design. CMC also requires the use of the transport document and the requirements usage document along with this document for a full definition. {[}STANDARDS-TRACK{]}}
@@ -470,8 +811,8 @@
       \strng{authorbibnamehash}{037826c0f12d8220dc9c906195716fd9}
       \strng{authornamehash}{037826c0f12d8220dc9c906195716fd9}
       \strng{authorfullhash}{037826c0f12d8220dc9c906195716fd9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Foundations of Security Analysis and Design V}
@@ -494,8 +835,8 @@
       \strng{authorbibnamehash}{c2f0085b00767eed8210713a296a693f}
       \strng{authornamehash}{c2f0085b00767eed8210713a296a693f}
       \strng{authorfullhash}{c2f0085b00767eed8210713a296a693f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The AVISPA Tool is a push-button tool for the Automated Validation of Internet Security Protocols and Applications. It provides a modular and expressive formal language for specifying protocols and their security properties, and integrates different back-ends that implement a variety of automatic protocol analysis techniques. Experimental results, carried out on a large library of Internet security protocols, indicate that the AVISPA Tool is a state-of-the-art tool for Internet security protocol analysis as, to our knowledge, no other tool exhibits the same level of scope and robustness while enjoying the same performance and scalability.}
@@ -535,8 +876,8 @@
       \strng{authorbibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
       \strng{authornamehash}{799e35678fe13bd4153a6f19f7f54b9c}
       \strng{authorfullhash}{799e35678fe13bd4153a6f19f7f54b9c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2009 International Conference on Availability, Reliability and Security}
@@ -567,8 +908,8 @@
       \strng{authorbibnamehash}{5f2529bb54a4555cc37fd29547a86038}
       \strng{authornamehash}{5f2529bb54a4555cc37fd29547a86038}
       \strng{authorfullhash}{5f2529bb54a4555cc37fd29547a86038}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on information theory}
@@ -596,8 +937,8 @@
       \strng{authornamehash}{26c312e2629bd185163244ccf26f2abc}
       \strng{authorfullhash}{26c312e2629bd185163244ccf26f2abc}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{NIST special publication}
@@ -717,8 +1058,8 @@
       \strng{authorbibnamehash}{85f76bfb160242c7d7424c7ac03a01d7}
       \strng{authornamehash}{85f76bfb160242c7d7424c7ac03a01d7}
       \strng{authorfullhash}{85f76bfb160242c7d7424c7ac03a01d7}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We present a solution to the Tiercé problem, in which two players want to know whether they have backed the same combination (but neither player wants to disclose its combination to the other one). The problem is also known as the socialist millionaires’ problem, in which two millionaires want to know whether they happen to be equally rich. In our solution, both players will be convinced of the correctness of the equality test between their combinations and will get no additional information on the other player's combination. Our solution is fair: one party cannot get the result of the comparison while preventing the other one from getting it. The protocol requires O(k) exponentiations only, where k is a security parameter.}
@@ -788,8 +1129,8 @@
       \strng{authorbibnamehash}{a8ec59736896da71b2c283832dcf318b}
       \strng{authornamehash}{a8ec59736896da71b2c283832dcf318b}
       \strng{authorfullhash}{b83404b2904f7cceaf6d3a5acdd4269f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2015 IEEE Symposium on Security and Privacy}
@@ -820,8 +1161,8 @@
       \strng{authorbibnamehash}{ec3c7796752a7a0017a533331d7e7aab}
       \strng{authornamehash}{ec3c7796752a7a0017a533331d7e7aab}
       \strng{authorfullhash}{ec3c7796752a7a0017a533331d7e7aab}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Secure Broadcast Communication}
@@ -854,8 +1195,8 @@
       \strng{authorbibnamehash}{42eecd05082e1aee482913ee0a938169}
       \strng{authornamehash}{42eecd05082e1aee482913ee0a938169}
       \strng{authorfullhash}{42eecd05082e1aee482913ee0a938169}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Access}
@@ -924,8 +1265,8 @@
       \strng{authorbibnamehash}{6d7306ad03a47cc18f1a4089b6c8cf09}
       \strng{authornamehash}{6d7306ad03a47cc18f1a4089b6c8cf09}
       \strng{authorfullhash}{6d7306ad03a47cc18f1a4089b6c8cf09}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Which countries have ePassports?}}
@@ -968,8 +1309,8 @@
       \strng{authorbibnamehash}{23b171f01ff435eeb34842b8c73efe2c}
       \strng{authornamehash}{23b171f01ff435eeb34842b8c73efe2c}
       \strng{authorfullhash}{23b171f01ff435eeb34842b8c73efe2c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{number}{December}
@@ -1025,8 +1366,8 @@
       \strng{authorbibnamehash}{60279a4cf9bae48a42732fb44a8b3f9f}
       \strng{authornamehash}{60279a4cf9bae48a42732fb44a8b3f9f}
       \strng{authorfullhash}{61335bb9c4988853471aaf758939246f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ACM Computing Surveys (CSUR)}
@@ -1071,8 +1412,8 @@
       \strng{authorbibnamehash}{48d3930c756101fa525b6391b7f4cdd3}
       \strng{authornamehash}{48d3930c756101fa525b6391b7f4cdd3}
       \strng{authorfullhash}{b87a9c8879fc5383516656c48b9aa41c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 IEEE Vehicular Networking Conference (VNC)}
@@ -1198,8 +1539,8 @@
       \strng{authorbibnamehash}{676485329457381fc53d6511b19788b1}
       \strng{authornamehash}{676485329457381fc53d6511b19788b1}
       \strng{authorfullhash}{676485329457381fc53d6511b19788b1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This draft provides an overview of the various terms that are used when discussing bootstrapping of IoT devices. We document terms that have been used within the IETF as well as other standards bodies. We investigate if the terms refer to the same phenomena or have subtle differences. We provide recommendations on the applicability of terms in different contexts. Finally, this document presents a survey of secure bootstrapping mechanisms available for smart objects that are part of an Internet of Things (IoT) network. The survey does not prescribe any one mechanism and rather presents IoT developers with different options to choose from, depending on their use-case, security requirements, and the user interface available on their IoT devices.}
@@ -1254,8 +1595,8 @@
       \strng{authorbibnamehash}{4abe7627da21cfc79834f31ec73d210b}
       \strng{authornamehash}{4abe7627da21cfc79834f31ec73d210b}
       \strng{authorfullhash}{cb2a69d0c7f7f40a64968625427c0748}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document specifies a new certificate type and two TLS extensions for exchanging raw public keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS). The new certificate type allows raw public keys to be used for authentication.}
@@ -1291,8 +1632,8 @@
       \strng{authorbibnamehash}{49952770ed51bcb32792566644a0032e}
       \strng{authornamehash}{49952770ed51bcb32792566644a0032e}
       \strng{authorfullhash}{49952770ed51bcb32792566644a0032e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -1335,8 +1676,8 @@
       \strng{authorbibnamehash}{72dfe1228a124bc231bd738baec5b6d4}
       \strng{authornamehash}{72dfe1228a124bc231bd738baec5b6d4}
       \strng{authorfullhash}{72dfe1228a124bc231bd738baec5b6d4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Workshop on Smart Object Security}
@@ -1381,8 +1722,8 @@
       \strng{authorbibnamehash}{43d7ad2864ef1420d8dfa7ec2897310f}
       \strng{authornamehash}{43d7ad2864ef1420d8dfa7ec2897310f}
       \strng{authorfullhash}{8f3ed1616ba693b2514b8f639121b221}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document specifies automated bootstrapping of an Autonomic Control Plane. To do this, a Secure Key Infrastructure is bootstrapped. This is done using manufacturer-installed X.509 certificates, in combination with a manufacturer's authorizing service, both online and offline. We call this process the Bootstrapping Remote Secure Key Infrastructure (BRSKI) protocol. Bootstrapping a new device can occur when using a routable address and a cloud service, only link-local connectivity, or limited/disconnected networks. Support for deployment models with less stringent security requirements is included. Bootstrapping is complete when the cryptographic identity of the new key infrastructure is successfully deployed to the device. The established secure connection can be used to deploy a locally issued certificate to the device as well.}
@@ -1430,8 +1771,8 @@
       \strng{authorbibnamehash}{3126e40e59eaf623f0b3bfb077baf22c}
       \strng{authornamehash}{3126e40e59eaf623f0b3bfb077baf22c}
       \strng{authorfullhash}{3126e40e59eaf623f0b3bfb077baf22c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document presents a technique to securely provision a networking device when it is booting in a factory-default state. Variations in the solution enable it to be used on both public and private networks. The provisioning steps are able to update the boot image, commit an initial configuration, and execute arbitrary scripts to address auxiliary needs. The updated device is subsequently able to establish secure connections with other systems. For instance, a device may establish NETCONF (RFC 6241) and/or RESTCONF (RFC 8040) connections with deployment-specific network management systems.}
@@ -1558,8 +1899,8 @@
       \strng{authornamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
       \strng{authorfullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document specifies how DNS resource records are named and structured to facilitate service discovery. Given a type of service that a client is looking for, and a domain in which the client is looking for that service, this mechanism allows clients to discover a list of named instances of that desired service, using standard DNS queries. This mechanism is referred to as DNS-based Service Discovery, or DNS-SD.}
@@ -1603,8 +1944,8 @@
       \strng{authornamehash}{c05e3198e1cef9bb31bc5b94fe8b9268}
       \strng{authorfullhash}{c05e3198e1cef9bb31bc5b94fe8b9268}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As networked devices become smaller, more portable, and more ubiquitous, the ability to operate with less configured infrastructure is increasingly important. In particular, the ability to look up DNS resource record data types (including, but not limited to, host names) in the absence of a conventional managed DNS server is useful. Multicast DNS (mDNS) provides the ability to perform DNS-like operations on the local link in the absence of any conventional Unicast DNS server. In addition, Multicast DNS designates a portion of the DNS namespace to be free for local use, without the need to pay any annual fee, and without the need to set up delegations or otherwise configure a conventional DNS server to answer for those names. The primary benefits of Multicast DNS names are that (i) they require little or no administration or configuration to set them up, (ii) they work when no infrastructure is present, and (iii) they work during infrastructure failures.}
@@ -1642,8 +1983,8 @@
       \strng{authorbibnamehash}{ba62d9eef469b585eaed0db8dc553db7}
       \strng{authornamehash}{ba62d9eef469b585eaed0db8dc553db7}
       \strng{authorfullhash}{ba62d9eef469b585eaed0db8dc553db7}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Dynamic Host Configuration Protocol (DHCP) provides a framework for passing configuration information to hosts on a TCPIP network. DHCP is based on the Bootstrap Protocol (BOOTP), adding the capability of automatic allocation of reusable network addresses and additional configuration options. {[}STANDARDS-TRACK{]}}
@@ -1686,8 +2027,8 @@
       \strng{authorbibnamehash}{71e8b57292ffeb48787bddfdf31fa27c}
       \strng{authornamehash}{71e8b57292ffeb48787bddfdf31fa27c}
       \strng{authorfullhash}{71e8b57292ffeb48787bddfdf31fa27c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document defines a date and time format for use in Internet protocols that is a profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar.}
@@ -1730,8 +2071,8 @@
       \strng{authorbibnamehash}{80033781f144697b606d1583ef64cb75}
       \strng{authornamehash}{80033781f144697b606d1583ef64cb75}
       \strng{authorfullhash}{80033781f144697b606d1583ef64cb75}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Encrypted communication on the Internet often uses Transport Layer Security (TLS), which depends on third parties to certify the keys used. This document improves on that situation by enabling the administrators of domain names to specify the keys used in that domain's TLS servers. This requires matching improvements in TLS client software, but no change in TLS server software. {[}STANDARDS-TRACK{]}}
@@ -1825,8 +2166,8 @@
       \strng{authorbibnamehash}{42474b56ac813c2792a971b6a2f8bd3a}
       \strng{authornamehash}{42474b56ac813c2792a971b6a2f8bd3a}
       \strng{authorfullhash}{42474b56ac813c2792a971b6a2f8bd3a}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Double Ratchet: Security Notions, Proofs, and Modularization for the Signal Protocol}
@@ -1857,8 +2198,8 @@
       \strng{authorbibnamehash}{352fa836ff5be0e2355b5556d9cf4977}
       \strng{authornamehash}{352fa836ff5be0e2355b5556d9cf4977}
       \strng{authorfullhash}{352fa836ff5be0e2355b5556d9cf4977}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Open Whisper Systems}
@@ -1884,8 +2225,8 @@
       \strng{authorbibnamehash}{ae7738f446a0d9847ef26b836257be1a}
       \strng{authornamehash}{ae7738f446a0d9847ef26b836257be1a}
       \strng{authorfullhash}{ae7738f446a0d9847ef26b836257be1a}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Signal}

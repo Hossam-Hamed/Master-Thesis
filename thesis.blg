@@ -1,23 +1,23 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[132] biber-MSWIN64:340> INFO - === 
-[181] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[330] Biber.pm:952> INFO - Found 73 citekeys in bib section 0
-[346] Biber.pm:4340> INFO - Processing section 0
-[360] Biber.pm:4531> INFO - Looking for bibtex format file 'literature.bib' for section 0
-[431] bibtex.pm:1689> INFO - LaTeX decoding ...
-[566] bibtex.pm:1494> INFO - Found BibTeX data source 'literature.bib'
-[715] Utils.pm:395> WARN - legacy month field 'Jul' in entry 'etsi_2021' is not an integer - this will probably not sort properly.
-[797] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'dblRtcht' is not an integer - this will probably not sort properly.
-[946] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_uSJI\a42497fa0f805ce74b9af7d16715cbd8_14348.utf8, line 379, warning: 3 characters of junk seen at toplevel
-[946] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_uSJI\a42497fa0f805ce74b9af7d16715cbd8_14348.utf8, line 494, warning: 3 characters of junk seen at toplevel
-[946] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_uSJI\a42497fa0f805ce74b9af7d16715cbd8_14348.utf8, line 663, warning: 3 characters of junk seen at toplevel
-[946] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_uSJI\a42497fa0f805ce74b9af7d16715cbd8_14348.utf8, line 730, warning: 3 characters of junk seen at toplevel
-[947] Utils.pm:395> WARN - I didn't find a database entry for '\gls {ofmc}Tut' (section 0)
-[1006] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1006] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1006] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1006] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1060] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[1102] bbl.pm:757> INFO - Output to thesis.bbl
-[1102] Biber.pm:128> INFO - WARNINGS: 7
+[126] biber-MSWIN64:340> INFO - === 
+[167] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[311] Biber.pm:952> INFO - Found 80 citekeys in bib section 0
+[327] Biber.pm:4340> INFO - Processing section 0
+[341] Biber.pm:4531> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[403] bibtex.pm:1689> INFO - LaTeX decoding ...
+[560] bibtex.pm:1494> INFO - Found BibTeX data source 'literature.bib'
+[739] Utils.pm:395> WARN - legacy month field 'Jul' in entry 'etsi_2021' is not an integer - this will probably not sort properly.
+[817] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'dblRtcht' is not an integer - this will probably not sort properly.
+[957] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_EEY9\a42497fa0f805ce74b9af7d16715cbd8_4336.utf8, line 379, warning: 3 characters of junk seen at toplevel
+[957] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_EEY9\a42497fa0f805ce74b9af7d16715cbd8_4336.utf8, line 494, warning: 3 characters of junk seen at toplevel
+[957] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_EEY9\a42497fa0f805ce74b9af7d16715cbd8_4336.utf8, line 663, warning: 3 characters of junk seen at toplevel
+[957] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Public\Documents\Wondershare\CreatorTemp\biber_tmp_EEY9\a42497fa0f805ce74b9af7d16715cbd8_4336.utf8, line 730, warning: 3 characters of junk seen at toplevel
+[958] Utils.pm:395> WARN - I didn't find a database entry for '\gls {ofmc}Tut' (section 0)
+[1023] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1023] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1023] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1023] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1082] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[1131] bbl.pm:757> INFO - Output to thesis.bbl
+[1131] Biber.pm:128> INFO - WARNINGS: 7
