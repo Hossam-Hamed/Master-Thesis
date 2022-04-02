@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  1 APR 2022 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  2 APR 2022 05:49
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1659,15 +1659,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
- (thesis.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                \gls {ofmc}Tut
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 131.
 Package biblatex Info: Reference segment=0 on input line 131.
 
@@ -1874,21 +1866,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.10 \par
+l.11 \par
           [2
 
 ]
-<Images/iot-lifecycle.jpg, id=395, 635.976pt x 326.4195pt>
+<Images/iot-lifecycle.jpg, id=393, 635.976pt x 326.4195pt>
 File: Images/iot-lifecycle.jpg Graphic file (type jpg)
 <use Images/iot-lifecycle.jpg>
-Package pdftex.def Info: Images/iot-lifecycle.jpg  used on input line 14.
+Package pdftex.def Info: Images/iot-lifecycle.jpg  used on input line 15.
 (pdftex.def)             Requested size: 222.59492pt x 114.24852pt.
-)
+ [3 <./Images/iot-lifecycle.jpg>])
 :<-
 Package srcltx Info: Expanded filename `Chapters/background/background.tex' to 
 `Chapters/background/background.tex' on input line 185.
 :<+ Chapters/background/background.tex
-(Chapters/background/background.tex [3 <./Images/iot-lifecycle.jpg>] [4]
+(Chapters/background/background.tex [4]
 chapter 2.
 Package srcltx Info: Expanded filename `Chapters/background/encryption.tex' to 
 `Chapters/background/encryption.tex' on input line 7.
@@ -1947,7 +1939,7 @@ rs/background/kdf.tex' on input line 25.
 
 :<+ Chapters/background/kdf.tex
 (Chapters/background/kdf.tex
-<Images/kdf.png, id=563, 170.6375pt x 186.6975pt>
+<Images/kdf.png, id=561, 170.6375pt x 186.6975pt>
 File: Images/kdf.png Graphic file (type png)
 <use Images/kdf.png>
 Package pdftex.def Info: Images/kdf.png  used on input line 4.
@@ -1958,12 +1950,12 @@ Package srcltx Info: Expanded filename `Chapters/background/relatedWork.tex' to
  `Chapters/background/relatedWork.tex' on input line 28.
 :<+ Chapters/background/relatedWork.tex
 (Chapters/background/relatedWork.tex [10 <./Images/kdf.png>] [11] [12] [13]
-<Images/tesla.png, id=618, 346.29375pt x 111.41624pt>
+<Images/tesla.png, id=616, 346.29375pt x 111.41624pt>
 File: Images/tesla.png Graphic file (type png)
 <use Images/tesla.png>
 Package pdftex.def Info: Images/tesla.png  used on input line 57.
 (pdftex.def)             Requested size: 225.08826pt x 72.4197pt.
-<Images/taxonomy.png, id=629, 512.66531pt x 317.68687pt>
+<Images/taxonomy.png, id=627, 512.66531pt x 317.68687pt>
 File: Images/taxonomy.png Graphic file (type png)
 <use Images/taxonomy.png>
 Package pdftex.def Info: Images/taxonomy.png  used on input line 75.
@@ -1982,7 +1974,7 @@ Package srcltx Info: Expanded filename `Chapters/useCases/ABC.tex' to `Chapters
 /useCases/ABC.tex' on input line 5.
 :<+ Chapters/useCases/ABC.tex
 (Chapters/useCases/ABC.tex
-<Images/E-Gate-Architecture.png, id=661, 700.41675pt x 442.0515pt>
+<Images/E-Gate-Architecture.png, id=659, 700.41675pt x 442.0515pt>
 File: Images/E-Gate-Architecture.png Graphic file (type png)
 <use Images/E-Gate-Architecture.png>
 Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 10.
@@ -1991,7 +1983,7 @@ Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 10.
  [16
 
 ]
-<Images/ABC.jpeg, id=677, 607.26875pt x 480.79625pt>
+<Images/ABC.jpeg, id=675, 607.26875pt x 480.79625pt>
 File: Images/ABC.jpeg Graphic file (type jpg)
 <use Images/ABC.jpeg>
 Package pdftex.def Info: Images/ABC.jpeg  used on input line 20.
@@ -2049,7 +2041,7 @@ view.tex' to `Chapters/secureBootstrapping/brski/overview.tex' on input line 5.
 
 :<+ Chapters/secureBootstrapping/brski/overview.tex
 (Chapters/secureBootstrapping/brski/overview.tex
-<Images/brski-overview.png, id=740, 670.359pt x 89.571pt>
+<Images/brski-overview.png, id=738, 670.359pt x 89.571pt>
 File: Images/brski-overview.png Graphic file (type png)
 <use Images/brski-overview.png>
 Package pdftex.def Info: Images/brski-overview.png  used on input line 7.
@@ -2077,7 +2069,7 @@ ocolDetails.tex' to `Chapters/secureBootstrapping/brski/protocolDetails.tex' on
  input line 7.
 :<+ Chapters/secureBootstrapping/brski/protocolDetails.tex
 (Chapters/secureBootstrapping/brski/protocolDetails.tex
-<Images/brski-architecture.png, id=768, 663.47874pt x 502.87875pt>
+<Images/brski-architecture.png, id=766, 663.47874pt x 502.87875pt>
 File: Images/brski-architecture.png Graphic file (type png)
 <use Images/brski-architecture.png>
 Package pdftex.def Info: Images/brski-architecture.png  used on input line 6.
@@ -2193,7 +2185,7 @@ Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/sztp/overv
 iew.tex' to `Chapters/secureBootstrapping/sztp/overview.tex' on input line 8.
 :<+ Chapters/secureBootstrapping/sztp/overview.tex
 (Chapters/secureBootstrapping/sztp/overview.tex
-<Images/sztp-overview.png, id=810, 502.87875pt x 101.37875pt>
+<Images/sztp-overview.png, id=808, 502.87875pt x 101.37875pt>
 File: Images/sztp-overview.png Graphic file (type png)
 <use Images/sztp-overview.png>
 Package pdftex.def Info: Images/sztp-overview.png  used on input line 5.
@@ -2253,7 +2245,7 @@ colDetails.tex' to `Chapters/secureBootstrapping/sztp/protocolDetails.tex' on i
 nput line 10.
 :<+ Chapters/secureBootstrapping/sztp/protocolDetails.tex
 (Chapters/secureBootstrapping/sztp/protocolDetails.tex
-<Images/sztp-Protocol.png, id=845, 354.32375pt x 84.315pt>
+<Images/sztp-Protocol.png, id=843, 354.32375pt x 84.315pt>
 File: Images/sztp-Protocol.png Graphic file (type png)
 <use Images/sztp-Protocol.png>
 Package pdftex.def Info: Images/sztp-Protocol.png  used on input line 16.
@@ -2311,7 +2303,7 @@ Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/intro.t
 ex' to `Chapters/postCompromiseSecurity/intro.tex' on input line 3.
 :<+ Chapters/postCompromiseSecurity/intro.tex
 (Chapters/postCompromiseSecurity/intro.tex
-<Images/ffsecrecy.jpg, id=914, 531.9875pt x 151.56625pt>
+<Images/ffsecrecy.jpg, id=912, 531.9875pt x 151.56625pt>
 File: Images/ffsecrecy.jpg Graphic file (type jpg)
 <use Images/ffsecrecy.jpg>
 Package pdftex.def Info: Images/ffsecrecy.jpg  used on input line 7.
@@ -2405,7 +2397,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 35.
 
 [37]
-<images/X3dh.jpg, id=968, 199.34476pt x 180.675pt>
+<images/X3dh.jpg, id=966, 199.34476pt x 180.675pt>
 File: images/X3dh.jpg Graphic file (type jpg)
 <use images/X3dh.jpg>
 Package pdftex.def Info: images/X3dh.jpg  used on input line 59.
@@ -2644,6 +2636,21 @@ onclusion.tex' on input line 191.
 
 ]
 chapter 8.
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 4.
+
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 4.
+
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+4.
+
 )
 :<-
 [62
@@ -2840,25 +2847,17 @@ to `Appendix/certEnrollmentComparison.tex' on input line 9.
 
 
 ] (thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                thesis
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40109 strings out of 479334
- 710420 string characters out of 2856609
- 2306697 words of memory out of 3000000
- 56321 multiletter control sequences out of 15000+200000
+ 40111 strings out of 479334
+ 710504 string characters out of 2856609
+ 2306700 words of memory out of 3000000
+ 56322 multiletter control sequences out of 15000+200000
  420622 words of font info for 90 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  117i,32n,116p,10603b,3145s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2909,9 +2908,9 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Hossam
 ers/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
 fb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
 8a.pfb>
-Output written on thesis.pdf (85 pages, 1611335 bytes).
+Output written on thesis.pdf (85 pages, 1616111 bytes).
 PDF statistics:
- 1906 PDF objects out of 2073 (max. 8388607)
- 391 named destinations out of 1000 (max. 500000)
+ 1924 PDF objects out of 2073 (max. 8388607)
+ 392 named destinations out of 1000 (max. 500000)
  672 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -133,7 +133,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Post-Compromise security in use cases}{61}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{62}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Conclusion}{62}{chapter.8}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Bibliography}{63}{chapter*.31}%
 \defcounter {refsection}{0}\relax 

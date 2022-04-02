@@ -402,6 +402,44 @@
       \verb https://www.rfc-editor.org/info/rfc8576
       \endverb
     \endentry
+    \entry{bs-survey}{article}{}
+      \name{author}{3}{}{%
+        {{hash=90be81733493d07e99ef4c16782115f7}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Manisha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c2c1bbd2ef68dba2b369400d3054e6ba}{%
+           family={Dutta},
+           familyi={D\bibinitperiod},
+           given={Maitreyee},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d9ad0ac098b4ccbec8b1c88249207f0c}{%
+           family={Granjal},
+           familyi={G\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{42eecd05082e1aee482913ee0a938169}
+      \strng{fullhash}{42eecd05082e1aee482913ee0a938169}
+      \strng{bibnamehash}{42eecd05082e1aee482913ee0a938169}
+      \strng{authorbibnamehash}{42eecd05082e1aee482913ee0a938169}
+      \strng{authornamehash}{42eecd05082e1aee482913ee0a938169}
+      \strng{authorfullhash}{42eecd05082e1aee482913ee0a938169}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A Survey of Key Bootstrapping Protocols Based on Public Key Cryptography in the Internet of Things}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{pages}{27443\bibrangedash 27464}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2019.2900957
+      \endverb
+    \endentry
     \entry{x509}{misc}{}
       \name{author}{1}{}{%
         {{hash=5c3541b083d376fcf7bf52bd401a8ab9}{%
@@ -416,8 +454,8 @@
       \strng{authorbibnamehash}{5c3541b083d376fcf7bf52bd401a8ab9}
       \strng{authornamehash}{5c3541b083d376fcf7bf52bd401a8ab9}
       \strng{authorfullhash}{5c3541b083d376fcf7bf52bd401a8ab9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Itu.int}
@@ -876,6 +914,7 @@
       \strng{authorbibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
       \strng{authornamehash}{799e35678fe13bd4153a6f19f7f54b9c}
       \strng{authorfullhash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \field{extraname}{1}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -969,8 +1008,8 @@
       \strng{authornamehash}{55ed54daa0318b3eef830906bb201983}
       \strng{authorfullhash}{55ed54daa0318b3eef830906bb201983}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This memo provides advice and Best Current Practice for implementors and deployers of security applications that wish to use the key continuity method of key management.}
@@ -1012,8 +1051,8 @@
       \strng{authorbibnamehash}{43166ee1f893678071d2482c83a5a89a}
       \strng{authornamehash}{43166ee1f893678071d2482c83a5a89a}
       \strng{authorfullhash}{43166ee1f893678071d2482c83a5a89a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 2004 ACM workshop on Privacy in the electronic society}
@@ -1023,8 +1062,8 @@
       \range{pages}{8}
     \endentry
     \entry{otr3}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{journaltitle}{Cypherpunks.ca}
       \field{year}{2022}
       \verb{urlraw}
@@ -1171,50 +1210,12 @@
       \field{pages}{29\bibrangedash 53}
       \range{pages}{25}
     \endentry
-    \entry{bs-survey}{article}{}
-      \name{author}{3}{}{%
-        {{hash=90be81733493d07e99ef4c16782115f7}{%
-           family={Malik},
-           familyi={M\bibinitperiod},
-           given={Manisha},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c2c1bbd2ef68dba2b369400d3054e6ba}{%
-           family={Dutta},
-           familyi={D\bibinitperiod},
-           given={Maitreyee},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d9ad0ac098b4ccbec8b1c88249207f0c}{%
-           family={Granjal},
-           familyi={G\bibinitperiod},
-           given={Jorge},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{42eecd05082e1aee482913ee0a938169}
-      \strng{fullhash}{42eecd05082e1aee482913ee0a938169}
-      \strng{bibnamehash}{42eecd05082e1aee482913ee0a938169}
-      \strng{authorbibnamehash}{42eecd05082e1aee482913ee0a938169}
-      \strng{authornamehash}{42eecd05082e1aee482913ee0a938169}
-      \strng{authorfullhash}{42eecd05082e1aee482913ee0a938169}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Access}
-      \field{title}{A Survey of Key Bootstrapping Protocols Based on Public Key Cryptography in the Internet of Things}
-      \field{volume}{7}
-      \field{year}{2019}
-      \field{pages}{27443\bibrangedash 27464}
-      \range{pages}{22}
-      \verb{doi}
-      \verb 10.1109/ACCESS.2019.2900957
-      \endverb
-    \endentry
     \entry{aci_world_2019}{misc}{}
       \list{publisher}{1}{%
         {Airports Council International}%
       }
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ACI World}
       \field{month}{01}
@@ -1239,8 +1240,8 @@
       \strng{authorbibnamehash}{44787ee9ad7082c7e379356589456000}
       \strng{authornamehash}{44787ee9ad7082c7e379356589456000}
       \strng{authorfullhash}{44787ee9ad7082c7e379356589456000}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Commercial Market Outlet 2020 – 2039}}
@@ -1437,8 +1438,8 @@
       \strng{authorbibnamehash}{d35591bdf12c3515b328845fbce3fac8}
       \strng{authornamehash}{d35591bdf12c3515b328845fbce3fac8}
       \strng{authorfullhash}{d35591bdf12c3515b328845fbce3fac8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{etsi.org}
@@ -1481,8 +1482,8 @@
       \strng{authorbibnamehash}{16e5060e0df1d0755d475a0835aa76e7}
       \strng{authornamehash}{16e5060e0df1d0755d475a0835aa76e7}
       \strng{authorfullhash}{ab3659cd72bb23b0f06e6970b8511ec7}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Intelligent Vehicles}
@@ -1497,8 +1498,8 @@
       \endverb
     \endentry
     \entry{5367679}{article}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Std 802.1AR-2009}
       \field{title}{IEEE Standard for Local and metropolitan area networks - Secure Device Identity}
@@ -1820,8 +1821,8 @@
       \strng{authorbibnamehash}{0f950166e627907cf5b9b85dcb76ba81}
       \strng{authornamehash}{0f950166e627907cf5b9b85dcb76ba81}
       \strng{authorfullhash}{0f950166e627907cf5b9b85dcb76ba81}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This document specifies the GeneRic Autonomic Signaling Protocol (GRASP), which enables autonomic nodes and Autonomic Service Agents to dynamically discover peers, to synchronize state with each other, and to negotiate parameter settings with each other. GRASP depends on an external security environment that is described elsewhere. The technical objectives and parameters for specific application scenarios are to be described in separate documents. Appendices briefly discuss requirements for the protocol and existing protocols with comparable features.}
@@ -1864,8 +1865,8 @@
       \strng{authorbibnamehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
       \strng{authornamehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
       \strng{authorfullhash}{e3ca3cb9bfd6cef4666aa8fea7700438}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computer}
@@ -2094,8 +2095,8 @@
       \endverb
     \endentry
     \entry{advanced_cryptographic_ratcheting_2013}{misc}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{journaltitle}{Signal Messenger}
       \field{year}{2013}
       \verb{urlraw}
@@ -2132,8 +2133,8 @@
       \strng{authorbibnamehash}{d484ab4bfe22905fc0bbd74c4d40b802}
       \strng{authornamehash}{d484ab4bfe22905fc0bbd74c4d40b802}
       \strng{authorfullhash}{d484ab4bfe22905fc0bbd74c4d40b802}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2016 IEEE 29th Computer Security Foundations Symposium (CSF)}
@@ -2267,11 +2268,33 @@
       \strng{authorbibnamehash}{8d52ef4f5f094b07acfee0a4794e4236}
       \strng{authornamehash}{8d52ef4f5f094b07acfee0a4794e4236}
       \strng{authorfullhash}{8d52ef4f5f094b07acfee0a4794e4236}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Handbook of applied cryptography}
+      \field{year}{2018}
+    \endentry
+    \entry{ofmcTut}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=799e35678fe13bd4153a6f19f7f54b9c}{%
+           family={Mödersheim},
+           familyi={M\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \strng{fullhash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \strng{bibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \strng{authorbibnamehash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \strng{authornamehash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \strng{authorfullhash}{799e35678fe13bd4153a6f19f7f54b9c}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Protocol security verification tutorial}
       \field{year}{2018}
     \endentry
     \entry{cohn2020formal}{article}{}
@@ -3146,7 +3169,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{\gls {ofmc}Tut}
 \endrefsection
 \endinput
 

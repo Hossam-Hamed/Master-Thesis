@@ -32,7 +32,7 @@
 \glossaryentry{IETF?\glossentry{ietf}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{CoAP?\glossentry{coap}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{CoAP?\glossentry{coap}|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{REST?\glossentry{rest}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{REST?\glossentry{rest}|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{CoAP?\glossentry{coap}|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{UDP?\glossentry{udp}|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{DTLS?\glossentry{dtls}|setentrycounter[]{page}\glsnumberformat}{3}
@@ -451,3 +451,11 @@
 \glossaryentry{X3DH?\glossentry{x3dh}|setentrycounter[]{page}\glsnumberformat}{57}
 \glossaryentry{CSR?\glossentry{csr}|setentrycounter[]{page}\glsnumberformat}{58}
 \glossaryentry{ECC?\glossentry{ecc}|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{ABC?\glossentry{abc}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{ABC?\glossentry{abc}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{BRSKI?\glossentry{brski}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{SZTP?\glossentry{sztp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{X3DH?\glossentry{x3dh}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{X3DH?\glossentry{x3dh}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{OFMC?\glossentry{ofmc}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{OFMC?\glossentry{ofmc}|setentrycounter[]{page}\glsnumberformat}{62}
