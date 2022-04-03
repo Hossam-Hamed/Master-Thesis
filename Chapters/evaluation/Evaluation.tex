@@ -2,6 +2,26 @@
 \label{ch:discussion}
 
 \section{Secure Bootstrapping}
-Bootstrapping protocols may not be directly adequate for all IoT constrained classes due to underlying PKI protocols. However, with employing a lightweight PKI, like \cite{hoglund2020pki4iot}, or \cite{won2018decentralized}, the protocols may become more suitable.
+Both bootstrapping protocol presented in chapter \ref{ch:secureBootstrapping} provide very close core functionality in a similar fashion. However, in general, the protocols may not be directly adequate for all IoT constrained classes due to underlying PKI protocols which enforce expensive operations. However, with employing a lightweight PKI, like \cite{hoglund2020pki4iot}, or \cite{won2018decentralized}, the protocols may become more suitable for \gls{iot} setting. 
+\par
+Both protocols are applicable for any of the use cases presented in chapter \ref{ch:usecases}, however, a few design differences may make one protocol more desirable for a use case than the other. 
+\begin{itemize}
+	\item Unlike BRSKI, SZTP requires more communication between the owner and the manufacturer to exchange information and configuration before the start of the protocol in the Device Ordering and Owner Enrollment phase, especially if the owner is going to leverage the manufacturer hosted bootstrap server. This puts more burden on the manufacturer as they he has to configure the devices with extra information which may delay commissioning of devices. Such a delay may impose a disadvantage for scalable use cases such as the Industrial IoT use case as it can affect the agility of supply chain. On the other hand, on a smaller scale, such as the \gls{abc} use case, it may take some burden off the owner.
+	
+	\item SZTP can optionally host owner's specific device configuration and provision it along with other bootstrapping information. This feature can be useful for scalable use cases such as V2X communication and Industrial IoT as it speeds up transitioning the device into the operational phase. Nonetheless, for confidentiality critical systems such as \gls{abc}, it may not be advisable to have critical configuration hosted on third-party servers. Since, \gls{abc} devices are deployed on a limited scale, it is less necessary to use such a feature.
+\end{itemize}
 
-\section{Post-Compromise security in use cases}
+\section{Post-Compromise Security}
+We argue that the protocols discussed are applicable in the setting of IoT.
+First of all, the protocols offer desired secure communication properties, such as asynchronous authentication, non-repudiation (in our model), forward secrecy, and future secrecy.
+Furthermore, the X3DH protocol does not impose any additional traffic overhead as it is a \gls{0rtt} protocol. Therefore, it can be used as the key agreement protocol in between IoT devices. However, the double ratchet algorithm adds a small overhead to the message header by including the DH public ratchet key in the headers.
+\par
+Nevertheless, handling out-of-order messages, as described by the algorithm, will cause a memory overhead, as the devices have to store lists of message keys. For constrained IoT devices, this is not suitable.
+Furthermore, the double ratchet algorithm may introduce additional computational overhead. Since, for each DH ratchet step, a new key exchange operation occurs, the significance of the computational overhead is directly proportional to the frequency of performing a DH ratchet step. Therefore, we argue that it is a trade-off between the strength of provided security and the computational overhead. The use case decides this trade-off.
+Reflecting on the defined use cases in chapter \ref{ch:usecases}:
+\begin{itemize}
+	\item For the \gls{abc} use case, since the security is critical, it may be preferable to perform a DH ratchet as frequent as with every message exchange. Since the \gls{abc} stations are stationary and not equipped with highly constrained IoT devices, we assume it can handle such a computational overhead.
+	\item In the Industrial IoT setting, constrained IoT devices are constantly communicating with each other and with other services. Therefore, frequently performing a DH ratchet would not be efficient and will impose a great computational overhead. In such a use case, a DH ratchet can be performed based on a time interval or after a set number of messages.
+	\item As mentioned earlier, V2X communication depends on three types of messages: broadcast, multicast, and unicast. For broadcast messages, the use of the double ratchet algorithm is not applicable as they are not encrypted. The double ratchet algorithm is not a proper choice for generating keys to protect messages using \gls{mac} as it has to set up sending chains with each receiver which is an infeasible process due to the arbitrary number of receivers. \gls{tesla}, described in section \ref{bg:tesla}, is a more suitable solution. Since our focus is on two party communication, multicast is out of scope. 
+	Communication sessions between a vehicle and another entity will normally be short due to vehicles being usually in motion. Accordingly, the number of exchanged messages between the communicating parties will be small. Hence, even if a DH ratchet step is performed with every message, the computational overhead would still be limited.
+\end{itemize}

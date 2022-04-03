@@ -131,18 +131,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Secure Bootstrapping}{61}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Post-Compromise security in use cases}{61}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Post-Compromise Security}{61}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusion}{62}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Conclusion}{63}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{63}{chapter*.31}%
+\contentsline {chapter}{\nonumberline Bibliography}{64}{chapter*.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}BRSKI vs. SZTP}{69}{appendix.A}%
+\contentsline {chapter}{\numberline {A}BRSKI vs. SZTP}{70}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Terminology Comparison}{69}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Terminology Comparison}{70}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Protocol Comparison}{71}{section.A.2}%
+\contentsline {section}{\numberline {A.2}Protocol Comparison}{72}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Certificate Enrollment Protocols Comparison}{75}{appendix.B}%
+\contentsline {chapter}{\numberline {B}Certificate Enrollment Protocols Comparison}{76}{appendix.B}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

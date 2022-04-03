@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  2 APR 2022 05:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  3 APR 2022 11:55
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1870,7 +1870,7 @@ l.11 \par
           [2
 
 ]
-<Images/iot-lifecycle.jpg, id=393, 635.976pt x 326.4195pt>
+<Images/iot-lifecycle.jpg, id=400, 635.976pt x 326.4195pt>
 File: Images/iot-lifecycle.jpg Graphic file (type jpg)
 <use Images/iot-lifecycle.jpg>
 Package pdftex.def Info: Images/iot-lifecycle.jpg  used on input line 15.
@@ -1939,7 +1939,7 @@ rs/background/kdf.tex' on input line 25.
 
 :<+ Chapters/background/kdf.tex
 (Chapters/background/kdf.tex
-<Images/kdf.png, id=561, 170.6375pt x 186.6975pt>
+<Images/kdf.png, id=565, 170.6375pt x 186.6975pt>
 File: Images/kdf.png Graphic file (type png)
 <use Images/kdf.png>
 Package pdftex.def Info: Images/kdf.png  used on input line 4.
@@ -1950,12 +1950,12 @@ Package srcltx Info: Expanded filename `Chapters/background/relatedWork.tex' to
  `Chapters/background/relatedWork.tex' on input line 28.
 :<+ Chapters/background/relatedWork.tex
 (Chapters/background/relatedWork.tex [10 <./Images/kdf.png>] [11] [12] [13]
-<Images/tesla.png, id=616, 346.29375pt x 111.41624pt>
+<Images/tesla.png, id=620, 346.29375pt x 111.41624pt>
 File: Images/tesla.png Graphic file (type png)
 <use Images/tesla.png>
 Package pdftex.def Info: Images/tesla.png  used on input line 57.
 (pdftex.def)             Requested size: 225.08826pt x 72.4197pt.
-<Images/taxonomy.png, id=627, 512.66531pt x 317.68687pt>
+<Images/taxonomy.png, id=631, 512.66531pt x 317.68687pt>
 File: Images/taxonomy.png Graphic file (type png)
 <use Images/taxonomy.png>
 Package pdftex.def Info: Images/taxonomy.png  used on input line 75.
@@ -1974,7 +1974,7 @@ Package srcltx Info: Expanded filename `Chapters/useCases/ABC.tex' to `Chapters
 /useCases/ABC.tex' on input line 5.
 :<+ Chapters/useCases/ABC.tex
 (Chapters/useCases/ABC.tex
-<Images/E-Gate-Architecture.png, id=659, 700.41675pt x 442.0515pt>
+<Images/E-Gate-Architecture.png, id=663, 700.41675pt x 442.0515pt>
 File: Images/E-Gate-Architecture.png Graphic file (type png)
 <use Images/E-Gate-Architecture.png>
 Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 10.
@@ -1983,7 +1983,7 @@ Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 10.
  [16
 
 ]
-<Images/ABC.jpeg, id=675, 607.26875pt x 480.79625pt>
+<Images/ABC.jpeg, id=679, 607.26875pt x 480.79625pt>
 File: Images/ABC.jpeg Graphic file (type jpg)
 <use Images/ABC.jpeg>
 Package pdftex.def Info: Images/ABC.jpeg  used on input line 20.
@@ -2041,7 +2041,7 @@ view.tex' to `Chapters/secureBootstrapping/brski/overview.tex' on input line 5.
 
 :<+ Chapters/secureBootstrapping/brski/overview.tex
 (Chapters/secureBootstrapping/brski/overview.tex
-<Images/brski-overview.png, id=738, 670.359pt x 89.571pt>
+<Images/brski-overview.png, id=742, 670.359pt x 89.571pt>
 File: Images/brski-overview.png Graphic file (type png)
 <use Images/brski-overview.png>
 Package pdftex.def Info: Images/brski-overview.png  used on input line 7.
@@ -2069,7 +2069,7 @@ ocolDetails.tex' to `Chapters/secureBootstrapping/brski/protocolDetails.tex' on
  input line 7.
 :<+ Chapters/secureBootstrapping/brski/protocolDetails.tex
 (Chapters/secureBootstrapping/brski/protocolDetails.tex
-<Images/brski-architecture.png, id=766, 663.47874pt x 502.87875pt>
+<Images/brski-architecture.png, id=770, 663.47874pt x 502.87875pt>
 File: Images/brski-architecture.png Graphic file (type png)
 <use Images/brski-architecture.png>
 Package pdftex.def Info: Images/brski-architecture.png  used on input line 6.
@@ -2185,7 +2185,7 @@ Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/sztp/overv
 iew.tex' to `Chapters/secureBootstrapping/sztp/overview.tex' on input line 8.
 :<+ Chapters/secureBootstrapping/sztp/overview.tex
 (Chapters/secureBootstrapping/sztp/overview.tex
-<Images/sztp-overview.png, id=808, 502.87875pt x 101.37875pt>
+<Images/sztp-overview.png, id=812, 502.87875pt x 101.37875pt>
 File: Images/sztp-overview.png Graphic file (type png)
 <use Images/sztp-overview.png>
 Package pdftex.def Info: Images/sztp-overview.png  used on input line 5.
@@ -2245,7 +2245,7 @@ colDetails.tex' to `Chapters/secureBootstrapping/sztp/protocolDetails.tex' on i
 nput line 10.
 :<+ Chapters/secureBootstrapping/sztp/protocolDetails.tex
 (Chapters/secureBootstrapping/sztp/protocolDetails.tex
-<Images/sztp-Protocol.png, id=843, 354.32375pt x 84.315pt>
+<Images/sztp-Protocol.png, id=847, 354.32375pt x 84.315pt>
 File: Images/sztp-Protocol.png Graphic file (type png)
 <use Images/sztp-Protocol.png>
 Package pdftex.def Info: Images/sztp-Protocol.png  used on input line 16.
@@ -2303,7 +2303,7 @@ Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/intro.t
 ex' to `Chapters/postCompromiseSecurity/intro.tex' on input line 3.
 :<+ Chapters/postCompromiseSecurity/intro.tex
 (Chapters/postCompromiseSecurity/intro.tex
-<Images/ffsecrecy.jpg, id=912, 531.9875pt x 151.56625pt>
+<Images/ffsecrecy.jpg, id=916, 531.9875pt x 151.56625pt>
 File: Images/ffsecrecy.jpg Graphic file (type jpg)
 <use Images/ffsecrecy.jpg>
 Package pdftex.def Info: Images/ffsecrecy.jpg  used on input line 7.
@@ -2397,7 +2397,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 35.
 
 [37]
-<images/X3dh.jpg, id=966, 199.34476pt x 180.675pt>
+<images/X3dh.jpg, id=970, 199.34476pt x 180.675pt>
 File: images/X3dh.jpg Graphic file (type jpg)
 <use images/X3dh.jpg>
 Package pdftex.def Info: images/X3dh.jpg  used on input line 59.
@@ -2532,30 +2532,30 @@ bleRatchet.tex' on input line 5.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 11.
 
-<Images/kdf-chain.jpg, id=1106, 329.43076pt x 449.2785pt>
+<Images/kdf-chain.jpg, id=1110, 329.43076pt x 449.2785pt>
 File: Images/kdf-chain.jpg Graphic file (type jpg)
 <use Images/kdf-chain.jpg>
 Package pdftex.def Info: Images/kdf-chain.jpg  used on input line 17.
 (pdftex.def)             Requested size: 131.76996pt x 179.7082pt.
 [44] [45 <./Images/kdf-chain.jpg>]
-<Images/dr-bobRatchet.png, id=1131, 654.445pt x 402.50375pt>
+<Images/dr-bobRatchet.png, id=1135, 654.445pt x 402.50375pt>
 File: Images/dr-bobRatchet.png Graphic file (type png)
 <use Images/dr-bobRatchet.png>
 Package pdftex.def Info: Images/dr-bobRatchet.png  used on input line 49.
 (pdftex.def)             Requested size: 294.49753pt x 181.125pt.
  [46 <./Images/dr-bobRatchet.png>]
-<Images/dh-chains.jpg, id=1144, 428.19975pt x 374.5995pt>
+<Images/dh-chains.jpg, id=1148, 428.19975pt x 374.5995pt>
 File: Images/dh-chains.jpg Graphic file (type jpg)
 <use Images/dh-chains.jpg>
 Package pdftex.def Info: Images/dh-chains.jpg  used on input line 75.
 (pdftex.def)             Requested size: 214.09935pt x 187.29929pt.
-<Images/fullDHRatchetStep.jpg, id=1150, 330.033pt x 260.77425pt>
+<Images/fullDHRatchetStep.jpg, id=1154, 330.033pt x 260.77425pt>
 File: Images/fullDHRatchetStep.jpg Graphic file (type jpg)
 <use Images/fullDHRatchetStep.jpg>
 Package pdftex.def Info: Images/fullDHRatchetStep.jpg  used on input line 84.
 (pdftex.def)             Requested size: 214.51889pt x 169.50125pt.
  [47 <./Images/dh-chains.jpg>]
-<Images/dr.png, id=1168, 511.15968pt x 424.58624pt>
+<Images/dr.png, id=1172, 511.15968pt x 424.58624pt>
 File: Images/dr.png Graphic file (type png)
 <use Images/dr.png>
 Package pdftex.def Info: Images/dr.png  used on input line 95.
@@ -2577,7 +2577,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 118.
 
-<Images/dr-hk.jpg, id=1207, 858.20625pt x 536.0025pt>
+<Images/dr-hk.jpg, id=1211, 858.20625pt x 536.0025pt>
 File: Images/dr-hk.jpg Graphic file (type jpg)
 <use Images/dr-hk.jpg>
 Package pdftex.def Info: Images/dr-hk.jpg  used on input line 121.
@@ -2627,37 +2627,37 @@ Package srcltx Info: Expanded filename `Chapters/evaluation/Evaluation.tex' to
 :<+ Chapters/evaluation/Evaluation.tex
 (Chapters/evaluation/Evaluation.tex [60]
 chapter 7.
-)
+[61
+
+])
 :<-
 Package srcltx Info: Expanded filename `Chapters/Conclusion.tex' to `Chapters/C
 onclusion.tex' on input line 191.
 :<+ Chapters/Conclusion.tex
-(Chapters/Conclusion.tex [61
-
-]
+(Chapters/Conclusion.tex [62]
 chapter 8.
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 4.
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 8.
 
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 4.
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 8.
 
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-4.
+8.
 
 )
 :<-
-[62
+[63
 
 ]
 chapter without number
-[63
+[64
 
 ]
 Overfull \hbox (0.77051pt too wide) in paragraph at lines 195--195
@@ -2665,19 +2665,19 @@ Overfull \hbox (0.77051pt too wide) in paragraph at lines 195--195
 hrough Key Con-ti-nu-ity (KCM)\OT1/cmr/m/n/10.95 . Internet-Draft draft-
  []
 
-[64] [65] [66]
+[65] [66] [67]
 Overfull \hbox (6.6011pt too wide) in paragraph at lines 195--195
 \OT1/cmr/m/n/10.95 claw-free func-tions". In: \OT1/cmr/m/it/10.95 Latin Amer-i-
 can Sym-po-sium on The-o-ret-i-cal In-for-mat-ics\OT1/cmr/m/n/10.95 . Springer.
 
  []
 
-[67]
+[68]
 Package srcltx Info: Expanded filename `Chapters/appendix.tex' to `Chapters/app
 endix.tex' on input line 198.
 
 :<+ Chapters/appendix.tex
-(Chapters/appendix.tex [68]
+(Chapters/appendix.tex [69]
 chapter A.
 Package srcltx Info: Expanded filename `Appendix/Terminology comparison.tex' to
  `Appendix/Terminology comparison.tex' on input line 3.
@@ -2751,11 +2751,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--31
 [][][]|\OT1/cmr/m/n/10.95 Ownership
  []
 
-[69
+[70
 
 ])
 :<-
-[70]
+[71]
 Package srcltx Info: Expanded filename `Appendix/Protocols Comparison.tex' to `
 Appendix/Protocols Comparison.tex' on input line 6.
 
@@ -2830,11 +2830,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--207
 [][][][]|\OT1/cmr/bx/n/10.95 Required Cryp-to-
  []
 
-[71
+[72
 
-] [72] [73])
+] [73] [74])
 :<-
-[74]
+[75]
 chapter B.
 Package srcltx Info: Expanded filename `Appendix/certEnrollmentComparison.tex' 
 to `Appendix/certEnrollmentComparison.tex' on input line 9.
@@ -2843,7 +2843,7 @@ to `Appendix/certEnrollmentComparison.tex' on input line 9.
 :<-
 )
 :<-
-[75
+[76
 
 
 ] (thesis.aux)
@@ -2854,13 +2854,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40111 strings out of 479334
- 710504 string characters out of 2856609
- 2306700 words of memory out of 3000000
- 56322 multiletter control sequences out of 15000+200000
+ 40113 strings out of 479334
+ 710521 string characters out of 2856609
+ 2306778 words of memory out of 3000000
+ 56323 multiletter control sequences out of 15000+200000
  420622 words of font info for 90 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 117i,32n,116p,10603b,3145s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 117i,32n,116p,10603b,3146s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2908,9 +2908,9 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Hossam
 ers/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
 fb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
 8a.pfb>
-Output written on thesis.pdf (85 pages, 1616111 bytes).
+Output written on thesis.pdf (86 pages, 1626397 bytes).
 PDF statistics:
- 1924 PDF objects out of 2073 (max. 8388607)
- 392 named destinations out of 1000 (max. 500000)
+ 1951 PDF objects out of 2073 (max. 8388607)
+ 393 named destinations out of 1000 (max. 500000)
  672 words of extra memory for PDF output out of 10000 (max. 10000000)
 
