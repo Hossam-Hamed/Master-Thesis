@@ -18,7 +18,8 @@
 		\hline 	\cellcolor[rgb]{ .745, .804, .843}EE authentication & Based on PSK or existing certificate & Based on PSK or existing certificate & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Enrollment: Based on PSK or manual authentication via CA operator \item Update: existing certificate from CA or alternate CA\end{itemize} \\ 
 		\hline 	\cellcolor[rgb]{ .745, .804, .843}Server-side PKI managment entity authentication & Based on certificate or
 		PSK & Based on server certificate (implicit and explicit trust anchor) & Based on server certificate \\ 
-		\hline 	\cellcolor[rgb]{ .745, .804, .843}Proof of possession (POP), Linked Identity & CSR self-signature utilizing the private key and optionally decryption or challenge-response & CSR self-signature utilizing the private key (optional link to the client identity via TLS session binding) & 			CSR signature only for enrollment \item no POP for certificate renewal \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Proof of possession (POP), Linked Identity & CSR self-signature utilizing the private key and optionally decryption or challenge-response & CSR self-signature utilizing the private key (optional link to the client identity via TLS session binding) & \begin{itemize}
+		\item CSR signature only for enrollment \item no POP for certificate renewal \end{itemize}\\ 
 		\hline
 		\cellcolor[rgb]{ .745, .804, .843}Timeliness & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Via transaction IDs and optional message date \item end-to-end session from the device-LRA-RA-CA\end{itemize} & TLS session binding; hop-by-hop
 		sessions only & via transaction ID \\ 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  4 APR 2022 07:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  4 APR 2022 07:26
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2940,76 +2940,68 @@ Underfull \hbox (badness 8113) in paragraph at lines 21--21
  []
 
 
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...	CSR signature only for enrollment \item n
-                                                  o POP for certificate rene...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 21
-[][][][][][]
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[][][][]\OT1/cmr/m/n/10.95 CSR sig-na-ture
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 23--24
+Underfull \hbox (badness 6204) in paragraph at lines 22--22
+\OT1/cmr/m/n/10.95 only for en-roll-
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 24--25
 [][][]|\OT1/cmr/m/n/10.95 TLS ses-sion bind-ing; hop-by-hop ses-sions
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 26--28
+Underfull \hbox (badness 2653) in paragraph at lines 27--29
 [][][]|\OT1/cmr/m/n/10.95 Only CA ad-min can
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 30--32
+Underfull \hbox (badness 5985) in paragraph at lines 31--33
 \OT1/cmr/m/n/10.95 to-graphic al-go-
  []
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 33--33
+Underfull \hbox (badness 7099) in paragraph at lines 34--34
 [][][]\OT1/cmr/m/n/10.95 Mandatory: SHA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
 [][][]\OT1/cmr/m/n/10.95 Optional: 3DES-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 [][][]|\OT1/cmr/m/n/10.95 Sup-ported cer-
  []
 
 
-Overfull \hbox (10.8398pt too wide) in alignment at lines 5--38
+Overfull \hbox (10.8398pt too wide) in alignment at lines 5--39
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 38
+Underfull \vbox (badness 10000) detected at line 39
  []
 
 [77
 
 
 
-] [78] [79])
+] [78] [79] [80])
 :<-
-[80])
+[81])
 :<-
 Package srcltx Info: Expanded filename `includes/declaration.tex' to `includes/
 declaration.tex' on input line 197.
 :<+ includes/declaration.tex
 (includes/declaration.tex)
 :<-
-[81
+[82
 
 
 ] (thesis.aux)
@@ -3020,8 +3012,8 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40129 strings out of 479334
- 710809 string characters out of 2856609
+ 40130 strings out of 479334
+ 710816 string characters out of 2856609
  2306846 words of memory out of 3000000
  56327 multiletter control sequences out of 15000+200000
  420622 words of font info for 90 fonts, out of 3000000 for 9000
@@ -3074,9 +3066,9 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Hossam
 ers/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
 fb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
 8a.pfb>
-Output written on thesis.pdf (91 pages, 1641407 bytes).
+Output written on thesis.pdf (92 pages, 1642419 bytes).
 PDF statistics:
- 1983 PDF objects out of 2073 (max. 8388607)
- 400 named destinations out of 1000 (max. 500000)
+ 1987 PDF objects out of 2073 (max. 8388607)
+ 401 named destinations out of 1000 (max. 500000)
  672 words of extra memory for PDF output out of 10000 (max. 10000000)
 
