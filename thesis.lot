@@ -11,27 +11,29 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces \gls {x3dh} keys.\relax }}{37}{table.caption.19}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces \gls {x3dh} keys.\relax }}{36}{table.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.2}{\ignorespaces Pre-Quantum Signal Protocol Algorithms\relax }}{53}{table.caption.27}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces Used cryptographic standards and algorithms in demo implementation.\relax }}{56}{table.caption.28}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.2}{\ignorespaces Server message types.\relax }}{57}{table.caption.29}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.3}{\ignorespaces Client message types.\relax }}{58}{table.caption.30}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Pre-Quantum Signal Protocol Algorithms\relax }}{52}{table.caption.27}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Used cryptographic standards and algorithms in demo implementation.\relax }}{55}{table.caption.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.2}{\ignorespaces Server message types.\relax }}{56}{table.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.3}{\ignorespaces Client message types.\relax }}{57}{table.caption.30}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.1}{\ignorespaces Certificate enrollment protocols comparison.\relax }}{76}{table.B.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {B.1}{\ignorespaces Certificate enrollment protocols comparison.\relax }}{77}{table.B.1}%
 \defcounter {refsection}{0}\relax 
@@ -40,7 +42,5 @@
 \contentsline {table}{\numberline {B.1}{\ignorespaces Certificate enrollment protocols comparison.\relax }}{79}{table.B.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {B.1}{\ignorespaces Certificate enrollment protocols comparison.\relax }}{80}{table.B.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.1}{\ignorespaces Certificate enrollment protocols comparison.\relax }}{81}{table.B.1}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
