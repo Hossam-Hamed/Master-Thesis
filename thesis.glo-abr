@@ -38,7 +38,7 @@
 \glossaryentry{IETF?\glossentry{ietf}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{CoAP?\glossentry{coap}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{CoAP?\glossentry{coap}|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{REST?\glossentry{rest}|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{REST?\glossentry{rest}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{CoAP?\glossentry{coap}|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{UDP?\glossentry{udp}|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{DTLS?\glossentry{dtls}|setentrycounter[]{page}\glsnumberformat}{3}
@@ -479,3 +479,4 @@
 \glossaryentry{X3DH?\glossentry{x3dh}|setentrycounter[]{page}\glsnumberformat}{63}
 \glossaryentry{OFMC?\glossentry{ofmc}|setentrycounter[]{page}\glsnumberformat}{63}
 \glossaryentry{OFMC?\glossentry{ofmc}|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{X3DH?\glossentry{x3dh}|setentrycounter[]{page}\glsnumberformat}{63}

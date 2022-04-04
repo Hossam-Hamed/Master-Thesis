@@ -1,0 +1,38 @@
+
+	\begin{longtable}{|>{\hspace{0pt}}m{0.125\linewidth}|>{\hspace{0pt}}m{0.292\linewidth}|>{\hspace{0pt}}m{0.342\linewidth}|>{\hspace{0pt}}m{0.179\linewidth}|}
+		\caption{Certificate enrollment protocols comparison.}\\ 
+		\hline
+			\rowcolor[rgb]{ .745, .804, .843}\multicolumn{1}{|>{\centering\hspace{0pt}}m{0.125\linewidth}|}{} & \multicolumn{1}{>{\centering\hspace{0pt}}m{0.292\linewidth}|}{CMP} & \multicolumn{1}{>{\centering\hspace{0pt}}m{0.342\linewidth}|}{EST} & \multicolumn{1}{>{\centering\arraybackslash\hspace{0pt}}m{0.179\linewidth}|}{SCEP} \endhead 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Standardization & RFC 4210 & RFC
+		7030 & RFC
+		8894 \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Overview & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Transport of CRMF, PKCS\#10 possible \item Transport via HTTP, and any other reliable transport \item 1 roundtrip, +1 optional roundtrip for confirmation, polling possible \item Endpoint authentication for initial enrollment and update using PSK or any existing certificate \item Own message syntax allows transport of PKCS\#10 (CSR) in PKIBody. More complex than SCEP (optionally also in number of transactions)\end{itemize} & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Complexity similar to SCEP, profiles CMC, CA cert retrieval, and client cert enrollment; optional full CMC message, server-side key generation, and CSR attribute retrieval. \item Simple PKI messages (pkcs\#10 syntax) \item TLS 1.1+ compatible \item hop by hop security\end{itemize} & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Transport of PKCS\#10 enveloped in PKCS\#7/CMS \item Transport via http \item 1 roundtrip, polling possible\end{itemize} \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}PKI policies supported & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item certConfirm is required unless implicitConfirm is approved \item verification of EE authorization for requests \item client authenticates server responses \item Updates draft:- Extended key usage extension\end{itemize} & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item (per policy) Linking Identity and POP \item (per policy per operation) Client authorization \item (per policy) additional HTTP-based client authentication \end{itemize} & In general, Message encrypted (enveloped)
+		and signed \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Functionality supported & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Certificate enrollment, key generation, distribution/retrieval of certificates \item CA info request, CRL, Root/Trusted CA, and EE key update \item Additional certificates request \item revocation, Cross certification (between CAs), Error reporting \item key recovery, announcements \item Updates draft: Certificate Request Template, EE fetches Root CA Certificate Update\end{itemize} & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Certificate enrollment \item EE certificate/key update \item CA certificate distribution \item server authentication and authorization \item (operation dependant) Client authentication and authorization \item central key generation \item CSR attributes retrieval \item (optional full CMC messages, but is not completely specified) \item root CA key update (inherited from CMP, when requesting for CA certificate )\end{itemize} & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Get CA Capabilities (algorithms supported, etc.) \item Get CA Certificate \item Certificate enrollment \item Certificate renewal \item communication of binary data using http POST \item communication of binary data using http GET \item Get Certificate and CRL \item Get CA rollover Certificate\end{itemize} \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Protection & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Messages signed or MAC-protected \item Replaced or added protection by (L)RA\end{itemize} & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item relies on TLS channel protection, at least authenticity and integrity \item Additional encryption for server-generated key pair\end{itemize} & messages containing content are
+		encrypted \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}End-To-End support & yes & No, only hop by hop (TLS) & yes \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Central key generatrion & optional & optional & No,
+		Client generation \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}EE authentication & Based on PSK or existing certificate & Based on PSK or existing certificate & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Enrollment: Based on PSK or manual authentication via CA operator \item Update: existing certificate from CA or alternate CA\end{itemize} \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Server-side PKI managment entity authentication & Based on certificate or
+		PSK & Based on server certificate (implicit and explicit trust anchor) & Based on server certificate \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Proof of possession (POP), Linked Identity & CSR self-signature utilizing the private key and optionally decryption or challenge-response & CSR self-signature utilizing the private key (optional link to the client identity via TLS session binding) & 			CSR signature only for enrollment \item no POP for certificate renewal \\ 
+		\hline
+		\cellcolor[rgb]{ .745, .804, .843}Timeliness & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Via transaction IDs and optional message date \item end-to-end session from the device-LRA-RA-CA\end{itemize} & TLS session binding; hop-by-hop
+		sessions only & via transaction ID \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Revocation & EE and/or (L)RAs can revoke EE
+		certificates and their own & Revocation of not specified (theoretically via fullcmc) & Only CA admin can revoke certificates (not
+		protocol inherent) \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Transport & any
+		reliable transport. Typically, Encapsulated in HTTP (RFC 6712);TCP, as a file, e.g. over FTP, HTTPS, or SCP, Email & TCP / TLS / HTTP, CoAP in definition & HTTP \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}
+		Required
+		cryptographic algorithms & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Signature algorithms and MAC algorithms \item  Encryption is optional\end{itemize} & Dependant
+		on the TLS cipher suite & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item Mandatory: SHA-256, AES128-CBC \item Optional: 3DES-CBC, SHA-1 \item SHA-512 \end{itemize} \\ 
+		\hline 	\cellcolor[rgb]{ .745, .804, .843}Supported certificate types & 			\begin{itemize}[leftmargin=*,topsep=0pt, noitemsep] \item no restrictions \item CMP updates draft refers to the "CMP algorithms 2" draft\end{itemize} & no
+		restrictions on any asymmetric key algorithms & no
+		restrictions \\
+		\hline 	
+	\end{longtable}

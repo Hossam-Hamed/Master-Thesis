@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  3 APR 2022 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.17)  4 APR 2022 07:17
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1558,7 +1558,7 @@ Package: vcell 2021/04/30 v1.0.2
 \c@example=\count506
 \c@def_internal=\count507
 Package srcltx Info: Expanded filename `acrynoms.tex' to `acrynoms.tex' on inpu
-t line 126.
+t line 127.
 
 :<+ acrynoms.tex
 (acrynoms.tex)
@@ -1567,7 +1567,7 @@ t line 126.
 \glo@abbreviations@file=\write6
 \openout6 = `thesis.glo-abr'.
 
-Package glossaries Info: Writing glossary file thesis.glo-abr on input line 128
+Package glossaries Info: Writing glossary file thesis.glo-abr on input line 129
 .
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
@@ -1579,27 +1579,27 @@ Package csquotes Info: ... found 'babel' package.
 (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-Package scrbase Info: activating english \contentsname on input line 131.
-Package scrbase Info: activating english \listfigurename on input line 131.
-Package scrbase Info: activating english \listtablename on input line 131.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+Package scrbase Info: activating english \contentsname on input line 132.
+Package scrbase Info: activating english \listfigurename on input line 132.
+Package scrbase Info: activating english \listtablename on input line 132.
 Configuring pdfsync
 \PDFSYNC@ut=\write7
 \openout7 = `thesis.pdfsync'.
@@ -1660,8 +1660,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 131.
-Package biblatex Info: Reference segment=0 on input line 131.
+Package biblatex Info: Reference section=0 on input line 132.
+Package biblatex Info: Reference segment=0 on input line 132.
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
@@ -1684,19 +1684,19 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 131
+LaTeX Font Info:    Trying to load font information for U+msa on input line 132
 .
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 131
+LaTeX Font Info:    Trying to load font information for U+msb on input line 132
 .
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.43799pt on input line 131.
+Package xypdf Info: Line width: 0.43799pt on input line 132.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1704,7 +1704,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 131.
+Package hyperref Info: Link coloring OFF on input line 132.
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1718,9 +1718,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count516
 )
-LaTeX Info: Redefining \ref on input line 131.
-LaTeX Info: Redefining \pageref on input line 131.
-LaTeX Info: Redefining \nameref on input line 131.
+LaTeX Info: Redefining \ref on input line 132.
+LaTeX Info: Redefining \pageref on input line 132.
+LaTeX Info: Redefining \nameref on input line 132.
  (thesis.out) (thesis.out)
 \@outlinefile=\write8
 \openout8 = `thesis.out'.
@@ -1732,7 +1732,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 131.
+(scrreprt)           before \begin{document} on input line 132.
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1743,11 +1743,11 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count517
 ))
 \c@lstlisting=\count518
-Package scrhack Info: undefining \float@addtolists on input line 131.
+Package scrhack Info: undefining \float@addtolists on input line 132.
 <Images/unilogo_en.pdf, id=3, 369.7822pt x 113.705pt>
 File: Images/unilogo_en.pdf Graphic file (type pdf)
 <use Images/unilogo_en.pdf>
-Package pdftex.def Info: Images/unilogo_en.pdf  used on input line 155.
+Package pdftex.def Info: Images/unilogo_en.pdf  used on input line 156.
 (pdftex.def)             Requested size: 203.56703pt x 62.59596pt.
  [1
 
@@ -1812,7 +1812,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 
  [2]
 Package srcltx Info: Expanded filename `Chapters/abstract.tex' to `Chapters/abs
-tract.tex' on input line 164.
+tract.tex' on input line 165.
 
 :<+ Chapters/abstract.tex
 (Chapters/abstract.tex)
@@ -1821,7 +1821,7 @@ tract.tex' on input line 164.
 
 ]
 Package srcltx Info: Expanded filename `Chapters/acknowledgements.tex' to `Chap
-ters/acknowledgements.tex' on input line 168.
+ters/acknowledgements.tex' on input line 169.
 
 :<+ Chapters/acknowledgements.tex
 (Chapters/acknowledgements.tex)
@@ -1842,7 +1842,7 @@ ters/acknowledgements.tex' on input line 168.
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-78.
+76.
 
 (C:\Users\Hossam\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
@@ -1852,7 +1852,7 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 
 ] [8]
 Package srcltx Info: Expanded filename `Chapters/introduction/introduction.tex'
- to `Chapters/introduction/introduction.tex' on input line 184.
+ to `Chapters/introduction/introduction.tex' on input line 180.
 
 :<+ Chapters/introduction/introduction.tex
 (Chapters/introduction/introduction.texpdfTeX warning (ext4): destination with 
@@ -1866,21 +1866,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 \par
+l.10 \par
           [2
 
 ]
-<Images/iot-lifecycle.jpg, id=400, 635.976pt x 326.4195pt>
+<Images/iot-lifecycle.jpg, id=407, 635.976pt x 326.4195pt>
 File: Images/iot-lifecycle.jpg Graphic file (type jpg)
 <use Images/iot-lifecycle.jpg>
-Package pdftex.def Info: Images/iot-lifecycle.jpg  used on input line 15.
+Package pdftex.def Info: Images/iot-lifecycle.jpg  used on input line 14.
 (pdftex.def)             Requested size: 222.59492pt x 114.24852pt.
- [3 <./Images/iot-lifecycle.jpg>])
+)
 :<-
 Package srcltx Info: Expanded filename `Chapters/background/background.tex' to 
-`Chapters/background/background.tex' on input line 185.
+`Chapters/background/background.tex' on input line 181.
 :<+ Chapters/background/background.tex
-(Chapters/background/background.tex [4]
+(Chapters/background/background.tex [3 <./Images/iot-lifecycle.jpg>] [4]
 chapter 2.
 Package srcltx Info: Expanded filename `Chapters/background/encryption.tex' to 
 `Chapters/background/encryption.tex' on input line 7.
@@ -1939,7 +1939,7 @@ rs/background/kdf.tex' on input line 25.
 
 :<+ Chapters/background/kdf.tex
 (Chapters/background/kdf.tex
-<Images/kdf.png, id=565, 170.6375pt x 186.6975pt>
+<Images/kdf.png, id=572, 170.6375pt x 186.6975pt>
 File: Images/kdf.png Graphic file (type png)
 <use Images/kdf.png>
 Package pdftex.def Info: Images/kdf.png  used on input line 4.
@@ -1950,12 +1950,12 @@ Package srcltx Info: Expanded filename `Chapters/background/relatedWork.tex' to
  `Chapters/background/relatedWork.tex' on input line 28.
 :<+ Chapters/background/relatedWork.tex
 (Chapters/background/relatedWork.tex [10 <./Images/kdf.png>] [11] [12] [13]
-<Images/tesla.png, id=620, 346.29375pt x 111.41624pt>
+<Images/tesla.png, id=627, 346.29375pt x 111.41624pt>
 File: Images/tesla.png Graphic file (type png)
 <use Images/tesla.png>
 Package pdftex.def Info: Images/tesla.png  used on input line 57.
 (pdftex.def)             Requested size: 225.08826pt x 72.4197pt.
-<Images/taxonomy.png, id=631, 512.66531pt x 317.68687pt>
+<Images/taxonomy.png, id=638, 512.66531pt x 317.68687pt>
 File: Images/taxonomy.png Graphic file (type png)
 <use Images/taxonomy.png>
 Package pdftex.def Info: Images/taxonomy.png  used on input line 75.
@@ -1966,7 +1966,7 @@ Package pdftex.def Info: Images/taxonomy.png  used on input line 75.
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/useCases/useCases.tex' to `Cha
-pters/useCases/useCases.tex' on input line 186.
+pters/useCases/useCases.tex' on input line 182.
 :<+ Chapters/useCases/useCases.tex
 (Chapters/useCases/useCases.tex [15 <./Images/taxonomy.png>]
 chapter 3.
@@ -1974,7 +1974,7 @@ Package srcltx Info: Expanded filename `Chapters/useCases/ABC.tex' to `Chapters
 /useCases/ABC.tex' on input line 5.
 :<+ Chapters/useCases/ABC.tex
 (Chapters/useCases/ABC.tex
-<Images/E-Gate-Architecture.png, id=663, 700.41675pt x 442.0515pt>
+<Images/E-Gate-Architecture.png, id=670, 700.41675pt x 442.0515pt>
 File: Images/E-Gate-Architecture.png Graphic file (type png)
 <use Images/E-Gate-Architecture.png>
 Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 10.
@@ -1983,7 +1983,7 @@ Package pdftex.def Info: Images/E-Gate-Architecture.png  used on input line 10.
  [16
 
 ]
-<Images/ABC.jpeg, id=679, 607.26875pt x 480.79625pt>
+<Images/ABC.jpeg, id=686, 607.26875pt x 480.79625pt>
 File: Images/ABC.jpeg Graphic file (type jpg)
 <use Images/ABC.jpeg>
 Package pdftex.def Info: Images/ABC.jpeg  used on input line 20.
@@ -2005,7 +2005,7 @@ Package srcltx Info: Expanded filename `Chapters/useCases/v2x.tex' to `Chapters
 :<-
 Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/SecureBoot
 strapping.tex' to `Chapters/secureBootstrapping/SecureBootstrapping.tex' on inp
-ut line 187.
+ut line 183.
 :<+ Chapters/secureBootstrapping/SecureBootstrapping.tex
 (Chapters/secureBootstrapping/SecureBootstrapping.tex [19]
 chapter 4.
@@ -2041,7 +2041,7 @@ view.tex' to `Chapters/secureBootstrapping/brski/overview.tex' on input line 5.
 
 :<+ Chapters/secureBootstrapping/brski/overview.tex
 (Chapters/secureBootstrapping/brski/overview.tex
-<Images/brski-overview.png, id=742, 670.359pt x 89.571pt>
+<Images/brski-overview.png, id=749, 670.359pt x 89.571pt>
 File: Images/brski-overview.png Graphic file (type png)
 <use Images/brski-overview.png>
 Package pdftex.def Info: Images/brski-overview.png  used on input line 7.
@@ -2069,7 +2069,7 @@ ocolDetails.tex' to `Chapters/secureBootstrapping/brski/protocolDetails.tex' on
  input line 7.
 :<+ Chapters/secureBootstrapping/brski/protocolDetails.tex
 (Chapters/secureBootstrapping/brski/protocolDetails.tex
-<Images/brski-architecture.png, id=770, 663.47874pt x 502.87875pt>
+<Images/brski-architecture.png, id=777, 663.47874pt x 502.87875pt>
 File: Images/brski-architecture.png Graphic file (type png)
 <use Images/brski-architecture.png>
 Package pdftex.def Info: Images/brski-architecture.png  used on input line 6.
@@ -2185,7 +2185,7 @@ Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/sztp/overv
 iew.tex' to `Chapters/secureBootstrapping/sztp/overview.tex' on input line 8.
 :<+ Chapters/secureBootstrapping/sztp/overview.tex
 (Chapters/secureBootstrapping/sztp/overview.tex
-<Images/sztp-overview.png, id=812, 502.87875pt x 101.37875pt>
+<Images/sztp-overview.png, id=819, 502.87875pt x 101.37875pt>
 File: Images/sztp-overview.png Graphic file (type png)
 <use Images/sztp-overview.png>
 Package pdftex.def Info: Images/sztp-overview.png  used on input line 5.
@@ -2245,7 +2245,7 @@ colDetails.tex' to `Chapters/secureBootstrapping/sztp/protocolDetails.tex' on i
 nput line 10.
 :<+ Chapters/secureBootstrapping/sztp/protocolDetails.tex
 (Chapters/secureBootstrapping/sztp/protocolDetails.tex
-<Images/sztp-Protocol.png, id=847, 354.32375pt x 84.315pt>
+<Images/sztp-Protocol.png, id=854, 354.32375pt x 84.315pt>
 File: Images/sztp-Protocol.png Graphic file (type png)
 <use Images/sztp-Protocol.png>
 Package pdftex.def Info: Images/sztp-Protocol.png  used on input line 16.
@@ -2295,7 +2295,7 @@ Package srcltx Info: Expanded filename `Chapters/secureBootstrapping/comparison
 :<-
 Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/Post-Co
 mpromiseSecurity.tex' to `Chapters/postCompromiseSecurity/Post-CompromiseSecuri
-ty.tex' on input line 188.
+ty.tex' on input line 184.
 :<+ Chapters/postCompromiseSecurity/Post-CompromiseSecurity.tex
 (Chapters/postCompromiseSecurity/Post-CompromiseSecurity.tex [34]
 chapter 5.
@@ -2303,7 +2303,7 @@ Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/intro.t
 ex' to `Chapters/postCompromiseSecurity/intro.tex' on input line 3.
 :<+ Chapters/postCompromiseSecurity/intro.tex
 (Chapters/postCompromiseSecurity/intro.tex
-<Images/ffsecrecy.jpg, id=916, 531.9875pt x 151.56625pt>
+<Images/ffsecrecy.jpg, id=923, 531.9875pt x 151.56625pt>
 File: Images/ffsecrecy.jpg Graphic file (type jpg)
 <use Images/ffsecrecy.jpg>
 Package pdftex.def Info: Images/ffsecrecy.jpg  used on input line 7.
@@ -2397,7 +2397,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 35.
 
 [37]
-<images/X3dh.jpg, id=970, 199.34476pt x 180.675pt>
+<images/X3dh.jpg, id=977, 199.34476pt x 180.675pt>
 File: images/X3dh.jpg Graphic file (type jpg)
 <use images/X3dh.jpg>
 Package pdftex.def Info: images/X3dh.jpg  used on input line 59.
@@ -2498,7 +2498,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 
 [42]
 Package srcltx Info: Expanded filename `Chapters/postCompromiseSecurity/x3dh/di
-ff' to `Chapters/postCompromiseSecurity/x3dh/diff.tex' on input line 77.
+ff' to `Chapters/postCompromiseSecurity/x3dh/diff.tex' on input line 76.
 
 :<+ Chapters/postCompromiseSecurity/x3dh/diff.tex
 (Chapters/postCompromiseSecurity/x3dh/diff.tex
@@ -2532,30 +2532,30 @@ bleRatchet.tex' on input line 5.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 11.
 
-<Images/kdf-chain.jpg, id=1110, 329.43076pt x 449.2785pt>
+<Images/kdf-chain.jpg, id=1117, 329.43076pt x 449.2785pt>
 File: Images/kdf-chain.jpg Graphic file (type jpg)
 <use Images/kdf-chain.jpg>
 Package pdftex.def Info: Images/kdf-chain.jpg  used on input line 17.
 (pdftex.def)             Requested size: 131.76996pt x 179.7082pt.
 [44] [45 <./Images/kdf-chain.jpg>]
-<Images/dr-bobRatchet.png, id=1135, 654.445pt x 402.50375pt>
+<Images/dr-bobRatchet.png, id=1142, 654.445pt x 402.50375pt>
 File: Images/dr-bobRatchet.png Graphic file (type png)
 <use Images/dr-bobRatchet.png>
 Package pdftex.def Info: Images/dr-bobRatchet.png  used on input line 49.
 (pdftex.def)             Requested size: 294.49753pt x 181.125pt.
  [46 <./Images/dr-bobRatchet.png>]
-<Images/dh-chains.jpg, id=1148, 428.19975pt x 374.5995pt>
+<Images/dh-chains.jpg, id=1155, 428.19975pt x 374.5995pt>
 File: Images/dh-chains.jpg Graphic file (type jpg)
 <use Images/dh-chains.jpg>
 Package pdftex.def Info: Images/dh-chains.jpg  used on input line 75.
 (pdftex.def)             Requested size: 214.09935pt x 187.29929pt.
-<Images/fullDHRatchetStep.jpg, id=1154, 330.033pt x 260.77425pt>
+<Images/fullDHRatchetStep.jpg, id=1161, 330.033pt x 260.77425pt>
 File: Images/fullDHRatchetStep.jpg Graphic file (type jpg)
 <use Images/fullDHRatchetStep.jpg>
 Package pdftex.def Info: Images/fullDHRatchetStep.jpg  used on input line 84.
 (pdftex.def)             Requested size: 214.51889pt x 169.50125pt.
  [47 <./Images/dh-chains.jpg>]
-<Images/dr.png, id=1172, 511.15968pt x 424.58624pt>
+<Images/dr.png, id=1179, 511.15968pt x 424.58624pt>
 File: Images/dr.png Graphic file (type png)
 <use Images/dr.png>
 Package pdftex.def Info: Images/dr.png  used on input line 95.
@@ -2577,7 +2577,7 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 118.
 
-<Images/dr-hk.jpg, id=1211, 858.20625pt x 536.0025pt>
+<Images/dr-hk.jpg, id=1218, 858.20625pt x 536.0025pt>
 File: Images/dr-hk.jpg Graphic file (type jpg)
 <use Images/dr-hk.jpg>
 Package pdftex.def Info: Images/dr-hk.jpg  used on input line 121.
@@ -2607,7 +2607,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 )
 :<-
 Package srcltx Info: Expanded filename `Chapters/implementation/Implementation.
-tex' to `Chapters/implementation/Implementation.tex' on input line 189.
+tex' to `Chapters/implementation/Implementation.tex' on input line 185.
 :<+ Chapters/implementation/Implementation.tex
 (Chapters/implementation/Implementation.tex [54] [55]
 chapter 6.
@@ -2623,7 +2623,7 @@ nts: a \OT1/cmr/m/it/10.95 X3DH[]Client \OT1/cmr/m/n/10.95 and a \OT1/cmr/m/it/
 [57] [58] [59])
 :<-
 Package srcltx Info: Expanded filename `Chapters/evaluation/Evaluation.tex' to 
-`Chapters/evaluation/Evaluation.tex' on input line 190.
+`Chapters/evaluation/Evaluation.tex' on input line 186.
 :<+ Chapters/evaluation/Evaluation.tex
 (Chapters/evaluation/Evaluation.tex [60]
 chapter 7.
@@ -2632,7 +2632,7 @@ chapter 7.
 ])
 :<-
 Package srcltx Info: Expanded filename `Chapters/Conclusion.tex' to `Chapters/C
-onclusion.tex' on input line 191.
+onclusion.tex' on input line 187.
 :<+ Chapters/Conclusion.tex
 (Chapters/Conclusion.tex [62]
 chapter 8.
@@ -2651,33 +2651,33 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 8.
 
-)
-:<-
 [63
 
-]
+])
+:<-
+[64]
 chapter without number
-[64
+[65
 
 ]
-Overfull \hbox (0.77051pt too wide) in paragraph at lines 195--195
+Overfull \hbox (0.77051pt too wide) in paragraph at lines 191--191
 [][][]\OT1/cmr/m/n/10.95 Peter Gut-mann. \OT1/cmr/m/it/10.95 Key Man-age-ment t
 hrough Key Con-ti-nu-ity (KCM)\OT1/cmr/m/n/10.95 . Internet-Draft draft-
  []
 
-[65] [66] [67]
-Overfull \hbox (6.6011pt too wide) in paragraph at lines 195--195
+[66] [67] [68]
+Overfull \hbox (6.6011pt too wide) in paragraph at lines 191--191
 \OT1/cmr/m/n/10.95 claw-free func-tions". In: \OT1/cmr/m/it/10.95 Latin Amer-i-
 can Sym-po-sium on The-o-ret-i-cal In-for-mat-ics\OT1/cmr/m/n/10.95 . Springer.
 
  []
 
-[68]
+[69]
 Package srcltx Info: Expanded filename `Chapters/appendix.tex' to `Chapters/app
-endix.tex' on input line 198.
+endix.tex' on input line 194.
 
 :<+ Chapters/appendix.tex
-(Chapters/appendix.tex [69]
+(Chapters/appendix.tex [70]
 chapter A.
 Package srcltx Info: Expanded filename `Appendix/Terminology comparison.tex' to
  `Appendix/Terminology comparison.tex' on input line 3.
@@ -2751,11 +2751,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--31
 [][][]|\OT1/cmr/m/n/10.95 Ownership
  []
 
-[70
+[71
 
 ])
 :<-
-[71]
+[72]
 Package srcltx Info: Expanded filename `Appendix/Protocols Comparison.tex' to `
 Appendix/Protocols Comparison.tex' on input line 6.
 
@@ -2830,20 +2830,186 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--207
 [][][][]|\OT1/cmr/bx/n/10.95 Required Cryp-to-
  []
 
-[72
+[73
 
-] [73] [74])
+] [74] [75])
 :<-
-[75]
+[76]
 chapter B.
 Package srcltx Info: Expanded filename `Appendix/certEnrollmentComparison.tex' 
-to `Appendix/certEnrollmentComparison.tex' on input line 9.
+to `Appendix/certEnrollmentComparison.tex' on input line 10.
 :<+ Appendix/certEnrollmentComparison.tex
-(Appendix/certEnrollmentComparison.tex)
+(Appendix/certEnrollmentComparison.tex
+Overfull \hbox (10.8398pt too wide) in alignment at lines 2--5
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[][][]\OT1/cmr/m/n/10.95 Transport of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[][][]|\OT1/cmr/m/n/10.95 PKI poli-cies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+[][][]|\OT1/cmr/m/n/10.95 In gen-eral, Mes-sage
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 en-crypted (en-veloped)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[][][][]|\OT1/cmr/m/n/10.95 Func-tion-al-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\OT1/cmr/m/n/10.95 (al-go-rithms sup-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[][][]\OT1/cmr/m/n/10.95 Certificate en-roll-
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 12--12
+[][][]\OT1/cmr/m/n/10.95 Get Cer-tifi-cate and
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 13--13
+[][][]\OT1/cmr/m/n/10.95 Replaced or added pro-tec-tion by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+[][][]|\OT1/cmr/m/n/10.95 mes-sages con-tain-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[][][][]|\OT1/cmr/m/n/10.95 End-To-End
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 18--18
+[][][][]|\OT1/cmr/m/n/10.95 EE au-then-ti-ca-
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 18--18
+[][][]\OT1/cmr/m/n/10.95 Enrollment: Based
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 18--18
+\OT1/cmr/m/n/10.95 on PSK or man-ual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10.95 au-then-ti-ca-tion via
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 man-ag-ment en-
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 tity au-then-ti-ca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[][][][]|\OT1/cmr/m/n/10.95 Proof of pos-
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 21--21
+\OT1/cmr/m/n/10.95 ses-sion (POP),
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...	CSR signature only for enrollment \item n
+                                                  o POP for certificate rene...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 21
+[][][][][][]
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 23--24
+[][][]|\OT1/cmr/m/n/10.95 TLS ses-sion bind-ing; hop-by-hop ses-sions
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 26--28
+[][][]|\OT1/cmr/m/n/10.95 Only CA ad-min can
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 30--32
+\OT1/cmr/m/n/10.95 to-graphic al-go-
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 33--33
+[][][]\OT1/cmr/m/n/10.95 Mandatory: SHA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[][][]\OT1/cmr/m/n/10.95 Optional: 3DES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[][][]|\OT1/cmr/m/n/10.95 Sup-ported cer-
+ []
+
+
+Overfull \hbox (10.8398pt too wide) in alignment at lines 5--38
+ [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 38
+ []
+
+[77
+
+
+
+] [78] [79])
 :<-
-)
+[80])
 :<-
-[76
+Package srcltx Info: Expanded filename `includes/declaration.tex' to `includes/
+declaration.tex' on input line 197.
+:<+ includes/declaration.tex
+(includes/declaration.tex)
+:<-
+[81
 
 
 ] (thesis.aux)
@@ -2854,13 +3020,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40113 strings out of 479334
- 710521 string characters out of 2856609
- 2306778 words of memory out of 3000000
- 56323 multiletter control sequences out of 15000+200000
+ 40129 strings out of 479334
+ 710809 string characters out of 2856609
+ 2306846 words of memory out of 3000000
+ 56327 multiletter control sequences out of 15000+200000
  420622 words of font info for 90 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 117i,32n,116p,10603b,3146s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 117i,32n,116p,10603b,3144s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2908,9 +3074,9 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Hossam
 ers/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
 fb><C:/Users/Hossam/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
 8a.pfb>
-Output written on thesis.pdf (86 pages, 1626397 bytes).
+Output written on thesis.pdf (91 pages, 1641409 bytes).
 PDF statistics:
- 1951 PDF objects out of 2073 (max. 8388607)
- 393 named destinations out of 1000 (max. 500000)
+ 1983 PDF objects out of 2073 (max. 8388607)
+ 400 named destinations out of 1000 (max. 500000)
  672 words of extra memory for PDF output out of 10000 (max. 10000000)
 

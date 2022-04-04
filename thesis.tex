@@ -39,7 +39,7 @@
 \usepackage{algpseudocode}
 \usepackage[normalem]{ulem}
 \usepackage[nomain, abbreviations]{glossaries-extra}
-
+%\usepackage[acronym,nomain]{glossaries}
 \usepackage{lscape}
 
 \usepackage{listings}
@@ -123,6 +123,7 @@
 \rhead[\fancyplain{}{\bfseries\leftmark}]
  {\fancyplain{}{\bfseries\thepage}}
 \cfoot{\fancyplain{\bfseries\thepage}{}}
+%
 \input{acrynoms.tex}
 \makeglossaries
 \usepackage{chngcntr}
@@ -168,18 +169,13 @@
 \input{Chapters/acknowledgements.tex}
 \newpage
 
-
-
-
 %\addcontentsline{toc}{chapter}{Abbildungen}
 \listoffigures
 %\addcontentsline{toc}{chapter}{Tabellen}
 \listoftables
 \printunsrtglossaries 
-
 % Do not delete this
 \pagenumbering{arabic}
-% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{Chapters/introduction/introduction.tex} 
 \input{Chapters/background/background.tex}
@@ -196,5 +192,8 @@
 \appendix
 % -- Appendix (optional)
 \input{Chapters/appendix.tex}
+
+
+\input{includes/declaration.tex}
 
 \end{document}
